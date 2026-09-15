@@ -83,6 +83,14 @@
   .loc-chip b{ display:block; color:var(--text); font-size:14.5px; margin-bottom:3px; }
   .loc-chip a{ color:var(--accent-ink); font-weight:600; text-decoration:none; font-size:13px; }
 
+  /* maps */
+  .map-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .map-chip{ background:var(--surface-2); border:1px solid var(--border); border-radius:12px; padding:12px 14px; font-size:13.5px; }
+  .map-chip b{ display:block; font-size:14.5px; margin-bottom:2px; }
+  .map-chip .addr{ display:block; color:var(--text-muted); font-size:12px; margin-bottom:7px; }
+  .map-chip a{ color:var(--accent-ink); font-weight:700; text-decoration:none; font-size:13px; }
+  @media (max-width:480px){ .map-grid{ grid-template-columns:1fr; } }
+
   /* airbnb */
   .stay-grid{ display:flex; flex-direction:column; gap:14px; }
   .stay-card{
@@ -140,9 +148,9 @@
     <div class="trip">
       <div class="trip-row"><span class="ic">📍</span><div><b>Saída:</b> quinta, 08/out — pode pegar o carro de manhã ou de tarde (você tá de férias)</div></div>
       <div class="trip-row"><span class="ic">🏠</span><div><b>Em Foz:</b> sexta e sábado (09-10/out) — 2 noites</div></div>
-      <div class="trip-row"><span class="ic">🔙</span><div><b>Chegada de volta em SJC:</b> domingo, 11/out</div></div>
-      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out — um dia depois de chegar, sem correria</div></div>
-      <div class="trip-row"><span class="ic">⚠️</span><div class="muted">12/out é feriado (Nossa Sra. Aparecida). A loja da Unidas aceitou a devolução nesse dia no site — mesmo assim, vale ligar e confirmar o horário de funcionamento antes.</div></div>
+      <div class="trip-row"><span class="ic">🔙</span><div><b>Volta pra SJC:</b> sai de Foz domingo, 11/out — viagem é longa (≈1.130 km, 14-16h de carro), então a chegada real deve ser madrugada/manhã de segunda, 12/out</div></div>
+      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out, no fim da tarde (≈18h-19h) — dá folga pra descansar depois de chegar de manhã, sem correria pra devolver o carro logo em seguida</div></div>
+      <div class="trip-row"><span class="ic">⚠️</span><div class="muted">12/out é feriado (Nossa Sra. Aparecida). A loja da Unidas aceitou a devolução nesse dia no site — mesmo assim, vale ligar e confirmar o horário de funcionamento antes, principalmente pra devolução mais tarde.</div></div>
     </div>
   </section>
 
@@ -231,6 +239,21 @@
   </section>
 
   <section>
+    <h2>Mapa das lojas — salvar offline</h2>
+    <p class="section-note">Sem internet internacional lá: abra cada link AINDA NO BRASIL (com wifi ou dados), e no Google Maps toque em ⋮ → "Baixar mapa offline" cobrindo Ciudad del Este. Assim o pino e a rota funcionam sem sinal.</p>
+    <div class="map-grid">
+      <div class="map-chip"><b>🏬 Nissei</b><span class="addr">Av. Adrián Jara esq. Reg. Piribebuy</span><a href="https://www.google.com/maps/search/?api=1&query=Nissei+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>📱 CellShop</b><span class="addr">Av. Carlos A. López esq. Mons. Rodríguez</span><a href="https://www.google.com/maps/search/?api=1&query=CellShop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>💻 Intershop</b><span class="addr">Edifício DFS Itá Ybaté</span><a href="https://www.google.com/maps/search/?api=1&query=Intershop+Importados+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>🎮 Mega Eletrônicos</b><span class="addr">Centro de Ciudad del Este</span><a href="https://www.google.com/maps/search/?api=1&query=Mega+Eletronicos+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>🛍️ Shopping Paris</b><span class="addr">Av. Dr. Luis María Argaña</span><a href="https://www.google.com/maps/search/?api=1&query=Shopping+Paris+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>🏮 Shopping China</b><span class="addr">Dentro do Shopping Paris</span><a href="https://www.google.com/maps/search/?api=1&query=Shopping+China+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>🌉 Ponte da Amizade</b><span class="addr">Travessia Brasil ↔ Paraguai</span><a href="https://www.google.com/maps/search/?api=1&query=Ponte+da+Amizade+Foz+do+Iguacu" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+      <div class="map-chip"><b>🅿️ Estacionamento fronteira PY</b><span class="addr">Perto da ponte, lado paraguaio</span><a href="https://www.google.com/maps/search/?api=1&query=estacionamento+Ponte+da+Amizade+Ciudad+del+Este" target="_blank" rel="noopener">Abrir no Google Maps →</a></div>
+    </div>
+  </section>
+
+  <section>
     <h2>Tríplice fronteira</h2>
     <div class="crossing-grid">
       <div class="crossing">
@@ -249,6 +272,7 @@
     <p>Hospedagem — anúncios reais do Airbnb e Booking.com, Foz do Iguaçu, 09→11/out/2026, 5 hóspedes. Preços podem mudar até a reserva.</p>
     <p>Dicas de compra no Paraguai — resumidas do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme regras de cota antes de ir.</p>
     <p>Distância (2.268 km ida+volta) — Google Maps, SJC → Foz via BR-374. Pedágio estimado a partir do valor real São Paulo→Foz (emsampa.com.br) + trecho SJC-SP. Gasolina R$ 6,47/l — média ANP-SP, jun/2026.</p>
+    <p>Endereços das lojas em Ciudad del Este — turismoitaipu.com.br e comprasparaguai.com.br. Confirme horário de funcionamento antes de ir (feriados/domingo variam).</p>
   </footer>
 
 </div>
