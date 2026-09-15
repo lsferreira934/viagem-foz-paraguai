@@ -4,301 +4,232 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Foz + Paraguai + Argentina</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#ffffff; --surface:#ffffff; --surface-2:#f4f4f4;
-    --text:#111111; --text-soft:#4a4a4a; --text-muted:#767676;
-    --accent:#0e7c74; --accent-ink:#08514c; --accent-2:#b9791a;
-    --warn:#b8451f; --warn-soft:#fbe6da; --border:#e2e2e2;
-    --win-bg:#eaf6f3; --win-border:#a9d6cd;
-    --shadow: 0 1px 2px rgba(0,0,0,.05), 0 10px 26px -14px rgba(0,0,0,.15);
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#141414; --surface:#1e1e1e; --surface-2:#262626;
-      --text:#f5f5f5; --text-soft:#b8b8b8; --text-muted:#8a8a8a;
-      --accent:#45c9ba; --accent-ink:#9be8dc; --accent-2:#e7b750;
-      --warn:#e88257; --warn-soft:#3a2a20; --border:#333333;
-      --win-bg:#163430; --win-border:#2a5b50;
-      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 14px 30px -16px rgba(0,0,0,.6);
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#141414; --surface:#1e1e1e; --surface-2:#262626;
-    --text:#f5f5f5; --text-soft:#b8b8b8; --text-muted:#8a8a8a;
-    --accent:#45c9ba; --accent-ink:#9be8dc; --accent-2:#e7b750;
-    --warn:#e88257; --warn-soft:#3a2a20; --border:#333333;
-    --win-bg:#163430; --win-border:#2a5b50;
-    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 14px 30px -16px rgba(0,0,0,.6);
+    --bg:#ffffff; --surface:#ffffff; --surface-2:#f5f6f7;
+    --text:#1c1e21; --text-soft:#65676b; --text-muted:#8a8d91;
+    --accent:#1877f2; --accent-ink:#0b5fcc; --good:#158a4a; --good-bg:#e8f8ee; --good-border:#bfe8cf;
+    --warn:#b8451f; --warn-soft:#fdecdf; --border:#dddfe2;
+    --shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 16px -10px rgba(0,0,0,.15);
   }
   *{ box-sizing:border-box; }
   body{
     margin:0; background:var(--bg); color:var(--text);
-    font-family:"Work Sans", ui-sans-serif, system-ui, sans-serif;
-    -webkit-font-smoothing:antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased; font-size:16px; line-height:1.5;
   }
-  .page{ max-width:860px; margin:0 auto; padding:44px 22px 72px; display:flex; flex-direction:column; gap:38px; }
+  .page{ max-width:720px; margin:0 auto; padding:28px 18px 60px; display:flex; flex-direction:column; gap:32px; }
 
-  header{ display:flex; flex-direction:column; gap:12px; }
-  .eyebrow{
-    font-family:"IBM Plex Mono", monospace; font-size:12px; font-weight:600;
-    letter-spacing:.1em; text-transform:uppercase; color:var(--accent-ink);
-  }
-  h1{
-    font-family:"Fraunces", Georgia, serif; font-weight:600;
-    font-size:clamp(30px,5vw,44px); line-height:1.1; margin:0; text-wrap:balance;
-  }
-  .sub{ color:var(--text-soft); font-size:16px; max-width:60ch; line-height:1.6; }
+  header{ display:flex; flex-direction:column; gap:8px; }
+  .eyebrow{ font-size:14px; font-weight:700; color:var(--accent-ink); }
+  h1{ font-size:clamp(26px,6vw,34px); font-weight:800; margin:0; line-height:1.15; }
+  .sub{ color:var(--text-soft); font-size:16px; }
 
   .verdict{
-    background:var(--win-bg); border:1px solid var(--win-border); border-radius:18px;
-    padding:22px 24px; display:flex; gap:16px; align-items:flex-start; box-shadow:var(--shadow);
+    background:var(--good-bg); border:1px solid var(--good-border); border-radius:16px;
+    padding:18px 20px; display:flex; gap:14px; align-items:flex-start; box-shadow:var(--shadow);
   }
-  .verdict .mark{ font-size:26px; line-height:1; flex-shrink:0; }
-  .verdict-body strong{ font-family:"Fraunces", serif; font-weight:600; font-size:19px; display:block; margin-bottom:5px; text-wrap:balance; }
-  .verdict-body p{ margin:0; color:var(--text-soft); font-size:15px; line-height:1.55; }
+  .verdict .mark{ font-size:28px; line-height:1; }
+  .verdict-body strong{ font-size:18px; font-weight:800; display:block; margin-bottom:4px; }
+  .verdict-body p{ margin:0; color:var(--text-soft); font-size:15px; }
 
-  section{ display:flex; flex-direction:column; gap:16px; }
-  .section-head{ display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap; }
-  .section-head h2{ font-family:"Fraunces", serif; font-weight:600; font-size:21px; margin:0; }
-  .kicker{ font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--text-muted); }
-
-  /* interactive calculator */
-  .calc{
-    background:var(--surface); border:1px solid var(--border); border-radius:18px;
-    padding:24px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:18px;
+  .urgent{
+    background:var(--warn-soft); border:1px solid #f0c9a8; border-radius:14px;
+    padding:14px 16px; display:flex; gap:10px; align-items:flex-start; font-size:14.5px; color:#7a3212;
   }
-  .calc-row{ display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
-  .calc-people{ display:flex; align-items:center; gap:10px; }
-  .calc-people label{ font-size:14px; color:var(--text-soft); }
-  .stepper{ display:flex; align-items:center; gap:0; border:1px solid var(--border); border-radius:10px; overflow:hidden; }
-  .stepper button{
-    width:36px; height:36px; border:none; background:var(--surface-2); color:var(--text);
-    font-size:18px; cursor:pointer; font-family:"IBM Plex Mono", monospace;
-  }
-  .stepper button:hover{ background:var(--border); }
-  .stepper span{ width:44px; text-align:center; font-family:"IBM Plex Mono", monospace; font-size:15px; font-weight:600; }
-  .calc-total{ text-align:right; }
-  .calc-total .big{ font-family:"Fraunces", serif; font-size:32px; font-weight:700; font-variant-numeric:tabular-nums; }
-  .calc-total small{ display:block; font-size:12px; color:var(--text-soft); }
-  .linelist{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
-  .linelist li{ display:flex; justify-content:space-between; gap:10px; font-size:14px; padding-bottom:8px; border-bottom:1px dashed var(--border); }
-  .linelist li:last-child{ border-bottom:none; padding-bottom:0; }
-  .linelist .k{ color:var(--text-soft); }
-  .linelist .v{ font-family:"IBM Plex Mono", monospace; font-size:13.5px; font-variant-numeric:tabular-nums; }
+  .urgent b{ display:block; margin-bottom:2px; }
 
-  /* locadoras */
-  .loc-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:14px; }
-  .loc-card{
+  section{ display:flex; flex-direction:column; gap:14px; }
+  h2{ font-size:20px; font-weight:800; margin:0; }
+  .section-note{ font-size:13px; color:var(--text-muted); margin-top:-8px; }
+
+  /* trip summary */
+  .trip{
     background:var(--surface); border:1px solid var(--border); border-radius:16px;
-    padding:18px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:10px;
+    padding:18px 20px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:10px;
   }
-  .loc-card.win{ background:var(--win-bg); border-color:var(--win-border); }
-  .loc-card h3{ font-family:"Fraunces", serif; font-size:17px; margin:0; }
-  .loc-price{ font-family:"Fraunces", serif; font-size:22px; font-weight:700; }
-  .loc-price small{ font-family:"Work Sans", sans-serif; font-size:11px; font-weight:500; color:var(--text-muted); display:block; }
-  .loc-note{ font-size:12.5px; color:var(--text-soft); line-height:1.5; }
-  .loc-card a{
-    margin-top:auto; display:inline-block; text-align:center; text-decoration:none;
-    background:var(--accent); color:#fff; font-size:13px; font-weight:600;
-    padding:9px 14px; border-radius:8px;
+  .trip-row{ display:flex; align-items:center; gap:12px; font-size:15px; }
+  .trip-row .ic{ font-size:20px; width:26px; text-align:center; }
+  .trip-row b{ font-weight:700; }
+  .trip-row .muted{ color:var(--text-muted); font-size:13px; }
+
+  /* car */
+  .car-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:16px;
+    overflow:hidden; box-shadow:var(--shadow);
   }
-  .loc-card.blocked a{ background:var(--surface-2); color:var(--text-soft); }
-  .badge{
-    display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.03em;
-    padding:3px 9px; border-radius:99px; background:var(--accent-2); color:#fff;
-    white-space:nowrap; text-transform:uppercase; align-self:flex-start;
+  .car-card img{ width:100%; height:180px; object-fit:contain; background:var(--surface-2); display:block; }
+  .car-body{ padding:18px 20px; display:flex; flex-direction:column; gap:12px; }
+  .car-title{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+  .car-title strong{ font-size:18px; }
+  .car-title span.tag{ font-size:12px; font-weight:700; color:#fff; background:var(--good); padding:4px 10px; border-radius:99px; white-space:nowrap; }
+  .car-price{ font-size:30px; font-weight:800; }
+  .car-price small{ display:block; font-size:13px; font-weight:500; color:var(--text-soft); }
+  .car-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  .car-list li{ display:flex; justify-content:space-between; font-size:14.5px; padding-bottom:8px; border-bottom:1px dashed var(--border); }
+  .car-list li:last-child{ border:none; padding:0; font-weight:700; }
+  .car-list .k{ color:var(--text-soft); }
+  .car-cta{
+    display:block; text-align:center; background:var(--accent); color:#fff; font-weight:700;
+    font-size:15px; padding:13px; border-radius:10px; text-decoration:none; margin-top:4px;
   }
-  .badge.muted{ background:var(--surface-2); color:var(--text-soft); }
+
+  /* other locadoras */
+  .loc-mini{ display:flex; gap:12px; }
+  .loc-chip{
+    flex:1; background:var(--surface-2); border:1px solid var(--border); border-radius:12px;
+    padding:12px 14px; font-size:13.5px; color:var(--text-soft);
+  }
+  .loc-chip b{ display:block; color:var(--text); font-size:14.5px; margin-bottom:3px; }
+  .loc-chip a{ color:var(--accent-ink); font-weight:600; text-decoration:none; font-size:13px; }
+
+  /* airbnb */
+  .stay-grid{ display:flex; flex-direction:column; gap:14px; }
+  .stay-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:16px;
+    overflow:hidden; box-shadow:var(--shadow); display:flex; gap:0;
+  }
+  .stay-card img{ width:130px; height:130px; object-fit:cover; flex-shrink:0; background:var(--surface-2); }
+  .stay-info{ padding:14px 16px; display:flex; flex-direction:column; gap:4px; justify-content:center; min-width:0; }
+  .stay-info .pick{ font-size:11px; font-weight:800; color:var(--good); text-transform:uppercase; letter-spacing:.03em; }
+  .stay-info strong{ font-size:15.5px; line-height:1.3; }
+  .stay-info .meta{ font-size:13px; color:var(--text-muted); }
+  .stay-info .price{ font-size:18px; font-weight:800; margin-top:2px; }
+  .stay-info .price small{ font-weight:500; font-size:12px; color:var(--text-soft); }
+  .stay-info a{ font-size:13px; font-weight:700; color:var(--accent-ink); text-decoration:none; margin-top:4px; }
 
   /* crossing */
-  .crossing-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:14px; }
+  .crossing-grid{ display:flex; flex-direction:column; gap:12px; }
   .crossing{
-    background:var(--surface); border:1px solid var(--border); border-radius:16px;
-    padding:20px; box-shadow:var(--shadow); display:flex; gap:14px; align-items:flex-start;
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:16px 18px; box-shadow:var(--shadow); display:flex; gap:12px; align-items:flex-start;
   }
-  .crossing .bigicon{ font-size:30px; line-height:1; }
-  .crossing h3{ font-family:"Fraunces", serif; font-size:16px; margin:0 0 6px; }
-  .crossing p{ margin:0 0 8px; font-size:13.5px; color:var(--text-soft); line-height:1.5; }
-  .crossing-facts{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:6px; }
-  .crossing-facts li{
-    font-size:11.5px; font-family:"IBM Plex Mono", monospace; background:var(--surface-2);
-    border-radius:8px; padding:5px 9px; color:var(--text);
-  }
+  .crossing .bigicon{ font-size:26px; }
+  .crossing h3{ font-size:15.5px; margin:0 0 4px; }
+  .crossing p{ margin:0; font-size:14px; color:var(--text-soft); }
 
-  /* lodging */
-  .lodge-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:14px; }
-  .lodge-card{
-    background:var(--surface); border:1px solid var(--border); border-radius:16px;
-    padding:18px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:8px;
-  }
-  .lodge-card.win{ background:var(--win-bg); border-color:var(--win-border); }
-  .lodge-card strong{ font-family:"Fraunces", serif; font-size:15.5px; }
-  .lodge-price{ font-family:"Fraunces", serif; font-size:20px; font-weight:700; }
-  .lodge-price small{ font-family:"Work Sans", sans-serif; font-size:11px; color:var(--text-muted); display:block; }
-
-  footer{ border-top:1px solid var(--border); padding-top:18px; font-size:12.5px; color:var(--text-muted); line-height:1.6; }
+  footer{ border-top:1px solid var(--border); padding-top:16px; font-size:12.5px; color:var(--text-muted); }
   footer p{ margin:0 0 6px; }
-  footer a{ color:var(--accent-ink); }
 </style>
 </head>
 <body>
 <div class="page">
 
   <header>
-    <div class="eyebrow">🚗 5 pessoas · saindo de São José dos Campos · 1 carro só</div>
+    <div class="eyebrow">🚗 5 pessoas · saindo de São José dos Campos</div>
     <h1>Foz do Iguaçu + Paraguai + Argentina</h1>
-    <p class="sub">Ida 08/out 18h30 · volta a SJC 11/out 22h. Tríplice fronteira: dormindo em Foz, com bate-volta pro Paraguai e pra Argentina.</p>
+    <p class="sub">Tudo pesquisado direto nos sites — preço, link e foto de verdade, pra ninguém ficar no escuro.</p>
   </header>
 
   <div class="verdict">
-    <div class="mark">🚙</div>
+    <div class="mark">✅</div>
     <div class="verdict-body">
-      <strong>SUV Compacto na Unidas, cotação ao vivo: ~R$ 389 por pessoa</strong>
-      <p>Aluguel + combustível + pedágio, dividido em cinco. Localiza não tem opção pra essas datas nessa loja (pede mínimo de 5 diárias). Movida não deu pra confirmar — o site bloqueou a busca automatizada duas vezes.</p>
+      <strong>Carro (SUV) sai R$ 410 por pessoa, já com tudo incluso</strong>
+      <p>Isso é aluguel + gasolina + pedágio, dividido em 5. Cotado agora mesmo na Unidas.</p>
     </div>
   </div>
 
+  <div class="urgent">
+    <span>⏰</span>
+    <div><b>Reserva de carro é melhor fazer logo</b>Preço de aluguel sobe conforme a data se aproxima. Recomendo reservar essa semana pra travar esse valor.</div>
+  </div>
+
   <section>
-    <div class="section-head">
-      <h2>Quanto fica, dividido</h2>
-      <span class="kicker">SUV Compacto · 3 diárias</span>
-    </div>
-    <div class="calc">
-      <div class="calc-row">
-        <div class="calc-people">
-          <label for="people">Dividir entre</label>
-          <div class="stepper">
-            <button type="button" id="minus" aria-label="Diminuir">−</button>
-            <span id="people">5</span>
-            <button type="button" id="plus" aria-label="Aumentar">+</button>
-          </div>
-          <label for="people">pessoas</label>
-        </div>
-        <div class="calc-total">
-          <div class="big" id="perPerson">R$ 389</div>
-          <small>por pessoa</small>
-        </div>
-      </div>
-      <ul class="linelist">
-        <li><span class="k">Aluguel SUV Compacto (Unidas, 3 diárias)</span><span class="v">R$ 270</span></li>
-        <li><span class="k">Combustível ida+volta (2.268 km, 11 km/l)</span><span class="v">≈ R$ 1.334</span></li>
-        <li><span class="k">Pedágios ida+volta (estimado)</span><span class="v">≈ R$ 340</span></li>
-        <li><span class="k">Total do carro</span><span class="v" id="totalCar">R$ 1.944</span></li>
-      </ul>
+    <h2>A viagem</h2>
+    <div class="trip">
+      <div class="trip-row"><span class="ic">📍</span><div><b>Saída:</b> quinta, 08/out — pode pegar o carro de manhã ou de tarde (você tá de férias)</div></div>
+      <div class="trip-row"><span class="ic">🏠</span><div><b>Em Foz:</b> sexta e sábado (09-10/out) — 2 noites</div></div>
+      <div class="trip-row"><span class="ic">🔙</span><div><b>Chegada de volta em SJC:</b> domingo, 11/out</div></div>
+      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out — um dia depois de chegar, sem correria</div></div>
+      <div class="trip-row"><span class="ic">⚠️</span><div class="muted">12/out é feriado (Nossa Sra. Aparecida). A loja da Unidas aceitou a devolução nesse dia no site — mesmo assim, vale ligar e confirmar o horário de funcionamento antes.</div></div>
     </div>
   </section>
 
   <section>
-    <div class="section-head">
-      <h2>Locadoras — links reais</h2>
-      <span class="kicker">São José dos Campos · 08 → 11/out</span>
+    <h2>O carro</h2>
+    <div class="car-card">
+      <img src="img/carro.png" alt="SUV Compacto - VW Nivus ou similar">
+      <div class="car-body">
+        <div class="car-title">
+          <div><strong>SUV Compacto</strong><br><span class="section-note">VW Nivus, Renault Duster ou Fiat Pulse</span></div>
+          <span class="tag">Cotado agora</span>
+        </div>
+        <div class="car-price">R$ 410<small>por pessoa (dividido em 5)</small></div>
+        <ul class="car-list">
+          <li><span class="k">Aluguel Unidas — 4 diárias (08 a 12/out)</span><span>R$ 376</span></li>
+          <li><span class="k">Combustível ida e volta (2.268 km)</span><span>≈ R$ 1.334</span></li>
+          <li><span class="k">Pedágio ida e volta (estimado)</span><span>≈ R$ 340</span></li>
+          <li><span class="k">Total do carro</span><span>R$ 2.050</span></li>
+        </ul>
+        <a class="car-cta" href="https://www.unidas.com.br/" target="_blank" rel="noopener">Reservar na Unidas →</a>
+      </div>
     </div>
-    <div class="loc-grid">
-      <div class="loc-card win">
-        <span class="badge">cotado ao vivo</span>
-        <h3>Unidas</h3>
-        <div class="loc-price">R$ 90,16<small>por dia, SUV Compacto (Nivus/Duster/Pulse)</small></div>
-        <p class="loc-note">Loja Shopping Jd. Oriente, SJC. R$ 81,14/dia pagando antecipado (10x sem juros). O site não gera link direto pra busca — abre e refaça com as datas.</p>
-        <a href="https://www.unidas.com.br/" target="_blank" rel="noopener">unidas.com.br →</a>
-      </div>
-      <div class="loc-card blocked">
-        <span class="badge muted">sem opção</span>
-        <h3>Localiza</h3>
-        <div class="loc-price">—<small>loja Andrômeda, SJC</small></div>
-        <p class="loc-note">Pra essas datas, essa loja só libera devolução a partir de 5 diárias — não oferece o período de 3 dias que a gente quer.</p>
-        <a href="https://www.localiza.com/" target="_blank" rel="noopener">localiza.com →</a>
-      </div>
-      <div class="loc-card blocked">
-        <span class="badge muted">não verificado</span>
-        <h3>Movida</h3>
-        <div class="loc-price">—<small>loja Aquarius, SJC</small></div>
-        <p class="loc-note">O site bloqueou a busca automática (verificação de segurança). Vale a pena conferir na mão antes de decidir.</p>
-        <a href="https://www.movida.com.br/" target="_blank" rel="noopener">movida.com.br →</a>
-      </div>
+    <div class="loc-mini">
+      <div class="loc-chip"><b>Localiza</b>Loja de SJC não libera esse período — pede mínimo de 5 diárias agora.<br><a href="https://www.localiza.com/" target="_blank" rel="noopener">localiza.com →</a></div>
+      <div class="loc-chip"><b>Movida</b>Não deu pra confirmar — o site bloqueou a busca automática duas vezes.<br><a href="https://www.movida.com.br/" target="_blank" rel="noopener">movida.com.br →</a></div>
     </div>
   </section>
 
   <section>
-    <div class="section-head">
-      <h2>Tríplice fronteira</h2>
-      <span class="kicker">base: Foz do Iguaçu</span>
+    <h2>Onde ficar em Foz</h2>
+    <p class="section-note">Sexta e sábado (09→11/out), 2 noites, pra 5 pessoas</p>
+    <div class="stay-grid">
+
+      <div class="stay-card">
+        <img src="img/casa1.jpg" alt="Casa confortável em Foz">
+        <div class="stay-info">
+          <span class="pick">🏆 melhor custo</span>
+          <strong>Casa confortável, bem localizada</strong>
+          <span class="meta">3 quartos · 4 camas · nota 4,95 (44 avaliações)</span>
+          <span class="price">R$ 631<small> total · 2 noites</small></span>
+          <a href="https://www.airbnb.com.br/rooms/1291480260059918171" target="_blank" rel="noopener">Ver no Airbnb →</a>
+        </div>
+      </div>
+
+      <div class="stay-card">
+        <img src="img/apt1.png" alt="Apartamento Centro Cataratas">
+        <div class="stay-info">
+          <strong>Apartamento Centro Cataratas</strong>
+          <span class="meta">3 quartos · 4 camas · nota 4,84 (396 avaliações)</span>
+          <span class="price">R$ 776<small> total · 2 noites</small></span>
+          <a href="https://www.airbnb.com.br/rooms/23044284" target="_blank" rel="noopener">Ver no Airbnb →</a>
+        </div>
+      </div>
+
+      <div class="stay-card">
+        <img src="img/casa2.jpg" alt="Sobrado com piscina em Foz">
+        <div class="stay-info">
+          <span class="pick">🏊 com piscina</span>
+          <strong>Sobrado com piscina</strong>
+          <span class="meta">3 quartos · 4 camas · 4 banheiros · nota 4,91 (54 avaliações)</span>
+          <span class="price">R$ 1.035<small> total · 2 noites</small></span>
+          <a href="https://www.airbnb.com.br/rooms/1192949118239917442" target="_blank" rel="noopener">Ver no Airbnb →</a>
+        </div>
+      </div>
+
     </div>
+  </section>
+
+  <section>
+    <h2>Tríplice fronteira</h2>
     <div class="crossing-grid">
       <div class="crossing">
-        <div class="bigicon">🇵🇾</div>
-        <div>
-          <h3>Paraguai — Ciudad del Este</h3>
-          <p>Ponte da Amizade. De carro atravessa direto no mesmo veículo. A pé, 20-25 min de travessia.</p>
-          <ul class="crossing-facts">
-            <li>🪪 RG ou passaporte</li>
-            <li>🛍️ compras / eletrônicos</li>
-          </ul>
-        </div>
+        <span class="bigicon">🇵🇾</span>
+        <div><h3>Paraguai — Ciudad del Este</h3><p>Ponte da Amizade. De carro atravessa direto. A pé, 20-25 min. Leva RG ou passaporte.</p></div>
       </div>
       <div class="crossing">
-        <div class="bigicon">🇦🇷</div>
-        <div>
-          <h3>Argentina — Puerto Iguazú</h3>
-          <p>Ponte Tancredo Neves. ~15 min de Foz de carro. Vale o bate-volta pro Parque Nacional Iguazú (lado argentino das cataratas).</p>
-          <ul class="crossing-facts">
-            <li>🪪 RG ou passaporte</li>
-            <li>🌊 cataratas lado argentino</li>
-          </ul>
-        </div>
+        <span class="bigicon">🇦🇷</span>
+        <div><h3>Argentina — Puerto Iguazú</h3><p>Ponte Tancredo Neves, ~15 min de Foz. Vale o bate-volta pras cataratas do lado argentino. Leva RG ou passaporte.</p></div>
       </div>
     </div>
-  </section>
-
-  <section>
-    <div class="section-head">
-      <h2>Onde ficar em Foz</h2>
-      <span class="kicker">Airbnb · 3 noites</span>
-    </div>
-    <div class="lodge-grid">
-      <div class="lodge-card win">
-        <strong>Casa c/ suíte, perto do Paraguai</strong>
-        <div class="lodge-price">R$ 827<small>total · 3 noites</small></div>
-        <span class="kicker">3 quartos · 4 camas · 4,98 (61)</span>
-      </div>
-      <div class="lodge-card">
-        <strong>Ap. completo, Centro, 2 vagas</strong>
-        <div class="lodge-price">R$ 1.494<small>total · 3 noites</small></div>
-        <span class="kicker">3 quartos · 4 camas · 5,0 (15)</span>
-      </div>
-      <div class="lodge-card">
-        <strong>Apartamento Perfeito Central</strong>
-        <div class="lodge-price">R$ 1.081<small>total · 3 noites</small></div>
-        <span class="kicker">3 quartos · 3 camas · 5,0 (50)</span>
-      </div>
-    </div>
-    <p class="sub" style="margin-top:-4px">Pra 5 pessoas, procure 3 quartos ou 4+ camas — confira as regras da casa (nem toda locação aceita 5 hóspedes).</p>
   </section>
 
   <footer>
-    <p>Aluguel de carro: cotação ao vivo na Unidas (unidas.com.br), 08→11/out/2026, loja São José dos Campos. Localiza e Movida verificados na mesma data (localiza.com, movida.com.br).</p>
-    <p>Distância (2.268 km ida+volta) e tempo de viagem: Google Maps, rota SJC → Foz do Iguaçu via BR-374. Pedágio estimado a partir do valor real São Paulo capital → Foz (R$ 306,80, emsampa.com.br) + trecho extra SJC-SP. Gasolina R$ 6,47/l: média ANP em São Paulo, jun/2026. Consumo de 11 km/l é estimativa própria. Hospedagem: Airbnb, Foz do Iguaçu.</p>
+    <p><b>Fontes:</b> aluguel de carro — cotação ao vivo na Unidas (unidas.com.br), loja São José dos Campos, 08→12/out/2026. Localiza e Movida conferidos nos respectivos sites na mesma data.</p>
+    <p>Hospedagem — anúncios reais do Airbnb, Foz do Iguaçu, 09→11/out/2026, 5 hóspedes. Preços podem mudar até a reserva.</p>
+    <p>Distância (2.268 km ida+volta) — Google Maps, SJC → Foz via BR-374. Pedágio estimado a partir do valor real São Paulo→Foz (emsampa.com.br) + trecho SJC-SP. Gasolina R$ 6,47/l — média ANP-SP, jun/2026.</p>
   </footer>
 
 </div>
-<script>
-  const PRICE_CAR = 270 + 1334 + 340; // aluguel + combustivel + pedagio
-  let people = 5;
-  const peopleEl = document.getElementById('people');
-  const perPersonEl = document.getElementById('perPerson');
-  const totalCarEl = document.getElementById('totalCar');
-
-  function render(){
-    peopleEl.textContent = people;
-    perPersonEl.textContent = 'R$ ' + Math.round(PRICE_CAR / people).toLocaleString('pt-BR');
-    totalCarEl.textContent = 'R$ ' + PRICE_CAR.toLocaleString('pt-BR');
-  }
-  document.getElementById('minus').addEventListener('click', () => { if(people > 1){ people--; render(); } });
-  document.getElementById('plus').addEventListener('click', () => { if(people < 8){ people++; render(); } });
-  render();
-</script>
 </body>
 </html>
