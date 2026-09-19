@@ -75,9 +75,9 @@
   }
 
   /* other locadoras */
-  .loc-mini{ display:flex; gap:12px; }
+  .loc-mini{ display:flex; gap:12px; flex-wrap:wrap; }
   .loc-chip{
-    flex:1; background:var(--surface-2); border:1px solid var(--border); border-radius:12px;
+    flex:1 1 240px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px;
     padding:12px 14px; font-size:13.5px; color:var(--text-soft);
   }
   .loc-chip b{ display:block; color:var(--text); font-size:14.5px; margin-bottom:3px; }
@@ -133,8 +133,8 @@
   <div class="verdict">
     <div class="mark">✅</div>
     <div class="verdict-body">
-      <strong>Carro (SUV) sai R$ 410 por pessoa, já com tudo incluso</strong>
-      <p>Isso é aluguel + gasolina + pedágio, dividido em 5. Cotado agora mesmo na Unidas.</p>
+      <strong>Carro (SUV) sai R$ 404 por pessoa, já com tudo incluso</strong>
+      <p>Isso é aluguel + gasolina + pedágio, dividido em 5. Cotado ao vivo na Unidas em 19/09, pagando antecipado (10% de desconto).</p>
     </div>
   </div>
 
@@ -149,8 +149,8 @@
       <div class="trip-row"><span class="ic">📍</span><div><b>Saída:</b> quinta, 08/out — pode pegar o carro de manhã ou de tarde (você tá de férias)</div></div>
       <div class="trip-row"><span class="ic">🏠</span><div><b>Em Foz:</b> sexta e sábado (09-10/out) — 2 noites</div></div>
       <div class="trip-row"><span class="ic">🔙</span><div><b>Volta pra SJC:</b> sai de Foz domingo, 11/out — viagem é longa (≈1.130 km, 14-16h de carro), então a chegada real deve ser madrugada/manhã de segunda, 12/out</div></div>
-      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out, no fim da tarde (≈18h-19h) — dá folga pra descansar depois de chegar de manhã, sem correria pra devolver o carro logo em seguida</div></div>
-      <div class="trip-row"><span class="ic">⚠️</span><div class="muted">12/out é feriado (Nossa Sra. Aparecida). A loja da Unidas aceitou a devolução nesse dia no site — mesmo assim, vale ligar e confirmar o horário de funcionamento antes, principalmente pra devolução mais tarde.</div></div>
+      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out — na Unidas o site só aceita devolução até 16h nesse dia (feriado). Querem mais folga depois de chegar de manhã? A Movida aceita até 20h: retirando às 15h na quinta, dá pra devolver até 18h sem diária extra (detalhes na seção do carro).</div></div>
+      <div class="trip-row"><span class="ic">⚠️</span><div class="muted">12/out é feriado (Nossa Sra. Aparecida) e as lojas têm horário reduzido de devolução: Unidas até 16h, Localiza até 14h, Movida até 20h (conforme os sites em 19/09). Ligue na loja e confirme o horário antes de fechar.</div></div>
     </div>
   </section>
 
@@ -162,8 +162,9 @@
       <div class="trip-row"><span class="ic">📍</span><div><b>Saída:</b> sexta, 09/out, à noite — pega o carro já depois do expediente e dirige a noite toda</div></div>
       <div class="trip-row"><span class="ic">🏠</span><div><b>Em Foz:</b> só sábado, 10/out — 1 noite (chega de manhã cedo no sábado, direto da estrada)</div></div>
       <div class="trip-row"><span class="ic">🔙</span><div><b>Volta pra SJC:</b> sai de Foz domingo, 11/out — mesma lógica do plano principal, chegada real madrugada/manhã de segunda, 12/out</div></div>
-      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out, fim de tarde (≈18h-19h) — mas 3 diárias em vez de 4 (sexta noite → segunda noite)</div></div>
-      <div class="trip-row"><span class="ic">💰</span><div class="muted">Estimativa: ≈R$ 1.960 no carro (3 diárias ≈R$ 282 + combustível ≈R$ 1.334 + pedágio ≈R$ 340 — pró-rata sobre a cotação atual da Unidas, confirmar diária exata no site antes de fechar).</div></div>
+      <div class="trip-row"><span class="ic">🚙</span><div><b>Carro devolvido:</b> segunda, 12/out — mesma regra do feriado (Unidas até 16h, Movida até 20h). São 3 diárias em vez de 4.</div></div>
+      <div class="trip-row"><span class="ic">💰</span><div class="muted">Cotado ao vivo em 19/09 (retirada sexta 20h): Unidas 3 diárias = R$ 313 pagando antecipado, então ≈R$ 1.987 no carro (com combustível ≈R$ 1.334 e pedágio ≈R$ 340). Só ≈R$ 35 mais barato que o plano principal, porque a diária de sexta é mais cara (≈R$ 91 contra ≈R$ 76). Movida: a partir de ≈R$ 346 só de aluguel.</div></div>
+      <div class="trip-row"><span class="ic">🛏️</span><div><b>Hospedagem (sáb 10 → dom 11/out):</b> só a Linda casa tem vaga pra essa noite avulsa: R$ 285 + R$ 200 de taxas, cerca de <b>R$ 485</b>. Residencial Flores e o Airbnb aparecem indisponíveis pra essa data.</div></div>
       <div class="trip-row"><span class="ic">⚠️</span><div class="muted">Com só 1 noite, dá pra Cataratas + 1 travessia (Paraguai OU Argentina) com calma — não as duas sem correria.</div></div>
     </div>
   </section>
@@ -175,57 +176,59 @@
       <div class="car-body">
         <div class="car-title">
           <div><strong>SUV Compacto</strong><br><span class="section-note">VW Nivus, Renault Duster ou Fiat Pulse</span></div>
-          <span class="tag">Cotado agora</span>
+          <span class="tag">Cotado 19/09</span>
         </div>
-        <div class="car-price">R$ 410<small>por pessoa (dividido em 5)</small></div>
+        <div class="car-price">R$ 404<small>por pessoa (dividido em 5)</small></div>
         <ul class="car-list">
-          <li><span class="k">Aluguel Unidas — 4 diárias (08 a 12/out)</span><span>R$ 376</span></li>
+          <li><span class="k">Aluguel Unidas — 4 diárias (08 a 12/out), pagando antecipado</span><span>R$ 348</span></li>
           <li><span class="k">Combustível ida e volta (2.268 km)</span><span>≈ R$ 1.334</span></li>
           <li><span class="k">Pedágio ida e volta (estimado)</span><span>≈ R$ 340</span></li>
-          <li><span class="k">Total do carro</span><span>R$ 2.050</span></li>
+          <li><span class="k">Total do carro</span><span>R$ 2.022</span></li>
         </ul>
+        <p style="font-size:13px;color:var(--text-muted);margin:10px 0 12px">O aluguel já inclui a taxa de 15% e o desconto de 10% de pagar antecipado. Pagando na loja, fica ≈R$ 387 (≈R$ 412 por pessoa no total). Esse preço é sem seguro extra: o site já vem com "Proteção Completa" marcada (+R$ 91 por dia, o aluguel sobe pra ≈R$ 768) — vocês decidem se querem.</p>
         <a class="car-cta" href="https://www.unidas.com.br/" target="_blank" rel="noopener">Reservar na Unidas →</a>
       </div>
     </div>
     <div class="loc-mini">
-      <div class="loc-chip"><b>Movida — R$ 405 os 4 dias</b>SUV Compacto (Fiat Pulse, Renault Kardian), R$ 88,15/dia + taxa de 15%. Um pouco mais caro que a Unidas.<br><a href="https://www.movida.com.br/" target="_blank" rel="noopener">movida.com.br →</a></div>
-      <div class="loc-chip"><b>Localiza</b>Loja de SJC não libera esse período — pede mínimo de 5 diárias agora.<br><a href="https://www.localiza.com/" target="_blank" rel="noopener">localiza.com →</a></div>
+      <div class="loc-chip"><b>Movida — a partir de ≈R$ 399 os 4 dias</b>SUV Compacto (Fiat Pulse, Renault Kardian), R$ 86,76/dia + taxa de 15%. É a que aceita devolução mais tarde em 12/out (até 20h): retirando às 15h na quinta, dá pra devolver até 18h sem diária extra. Atenção: o site já marca uma proteção por padrão e o total na tela ficou ≈R$ 666 — confiram com e sem.<br><a href="https://www.movida.com.br/" target="_blank" rel="noopener">movida.com.br →</a></div>
+      <div class="loc-chip"><b>Localiza (loja Serimbura, SJC)</b>Agora libera o período: SUV manual (Hyundai i20 ou VW Tera) ≈R$ 400 os 4 dias, R$ 86,95/dia + 15%. Automático (T-Cross ou Tracker) ≈R$ 538. Só aceita devolução até 14h em 12/out. A outra loja de SJC (Andrômeda) não devolve nos dias 11 e 12.<br><a href="https://www.localiza.com/" target="_blank" rel="noopener">localiza.com →</a></div>
     </div>
   </section>
 
   <section>
     <h2>Onde ficar em Foz</h2>
-    <p class="section-note">Sexta e sábado (09→11/out), 2 noites, pra 5 pessoas — sem luxo, só um lugar simples e limpo pra dormir</p>
+    <p class="section-note">Sexta e sábado (09→11/out), 2 noites, pra 5 pessoas — sem luxo, só um lugar simples e limpo pra dormir. Preços do Booking já somam as taxas do anúncio · conferido em 19/09</p>
     <div class="stay-grid">
 
       <div class="stay-card">
         <div class="stay-thumb">🛏️</div>
         <div class="stay-info">
           <span class="pick">💰 mais barato</span>
-          <strong>Residencial Flores</strong>
-          <span class="meta">nota 7,7 (8 avaliações) · Booking.com</span>
-          <span class="price">R$ 480<small> total · 2 noites</small></span>
-          <a href="https://www.booking.com/hotel/br/flats-residencial-flores-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+          <strong>Linda casa completa confortável</strong>
+          <span class="meta">nota 8,0 (53 avaliações) · Booking.com</span>
+          <span class="price">R$ 770<small> total · 2 noites (R$ 570 + R$ 200 de taxas)</small></span>
+          <a href="https://www.booking.com/hotel/br/linda-casa-completa-confortavel.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
         </div>
       </div>
 
       <div class="stay-card">
         <div class="stay-thumb">🛏️</div>
         <div class="stay-info">
-          <strong>Linda casa completa confortável</strong>
-          <span class="meta">nota 8,0 (53 avaliações) · Booking.com</span>
-          <span class="price">R$ 570<small> total · 2 noites</small></span>
-          <a href="https://www.booking.com/hotel/br/linda-casa-completa-confortavel.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+          <span class="pick" style="color:var(--warn)">⚠️ última unidade</span>
+          <strong>Residencial Flores</strong>
+          <span class="meta">nota 7,7 (8 avaliações) · Booking.com</span>
+          <span class="price">R$ 910<small> total · 2 noites (R$ 810 + R$ 100 de taxas)</small></span>
+          <a href="https://www.booking.com/hotel/br/flats-residencial-flores-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
         </div>
       </div>
 
       <div class="stay-card">
         <img src="img/casa1.jpg" alt="Casa confortável em Foz">
         <div class="stay-info">
-          <span class="pick">⭐ melhor avaliado</span>
+          <span class="pick" style="color:var(--warn)">⚠️ sem vaga nas datas</span>
           <strong>Casa confortável, bem localizada</strong>
           <span class="meta">3 quartos · 4 camas · nota 4,95 (44 avaliações) · Airbnb</span>
-          <span class="price">R$ 631<small> total · 2 noites</small></span>
+          <span class="price">Indisponível<small> em 09→11/out (conferido 19/09) — vale checar de novo</small></span>
           <a href="https://www.airbnb.com.br/rooms/1291480260059918171" target="_blank" rel="noopener">Ver no Airbnb →</a>
         </div>
       </div>
@@ -282,8 +285,8 @@
   </section>
 
   <footer>
-    <p><b>Fontes:</b> aluguel de carro — cotação ao vivo na Unidas (unidas.com.br), loja São José dos Campos, 08→12/out/2026. Localiza e Movida conferidos nos respectivos sites na mesma data.</p>
-    <p>Hospedagem — anúncios reais do Airbnb e Booking.com, Foz do Iguaçu, 09→11/out/2026, 5 hóspedes. Preços podem mudar até a reserva.</p>
+    <p><b>Fontes:</b> aluguel de carro — cotação ao vivo em 19/09/2026 nos sites da Unidas, Movida e Localiza (loja Serimbura), São José dos Campos, retirada às 15h em 08/10 e devolução em 12/10. Valores marcados com ≈ são conta feita a partir das linhas da própria tela do site.</p>
+    <p>Hospedagem — anúncios reais do Booking.com e Airbnb, Foz do Iguaçu, 5 hóspedes, conferidos ao vivo em 19/09/2026. Preços podem mudar até a reserva. O Airbnb estava sem vaga nas datas nessa consulta.</p>
     <p>Dicas de compra no Paraguai — resumidas do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme regras de cota antes de ir.</p>
     <p>Distância (2.268 km ida+volta) — Google Maps, SJC → Foz via BR-374. Pedágio estimado a partir do valor real São Paulo→Foz (emsampa.com.br) + trecho SJC-SP. Gasolina R$ 6,47/l — média ANP-SP, jun/2026.</p>
     <p>Endereços das lojas em Ciudad del Este — turismoitaipu.com.br e comprasparaguai.com.br. Confirme horário de funcionamento antes de ir (feriados/domingo variam).</p>
