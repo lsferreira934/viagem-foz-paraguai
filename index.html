@@ -107,6 +107,20 @@
   .stay-info .price small{ font-weight:500; font-size:12px; color:var(--text-soft); }
   .stay-info a{ font-size:13px; font-weight:700; color:var(--accent-ink); text-decoration:none; margin-top:4px; }
 
+  /* stay list (compact) */
+  .stay-mini-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .stay-mini{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:14px 16px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:3px;
+  }
+  .stay-mini .dist{ font-size:11px; font-weight:800; color:var(--accent-ink); text-transform:uppercase; letter-spacing:.03em; }
+  .stay-mini strong{ font-size:14.5px; line-height:1.3; }
+  .stay-mini .meta{ font-size:12.5px; color:var(--text-muted); }
+  .stay-mini .price{ font-size:17px; font-weight:800; margin-top:2px; }
+  .stay-mini .warn-note{ font-size:12px; color:var(--warn); font-weight:700; }
+  .stay-mini a{ font-size:13px; font-weight:700; color:var(--accent-ink); text-decoration:none; margin-top:4px; }
+  @media (max-width:480px){ .stay-mini-grid{ grid-template-columns:1fr; } }
+
   /* crossing */
   .crossing-grid{ display:flex; flex-direction:column; gap:12px; }
   .crossing{
@@ -191,40 +205,107 @@
 
   <section>
     <h2>Onde ficar em Foz</h2>
-    <p class="section-note">Sexta e sábado (09→11/out), 2 noites, pra 5 pessoas — sem luxo, só um lugar simples e limpo pra dormir. Preços do Booking já somam as taxas do anúncio · conferido em 23/09</p>
-    <div class="stay-grid">
+    <p class="section-note">Ordenado por distância da Ponte da Amizade (onde atravessam a pé pro Paraguai) — calculada em linha reta pelas coordenadas do anúncio, não pela "distância do centro" que o Booking mostra (essa engana). 5 pessoas, 09→11/out (2 noites), preços com taxas incluídas, todas com algum lugar pro carro · conferido ao vivo em 23/09</p>
+    <div class="stay-mini-grid">
 
-      <div class="stay-card">
-        <div class="stay-thumb">🛏️</div>
-        <div class="stay-info">
-          <span class="pick">💰 mais barato</span>
-          <strong>Residencial Flores</strong>
-          <span class="meta">nota 8,0 (9 avaliações) · Booking.com</span>
-          <span class="price">R$ 1.150<small> total · 2 noites (R$ 1.050 + R$ 100 de taxas)</small></span>
-          <a href="https://www.booking.com/hotel/br/flats-residencial-flores-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
-        </div>
+      <div class="stay-mini">
+        <span class="dist">📍 1,1 km da ponte</span>
+        <strong>Pousada Fronteira City</strong>
+        <span class="meta">Vila Portes · estacionamento pago no local · nota 7,9 (25 avaliações) · Booking</span>
+        <span class="price">R$ 873 total</span>
+        <a href="https://www.booking.com/hotel/br/pousada-fronteira-city-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
-      <div class="stay-card">
-        <div class="stay-thumb">🛏️</div>
-        <div class="stay-info">
-          <span class="pick" style="color:var(--warn)">⚠️ sem vaga nas datas</span>
-          <strong>Linda casa completa confortável</strong>
-          <span class="meta">nota 8,0 (53 avaliações) · Booking.com</span>
-          <span class="price">Indisponível<small> em 09→11/out (conferido 23/09) — vale checar de novo</small></span>
-          <a href="https://www.booking.com/hotel/br/linda-casa-completa-confortavel.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
-        </div>
+      <div class="stay-mini">
+        <span class="dist">📍 1,2 km da ponte</span>
+        <strong>Casa Foz do Iguaçu tríplice fronteira</strong>
+        <span class="meta">estacionamento grátis no local · nota 4,53 (34 avaliações) · Airbnb</span>
+        <span class="price">R$ 758 total</span>
+        <span class="warn-note">⚠️ Evitar: avaliação recente relata assalto à mão armada na casa (a própria anfitriã confirmou não ser a primeira vez)</span>
+        <a href="https://www.airbnb.com.br/rooms/1643663370309128587" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
-      <div class="stay-card">
-        <img src="img/casa1.jpg" alt="Casa confortável em Foz">
-        <div class="stay-info">
-          <span class="pick" style="color:var(--warn)">⚠️ sem vaga nas datas</span>
-          <strong>Casa confortável, bem localizada</strong>
-          <span class="meta">3 quartos · 4 camas · nota 4,95 (44 avaliações) · Airbnb</span>
-          <span class="price">Indisponível<small> em 09→11/out (conferido 23/09) — vale checar de novo</small></span>
-          <a href="https://www.airbnb.com.br/rooms/1291480260059918171" target="_blank" rel="noopener">Ver no Airbnb →</a>
-        </div>
+      <div class="stay-mini">
+        <span class="dist">📍 2,1 km da ponte</span>
+        <strong>Casa completa próximo ao Paraguai</strong>
+        <span class="meta">estacionamento grátis no local · anúncio novo, nota 5,0 (1 avaliação) · Airbnb</span>
+        <span class="price">R$ 660 total</span>
+        <span class="warn-note" style="color:var(--good)">💰 mais barata com boa localização</span>
+        <a href="https://www.airbnb.com.br/rooms/1755058083535541483" target="_blank" rel="noopener">Ver no Airbnb →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 2,1 km da ponte</span>
+        <strong>Residencial Habitzreuter</strong>
+        <span class="meta">estacionamento grátis · Booking</span>
+        <span class="price">R$ 1.003 total</span>
+        <span class="warn-note">⚠️ nota 1,0 (1 avaliação só)</span>
+        <a href="https://www.booking.com/hotel/br/residencial-habitzreuter.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 2,8 km da ponte</span>
+        <strong>Nossa Casa! Lazer Próxima ao Paraguai</strong>
+        <span class="meta">garagem grátis pra 4 carros · anúncio novo, nota 5,0 (1 avaliação) · Airbnb</span>
+        <span class="price">R$ 1.528 total</span>
+        <a href="https://www.airbnb.com.br/rooms/1754632231602047896" target="_blank" rel="noopener">Ver no Airbnb →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 3,3 km da ponte</span>
+        <strong>Iguaçu Fal</strong>
+        <span class="meta">estacionamento (tipo não informado no site) · Booking</span>
+        <span class="price">R$ 1.090 total</span>
+        <span class="warn-note">⚠️ nota 3,7 (23 avaliações)</span>
+        <a href="https://www.booking.com/hotel/br/iguacu-fal.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 3,3 km da ponte</span>
+        <strong>Descanso e privacidade</strong>
+        <span class="meta">estacionamento grátis na rua (sem vaga própria) · nota 4,97 (39) · Superhost · Airbnb</span>
+        <span class="price">R$ 775 total</span>
+        <a href="https://www.airbnb.com.br/rooms/1040492699020476735" target="_blank" rel="noopener">Ver no Airbnb →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 3,6 km da ponte</span>
+        <strong>Apartamento com garagem próx. Paraguai</strong>
+        <span class="meta">garagem grátis · nota 10 (1 avaliação) · Booking</span>
+        <span class="price">R$ 1.328 total</span>
+        <a href="https://www.booking.com/hotel/br/aparamento-novo-com-garagem-proximo-ao-paraguai.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 3,7 km da ponte</span>
+        <strong>Perto da Ponte, Shopping e Rodoviária</strong>
+        <span class="meta">estacionamento não confirmado (site travou na checagem) · nota 5,0 (8) · Airbnb</span>
+        <span class="price">R$ 1.648 total</span>
+        <a href="https://www.airbnb.com.br/rooms/1732743004102360718" target="_blank" rel="noopener">Ver no Airbnb →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 4,0 km da ponte</span>
+        <strong>4 min do Paraguai (casa com piscina)</strong>
+        <span class="meta">estacionamento incluso · nota 8,3 (3 avaliações) · Booking</span>
+        <span class="price">R$ 840 total</span>
+        <a href="https://www.booking.com/hotel/br/4-min-do-paraguai-casa-com-piscina-e-privacidade.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 4,6 km da ponte</span>
+        <strong>Casa Rossato II</strong>
+        <span class="meta">estacionamento não verificado individualmente · nota 5,0 (11) · Airbnb</span>
+        <span class="price">R$ 724 total</span>
+        <a href="https://www.airbnb.com.br/rooms/1458978536338145462" target="_blank" rel="noopener">Ver no Airbnb →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 4,9 km da ponte</span>
+        <strong>Estúdio Fantástico no centro de Foz com garagem</strong>
+        <span class="meta">garagem grátis · nota 9,8 (38 avaliações) · Booking</span>
+        <span class="price">R$ 960 total</span>
+        <a href="https://www.booking.com/hotel/br/estudio-fantastico-no-centro-de-foz-com-garagem.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
     </div>
@@ -282,7 +363,7 @@
 
   <footer>
     <p><b>Carro:</b> reserva confirmada na Unidas em 22/09/2026, São José dos Campos, retirada 08/10 15h, devolução 12/10.</p>
-    <p>Hospedagem — anúncios reais do Booking.com e Airbnb, Foz do Iguaçu, 5 hóspedes, conferidos ao vivo em 22/09/2026. Preços podem mudar até a reserva. A Linda casa e o Airbnb estavam sem vaga nas datas nessa consulta.</p>
+    <p>Hospedagem — 12 anúncios reais do Booking.com e Airbnb, Foz do Iguaçu, 5 hóspedes, conferidos ao vivo em 23/09/2026. Distância até a Ponte da Amizade calculada em linha reta a partir das coordenadas de cada anúncio (não é a "distância do centro" do Booking, que mede do centro histórico, bem mais longe da ponte). Preços e disponibilidade podem mudar até a reserva — confirmem antes de fechar.</p>
     <p>Roteiro dia a dia — montado pelo grupo (Alison), horários e locais podem mudar.</p>
     <p>Dicas de compra no Paraguai — resumidas do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme regras de cota antes de ir.</p>
     <p>Distância (2.268 km ida+volta) — Google Maps, SJC → Foz via BR-374. Pedágio estimado a partir do valor real São Paulo→Foz (emsampa.com.br) + trecho SJC-SP. Gasolina R$ 6,47/l — média ANP-SP, jun/2026.</p>
