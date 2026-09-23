@@ -62,6 +62,8 @@
   .rows li + li{ border-top:1px solid var(--line); }
   .rows .v{ font-variant-numeric:tabular-nums; white-space:nowrap; }
   .rows li.sum{ font-weight:800; }
+  .sub-h{ margin:22px 0 8px; font-size:14px; font-weight:700; color:var(--muted); }
+  #gastos .sub-h:first-of-type{ margin-top:0; }
   @media (max-width:560px){ .car{ grid-template-columns:1fr; gap:14px; } .car img{ aspect-ratio:16/9; } }
 
   /* hospedagem */
@@ -140,7 +142,7 @@
 
   <p class="status">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
-    <span><b>Carro e hospedagem reservados.</b> Cerca de R$ 581 por pessoa com aluguel, gasolina, pedágio e hospedagem, dividido em 5. <a href="#gastos">Ver gastos</a></span>
+    <span><b>Carro e hospedagem reservados.</b> Carro, gasolina, pedágio e hospedagem dão cerca de R$ 581 por pessoa; com ingressos e comida, a estimativa vai a cerca de R$ 1.211 por pessoa. <a href="#gastos">Ver gastos</a></span>
   </p>
 
   <section id="roteiro">
@@ -158,7 +160,7 @@
         <div class="when"><b>Sex</b>09/10</div>
         <div>
           <h3>Argentina, Puerto Iguazú</h3>
-          <p>Chegada por volta das 10h–11h, direto da estrada. Centro de Puerto Iguazú, feirinha, Duty Free, Hito Três Fronteiras e Casino City Center Iguazú.</p>
+          <p>Chegada por volta das 10h–11h, direto da estrada. Confirmem antes se o carro alugado pode entrar na Argentina (veja <a href="#carro">Carro</a>). Centro de Puerto Iguazú, feirinha, Duty Free, Hito Três Fronteiras e Casino City Center Iguazú.</p>
           <p>Almoço: <a href="https://www.instagram.com/mucha_previa/" target="_blank" rel="noopener">@mucha_previa</a>. Jantar em aberto. Atenção: o check-in na hospedagem só vai das 15h às 19h, então combinem a chegada tardia com o anfitrião (veja <a href="#hospedagem">Hospedagem</a>).</p>
         </div>
       </li>
@@ -205,6 +207,7 @@
         <p class="fine">Reserva confirmada na Unidas em 22/09, retirada 08/10 às 15h, devolução 12/10. A foto é ilustrativa da categoria, não o modelo exato.</p>
       </div>
     </div>
+      <p class="note"><b>Confirmem antes da viagem se o carro pode entrar na Argentina e no Paraguai.</b> Vários guias dizem que Unidas, Localiza e Movida não deixam cruzar a fronteira com carro alugado, ou só deixam com autorização e o seguro Carta Verde. O contrato da Unidas que consegui ler (versão de 2022) não trata do assunto, então o texto não responde. Liguem para a Unidas (0800 6 121 121), perguntem e peçam a resposta por escrito. Se não puder, o Paraguai dá para fazer a pé pela Ponte da Amizade, deixando o carro do lado brasileiro, mas o plano da Argentina na sexta muda.</p>
   </section>
 
   <section id="hospedagem">
@@ -558,15 +561,28 @@
 
   <section id="gastos">
     <h2>Gastos</h2>
+    <h3 class="sub-h">Carro e hospedagem</h3>
     <ul class="rows">
       <li><span>Aluguel do carro (Unidas, 4 diárias + proteção)</span><span class="v">R$ 632,50</span></li>
       <li><span>Combustível ida e volta (2.268 km)</span><span class="v">≈ R$ 1.334</span></li>
       <li><span>Pedágio ida e volta (estimado)</span><span class="v">≈ R$ 340</span></li>
       <li><span>Hospedagem (Casa com piscina, 2 noites)</span><span class="v">R$ 600</span></li>
-      <li class="sum"><span>Total</span><span class="v">≈ R$ 2.906,50</span></li>
-      <li class="sum"><span>Por pessoa (÷ 5)</span><span class="v">≈ R$ 581</span></li>
+      <li class="sum"><span>Subtotal</span><span class="v">≈ R$ 2.906,50</span></li>
     </ul>
-    <p class="fine">Carro e hospedagem já estão reservados; combustível e pedágio são estimativas. Não inclui comida, ingressos (Cataratas, Parque das Aves), compras no Paraguai nem câmbio.</p>
+    <h3 class="sub-h">Ingressos e comida (estimativa)</h3>
+    <ul class="rows">
+      <li><span>Parque das Aves (5 × ≈ R$ 110)</span><span class="v">≈ R$ 550</span></li>
+      <li><span>Marco das 3 Fronteiras</span><span class="v">a confirmar</span></li>
+      <li><span>6 refeições principais (5 pessoas × ≈ R$ 70)</span><span class="v">≈ R$ 2.100</span></li>
+      <li><span>Café da manhã, lanches e água (≈ R$ 100 por pessoa)</span><span class="v">≈ R$ 500</span></li>
+      <li class="sum"><span>Subtotal</span><span class="v">≈ R$ 3.150</span></li>
+    </ul>
+    <h3 class="sub-h">Total</h3>
+    <ul class="rows">
+      <li class="sum"><span>Total do grupo</span><span class="v">≈ R$ 6.056,50</span></li>
+      <li class="sum"><span>Por pessoa (÷ 5)</span><span class="v">≈ R$ 1.211</span></li>
+    </ul>
+    <p class="fine">Carro e hospedagem já estão reservados; o resto é estimativa. Parque das Aves: valor de referência de um blog de turismo (em torno de R$ 110 a inteira), então confirmem no site oficial. Marco das 3 Fronteiras: não achei um valor confiável e ele não entrou na conta; abre de terça a domingo, das 14h às 21h. Refeições: suposição nossa de cerca de R$ 70 por pessoa (o Restaurante Barracão, por exemplo, cobra R$ 59,90 no buffet de domingo, segundo um blog de hotel de Foz); ajustem ao que vocês costumam gastar. Não inclui compras no Paraguai, câmbio, estacionamento na fronteira nem um eventual custo para levar o carro alugado à Argentina e ao Paraguai (veja o aviso em Carro).</p>
   </section>
 
   <section id="paraguai">
@@ -614,6 +630,7 @@
     <p><b>Carro:</b> reserva confirmada na Unidas em 22/09/2026 (São José dos Campos, retirada 08/10 às 15h, devolução 12/10).</p>
     <p><b>Hospedagem:</b> reserva confirmada no Booking.com em 23/09/2026 (casa com piscina, R$ 600). Lista de outras opções: 20 anúncios reais do Booking.com e Airbnb, 5 hóspedes, conferidos ao vivo em 23/09/2026 (12 achados por busca perto da ponte, 3 sugeridos pelo grupo com vaga e 5 de uma segunda busca, fora a casa reservada). Preços e vagas podem mudar até a reserva. A distância foi calculada em linha reta a partir das coordenadas de cada anúncio, e não é a "distância do centro" que o Booking mostra. Prós, contras e segurança vêm das avaliações mais recentes de hóspedes lidas em cada anúncio: não são estatística oficial de criminalidade nem garantia. Contexto geral de segurança: guias de turismo <a href="https://www.dicasdeviagem.com/onde-ficar-em-foz-do-iguacu/" target="_blank" rel="noopener">Dicas de Viagem</a> e <a href="https://www.destino.foz.br/dicas-de-seguranca-em-foz-do-iguacu/" target="_blank" rel="noopener">Destino Foz</a>.</p>
     <p><b>Compras no Paraguai:</b> resumo do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme as regras de cota antes de ir. Endereços das lojas: turismoitaipu.com.br, comprasparaguai.com.br e iguassu.com.br (New Zone); confirme o horário de funcionamento (feriados e domingo variam).</p>
+    <p><b>Gastos:</b> Parque das Aves e horário do Marco das 3 Fronteiras: <a href="https://www.hoteldelreyfoz.com.br/blog/parque-das-aves-foz-do-iguacu/" target="_blank" rel="noopener">Hotel Del Rey</a> e <a href="https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras-foz-iguacu.html" target="_blank" rel="noopener">Melhores Destinos</a>; buffet do Barracão: <a href="https://www.hoteltarobafoz.com.br/en/naoixe-conhecer-restaurante-barracao-quando-viajar-foz/" target="_blank" rel="noopener">Hotel Tarobá</a>. Carro alugado em outro país: <a href="https://www.aluguefoco.com.br/blog/post/carros-alugados-podem-sair-do-pais-conheca-as-regras" target="_blank" rel="noopener">Foco Aluguel de Carros</a> e <a href="https://blog.rentcars.com/carta-verde" target="_blank" rel="noopener">Rentcars</a>. Os valores de blogs podem estar desatualizados.</p>
     <p><b>Distância e custo:</b> 2.268 km ida e volta (Google Maps, SJC → Foz pela BR-374). Pedágio estimado a partir do valor real São Paulo → Foz (emsampa.com.br) mais o trecho SJC–SP. Gasolina a R$ 6,47/l, média ANP-SP de jun/2026.</p>
     <p>Última atualização: 23/09/2026. A lista de outras opções de hospedagem não é mais atualizada automaticamente.</p>
   </footer>
