@@ -50,6 +50,17 @@
   .days h3{ margin:0 0 4px; font-size:16.5px; line-height:1.3; }
   .days p{ margin:0 0 6px; color:var(--soft); font-size:15px; }
   .days p:last-child{ margin-bottom:0; }
+  .pics{ display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:4px 0 12px; }
+  .pics figure, figure.wide{ margin:0; min-width:0; }
+  .pics img, figure.wide img{ display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; border-radius:8px; background:var(--wash); }
+  .pics figcaption, figure.wide figcaption{ font-size:11.5px; color:var(--muted); margin-top:4px; line-height:1.35; }
+  figure.wide{ margin:0 0 16px; }
+  .hours-t{ margin:10px 0 2px !important; font-size:13.5px !important; font-weight:700; color:var(--muted) !important; }
+  .hours{ list-style:none; margin:0 0 10px; padding:0; font-size:14px; }
+  .hours li{ display:flex; justify-content:space-between; gap:12px; padding:6px 0; }
+  .hours li + li{ border-top:1px solid var(--line); }
+  .hours .h{ text-align:right; color:var(--soft); font-variant-numeric:tabular-nums; }
+  @media (max-width:560px){ .hours li{ flex-direction:column; gap:0; } .hours .h{ text-align:left; } }
 
   /* carro */
   .car{ display:grid; grid-template-columns:190px 1fr; gap:22px; align-items:start; }
@@ -162,25 +173,67 @@
         <div class="when"><b>Sex</b>09/10</div>
         <div>
           <h3>Argentina, Puerto Iguazú</h3>
-          <p>Chegada por volta das 10h–11h, direto da estrada. Confirmem antes se o carro alugado pode entrar na Argentina (veja <a href="#carro">Carro</a>). Centro de Puerto Iguazú, feirinha, Duty Free, Hito Três Fronteiras e Casino City Center Iguazú.</p>
-          <p>Almoço: <a href="https://www.instagram.com/mucha_previa/" target="_blank" rel="noopener">@mucha_previa</a>. Jantar em aberto: em casa ou fora (veja <a href="#cupons">Cupons</a>). Atenção: o check-in na hospedagem só vai das 15h às 19h, então combinem a chegada tardia com o anfitrião (veja <a href="#hospedagem">Hospedagem</a>).</p>
+          <div class="pics">
+            <figure><img src="img/hito.jpg" alt="Hito Tres Fronteras, em Puerto Iguazú" loading="lazy" width="900" height="600"><figcaption>Hito Tres Fronteras. Foto: Horacio Cambeiro, CC BY 4.0</figcaption></figure>
+            <figure><img src="img/iguazu.jpg" alt="Centro de Puerto Iguazú" loading="lazy" width="900" height="600"><figcaption>Centro de Puerto Iguazú. Foto: Horacio Cambeiro, CC BY-SA 4.0</figcaption></figure>
+          </div>
+          <p>Chegada por volta das 10h–11h, direto da estrada. Confirmem antes se o carro alugado pode entrar na Argentina (veja <a href="#carro">Carro</a>). A fila na aduana da Ponte Tancredo Neves pode levar de 2 a 4 horas em dia cheio; o aplicativo Puenty mostra a fila em tempo real.</p>
+          <p class="hours-t">Horários na sexta</p>
+          <ul class="hours">
+            <li><span>Hito Tres Fronteras</span><span class="h">aberto o dia todo · show de águas por volta das 20h</span></li>
+            <li><span>Feirinha de Puerto Iguazú</span><span class="h">fontes divergem (algo como 9h–14h e 16h–23h)</span></li>
+            <li><span>Duty Free Puerto Iguazú</span><span class="h">12h–21h</span></li>
+            <li><span>Casino Iguazú (City Center)</span><span class="h">a partir das 14h</span></li>
+            <li><span>Mucha Previa (almoço), Perito Moreno 221</span><span class="h">só achei horário de delivery (19h–4h): confirmem se abre no almoço</span></li>
+          </ul>
+          <p>Jantar em aberto: em casa ou fora (veja <a href="#cupons">Cupons</a>); a Cantina La Dona Elvira fecha às sextas. Atenção: o check-in na hospedagem só vai das 15h às 19h, então combinem a chegada tardia com o anfitrião (veja <a href="#hospedagem">Hospedagem</a>).</p>
         </div>
       </li>
       <li>
         <div class="when"><b>Sáb</b>10/10</div>
         <div>
           <h3>Paraguai, Ciudad del Este</h3>
-          <p>Chegada ao microcentro por volta das 8h30–9h. Lojas: Shopping China, CellShop, Shopping Paris, New Zone e SA Shop (endereços em <a href="#mapas">Mapas</a>).</p>
-          <p>Almoço e jantar em aberto; o jantar pode ser em casa ou fora.</p>
-          <p>Carro: deixem num estacionamento do lado brasileiro, perto da aduana (Vila Portes), e atravessem a pé. Os de lá fecham por volta das 18h, então voltem antes (veja <a href="#estacionar">Estacionar</a>).</p>
+          <div class="pics">
+            <figure><img src="img/cde.jpg" alt="Centro de Ciudad del Este" loading="lazy" width="900" height="600"><figcaption>Centro de Ciudad del Este. Foto: Va de Carro, CC BY 3.0</figcaption></figure>
+            <figure><img src="img/ponte.jpg" alt="Ponte da Amizade, entre Foz do Iguaçu e Ciudad del Este" loading="lazy" width="900" height="506"><figcaption>Ponte da Amizade. Foto: Pedro Nardi, CC BY 4.0</figcaption></figure>
+          </div>
+          <p>Chegada ao microcentro por volta das 8h30–9h. <b>Várias lojas fecham às 16h no sábado</b>: comecem pela SA Shop, Nissei e Mega Eletrônicos, e deixem Shopping China, New Zone e CellShop, que ficam abertos até mais tarde, para o fim.</p>
+          <p class="hours-t">Horários no sábado</p>
+          <ul class="hours">
+            <li><span>SA Shop</span><span class="h">7h–16h</span></li>
+            <li><span>Mega Eletrônicos</span><span class="h">6h30–16h</span></li>
+            <li><span>Nissei</span><span class="h">abre por volta das 6h30 e fecha entre 15h e 16h (fontes divergem)</span></li>
+            <li><span>Shopping Paris</span><span class="h">a partir das 7h; fechamento varia (por volta das 18h)</span></li>
+            <li><span>Shopping China</span><span class="h">7h–20h</span></li>
+            <li><span>CellShop</span><span class="h">9h–21h</span></li>
+            <li><span>New Zone</span><span class="h">7h–22h</span></li>
+            <li><span>Intershop</span><span class="h">não achei o horário</span></li>
+            <li><span>Ponte da Amizade a pé</span><span class="h">24 horas, mas com fila na aduana aos sábados</span></li>
+            <li><span>Estacionamento Bismillah (lado brasileiro)</span><span class="h">4h–18h</span></li>
+          </ul>
+          <p>Carro: deixem num estacionamento do lado brasileiro, perto da aduana (Vila Portes), e atravessem a pé. Os de lá fecham por volta das 18h, então voltem antes (veja <a href="#estacionar">Estacionar</a>). Almoço e jantar em aberto; o jantar pode ser em casa ou fora.</p>
         </div>
       </li>
       <li>
         <div class="when"><b>Dom</b>11/10</div>
         <div>
           <h3>Foz do Iguaçu, saída às 20h</h3>
-          <p>Check-out até 12h, com as malas no carro. Passeios: Parque das Aves e Marco das 3 Fronteiras (o estacionamento do Marco é grátis e funciona a partir das 14h).</p>
-          <p>Almoço: Restaurante Barracão (todo dia, 11h–15h30), Cantina La Dona Elvira (domingo, 10h30–23h) ou Restaurante Roque (só abre de segunda a sábado, então fechado no domingo). Jantar: Cantina La Dona Elvira ou Shawarmaria Asmars.</p>
+          <div class="pics">
+            <figure><img src="img/aves.jpg" alt="Parque das Aves, em Foz do Iguaçu" loading="lazy" width="900" height="600"><figcaption>Parque das Aves. Foto: Deni Williams, CC BY 2.0</figcaption></figure>
+            <figure><img src="img/marco.jpg" alt="Marco das Três Fronteiras, em Foz do Iguaçu" loading="lazy" width="900" height="600"><figcaption>Marco das 3 Fronteiras. Foto: Zig Koch / MTur Destinos, domínio público</figcaption></figure>
+          </div>
+          <p>Check-out até 12h, com as malas no carro. Sugestão de ordem: Parque das Aves de manhã (fecha às 16h30), almoço no Barracão, Marco das 3 Fronteiras a partir das 15h (o show é por volta das 18h30), jantar e saída às 20h.</p>
+          <p class="hours-t">Horários no domingo</p>
+          <ul class="hours">
+            <li><span>Parque das Aves</span><span class="h">8h30–16h30</span></li>
+            <li><span>Marco das 3 Fronteiras</span><span class="h">15h–21h · estacionamento grátis</span></li>
+            <li><span>Restaurante Barracão (buffet)</span><span class="h">11h–15h30</span></li>
+            <li><span>Cantina La Dona Elvira Dom Rocha</span><span class="h">aberta o dia todo, até por volta das 23h</span></li>
+            <li><span>Shawarmaria Asmars</span><span class="h">11h–23h</span></li>
+            <li><span>Cantina 4 Sorelle</span><span class="h">11h30–14h30 e 18h–23h</span></li>
+            <li><span>Restaurante Roque</span><span class="h">fechado no domingo</span></li>
+            <li><span>Doce Pão Panificadora</span><span class="h">fechada no domingo</span></li>
+          </ul>
           <p>Rodízio na volta: Cíntia 20h–23h, Leandro 23h–02h, Alison 02h–05h, Alice 05h–08h, Emerson 08h–11h.</p>
         </div>
       </li>
@@ -612,7 +665,7 @@
       <dt>Almoço barato: Restaurante Barracão</dt>
       <dd>Buffet livre por R$ 44,90 de segunda a sexta, R$ 57,90 no sábado e R$ 59,90 no domingo, com mais de 40 pratos quentes.</dd>
       <dt>Lanche barato no centro: Doce Pão Panificadora</dt>
-      <dd>Rua Tarobá, 992, aberta todos os dias das 6h às 22h. Boa para café da manhã ou lanche rápido.</dd>
+      <dd>Rua Tarobá, 992, de segunda a sábado das 7h às 22h, <b>fechada no domingo</b>. Boa para café da manhã ou lanche na sexta e no sábado.</dd>
     </dl>
   </section>
 
@@ -622,7 +675,7 @@
       <dt>Ponte da Amizade (sábado, Paraguai a pé)</dt>
       <dd>Há vários estacionamentos do lado brasileiro, na Rua Oswaldo Cruz e na Av. Beira Rio, na Vila Portes, perto da aduana. A maioria cobra por dia e funciona de segunda a sábado, fechando por volta das 17h30–18h: voltem antes disso. Exemplo: <b>Estacionamentos Bismillah</b>, Rua Oswaldo Cruz, 368, a 50 m da aduana, de segunda a sábado das 4h às 18h. Os preços que achei (R$ 10 a R$ 25 por dia) são de uma lista antiga, então perguntem o valor na entrada e combinem antes de deixar o carro. A Vila Portes tem relatos de problema à noite, por isso vale ir e voltar de dia. <a href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamentos+Bismillah+Rua+Oswaldo+Cruz+368+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Bismillah no mapa</a> · <a href="https://estacionamentosemfoz.com.br/" target="_blank" rel="noopener">site</a></dd>
       <dt>Marco das 3 Fronteiras (domingo)</dt>
-      <dd>Estacionamento grátis para visitantes, que só funciona a partir das 14h. O Marco abre de terça a domingo, das 14h às 21h, então dá certo à tarde. <a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco no mapa</a></dd>
+      <dd>Estacionamento grátis para visitantes. O Marco abre de terça a domingo, das 15h às 21h (site oficial), com show por volta das 18h30, então dá certo à tarde. <a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco no mapa</a></dd>
       <dt>Parque das Aves</dt>
       <dd>Não confirmei o valor do estacionamento de lá; perguntem na entrada.</dd>
     </dl>
@@ -646,21 +699,26 @@
     <p class="lede">Lá não vai ter internet internacional. Abra cada link ainda no Brasil (com wifi ou dados) e, no Google Maps, toque em ⋮ → "Baixar mapa offline" cobrindo Ciudad del Este. Assim o pino e a rota funcionam sem sinal.</p>
     <ul class="maps">
       <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+das+Rosas+1024+Foz+do+Igua%C3%A7u+PR" target="_blank" rel="noopener">Hospedagem: Casa com piscina</a><span>Rua das Rosas, 1024, Foz do Iguaçu</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Nissei+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Nissei</a><span>Av. Adrián Jara esq. Reg. Piribebuy</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=CellShop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">CellShop</a><span>Av. Carlos A. López esq. Mons. Rodríguez</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Intershop+Importados+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Intershop</a><span>Edifício DFS Itá Ybaté</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Mega+Eletronicos+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Mega Eletrônicos</a><span>Centro de Ciudad del Este</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+Paris+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping Paris</a><span>Av. Dr. Luis María Argaña</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+China+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping China</a><span>Dentro do Shopping Paris</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=New+Zone+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">New Zone</a><span>Shopping Del Este, perto da Ponte da Amizade</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=SA+Shop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">SA Shop</a><span>Centro de Ciudad del Este</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Ponte+da+Amizade+Foz+do+Iguacu" target="_blank" rel="noopener">Ponte da Amizade</a><span>Travessia Brasil ↔ Paraguai</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Nissei+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Nissei</a><span>sáb. ~6h30 a 15h–16h · Av. Adrián Jara esq. Reg. Piribebuy</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=CellShop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">CellShop</a><span>sáb. 9h–21h · Av. Carlos A. López esq. Mons. Rodríguez</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Intershop+Importados+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Intershop</a><span>horário não confirmado · Edifício DFS Itá Ybaté</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Mega+Eletronicos+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Mega Eletrônicos</a><span>sáb. 6h30–16h · Centro de Ciudad del Este</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+Paris+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping Paris</a><span>sáb. a partir das 7h · Av. Dr. Luis María Argaña</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+China+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping China</a><span>sáb. 7h–20h · Dentro do Shopping Paris</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=New+Zone+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">New Zone</a><span>sáb. 7h–22h · Shopping Del Este, perto da Ponte da Amizade</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=SA+Shop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">SA Shop</a><span>sáb. 7h–16h · Centro de Ciudad del Este</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Ponte+da+Amizade+Foz+do+Iguacu" target="_blank" rel="noopener">Ponte da Amizade</a><span>Travessia Brasil ↔ Paraguai, 24 horas</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Parque+das+Aves+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Parque das Aves</a><span>dom. 8h30–16h30</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco das 3 Fronteiras</a><span>dom. 15h–21h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Hito+Tres+Fronteras+Puerto+Iguazu" target="_blank" rel="noopener">Hito Tres Fronteras (Argentina)</a><span>aberto o dia todo</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante+Barrac%C3%A3o+Av+Silvio+Americo+Sasdelli+1010+Foz" target="_blank" rel="noopener">Restaurante Barracão</a><span>todo dia 11h–15h30</span></li>
       <li><a href="https://www.google.com/maps/search/?api=1&amp;query=estacionamento+Ponte+da+Amizade+Ciudad+del+Este" target="_blank" rel="noopener">Estacionamento na fronteira (Paraguai)</a><span>Perto da ponte, lado paraguaio</span></li>
     </ul>
   </section>
 
   <section id="travessias">
     <h2>Tríplice fronteira</h2>
+    <figure class="wide"><img src="img/ponte.jpg" alt="Ponte da Amizade, entre Foz do Iguaçu e Ciudad del Este" loading="lazy" width="900" height="506"><figcaption>Ponte da Amizade. Foto: Pedro Nardi, CC BY 4.0</figcaption></figure>
     <dl class="tips">
       <dt>Paraguai, Ciudad del Este</dt>
       <dd>Pela Ponte da Amizade. De carro atravessa direto; a pé, são 20–25 min. Leve RG ou passaporte.</dd>
@@ -675,6 +733,8 @@
     <p><b>Compras no Paraguai:</b> resumo do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme as regras de cota antes de ir. Endereços das lojas: turismoitaipu.com.br, comprasparaguai.com.br e iguassu.com.br (New Zone); confirme o horário de funcionamento (feriados e domingo variam).</p>
     <p><b>Gastos:</b> Parque das Aves e horário do Marco das 3 Fronteiras: <a href="https://www.hoteldelreyfoz.com.br/blog/parque-das-aves-foz-do-iguacu/" target="_blank" rel="noopener">Hotel Del Rey</a> e <a href="https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras-foz-iguacu.html" target="_blank" rel="noopener">Melhores Destinos</a>; buffet do Barracão: <a href="https://www.hoteltarobafoz.com.br/en/naoixe-conhecer-restaurante-barracao-quando-viajar-foz/" target="_blank" rel="noopener">Hotel Tarobá</a>. Carro alugado em outro país: <a href="https://www.aluguefoco.com.br/blog/post/carros-alugados-podem-sair-do-pais-conheca-as-regras" target="_blank" rel="noopener">Foco Aluguel de Carros</a> e <a href="https://blog.rentcars.com/carta-verde" target="_blank" rel="noopener">Rentcars</a>. Os valores de blogs podem estar desatualizados.</p>
     <p><b>Cupons e estacionamento:</b> <a href="https://www.melhoresdestinos.com.br/promocao/desconto-foz" target="_blank" rel="noopener">Melhores Destinos</a>, <a href="https://www.hoteldelreyfoz.com.br/blog/restaurantes-baratos-em-foz-do-iguacu/" target="_blank" rel="noopener">Hotel Del Rey</a>, <a href="https://blog.comprasparaguai.com.br/estacionamentos-em-ciudad-del-este-e-foz-do-iguacu/" target="_blank" rel="noopener">Compras Paraguai</a> (lista de estacionamentos de 2015), <a href="https://estacionamentosemfoz.com.br/" target="_blank" rel="noopener">Estacionamentos Bismillah</a>, <a href="https://www.queroviajarmais.com/marco-tres-fronteiras-foz-do-iguacu/" target="_blank" rel="noopener">Quero Viajar Mais</a> (estacionamento do Marco). Consultados em 23/09/2026.</p>
+    <p><b>Horários:</b> consultados em 23/09/2026 em sites oficiais (Shopping China, Parque das Aves, Marco das 3 Fronteiras, City Center Iguazú), páginas das lojas e guias (Compras Paraguai, Turismo Itaipu, Combo Iguassu, La Voz de Cataratas, Tripadvisor). Onde as fontes divergem, isso está indicado. Horário muda sem aviso: confirmem no dia.</p>
+    <p><b>Fotos:</b> Wikimedia Commons, com licença livre: Hito Tres Fronteras e centro de Puerto Iguazú (Horacio Cambeiro), centro de Ciudad del Este (Va de Carro), Parque das Aves (Deni Williams), Marco das 3 Fronteiras (Zig Koch / MTur Destinos), Ponte da Amizade (Pedro Nardi). Licenças indicadas em cada legenda.</p>
     <p><b>Distância e custo:</b> 2.268 km ida e volta (Google Maps, SJC → Foz pela BR-374). Pedágio estimado a partir do valor real São Paulo → Foz (emsampa.com.br) mais o trecho SJC–SP. Gasolina a R$ 6,47/l, média ANP-SP de jun/2026.</p>
     <p>Última atualização: 23/09/2026. A lista de outras opções de hospedagem não é mais atualizada automaticamente.</p>
   </footer>
