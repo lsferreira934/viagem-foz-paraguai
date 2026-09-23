@@ -133,6 +133,13 @@
   footer{ margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
   footer p{ margin:0 0 8px; }
   footer a{ color:inherit; }
+
+  .todo li span:first-child::before{ content:""; display:inline-block; width:11px; height:11px; border:1.5px solid var(--muted); border-radius:3px; margin-right:9px; transform:translateY(1px); }
+  .pics{ grid-template-columns:1fr 1fr; }
+  section#grupo{ padding-top:36px; }
+
+  figure.wide img{ aspect-ratio:16/9; }
+  @media (max-width:560px){ .rows li{ flex-wrap:wrap; gap:2px 12px; } .rows .v{ white-space:normal; } }
 </style>
 </head>
 <body>
@@ -140,34 +147,52 @@
 
   <header>
     <h1>Foz do Iguaçu, Paraguai e Argentina</h1>
-    <p class="sub">5 pessoas · saída de São José dos Campos na quinta, 08/10 · volta na segunda, 12/10</p>
+    <p class="sub">08 a 12 de outubro · 5 pessoas · saída de São José dos Campos</p>
     <ul class="jump">
+      <li><a href="#fazer">A fazer</a></li>
       <li><a href="#roteiro">Roteiro</a></li>
-      <li><a href="#carro">Carro</a></li>
+      <li><a href="#documentos">Documentos</a></li>
       <li><a href="#hospedagem">Hospedagem</a></li>
       <li><a href="#gastos">Gastos</a></li>
-      <li><a href="#cupons">Cupons</a></li>
-      <li><a href="#estacionar">Estacionar</a></li>
-      <li><a href="#paraguai">Compras no Paraguai</a></li>
-      <li><a href="#documentos">Documentos</a></li>
       <li><a href="#mapas">Mapas</a></li>
     </ul>
   </header>
 
   <p class="status">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
-    <span><b>Carro e hospedagem reservados.</b> Carro, gasolina, pedágio e hospedagem dão cerca de R$ 581 por pessoa; com ingressos, estacionamento e comida, a meta fica entre R$ 1.021 (jantar em casa) e R$ 1.071 (jantar fora) por pessoa. <a href="#gastos">Ver gastos</a></span>
+    <span><b>Carro e hospedagem reservados.</b> Estimativa total: ≈ R$ 1.155 a 1.205 por pessoa. <a href="#gastos">Ver gastos</a></span>
   </p>
+
+  <section id="grupo">
+    <h2>Quem vai</h2>
+    <ul class="rows">
+      <li><span>Leandro e Cíntia</span><span class="v">casal · quarto 2</span></li>
+      <li><span>Emerson e Alice</span><span class="v">casal · quarto 1 (cama de casal)</span></li>
+      <li><span>Alisson, irmão da Alice</span><span class="v">quarto 1 (futon)</span></li>
+    </ul>
+    <p class="fine">Divisão de quartos é só sugestão: a casa tem um quarto com cama de casal e futon e outro com cama de casal.</p>
+  </section>
+
+  <section id="fazer">
+    <h2>A fazer antes de viajar</h2>
+    <ul class="rows todo">
+      <li><span>Pagar a hospedagem (grátis cancelar até 4/10)</span><span class="v">até 2/10</span></li>
+      <li><span>Avisar o anfitrião que chegam depois das 19h e perguntar do portão</span><span class="v">chat do Booking</span></li>
+      <li><span>Confirmar se o carro alugado pode entrar na Argentina</span><span class="v">antes de sexta</span></li>
+      <li><span>Cada um conferir se o RG tem menos de 10 anos</span><span class="v">já</span></li>
+      <li><span>Comprar ingresso das Cataratas com dia e hora (feriado lota)</span><span class="v">online</span></li>
+      <li><span>Baixar o mapa offline de Foz, Ciudad del Este e Puerto Iguazú</span><span class="v">ainda no Brasil</span></li>
+    </ul>
+  </section>
 
   <section id="roteiro">
     <h2>Roteiro</h2>
-    <p class="lede">Montado pelo grupo (Alison). Horários e locais podem mudar.</p>
     <ol class="days">
       <li>
         <div class="when"><b>Qui</b>08/10</div>
         <div>
-          <h3>Saída de São José dos Campos, 19h</h3>
-          <p>Carro retirado às 15h. Rodízio ao volante: Cíntia 19h–22h, Leandro 22h–01h, Alison 01h–04h, Emerson 04h–07h, Alice 07h–10h.</p>
+          <h3>Saída de SJC, 19h</h3>
+          <p>Carro retirado às 15h. Volante: Cíntia 19h, Leandro 22h, Alisson 1h, Emerson 4h, Alice 7h.</p>
         </div>
       </li>
       <li>
@@ -175,19 +200,17 @@
         <div>
           <h3>Argentina, Puerto Iguazú</h3>
           <div class="pics">
-            <figure><img src="img/hito.jpg" alt="Hito Tres Fronteras, em Puerto Iguazú" loading="lazy" width="900" height="600"><figcaption>Hito Tres Fronteras. Foto: Horacio Cambeiro, CC BY 4.0</figcaption></figure>
-            <figure><img src="img/iguazu.jpg" alt="Centro de Puerto Iguazú" loading="lazy" width="900" height="600"><figcaption>Centro de Puerto Iguazú. Foto: Horacio Cambeiro, CC BY-SA 4.0</figcaption></figure>
+            <figure><img src="img/hito.jpg" alt="Hito Tres Fronteras" loading="lazy" width="900" height="676"><figcaption>Hito Tres Fronteras · Horacio Cambeiro, CC BY 4.0</figcaption></figure>
+            <figure><img src="img/iguazu.jpg" alt="Centro de Puerto Iguazú" loading="lazy" width="900" height="676"><figcaption>Centro de Puerto Iguazú · Horacio Cambeiro, CC BY-SA 4.0</figcaption></figure>
           </div>
-          <p>Chegada por volta das 10h–11h, direto da estrada. Confirmem antes se o carro alugado pode entrar na Argentina (veja <a href="#carro">Carro</a>). A fila na aduana da Ponte Tancredo Neves pode levar de 2 a 4 horas em dia cheio; o aplicativo Puenty mostra a fila em tempo real.</p>
-          <p class="hours-t">Horários na sexta</p>
+          <p>Chegada 10h–11h. Fila na aduana pode passar de 2h (app Puenty mostra ao vivo). Check-in na casa só até 19h: combinar chegada tardia.</p>
           <ul class="hours">
-            <li><span>Hito Tres Fronteras</span><span class="h">aberto o dia todo · show de águas por volta das 20h</span></li>
-            <li><span>Feirinha de Puerto Iguazú</span><span class="h">fontes divergem (algo como 9h–14h e 16h–23h)</span></li>
-            <li><span>Duty Free Puerto Iguazú</span><span class="h">12h–21h</span></li>
-            <li><span>Casino Iguazú (City Center)</span><span class="h">a partir das 14h</span></li>
-            <li><span>Mucha Previa (almoço), Perito Moreno 221</span><span class="h">só achei horário de delivery (19h–4h): confirmem se abre no almoço</span></li>
+            <li><span>Hito Tres Fronteras</span><span class="h">o dia todo · show de águas ~20h</span></li>
+            <li><span>Duty Free</span><span class="h">12h–21h</span></li>
+            <li><span>Casino Iguazú</span><span class="h">a partir das 14h</span></li>
+            <li><span>Feirinha</span><span class="h">horário incerto (~9h–14h e 16h–23h)</span></li>
+            <li><span>Almoço: Mucha Previa, Perito Moreno 221</span><span class="h">confirmar se abre no almoço</span></li>
           </ul>
-          <p>Jantar em aberto: em casa ou fora (veja <a href="#cupons">Cupons</a>); a Cantina La Dona Elvira fecha às sextas. Atenção: o check-in na hospedagem só vai das 15h às 19h, então combinem a chegada tardia com o anfitrião (veja <a href="#hospedagem">Hospedagem</a>).</p>
         </div>
       </li>
       <li>
@@ -195,24 +218,19 @@
         <div>
           <h3>Paraguai, Ciudad del Este</h3>
           <div class="pics">
-            <figure><img src="img/cde.jpg" alt="Centro de Ciudad del Este" loading="lazy" width="900" height="600"><figcaption>Centro de Ciudad del Este. Foto: Va de Carro, CC BY 3.0</figcaption></figure>
-            <figure><img src="img/ponte.jpg" alt="Ponte da Amizade, entre Foz do Iguaçu e Ciudad del Este" loading="lazy" width="900" height="506"><figcaption>Ponte da Amizade. Foto: Pedro Nardi, CC BY 4.0</figcaption></figure>
+            <figure><img src="img/cde.jpg" alt="Centro de Ciudad del Este" loading="lazy" width="900" height="676"><figcaption>Centro de Ciudad del Este · Va de Carro, CC BY 3.0</figcaption></figure>
+            <figure><img src="img/ponte.jpg" alt="Ponte da Amizade" loading="lazy" width="900" height="506"><figcaption>Ponte da Amizade · Pedro Nardi, CC BY 4.0</figcaption></figure>
           </div>
-          <p>Chegada ao microcentro por volta das 8h30–9h. <b>Várias lojas fecham às 16h no sábado</b>: comecem pela SA Shop, Nissei e Mega Eletrônicos, e deixem Shopping China, New Zone e CellShop, que ficam abertos até mais tarde, para o fim.</p>
-          <p class="hours-t">Horários no sábado</p>
+          <p>Carro no estacionamento perto da aduana (fecha 18h) e ponte a pé. Chegada 8h30–9h. <b>Comecem pelas lojas que fecham às 16h.</b></p>
           <ul class="hours">
             <li><span>SA Shop</span><span class="h">7h–16h</span></li>
             <li><span>Mega Eletrônicos</span><span class="h">6h30–16h</span></li>
-            <li><span>Nissei</span><span class="h">abre por volta das 6h30 e fecha entre 15h e 16h (fontes divergem)</span></li>
-            <li><span>Shopping Paris</span><span class="h">a partir das 7h; fechamento varia (por volta das 18h)</span></li>
+            <li><span>Nissei</span><span class="h">~6h30 a 15h–16h</span></li>
+            <li><span>Shopping Paris</span><span class="h">7h até ~18h</span></li>
             <li><span>Shopping China</span><span class="h">7h–20h</span></li>
             <li><span>CellShop</span><span class="h">9h–21h</span></li>
             <li><span>New Zone</span><span class="h">7h–22h</span></li>
-            <li><span>Intershop</span><span class="h">não achei o horário</span></li>
-            <li><span>Ponte da Amizade a pé</span><span class="h">24 horas, mas com fila na aduana aos sábados</span></li>
-            <li><span>Estacionamento Bismillah (lado brasileiro)</span><span class="h">4h–18h</span></li>
           </ul>
-          <p>Carro: deixem num estacionamento do lado brasileiro, perto da aduana (Vila Portes), e atravessem a pé. Os de lá fecham por volta das 18h, então voltem antes (veja <a href="#estacionar">Estacionar</a>). Almoço e jantar em aberto; o jantar pode ser em casa ou fora.</p>
         </div>
       </li>
       <li>
@@ -220,556 +238,137 @@
         <div>
           <h3>Foz do Iguaçu, saída às 20h</h3>
           <div class="pics">
-            <figure><img src="img/aves.jpg" alt="Parque das Aves, em Foz do Iguaçu" loading="lazy" width="900" height="600"><figcaption>Parque das Aves. Foto: Deni Williams, CC BY 2.0</figcaption></figure>
-            <figure><img src="img/marco.jpg" alt="Marco das Três Fronteiras, em Foz do Iguaçu" loading="lazy" width="900" height="600"><figcaption>Marco das 3 Fronteiras. Foto: Zig Koch / MTur Destinos, domínio público</figcaption></figure>
+            <figure><img src="img/cataratas.jpg" alt="Garganta do Diabo, Cataratas do Iguaçu" loading="lazy" width="900" height="598"><figcaption>Cataratas, lado brasileiro · Josep M. Gracia, CC BY-SA 4.0</figcaption></figure>
+            <figure><img src="img/marco.jpg" alt="Marco das Três Fronteiras" loading="lazy" width="900" height="600"><figcaption>Marco das 3 Fronteiras · Zig Koch / MTur, domínio público</figcaption></figure>
+            <figure><img src="img/aves.jpg" alt="Parque das Aves" loading="lazy" width="900" height="598"><figcaption>Parque das Aves · Deni Williams, CC BY 2.0</figcaption></figure>
+            <figure><img src="img/templo.jpg" alt="Templo Budista Chen Tien" loading="lazy" width="900" height="600"><figcaption>Templo Budista · Jonas de Carvalho, CC BY-SA 2.0</figcaption></figure>
           </div>
-          <p>Check-out até 12h, com as malas no carro. Sugestão de ordem: Parque das Aves de manhã (fecha às 16h30), almoço no Barracão, Marco das 3 Fronteiras a partir das 15h (o show é por volta das 18h30), jantar e saída às 20h.</p>
-          <p class="hours-t">Horários no domingo</p>
           <ul class="hours">
-            <li><span>Parque das Aves</span><span class="h">8h30–16h30</span></li>
-            <li><span>Marco das 3 Fronteiras</span><span class="h">15h–21h · estacionamento grátis</span></li>
-            <li><span>Restaurante Barracão (buffet)</span><span class="h">11h–15h30</span></li>
-            <li><span>Cantina La Dona Elvira Dom Rocha</span><span class="h">aberta o dia todo, até por volta das 23h</span></li>
-            <li><span>Shawarmaria Asmars</span><span class="h">11h–23h</span></li>
-            <li><span>Cantina 4 Sorelle</span><span class="h">11h30–14h30 e 18h–23h</span></li>
-            <li><span>Restaurante Roque</span><span class="h">fechado no domingo</span></li>
-            <li><span>Doce Pão Panificadora</span><span class="h">fechada no domingo</span></li>
+            <li><span>Café, malas no carro, check-out</span><span class="h">7h–7h40</span></li>
+            <li><span>Cataratas (trilha até a Garganta do Diabo)</span><span class="h">8h30–11h</span></li>
+            <li><span>Parque das Aves (em frente às Cataratas)</span><span class="h">11h15–13h</span></li>
+            <li><span>Almoço (Barracão, buffet)</span><span class="h">13h–14h</span></li>
+            <li><span>Templo Budista (grátis)</span><span class="h">14h30–15h30</span></li>
+            <li><span>Marco das 3 Fronteiras (show ~18h30)</span><span class="h">15h45–18h30</span></li>
+            <li><span>Jantar (Asmars, 4 Sorelle ou Dona Elvira)</span><span class="h">18h30–19h30</span></li>
+            <li><span>Saída pra SJC · volante: Cíntia, Leandro, Alisson, Alice, Emerson</span><span class="h">20h</span></li>
           </ul>
-          <p>Rodízio na volta: Cíntia 20h–23h, Leandro 23h–02h, Alison 02h–05h, Alice 05h–08h, Emerson 08h–11h.</p>
+          <p class="fine">Apertado no Parque das Aves: se quiserem mais tempo lá, cortem o Templo. Fechados no domingo: Restaurante Roque, Doce Pão e a Mesquita.</p>
         </div>
       </li>
       <li>
         <div class="when"><b>Seg</b>12/10</div>
         <div>
-          <h3>Chegada em SJC, por volta das 11h</h3>
-          <p>Devolução do carro até 16h: a loja tem horário reduzido nesse feriado (Nossa Senhora Aparecida).</p>
+          <h3>Chegada em SJC ~11h</h3>
+          <p>Devolver o carro até 16h (feriado).</p>
         </div>
       </li>
     </ol>
+  </section>
+
+  <section id="outros">
+    <h2>Outros passeios em Foz</h2>
+    <p class="lede">Não cabem no domingo, mas ficam de referência.</p>
+    <figure class="wide"><img src="img/itaipu.jpg" alt="Usina de Itaipu" loading="lazy" width="900" height="600"><figcaption>Itaipu · Cmasi, CC BY-SA 4.0</figcaption></figure>
+    <ul class="rows">
+      <li><span>Itaipu Panorâmica (1h10–1h30)</span><span class="v">R$ 63</span></li>
+      <li><span>Roda-gigante Yup Star (compra online)</span><span class="v">R$ 59,90</span></li>
+      <li><span>Cataratas, lado argentino (dia inteiro)</span><span class="v">≈ R$ 240</span></li>
+      <li><span>Macuco Safari (barco nas Cataratas)</span><span class="v">R$ 384</span></li>
+    </ul>
+  </section>
+
+  <section id="documentos">
+    <h2>Documentos</h2>
+    <ul class="rows">
+      <li><span>RG ou CIN <b>físico</b>, emitido há menos de 10 anos</span><span class="v">serve</span></li>
+      <li><span>Passaporte válido</span><span class="v">serve</span></li>
+      <li><span>CNH, ou RG só no celular</span><span class="v">não serve</span></li>
+      <li><span>Carro na Argentina: CNH, CRLV, Carta Verde e autorização da locadora</span><span class="v">obrigatório</span></li>
+    </ul>
+    <p class="fine">Se a Unidas não autorizar, deixem o carro em Foz e cruzem para a Argentina de ônibus, táxi ou Uber. No Paraguai o carro fica do lado brasileiro. Compras: cota de US$ 500 por pessoa; guardem as notas.</p>
   </section>
 
   <section id="carro">
     <h2>Carro</h2>
     <div class="car">
-      <img src="img/carro.png" alt="SUV, foto ilustrativa da categoria" loading="lazy">
+      <img src="img/carro.png" alt="SUV, foto ilustrativa" loading="lazy">
       <div>
-        <p class="car-name"><b>SUV Médio</b> <span class="ok">Reservado</span><br>Volkswagen T-Cross, Nissan Kicks ou Hyundai Creta</p>
+        <p class="car-name"><b>SUV Médio</b> <span class="ok">Reservado</span><br>T-Cross, Kicks ou Creta · Unidas</p>
         <ul class="rows">
-          <li><span>Aluguel Unidas, 4 diárias + Proteção Padrão</span><span class="v">R$ 632,50</span></li>
-          <li><span>Combustível ida e volta (2.268 km)</span><span class="v">≈ R$ 1.334</span></li>
-          <li><span>Pedágio ida e volta (estimado)</span><span class="v">≈ R$ 340</span></li>
-          <li class="sum"><span>Total do carro</span><span class="v">≈ R$ 2.306,50</span></li>
-          <li class="sum"><span>Por pessoa (÷ 5)</span><span class="v">≈ R$ 461</span></li>
+          <li><span>Retirada / devolução</span><span class="v">08/10 15h · 12/10 até 16h</span></li>
+          <li><span>Aluguel (4 diárias + proteção)</span><span class="v">R$ 632,50</span></li>
         </ul>
-        <p class="fine">Reserva confirmada na Unidas em 22/09, retirada 08/10 às 15h, devolução 12/10. A foto é ilustrativa da categoria, não o modelo exato.</p>
       </div>
     </div>
-      <p class="note"><b>Confirmem antes da viagem se o carro pode entrar na Argentina e no Paraguai.</b> Vários guias dizem que Unidas, Localiza e Movida não deixam cruzar a fronteira com carro alugado, ou só deixam com autorização e o seguro Carta Verde. O contrato da Unidas que consegui ler (versão de 2022) não trata do assunto, então o texto não responde. Liguem para a Unidas (0800 6 121 121), perguntem e peçam a resposta por escrito. Se não puder, o Paraguai dá para fazer a pé pela Ponte da Amizade, deixando o carro do lado brasileiro, mas o plano da Argentina na sexta muda.</p>
   </section>
 
   <section id="hospedagem">
     <h2>Hospedagem</h2>
-    <p class="car-name"><b>Casa com piscina em Foz do Iguaçu</b> <span class="ok">Reservado</span><br>Rua das Rosas, 1024 · CEP 85855-147 · <a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+das+Rosas+1024+Foz+do+Igua%C3%A7u+PR" target="_blank" rel="noopener">ver no mapa</a></p>
+    <p class="car-name"><b>Casa com piscina</b> <span class="ok">Reservado</span><br>Rua das Rosas, 1024, Foz do Iguaçu · <a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+das+Rosas+1024+Foz+do+Igua%C3%A7u+PR" target="_blank" rel="noopener">mapa</a></p>
     <ul class="rows">
-      <li><span>Datas</span><span class="v">sex 09/10 a dom 11/10 (2 noites)</span></li>
-      <li><span>Check-in</span><span class="v">das 15h às 19h</span></li>
-      <li><span>Check-out</span><span class="v">das 7h às 12h</span></li>
-      <li><span>Valor total, com taxas</span><span class="v">R$ 600</span></li>
-      <li class="sum"><span>Por pessoa (÷ 5)</span><span class="v">R$ 120</span></li>
-      <li><span>Pagamento</span><span class="v">R$ 600 programado, R$ 0 pago</span></li>
+      <li><span>Datas</span><span class="v">sex 09/10 a dom 11/10</span></li>
+      <li><span>Check-in / check-out</span><span class="v">15h–19h · até 12h</span></li>
+      <li><span>Valor (R$ 120 por pessoa)</span><span class="v">R$ 600</span></li>
     </ul>
-    <p class="note"><b>Atenção ao check-in.</b> A casa só recebe das 15h às 19h e pede que o horário de chegada seja informado com antecedência. Pelo roteiro, o grupo passa o dia na Argentina na sexta e deve chegar depois das 19h: combinem isso com o anfitrião pelo chat do Booking antes da viagem. Aproveitem para perguntar se o portão e a fechadura estão funcionando (uma avaliação recente cita o portão da entrada quebrado).</p>
-    <p>A casa tem 2 quartos (cama de casal e futon num, cama de casal no outro), 2 banheiros e comporta até 6 pessoas, então o quinto hóspede dorme no futon. Tem piscina privativa, churrasqueira, cozinha, ar-condicionado, TV, Wi-Fi grátis e estacionamento grátis no local. Não pode fumar nem fazer festa; pets são aceitos sem custo.</p>
-    <p class="fine">Segundo a página do Booking, o cancelamento é grátis antes de 4/10 e nada é cobrado até 2/10. A casa fica a 8,3 km da ponte em linha reta, então a travessia a pé começa de carro ou Uber até o estacionamento perto dela. Nota 8,5 com 24 avaliações; li 20 e nenhuma cita assalto ou furto.</p>
-
-    <details class="alts">
-      <summary>Outras opções que avaliamos (20), caso precise trocar</summary>
-      <p class="lede">Antes de fechar a Casa com piscina, avaliamos 21 opções. Aqui estão as outras 20, do mais barato ao mais caro. Preço total para 5 pessoas, 09→11/10 (2 noites), com taxas, conferido ao vivo em 23/09 e sem atualização depois disso. A distância é em linha reta até a Ponte da Amizade.</p>
-    <p class="note"><b>Segurança e proximidade andam em sentidos opostos.</b> As opções mais coladas na ponte (Vila Portes) são as que têm relato de problema à noite: assalto armado numa, rua com usuários de drogas noutra. As melhores avaliações de segurança ficam a 3–5 km, mas vocês têm o carro: dá pra dormir num lugar mais tranquilo e ir de carro até o estacionamento perto da ponte de manhã. O ponto colorido de cada opção resume só o que hóspedes escreveram nas avaliações, não é estatística oficial e não garante nada. Guias de turismo dizem o mesmo da região: hospedagem simples e bem localizada, mas atenção redobrada à noite.</p>
-    <div class="top3" id="top3">
-      <h3>As 3 que eu escolheria</h3>
-      <p class="lede">Só entram opções com vaga, lugar pro carro, pelo menos 10 avaliações lidas e nenhuma queixa de segurança. Entre elas, pesei segurança (30%), proximidade da ponte (25%), preço (25%), vaga do carro (10%) e volume de avaliações (10%).</p>
-      <ol class="picks">
-        <li>
-          <span class="rank">1</span>
-          <div>
-            <div class="pick-head"><a href="#stay-airbnb-1274112521841529246">Apartamento 402</a> <span class="t3-price" data-ref="stay-airbnb-1274112521841529246">R$ 1.082</span> <span class="score">80/100 · a mais segura no conjunto</span></div>
-            <p>Condomínio com portaria 24h e vaga interna; cerca de 20 avaliações elogiam a segurança e nenhuma reclama. <b>Ponto fraco:</b> apartamento velho, que pede manutenção, e fica a 2,8 km da ponte (vão de carro).</p>
-          </div>
-        </li>
-        <li>
-          <span class="rank">2</span>
-          <div>
-            <div class="pick-head"><a href="#stay-airbnb-1040492699020476735">Descanso e privacidade</a> <span class="t3-price" data-ref="stay-airbnb-1040492699020476735">R$ 775</span> <span class="score">71/100 · melhor equilíbrio</span></div>
-            <p>Superhost que mora ao lado, 24 avaliações lidas sem queixa e duas elogiando a segurança, com o menor preço entre as que passaram no filtro de segurança e distância razoável (3,3 km). <b>Ponto fraco:</b> o carro fica na rua (grátis, mas sem vaga própria).</p>
-          </div>
-        </li>
-        <li>
-          <span class="rank">3</span>
-          <div>
-            <div class="pick-head"><a href="#stay-airbnb-1523462803810168192">Apartamento 04</a> <span class="t3-price" data-ref="stay-airbnb-1523462803810168192">R$ 934</span> <span class="score">71/100 · perto da ponte sem pesar no bolso</span></div>
-            <p>A 2,1 km da ponte, com estacionamento no local, 12 avaliações lidas sem queixa e uma dizendo "bairro tranquilo". <b>Ponto fraco:</b> só 13 avaliações no total e um problema de água na escada que não foi consertado.</p>
-          </div>
-        </li>
-      </ol>
-      <p class="fine">A Casa aconchegante e segura na Vila A (R$ 1.292) empatou em pontos com a 2ª e a 3ª (72/100) e é a de melhor histórico, com 92 avaliações e garagem com portão. Desempatei pelo que vocês pediram, mais perto e mais barato, mas ela é a melhor alternativa se o preço couber.</p>
-      <details class="stay-more"><summary>Como escolhi (a conta)</summary>
-        <p>Nota de 0 a 100 em cada critério, com o total pelos pesos acima. Proximidade: 100 até 1,2 km, caindo até 0 em 6 km. Preço: 100 em R$ 560, caindo até 0 em R$ 1.700. Segurança e avaliações vêm do que hóspedes escreveram, e vaga do carro dá mais nota para garagem fechada do que para rua. A nota é um critério meu, não um dado oficial.</p>
-        <div class="scorewrap"><table class="scoretable">
-          <thead><tr><th>Opção</th><th>Segurança</th><th>Perto</th><th>Preço</th><th>Vaga</th><th>Aval.</th><th>Total</th></tr></thead>
-          <tbody>
-            <tr><td>Apartamento 402</td><td>100</td><td>67</td><td>54</td><td>100</td><td>100</td><td>80</td></tr>
-            <tr><td>Casa na Vila A</td><td>100</td><td>50</td><td>36</td><td>100</td><td>100</td><td>72</td></tr>
-            <tr><td>Descanso e privacidade</td><td>80</td><td>56</td><td>81</td><td>50</td><td>80</td><td>71</td></tr>
-            <tr><td>Apartamento 04</td><td>65</td><td>81</td><td>67</td><td>85</td><td>60</td><td>71</td></tr>
-            <tr><td>Casa Rossato II</td><td>75</td><td>29</td><td>86</td><td>100</td><td>60</td><td>67</td></tr>
-            <tr><td>Apartamento Premium Família</td><td>60</td><td>100</td><td>4</td><td>50</td><td>80</td><td>57</td></tr>
-          </tbody>
-        </table></div>
-        <p>Ficaram de fora do Top 3 por não passar no filtro: quem tem menos de 10 avaliações (a maioria das mais baratas e das mais perto), quem tem relato de assalto ou de problema à noite (Casa Foz tríplice fronteira, Pousada Fronteira City, Casa completa privativa) e quem tem nota baixa (Iguaçu Fal).</p>
-      </details>
-    </div>
-
-    <ol class="stays">
-      <li class="stay-mini" id="stay-casa-aconchegante-foz-do-iguacu18">
-        <div class="stay-price"><span class="price">R$ 560</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa Aconchegante</h3>
-          <p class="stay-meta"><span class="dist">8,1 km da ponte</span> · Sugerida pelo grupo · <span class="meta">Rua das Dálias · garagem coberta grátis · 2 quartos · nota 10 (6 avaliações) · Booking</span></p>
-          <p class="safe unk">6 avaliações, nenhuma cita segurança (nem bem, nem mal)</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> a mais barata da lista, garagem coberta, limpeza e conforto muito elogiados, anfitriã atenciosa, cancelamento grátis até 7/10.</p>
-          <p><b>Contras.</b> longe da ponte (8,1 km — só de carro), um hóspede diz que fica "um pouco fora do eixo de Foz", só 6 avaliações.</p>
-          <p><b>Segurança.</b> nenhuma das 6 avaliações cita problema, mas ninguém fala de segurança. Amostra pequena.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/casa-aconchegante-foz-do-iguacu18.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-centro-av-cataratas-eventos-e-atrativos">
-        <div class="stay-price"><span class="price">R$ 639</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa Central, Av. Cataratas, Eventos e Atrativos</h3>
-          <p class="stay-meta"><span class="dist">5,2 km da ponte</span> · Sugerida pelo grupo · <span class="meta">estacionamento NÃO listado (perguntar ao anfitrião) · sem avaliações · Booking</span></p>
-          <p class="safe unk">sem nenhuma avaliação — nada verificável</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> bairro residencial perto do centro, mercado e farmácia por perto, anfitrião com nota 10, cancelamento grátis até 1/10.</p>
-          <p><b>Contras.</b> nenhuma avaliação, e a página não lista estacionamento (vocês precisam de lugar pro carro).</p>
-          <p><b>Segurança.</b> sem avaliações não dá pra saber.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/centro-av-cataratas-eventos-e-atrativos.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1755058083535541483">
-        <div class="stay-price"><span class="price">R$ 660</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa completa próximo ao Paraguai</h3>
-          <p class="stay-meta"><span class="dist">2,1 km da ponte</span> · <span class="meta">estacionamento grátis no local · anúncio novo, nota 5,0 (1 avaliação) · Airbnb</span></p>
-          <p class="safe unk">sem histórico — só 1 avaliação, não dá pra garantir</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> mais barata da lista perto da ponte, perto de mercado, estacionamento grátis; a única avaliação elogia limpeza e diz que é fácil chegar à ponte.</p>
-          <p><b>Contras.</b> anúncio novo (anfitrião há 1 mês), bairro não informado.</p>
-          <p><b>Segurança.</b> a avaliação única não cita problema, mas 1 avaliação não prova nada.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1755058083535541483" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1458978536338145462">
-        <div class="stay-price"><span class="price">R$ 724</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa Rossato II</h3>
-          <p class="stay-meta"><span class="dist">4,6 km da ponte</span> · <span class="meta">garagem fechada com portão eletrônico · nota 5,0 (11 avaliações) · Airbnb</span></p>
-          <p class="safe good">11 avaliações lidas, nenhuma queixa; 2 dizem "casa segura"</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> garagem fechada com portão eletrônico, residencial silencioso em frente a uma escola e perto de padaria, anfitriões gentis, casa limpa, ar-condicionado nos 2 quartos.</p>
-          <p><b>Contras.</b> uns 10 min de carro ou Uber da ponte — não dá pra ir a pé.</p>
-          <p><b>Segurança.</b> li as 11 avaliações: duas dizem "casa segura" e "bairro tranquilo e seguro"; nenhuma cita problema (uma só pede pra câmera externa não apontar pra porta da sala — é privacidade, não assalto).</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1458978536338145462" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1643663370309128587">
-        <div class="stay-price"><span class="price">R$ 758</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa Foz do Iguaçu tríplice fronteira</h3>
-          <p class="stay-meta"><span class="dist">1,2 km da ponte</span> · <span class="meta">Vila Portes · estacionamento grátis no local · nota 4,53 (34 avaliações) · Airbnb</span></p>
-          <p class="safe bad">EVITAR — assalto armado recente e mais 4 relatos de insegurança</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> 3 min de carro ou 20-25 min a pé da ponte, casa equipada, anfitriã responde rápido.</p>
-          <p><b>Contras.</b> nota 4,53 (entre as mais baixas do Airbnb), sem água num relato, calor.</p>
-          <p><b>Segurança.</b> li 24 das 34 avaliações; 5 citam segurança. Em julho/2026, 3 homens armados pularam o muro, arrombaram a porta e roubaram uma família (a anfitriã respondeu "não é a primeira vez"). Outro hóspede saiu antes do fim ao saber do caso; outro descreve a casa "na rua de uma favela", com muros baixos; outros dois falam de rua mal iluminada à noite e de "não nos sentimos seguros" pra ir a pé. O próprio anfitrião escreve que o bairro "requer cuidado e atenção".</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1643663370309128587" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1040492699020476735">
-        <div class="stay-price"><span class="price">R$ 775</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Descanso e privacidade</h3>
-          <p class="stay-meta"><span class="dist">3,3 km da ponte</span> · <span class="meta">estacionamento grátis na rua (sem vaga própria) · nota 4,97 (39 avaliações) · Superhost · Airbnb</span></p>
-          <p class="safe good">24 avaliações lidas, nenhuma queixa; 2 elogiam a segurança</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> anfitrião Superhost muito atencioso (mora ao lado), casa completa, ar-condicionado nos 2 cômodos, perto do JL Shopping e da Av. Paraná.</p>
-          <p><b>Contras.</b> sem vaga própria pro carro (só rua, grátis); a 3,3 km da ponte — melhor ir de carro do que a pé.</p>
-          <p><b>Segurança.</b> li 24 das 39 avaliações: nenhuma cita problema; duas elogiam ("tranquilo, seguro e silencioso" e "4 mulheres, nos sentimos muito seguras").</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1040492699020476735" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-hospedagem-barata-em-foz-do-iguacu">
-        <div class="stay-price"><span class="price">R$ 800</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa completa privativa</h3>
-          <p class="stay-meta"><span class="dist">8,1 km da ponte</span> · Sugerida pelo grupo · Só por consulta ao anfitrião, resposta em até 24h · <span class="meta">Rua Orleans, zona afastada · estacionamento grátis · nota 8,3 (50 avaliações) · Booking</span></p>
-          <p class="safe mid">1 avaliação recente cita "tiros em frente"</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> ótimo custo-benefício, anfitrião atencioso, carro na porta; duas avaliações elogiam a tranquilidade ("acolhedor e seguro").</p>
-          <p><b>Contras.</b> mofo e sujeira em várias avaliações, anúncio diferente da realidade, barulho, longe da ponte (8,1 km), não confirma na hora (só por consulta).</p>
-          <p><b>Segurança.</b> li as 20 mais recentes: uma (mar/2026, nota 1) fala em "tiros em frente" e o dono batendo na porta de madrugada; nenhuma cita assalto ou furto.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/hospedagem-barata-em-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-4-min-do-paraguai-casa-com-piscina-e-privacidade">
-        <div class="stay-price"><span class="price">R$ 840</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>4 min do Paraguai (casa com piscina)</h3>
-          <p class="stay-meta"><span class="dist">4,0 km da ponte</span> · <span class="meta">estacionamento incluso · nota 8,3 (3 avaliações) · Booking</span></p>
-          <p class="safe unk">só 3 avaliações, nenhuma cita problema</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> casa com piscina, simples e equipada, bem localizada; o anfitrião diz que é "totalmente cercada, segura" (afirmação dele).</p>
-          <p><b>Contras.</b> pouco histórico (3 avaliações).</p>
-          <p><b>Segurança.</b> nenhuma das 3 avaliações cita problema; é pouco pra concluir.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/4-min-do-paraguai-casa-com-piscina-e-privacidade.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1523462803810168192">
-        <div class="stay-price"><span class="price">R$ 934</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Apartamento 04</h3>
-          <p class="stay-meta"><span class="dist">2,1 km da ponte</span> · <span class="meta">estacionamento grátis no local · nota 4,85 (13 avaliações) · Superhost · Airbnb</span></p>
-          <p class="safe good">12 avaliações lidas, nenhuma queixa; 1 diz "bairro tranquilo"</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> espaçoso e limpo, perto da ponte e do centro, estacionamento no local, cabe até 6 pessoas em 3 quartos.</p>
-          <p><b>Contras.</b> problema de água na escada que não foi consertado; só 13 avaliações; anfitriã Superhost há apenas 10 meses; 1 banheiro pra todos.</p>
-          <p><b>Segurança.</b> li 12 das 13 avaliações (11 de 5 estrelas e 1 de 4): uma diz "bairro tranquilo" e ninguém cita problema de segurança. Amostra pequena.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1523462803810168192" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-pousada-fronteira-city-foz-do-iguacu">
-        <div class="stay-price"><span class="price">R$ 945</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Pousada Fronteira City</h3>
-          <p class="stay-meta"><span class="dist">1,1 km da ponte</span> · <span class="meta">Vila Portes · estacionamento pago no local · nota 7,9 (25 avaliações) · Booking</span></p>
-          <p class="safe mid">1 avaliação cita rua com usuários de drogas à noite</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> perto da ponte (hóspedes vão a pé), funcionários simpáticos, ambiente familiar.</p>
-          <p><b>Contras.</b> só 2 banheiros pra pousada toda, quartos quentes (um relato de ar-condicionado quebrado), problema de overbooking: uma hóspede teve a reserva cancelada às 20h da véspera por "lotação".</p>
-          <p><b>Segurança.</b> li as 25 avaliações (14 com texto): 1 diz que à noite a rua tem muitos usuários de drogas; nenhuma fala de assalto. Se reservar, peçam a confirmação por escrito.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/pousada-fronteira-city-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-estudio-fantastico-no-centro-de-foz-com-garagem">
-        <div class="stay-price"><span class="price">R$ 960</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Estúdio Fantástico no centro de Foz com garagem</h3>
-          <p class="stay-meta"><span class="dist">4,9 km da ponte</span> · <span class="meta">garagem grátis · Booking</span></p>
-          <p class="safe unk">sem avaliações com texto — nada verificável</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> prédio novo com academia, garagem grátis, região central.</p>
-          <p><b>Contras.</b> o Booking mostra "nenhuma avaliação ainda" (a nota 9,8 vem de 38 avaliações externas, sem texto).</p>
-          <p><b>Segurança.</b> nada verificável.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/estudio-fantastico-no-centro-de-foz-com-garagem.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-residencial-habitzreuter">
-        <div class="stay-price"><span class="price">R$ 1.003</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Residencial Habitzreuter</h3>
-          <p class="stay-meta"><span class="dist">2,1 km da ponte</span> · <span class="meta">estacionamento grátis · Booking</span></p>
-          <p class="safe unk">nada verificável — única avaliação é nota 1 sem comentário</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> perto da ponte, estacionamento grátis.</p>
-          <p><b>Contras.</b> a única avaliação é péssima (nota 1, estadia incompleta em jan/2026, sem explicação), mais caro, só por consulta ao anfitrião.</p>
-          <p><b>Segurança.</b> nada verificável; o anfitrião diz "região tranquila, segura" (é afirmação dele).</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/residencial-habitzreuter.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1274112521841529246">
-        <div class="stay-price"><span class="price">R$ 1.082</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Apartamento 402 (condomínio com portaria 24h)</h3>
-          <p class="stay-meta"><span class="dist">2,8 km da ponte</span> · <span class="meta">vaga interna na garagem do condomínio, grátis · nota 4,65 (60 avaliações) · Airbnb</span></p>
-          <p class="safe good">72 avaliações lidas (Airbnb e Booking), cerca de 20 elogiam a segurança do condomínio, nenhuma queixa</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> condomínio com portaria 24h e vaga interna gratuita; várias avaliações dizem "condomínio seguro" e "segurança para o carro"; boa localização (9,6 no Booking); administradora profissional.</p>
-          <p><b>Contras.</b> apartamento antigo que pede manutenção (chuveiro e box ruins, fogão com defeito); uma avaliação cita cheiro de gás e outra vazamento na suíte; chave em cofre, sem fechadura eletrônica; a 2,8 km da ponte, então de carro.</p>
-          <p><b>Segurança.</b> li 52 avaliações no Airbnb e 20 no Booking: cerca de 15 e 5 falam bem da segurança do condomínio; nenhuma cita assalto, furto ou problema. Também está no Booking (R$ 1.019 + R$ 195 de taxas, R$ 1.214): <a href="https://www.booking.com/hotel/br/apt-3-quartos-a-10min-paraguai-e-5min-centro.pt-br.html" target="_blank" rel="noopener">ver no Booking</a>.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1274112521841529246" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-iguacu-fal">
-        <div class="stay-price"><span class="price">R$ 1.090</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Iguaçu Fal</h3>
-          <p class="stay-meta"><span class="dist">3,3 km da ponte</span> · <span class="meta">Av. Brasil, a 2 quadras da rodoviária · estacionamento (tipo não informado) · Booking</span></p>
-          <p class="safe mid">sem relato de assalto, mas nota baixa (3,7)</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> muito comércio ao redor, perto da rodoviária.</p>
-          <p><b>Contras.</b> nota 3,7: quartos sujos ou mofados, ar-condicionado e chuveiro quebrados, recepção grosseira; 2 relatos de overbooking ("não tinha quarto") e uma cobrança extra no cartão.</p>
-          <p><b>Segurança.</b> li 24 avaliações, nenhuma cita assalto ou perigo; um relato fala de janela que não fecha e fios soltos sobre um telhado.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/iguacu-fal.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1613931919772057184">
-        <div class="stay-price"><span class="price">R$ 1.201</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Edícula fronteira com piscina</h3>
-          <p class="stay-meta"><span class="dist">3,1 km da ponte</span> · <span class="meta">estacionamento grátis no local · nota 4,89 (9 avaliações) · Airbnb</span></p>
-          <p class="safe unk">9 avaliações, nenhuma cita problema — amostra pequena</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> construção nova, limpa e tranquila, com piscina; 2 quartos, 4 camas e 4 banheiros (capacidade 6); anfitriã atenciosa.</p>
-          <p><b>Contras.</b> só 9 avaliações; uma reclamação sobre utensílios; o preço estava com desconto (de R$ 1.512 por R$ 1.201), pode voltar ao valor cheio.</p>
-          <p><b>Segurança.</b> li 7 avaliações distintas de 9: nada sobre segurança, nem bem nem mal.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1613931919772057184" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-965965094744384065">
-        <div class="stay-price"><span class="price">R$ 1.292</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Casa aconchegante e segura na Vila A</h3>
-          <p class="stay-meta"><span class="dist">3,6 km da ponte</span> · <span class="meta">garagem dentro da casa, grátis, com portão eletrônico · nota 4,96 (92 avaliações) · Airbnb</span></p>
-          <p class="safe good">88 avaliações lidas, 18 elogiam a segurança do bairro, nenhuma queixa</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> a opção com mais histórico da lista; garagem com portão elétrico, ruas tranquilas, casa limpa e anfitrião flexível.</p>
-          <p><b>Contras.</b> preço alto (R$ 1.292) e a 3,6 km da ponte (só de carro); duas camas de casal por quarto, mas os hóspedes dizem que comporta 6; 4 avaliações de 4 estrelas com problemas menores.</p>
-          <p><b>Segurança.</b> li 88 das 92 avaliações: 18 falam bem do bairro ("bairro seguro", "ruas tranquilas", "portão elétrico", "segurança perfeita") e nenhuma cita problema de segurança.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/965965094744384065" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-aparamento-novo-com-garagem-proximo-ao-paraguai">
-        <div class="stay-price"><span class="price">R$ 1.328</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Apartamento com garagem próx. Paraguai</h3>
-          <p class="stay-meta"><span class="dist">3,6 km da ponte</span> · <span class="meta">garagem grátis · Booking</span></p>
-          <p class="safe unk">sem avaliações no Booking — nada verificável</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> apartamento novo em prédio com elevador, garagem grátis.</p>
-          <p><b>Contras.</b> anúncio de estreia, nenhuma avaliação com texto (a nota 10 vem de 1 avaliação externa), preço alto.</p>
-          <p><b>Segurança.</b> nada verificável.</p>
-          </details>
-          <a class="go" href="https://www.booking.com/hotel/br/aparamento-novo-com-garagem-proximo-ao-paraguai.pt-br.html" target="_blank" rel="noopener">Abrir no Booking</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1754632231602047896">
-        <div class="stay-price"><span class="price">R$ 1.528</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Nossa Casa! Lazer Próxima ao Paraguai</h3>
-          <p class="stay-meta"><span class="dist">2,8 km da ponte</span> · <span class="meta">garagem grátis pra 4 carros · anúncio novo, nota 5,0 (1 avaliação) · Airbnb</span></p>
-          <p class="safe unk">sem histórico — só 1 avaliação</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> casa nova com piscina, câmeras externas, garagem pra 4 carros, em residencial tranquilo perto de mercado e padaria (segundo o anfitrião).</p>
-          <p><b>Contras.</b> preço alto, anúncio novo (anfitriã há 1 mês).</p>
-          <p><b>Segurança.</b> a única avaliação (5 estrelas) não cita problema, mas é pouco pra concluir.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1754632231602047896" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-1732743004102360718">
-        <div class="stay-price"><span class="price">R$ 1.648</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Perto da Ponte, Shopping e Rodoviária</h3>
-          <p class="stay-meta"><span class="dist">3,7 km da ponte</span> · <span class="meta">apartamento em residencial · estacionamento não confirmado · nota 5,0 (8 avaliações) · Airbnb</span></p>
-          <p class="safe good">8 avaliações lidas (todas 5 estrelas), nenhuma queixa</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> apartamento limpo e novinho, fechadura inteligente, câmeras externas; uma avaliação diz "lugar calmo, familiar".</p>
-          <p><b>Contras.</b> o mais caro da lista, estacionamento não confirmado (o site travou na checagem — perguntem ao anfitrião), poucas avaliações, anfitrião há só 11 meses.</p>
-          <p><b>Segurança.</b> li as 8 avaliações, nenhuma cita problema. Amostra pequena.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/1732743004102360718" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-      <li class="stay-mini" id="stay-airbnb-25108013">
-        <div class="stay-price"><span class="price">R$ 1.657</span><small>total</small></div>
-        <div class="stay-body">
-          <h3>Apartamento Premium Família</h3>
-          <p class="stay-meta"><span class="dist">1,1 km da ponte</span> · <span class="meta">Centro/Vila Portes · estacionamento grátis na rua (sem vaga própria) · nota 5,0 (23 avaliações) · Airbnb</span></p>
-          <p class="safe good">22 avaliações lidas (todas 5 estrelas), nenhuma queixa</p>
-          <details class="stay-more"><summary>Prós, contras e segurança</summary>
-          <p><b>Prós.</b> a mais perto da ponte entre as com bom histórico; 3 quartos, cabe até 8 pessoas; avaliações 5 estrelas de 2018 a jul/2026.</p>
-          <p><b>Contras.</b> caro (R$ 1.657); o carro fica na rua; só 1 banheiro; pernilongos à noite, cozinha pequena e um pouco escuro; uma avaliação diz que é "um pouco afastada do centro".</p>
-          <p><b>Segurança.</b> li 22 avaliações: nenhuma cita problema de segurança e uma fala em "vizinhos super tranquilos". Fica na região da Vila Portes, onde outras opções têm relatos de problema à noite, então vale o mesmo cuidado.</p>
-          </details>
-          <a class="go" href="https://www.airbnb.com.br/rooms/25108013" target="_blank" rel="noopener">Abrir no Airbnb</a>
-        </div>
-      </li>
-    </ol>
-    <p class="fine">Também sugeridas pelo grupo, mas <b>sem vaga em 09→11/out</b> (conferido 23/09), todas entre 7,6 e 10,7 km da ponte: <a href="https://www.booking.com/hotel/br/casa-relaxante-perto-das-cataratas-e-cachoeira.pt-br.html" target="_blank" rel="noopener">Casa Relaxante perto das Cataratas</a> · <a href="https://www.booking.com/hotel/br/casa-da-fernanda-e-do-fabio.pt-br.html" target="_blank" rel="noopener">Casa da Fernanda e do Fábio</a> · <a href="https://www.booking.com/hotel/br/jefferson-olaia.pt-br.html" target="_blank" rel="noopener">Heppy Home</a> (só tem a noite de 9→10).</p>
-    </details>
+    <p class="fine">2 quartos, 2 banheiros, piscina, churrasqueira, cozinha, ar, Wi-Fi e garagem grátis. A 8,3 km da ponte. Sem festa, sem fumar.</p>
   </section>
 
   <section id="gastos">
     <h2>Gastos</h2>
-    <p class="lede">Plano econômico: cortar o que dá no básico para sobrar mais para os passeios e para o Paraguai. O jantar ainda está em aberto, então a conta mostra os dois jeitos.</p>
-    <h3 class="sub-h">Carro e hospedagem</h3>
     <ul class="rows">
-      <li><span>Aluguel do carro (Unidas, 4 diárias + proteção)</span><span class="v">R$ 632,50</span></li>
-      <li><span>Combustível ida e volta (2.268 km)</span><span class="v">≈ R$ 1.334</span></li>
-      <li><span>Pedágio ida e volta (estimado)</span><span class="v">≈ R$ 340</span></li>
-      <li><span>Hospedagem (Casa com piscina, 2 noites)</span><span class="v">R$ 600</span></li>
-      <li><span>Estacionamento perto da ponte, sábado (1 dia)</span><span class="v">≈ R$ 25</span></li>
-      <li><span>Estacionamento do Marco das 3 Fronteiras</span><span class="v">grátis</span></li>
-      <li class="sum"><span>Subtotal</span><span class="v">≈ R$ 2.931,50</span></li>
+      <li><span>Carro (aluguel)</span><span class="v">R$ 632,50</span></li>
+      <li><span>Combustível e pedágio</span><span class="v">≈ R$ 1.674</span></li>
+      <li><span>Hospedagem</span><span class="v">R$ 600</span></li>
+      <li><span>Estacionamentos (ponte ≈ R$ 25, Cataratas R$ 65)</span><span class="v">≈ R$ 90</span></li>
+      <li><span>Cataratas (5 × R$ 121)</span><span class="v">R$ 605</span></li>
+      <li><span>Parque das Aves (5 × ≈ R$ 110)</span><span class="v">≈ R$ 550</span></li>
+      <li><span>Almoços, jantar de domingo, cafés e lanches</span><span class="v">≈ R$ 1.275</span></li>
+      <li><span>Jantares de sexta e sábado: em casa / fora</span><span class="v">≈ R$ 350 / 600</span></li>
+      <li class="sum"><span>Total do grupo</span><span class="v">≈ R$ 5.777 a 6.027</span></li>
+      <li class="sum"><span>Por pessoa</span><span class="v">≈ R$ 1.155 a 1.205</span></li>
+      <li class="sum"><span>Por casal</span><span class="v">≈ R$ 2.310 a 2.410</span></li>
     </ul>
-    <h3 class="sub-h">Ingressos e comida (meta)</h3>
-    <ul class="rows">
-      <li><span>Parque das Aves (5 × ≈ R$ 110, sem cupom)</span><span class="v">≈ R$ 550</span></li>
-      <li><span>Marco das 3 Fronteiras</span><span class="v">a confirmar</span></li>
-      <li><span>3 almoços fora: Argentina, Paraguai e Barracão (≈ R$ 160 por pessoa)</span><span class="v">≈ R$ 800</span></li>
-      <li><span>Jantar de domingo antes de sair (≈ R$ 45 por pessoa)</span><span class="v">≈ R$ 225</span></li>
-      <li><span>Cafés da manhã em casa e lanches de estrada (≈ R$ 50 por pessoa)</span><span class="v">≈ R$ 250</span></li>
-      <li class="sum"><span>Subtotal sem os jantares de sexta e sábado</span><span class="v">≈ R$ 1.825</span></li>
-    </ul>
-    <h3 class="sub-h">Jantares de sexta e sábado: os dois jeitos</h3>
-    <ul class="rows">
-      <li><span>Em casa (≈ R$ 35 por pessoa por jantar)</span><span class="v">≈ R$ 350</span></li>
-      <li><span>Fora, num rodízio ou buffet barato com cupom (≈ R$ 60 por pessoa por jantar)</span><span class="v">≈ R$ 600</span></li>
-    </ul>
-    <h3 class="sub-h">Total</h3>
-    <ul class="rows">
-      <li class="sum"><span>Jantando em casa: grupo / por pessoa</span><span class="v">≈ R$ 5.106,50 / ≈ R$ 1.021</span></li>
-      <li class="sum"><span>Jantando fora: grupo / por pessoa</span><span class="v">≈ R$ 5.356,50 / ≈ R$ 1.071</span></li>
-    </ul>
-    <p class="fine">Carro e hospedagem estão reservados; o resto é estimativa. Os valores de refeição são metas nossas, não preços de cardápio. Os cupons da seção abaixo podem baixar ingressos e jantares, mas não entraram na conta porque a validade deles não está garantida. Não inclui compras no Paraguai, câmbio nem um eventual custo para levar o carro alugado à Argentina (veja o aviso em Carro).</p>
+    <p class="fine">Fora da conta: Marco das 3 Fronteiras (preço a confirmar), compras no Paraguai e câmbio. Comida é meta, não cardápio.</p>
   </section>
 
   <section id="cupons">
-    <h2>Cupons e promoções</h2>
-    <p class="lede">Para ir acompanhando. Confirmem se ainda valem na hora de comprar: cupom de blog muda e expira sem aviso.</p>
-    <dl class="tips">
-      <dt>MDMARCO15: 15% no Marco das 3 Fronteiras</dt>
-      <dd>Divulgado pelo guia Melhores Destinos para visitas em 2026. <a href="https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras-foz-iguacu.html" target="_blank" rel="noopener">Ver no Melhores Destinos</a></dd>
-      <dt>FOZ20 + MELHORESDESTINOS: até 25% em atrações e restaurantes</dt>
-      <dd>No site Laçador de Ofertas: FOZ20 dá 20% e MELHORESDESTINOS mais 5% no pagamento. Vale para Parque das Aves, Marco das 3 Fronteiras, Cataratas e restaurantes como 4 Sorelle, Rafain Churrascaria e Ponto Certo. A página que achei dava validade até 9/06, então pode estar vencido; testem. <a href="https://www.melhoresdestinos.com.br/promocao/desconto-foz" target="_blank" rel="noopener">Ver a promoção</a> · <a href="https://www.lacadordeofertas.com.br/cidade/foz-do-iguacu" target="_blank" rel="noopener">Laçador de Ofertas em Foz</a></dd>
-      <dt>DREAMS40</dt>
-      <dd>Outro código citado pelo Melhores Destinos para atrações de Foz. Validade não confirmada.</dd>
-      <dt>Jantar barato: Cantina 4 Sorelle</dt>
-      <dd>Rodízio italiano no jantar por R$ 79 e buffet no almoço por R$ 36,90 por pessoa, segundo um blog de hotel. Aparece nos cupons do Laçador de Ofertas. <a href="https://www.hoteldelreyfoz.com.br/blog/restaurantes-baratos-em-foz-do-iguacu/" target="_blank" rel="noopener">Lista de restaurantes baratos</a></dd>
-      <dt>Almoço barato: Restaurante Barracão</dt>
-      <dd>Buffet livre por R$ 44,90 de segunda a sexta, R$ 57,90 no sábado e R$ 59,90 no domingo, com mais de 40 pratos quentes.</dd>
-      <dt>Lanche barato no centro: Doce Pão Panificadora</dt>
-      <dd>Rua Tarobá, 992, de segunda a sábado das 7h às 22h, <b>fechada no domingo</b>. Boa para café da manhã ou lanche na sexta e no sábado.</dd>
-    </dl>
-  </section>
-
-  <section id="estacionar">
-    <h2>Onde estacionar</h2>
-    <dl class="tips">
-      <dt>Ponte da Amizade (sábado, Paraguai a pé)</dt>
-      <dd>Há vários estacionamentos do lado brasileiro, na Rua Oswaldo Cruz e na Av. Beira Rio, na Vila Portes, perto da aduana. A maioria cobra por dia e funciona de segunda a sábado, fechando por volta das 17h30–18h: voltem antes disso. Exemplo: <b>Estacionamentos Bismillah</b>, Rua Oswaldo Cruz, 368, a 50 m da aduana, de segunda a sábado das 4h às 18h. Os preços que achei (R$ 10 a R$ 25 por dia) são de uma lista antiga, então perguntem o valor na entrada e combinem antes de deixar o carro. A Vila Portes tem relatos de problema à noite, por isso vale ir e voltar de dia. <a href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamentos+Bismillah+Rua+Oswaldo+Cruz+368+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Bismillah no mapa</a> · <a href="https://estacionamentosemfoz.com.br/" target="_blank" rel="noopener">site</a></dd>
-      <dt>Marco das 3 Fronteiras (domingo)</dt>
-      <dd>Estacionamento grátis para visitantes. O Marco abre de terça a domingo, das 15h às 21h (site oficial), com show por volta das 18h30, então dá certo à tarde. <a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco no mapa</a></dd>
-      <dt>Parque das Aves</dt>
-      <dd>Não confirmei o valor do estacionamento de lá; perguntem na entrada.</dd>
-    </dl>
-  </section>
-
-  <section id="paraguai">
-    <h2>Dicas de compra no Paraguai</h2>
-    <p class="lede">Resumidas de um vídeo-guia sobre Ciudad del Este.</p>
-    <dl class="tips">
-      <dt>Cota de US$ 500 por pessoa</dt>
-      <dd>Acima disso, pode ser taxado na volta. Leve o RG ou o passaporte, que servem para atravessar a fronteira e para o cadastro nas lojas (veja <a href="#documentos">Documentos</a>).</dd>
-      <dt>Compre só em loja grande e conhecida</dt>
-      <dd>Nissei, CellShop, Intershop, Mega Eletrônicos, Shopping Paris ou Shopping China. Compare o preço entre 2 ou 3 lojas antes de fechar.</dd>
-      <dt>Cuidado com o golpe do "selo Anatel"</dt>
-      <dd>Desde 2019 não existe mais taxa de homologação para celular de uso pessoal no Brasil. Se uma loja cobrar isso à parte, é golpe. IMEI não é a mesma coisa que homologação.</dd>
-    </dl>
-  </section>
-
-  <section id="documentos">
-    <h2>Documentos para cruzar a fronteira</h2>
-    <p class="note"><b>Cada um leva o seu documento físico, original.</b> RG emitido há menos de 10 anos (com foto que ainda te reconheça) ou passaporte válido. A Polícia Federal é clara: <b>CNH não serve</b> para entrar no Paraguai nem na Argentina, e a versão digital do RG ou da CIN no celular também não é aceita na imigração.</p>
-    <h3 class="sub-h">Cada pessoa</h3>
+    <h2>Cupons e comida barata</h2>
     <ul class="rows">
-      <li><span>RG físico, emitido há menos de 10 anos, em bom estado</span><span class="v">serve</span></li>
-      <li><span>Carteira de Identidade Nacional (CIN) física</span><span class="v">serve</span></li>
-      <li><span>Passaporte válido</span><span class="v">serve</span></li>
-      <li><span>RG com mais de 10 anos, rasgado ou com foto antiga</span><span class="v">risco de barrar</span></li>
-      <li><span>RG ou CIN só no celular (versão digital)</span><span class="v">não serve</span></li>
-      <li><span>CNH (física ou digital)</span><span class="v">não serve</span></li>
+      <li><span>MDMARCO15 · Marco das 3 Fronteiras</span><span class="v">15%</span></li>
+      <li><span>FOZ20 + MELHORESDESTINOS · Laçador de Ofertas (pode ter vencido)</span><span class="v">até 25%</span></li>
+      <li><span>Barracão · buffet livre</span><span class="v">R$ 44,90–59,90</span></li>
+      <li><span>4 Sorelle · rodízio no jantar</span><span class="v">R$ 79</span></li>
     </ul>
-    <p class="fine">Alguns guias locais dizem que a Argentina aceita a CNH para quem fica perto da fronteira, mas a Polícia Federal diz que não. Não contem com isso. Confiram agora a data de emissão do RG de cada um: se passou de 10 anos, dá tempo de tirar a CIN antes da viagem? Levem também uma cópia ou foto do documento, separada do original, para caso de perda.</p>
-
-    <h3 class="sub-h">O carro (só sexta, na Argentina)</h3>
-    <ul class="rows">
-      <li><span>CNH do motorista, física</span><span class="v">obrigatória</span></li>
-      <li><span>Documento do carro (CRLV)</span><span class="v">obrigatório</span></li>
-      <li><span>Seguro Carta Verde (obrigatório para carro brasileiro na Argentina)</span><span class="v">obrigatório</span></li>
-      <li><span>Autorização da locadora para sair do Brasil</span><span class="v">obrigatória</span></li>
-    </ul>
-    <p class="fine">Como o carro é alugado, o documento está no nome da Unidas, e sem a autorização dela e a Carta Verde a aduana pode barrar o carro. A maioria das locadoras não autoriza (veja o aviso em <a href="#carro">Carro</a>). Se não der, a alternativa é deixar o carro em Foz e cruzar para a Argentina de ônibus, táxi ou Uber. No sábado, no Paraguai, o carro fica estacionado do lado brasileiro e vocês atravessam a pé, então para o carro nada disso vale nesse dia.</p>
-
-    <h3 class="sub-h">Na volta e nas compras</h3>
-    <ul class="rows">
-      <li><span>Documento para cadastro nas lojas do Paraguai (nota fiscal)</span><span class="v">RG ou passaporte</span></li>
-      <li><span>Cota de compras sem imposto, por pessoa</span><span class="v">US$ 500</span></li>
-      <li><span>Notas fiscais das compras</span><span class="v">guardar</span></li>
-    </ul>
+    <p class="fine"><a href="https://www.melhoresdestinos.com.br/promocao/desconto-foz" target="_blank" rel="noopener">Promoção Melhores Destinos</a> · <a href="https://www.lacadordeofertas.com.br/cidade/foz-do-iguacu" target="_blank" rel="noopener">Laçador de Ofertas</a>. Testem na hora de comprar.</p>
   </section>
 
   <section id="mapas">
-    <h2>Mapas das lojas</h2>
-    <p class="lede">Lá não vai ter internet internacional. Abra cada link ainda no Brasil (com wifi ou dados) e, no Google Maps, toque em ⋮ → "Baixar mapa offline" cobrindo Ciudad del Este. Assim o pino e a rota funcionam sem sinal.</p>
+    <h2>Mapas</h2>
+    <p class="lede">Abram ainda no Brasil e baixem o mapa offline: lá não tem internet.</p>
     <ul class="maps">
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+das+Rosas+1024+Foz+do+Igua%C3%A7u+PR" target="_blank" rel="noopener">Hospedagem: Casa com piscina</a><span>Rua das Rosas, 1024, Foz do Iguaçu</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Nissei+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Nissei</a><span>sáb. ~6h30 a 15h–16h · Av. Adrián Jara esq. Reg. Piribebuy</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=CellShop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">CellShop</a><span>sáb. 9h–21h · Av. Carlos A. López esq. Mons. Rodríguez</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Intershop+Importados+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Intershop</a><span>horário não confirmado · Edifício DFS Itá Ybaté</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Mega+Eletronicos+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Mega Eletrônicos</a><span>sáb. 6h30–16h · Centro de Ciudad del Este</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+Paris+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping Paris</a><span>sáb. a partir das 7h · Av. Dr. Luis María Argaña</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+China+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping China</a><span>sáb. 7h–20h · Dentro do Shopping Paris</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=New+Zone+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">New Zone</a><span>sáb. 7h–22h · Shopping Del Este, perto da Ponte da Amizade</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=SA+Shop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">SA Shop</a><span>sáb. 7h–16h · Centro de Ciudad del Este</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Ponte+da+Amizade+Foz+do+Iguacu" target="_blank" rel="noopener">Ponte da Amizade</a><span>Travessia Brasil ↔ Paraguai, 24 horas</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Parque+das+Aves+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Parque das Aves</a><span>dom. 8h30–16h30</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco das 3 Fronteiras</a><span>dom. 15h–21h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Hito+Tres+Fronteras+Puerto+Iguazu" target="_blank" rel="noopener">Hito Tres Fronteras (Argentina)</a><span>aberto o dia todo</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante+Barrac%C3%A3o+Av+Silvio+Americo+Sasdelli+1010+Foz" target="_blank" rel="noopener">Restaurante Barracão</a><span>todo dia 11h–15h30</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=estacionamento+Ponte+da+Amizade+Ciudad+del+Este" target="_blank" rel="noopener">Estacionamento na fronteira (Paraguai)</a><span>Perto da ponte, lado paraguaio</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+das+Rosas+1024+Foz+do+Igua%C3%A7u+PR" target="_blank" rel="noopener">Casa (hospedagem)</a><span>Rua das Rosas, 1024</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamentos+Bismillah+Rua+Oswaldo+Cruz+368+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Estacionamento Bismillah</a><span>perto da ponte · seg–sáb 4h–18h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Ponte+da+Amizade+Foz+do+Iguacu" target="_blank" rel="noopener">Ponte da Amizade</a><span>a pé, 24h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=SA+Shop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">SA Shop</a><span>sáb 7h–16h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Mega+Eletronicos+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Mega Eletrônicos</a><span>sáb 6h30–16h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Nissei+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Nissei</a><span>sáb até 15h–16h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+Paris+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping Paris</a><span>sáb até ~18h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+China+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping China</a><span>sáb 7h–20h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=CellShop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">CellShop</a><span>sáb 9h–21h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=New+Zone+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">New Zone</a><span>sáb 7h–22h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Hito+Tres+Fronteras+Puerto+Iguazu" target="_blank" rel="noopener">Hito Tres Fronteras</a><span>Argentina, o dia todo</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Cataratas+do+Igua%C3%A7u+Parque+Nacional" target="_blank" rel="noopener">Cataratas do Iguaçu</a><span>dom 8h30–17h30</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Parque+das+Aves+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Parque das Aves</a><span>dom 8h30–16h30</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Templo+Budista+Chen+Tien+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Templo Budista</a><span>dom 9h30–16h30 · grátis</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco das 3 Fronteiras</a><span>dom 15h–21h</span></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante+Barrac%C3%A3o+Av+Silvio+Americo+Sasdelli+1010+Foz" target="_blank" rel="noopener">Restaurante Barracão</a><span>11h–15h30</span></li>
     </ul>
   </section>
 
-  <section id="travessias">
-    <h2>Tríplice fronteira</h2>
-    <figure class="wide"><img src="img/ponte.jpg" alt="Ponte da Amizade, entre Foz do Iguaçu e Ciudad del Este" loading="lazy" width="900" height="506"><figcaption>Ponte da Amizade. Foto: Pedro Nardi, CC BY 4.0</figcaption></figure>
-    <dl class="tips">
-      <dt>Paraguai, Ciudad del Este</dt>
-      <dd>Pela Ponte da Amizade. De carro atravessa direto; a pé, são 20–25 min. Leve RG (menos de 10 anos) ou passaporte, físicos; CNH não serve (veja <a href="#documentos">Documentos</a>).</dd>
-      <dt>Argentina, Puerto Iguazú</dt>
-      <dd>Pela Ponte Tancredo Neves, a uns 15 min de Foz. Vale o bate-volta para as cataratas do lado argentino. Leve RG (menos de 10 anos) ou passaporte, físicos; de carro, também CRLV, Carta Verde e autorização da locadora (veja <a href="#documentos">Documentos</a>).</dd>
-    </dl>
-  </section>
-
   <footer>
-    <p><b>Carro:</b> reserva confirmada na Unidas em 22/09/2026 (São José dos Campos, retirada 08/10 às 15h, devolução 12/10).</p>
-    <p><b>Hospedagem:</b> reserva confirmada no Booking.com em 23/09/2026 (casa com piscina, R$ 600). Lista de outras opções: 20 anúncios reais do Booking.com e Airbnb, 5 hóspedes, conferidos ao vivo em 23/09/2026 (12 achados por busca perto da ponte, 3 sugeridos pelo grupo com vaga e 5 de uma segunda busca, fora a casa reservada). Preços e vagas podem mudar até a reserva. A distância foi calculada em linha reta a partir das coordenadas de cada anúncio, e não é a "distância do centro" que o Booking mostra. Prós, contras e segurança vêm das avaliações mais recentes de hóspedes lidas em cada anúncio: não são estatística oficial de criminalidade nem garantia. Contexto geral de segurança: guias de turismo <a href="https://www.dicasdeviagem.com/onde-ficar-em-foz-do-iguacu/" target="_blank" rel="noopener">Dicas de Viagem</a> e <a href="https://www.destino.foz.br/dicas-de-seguranca-em-foz-do-iguacu/" target="_blank" rel="noopener">Destino Foz</a>.</p>
-    <p><b>Compras no Paraguai:</b> resumo do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme as regras de cota antes de ir. Endereços das lojas: turismoitaipu.com.br, comprasparaguai.com.br e iguassu.com.br (New Zone); confirme o horário de funcionamento (feriados e domingo variam).</p>
-    <p><b>Gastos:</b> Parque das Aves e horário do Marco das 3 Fronteiras: <a href="https://www.hoteldelreyfoz.com.br/blog/parque-das-aves-foz-do-iguacu/" target="_blank" rel="noopener">Hotel Del Rey</a> e <a href="https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras-foz-iguacu.html" target="_blank" rel="noopener">Melhores Destinos</a>; buffet do Barracão: <a href="https://www.hoteltarobafoz.com.br/en/naoixe-conhecer-restaurante-barracao-quando-viajar-foz/" target="_blank" rel="noopener">Hotel Tarobá</a>. Carro alugado em outro país: <a href="https://www.aluguefoco.com.br/blog/post/carros-alugados-podem-sair-do-pais-conheca-as-regras" target="_blank" rel="noopener">Foco Aluguel de Carros</a> e <a href="https://blog.rentcars.com/carta-verde" target="_blank" rel="noopener">Rentcars</a>. Os valores de blogs podem estar desatualizados.</p>
-    <p><b>Cupons e estacionamento:</b> <a href="https://www.melhoresdestinos.com.br/promocao/desconto-foz" target="_blank" rel="noopener">Melhores Destinos</a>, <a href="https://www.hoteldelreyfoz.com.br/blog/restaurantes-baratos-em-foz-do-iguacu/" target="_blank" rel="noopener">Hotel Del Rey</a>, <a href="https://blog.comprasparaguai.com.br/estacionamentos-em-ciudad-del-este-e-foz-do-iguacu/" target="_blank" rel="noopener">Compras Paraguai</a> (lista de estacionamentos de 2015), <a href="https://estacionamentosemfoz.com.br/" target="_blank" rel="noopener">Estacionamentos Bismillah</a>, <a href="https://www.queroviajarmais.com/marco-tres-fronteiras-foz-do-iguacu/" target="_blank" rel="noopener">Quero Viajar Mais</a> (estacionamento do Marco). Consultados em 23/09/2026.</p>
-    <p><b>Horários:</b> consultados em 23/09/2026 em sites oficiais (Shopping China, Parque das Aves, Marco das 3 Fronteiras, City Center Iguazú), páginas das lojas e guias (Compras Paraguai, Turismo Itaipu, Combo Iguassu, La Voz de Cataratas, Tripadvisor). Onde as fontes divergem, isso está indicado. Horário muda sem aviso: confirmem no dia.</p>
-    <p><b>Fotos:</b> Wikimedia Commons, com licença livre: Hito Tres Fronteras e centro de Puerto Iguazú (Horacio Cambeiro), centro de Ciudad del Este (Va de Carro), Parque das Aves (Deni Williams), Marco das 3 Fronteiras (Zig Koch / MTur Destinos), Ponte da Amizade (Pedro Nardi). Licenças indicadas em cada legenda.</p>
-    <p><b>Documentos:</b> <a href="https://www.gov.br/pf/pt-br/assuntos/passaporte/suporte/duvidas_/inicio/mercosul" target="_blank" rel="noopener">Polícia Federal</a> (RG com menos de 10 anos, CNH não aceita), <a href="https://www.policiacientifica.sc.gov.br/2026/02/10/carteira-de-identidade-fisica-ainda-e-exigida-para-viagens-internacionais-em-paises-do-mercosul/" target="_blank" rel="noopener">Polícia Científica de SC</a> (documento digital não aceito) e <a href="https://www.dicasfozdoiguacu.com.br/documentos-para-cruzar-a-fronteira-em-foz-do-iguacu-paraguai-e-argentina/" target="_blank" rel="noopener">Dicas Foz do Iguaçu</a> (carro: CNH, CRLV e Carta Verde). Consultados em 23/09/2026.</p>
-    <p><b>Distância e custo:</b> 2.268 km ida e volta (Google Maps, SJC → Foz pela BR-374). Pedágio estimado a partir do valor real São Paulo → Foz (emsampa.com.br) mais o trecho SJC–SP. Gasolina a R$ 6,47/l, média ANP-SP de jun/2026.</p>
-    <p>Última atualização: 23/09/2026. A lista de outras opções de hospedagem não é mais atualizada automaticamente.</p>
+    <p>Atualizado em 23/09/2026. Horários e preços mudam: confirmem no dia.</p>
+    <p>Fontes: Polícia Federal (documentos), sites oficiais das Cataratas, Parque das Aves, Marco das 3 Fronteiras, Itaipu, Shopping China e City Center Iguazú, e guias locais (Compras Paraguai, Turismo Itaipu, Combo Iguassu, Melhores Destinos, Hotel Del Rey). Fotos: Wikimedia Commons, licenças na legenda.</p>
   </footer>
 
 </div>
