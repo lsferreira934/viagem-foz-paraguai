@@ -120,6 +120,14 @@
   .stay-mini .warn-note{ font-size:12px; color:var(--warn); font-weight:700; }
   .stay-mini a{ font-size:13px; font-weight:700; color:var(--accent-ink); text-decoration:none; margin-top:4px; }
   @media (max-width:480px){ .stay-mini-grid{ grid-template-columns:1fr; } }
+  .stay-mini .safe{ font-size:12px; font-weight:700; margin-top:2px; }
+  .stay-mini .safe.good{ color:var(--good); }
+  .stay-mini .safe.mid{ color:#9a6b00; }
+  .stay-mini .safe.bad{ color:var(--warn); }
+  .stay-mini .safe.unk{ color:var(--text-muted); }
+  .stay-more{ margin-top:6px; font-size:12.5px; color:var(--text-soft); }
+  .stay-more summary{ cursor:pointer; font-weight:700; color:var(--accent-ink); }
+  .stay-more p{ margin:6px 0 0; }
 
   /* crossing */
   .crossing-grid{ display:flex; flex-direction:column; gap:12px; }
@@ -205,7 +213,13 @@
 
   <section>
     <h2>Onde ficar em Foz</h2>
-    <p class="section-note">Ordenado por distância da Ponte da Amizade (onde atravessam a pé pro Paraguai) — calculada em linha reta pelas coordenadas do anúncio, não pela "distância do centro" que o Booking mostra (essa engana). 5 pessoas, 09→11/out (2 noites), preços com taxas incluídas, todas com algum lugar pro carro · conferido ao vivo em 23/09</p>
+    <p class="section-note">Ordenado por distância da Ponte da Amizade (onde atravessam a pé pro Paraguai), calculada em linha reta pelas coordenadas do anúncio. 5 pessoas, 09→11/out (2 noites), preços com taxas incluídas · conferido ao vivo em 23/09. Toque em "Prós, contras e segurança" em cada opção.</p>
+
+    <div class="urgent">
+      <span>🛡️</span>
+      <div><b>Segurança x proximidade — leiam antes de escolher</b>As opções mais coladas na ponte (Vila Portes) são as que têm relato de problema à noite: assalto armado numa, rua com usuários de drogas noutra. As que têm as melhores avaliações de segurança ficam a 3-5 km, mas vocês têm o carro: dá pra dormir num lugar mais tranquilo e ir de carro até o estacionamento perto da ponte de manhã. O selo de segurança de cada card mostra só o que hóspedes escreveram nas avaliações (não é estatística oficial e não garante nada). Guias de turismo dizem o mesmo da região: hospedagem simples e bem localizada, mas com atenção redobrada à noite.</div>
+    </div>
+
     <div class="stay-mini-grid">
 
       <div class="stay-mini">
@@ -213,15 +227,26 @@
         <strong>Pousada Fronteira City</strong>
         <span class="meta">Vila Portes · estacionamento pago no local · nota 7,9 (25 avaliações) · Booking</span>
         <span class="price">R$ 873 total</span>
+        <span class="safe mid">🟠 1 avaliação cita rua com usuários de drogas à noite</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> perto da ponte (hóspedes vão a pé), funcionários simpáticos, ambiente familiar.</p>
+          <p><b>👎 Contras:</b> só 2 banheiros pra pousada toda, quartos quentes (um relato de ar-condicionado quebrado), problema de overbooking: uma hóspede teve a reserva cancelada às 20h da véspera por "lotação".</p>
+          <p><b>🛡️ Segurança:</b> li as 25 avaliações (14 com texto): 1 diz que à noite a rua tem muitos usuários de drogas; nenhuma fala de assalto. Se reservar, peçam a confirmação por escrito.</p>
+        </details>
         <a href="https://www.booking.com/hotel/br/pousada-fronteira-city-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 1,2 km da ponte</span>
         <strong>Casa Foz do Iguaçu tríplice fronteira</strong>
-        <span class="meta">estacionamento grátis no local · nota 4,53 (34 avaliações) · Airbnb</span>
+        <span class="meta">Vila Portes · estacionamento grátis no local · nota 4,53 (34 avaliações) · Airbnb</span>
         <span class="price">R$ 758 total</span>
-        <span class="warn-note">⚠️ Evitar: avaliação recente relata assalto à mão armada na casa (a própria anfitriã confirmou não ser a primeira vez)</span>
+        <span class="safe bad">🔴 EVITAR — assalto armado recente e mais 4 relatos de insegurança</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> 3 min de carro ou 20-25 min a pé da ponte, casa equipada, anfitriã responde rápido.</p>
+          <p><b>👎 Contras:</b> nota 4,53 (entre as mais baixas do Airbnb), sem água num relato, calor.</p>
+          <p><b>🛡️ Segurança:</b> li 24 das 34 avaliações; 5 citam segurança. Em julho/2026, 3 homens armados pularam o muro, arrombaram a porta e roubaram uma família (a anfitriã respondeu "não é a primeira vez"). Outro hóspede saiu antes do fim ao saber do caso; outro descreve a casa "na rua de uma favela", com muros baixos; outros dois falam de rua mal iluminada à noite e de "não nos sentimos seguros" pra ir a pé. O próprio anfitrião escreve que o bairro "requer cuidado e atenção".</p>
+        </details>
         <a href="https://www.airbnb.com.br/rooms/1643663370309128587" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
@@ -230,7 +255,12 @@
         <strong>Casa completa próximo ao Paraguai</strong>
         <span class="meta">estacionamento grátis no local · anúncio novo, nota 5,0 (1 avaliação) · Airbnb</span>
         <span class="price">R$ 660 total</span>
-        <span class="warn-note" style="color:var(--good)">💰 mais barata com boa localização</span>
+        <span class="safe unk">⚪ sem histórico — só 1 avaliação, não dá pra garantir</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> mais barata da lista perto da ponte, perto de mercado, estacionamento grátis; a única avaliação elogia limpeza e diz que é fácil chegar à ponte.</p>
+          <p><b>👎 Contras:</b> anúncio novo (anfitrião há 1 mês), bairro não informado.</p>
+          <p><b>🛡️ Segurança:</b> a avaliação única não cita problema, mas 1 avaliação não prova nada.</p>
+        </details>
         <a href="https://www.airbnb.com.br/rooms/1755058083535541483" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
@@ -239,7 +269,12 @@
         <strong>Residencial Habitzreuter</strong>
         <span class="meta">estacionamento grátis · Booking</span>
         <span class="price">R$ 1.003 total</span>
-        <span class="warn-note">⚠️ nota 1,0 (1 avaliação só)</span>
+        <span class="safe unk">⚪ nada verificável — única avaliação é nota 1 sem comentário</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> perto da ponte, estacionamento grátis.</p>
+          <p><b>👎 Contras:</b> a única avaliação é péssima (nota 1, estadia incompleta em jan/2026, sem explicação), mais caro, só por consulta ao anfitrião.</p>
+          <p><b>🛡️ Segurança:</b> nada verificável; o anfitrião diz "região tranquila, segura" (é afirmação dele).</p>
+        </details>
         <a href="https://www.booking.com/hotel/br/residencial-habitzreuter.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
@@ -248,39 +283,68 @@
         <strong>Nossa Casa! Lazer Próxima ao Paraguai</strong>
         <span class="meta">garagem grátis pra 4 carros · anúncio novo, nota 5,0 (1 avaliação) · Airbnb</span>
         <span class="price">R$ 1.528 total</span>
+        <span class="safe unk">⚪ sem histórico — só 1 avaliação</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> casa nova com piscina, câmeras externas, garagem pra 4 carros, em residencial tranquilo perto de mercado e padaria (segundo o anfitrião).</p>
+          <p><b>👎 Contras:</b> preço alto, anúncio novo (anfitriã há 1 mês).</p>
+          <p><b>🛡️ Segurança:</b> a única avaliação (5 estrelas) não cita problema, mas é pouco pra concluir.</p>
+        </details>
         <a href="https://www.airbnb.com.br/rooms/1754632231602047896" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 3,3 km da ponte</span>
         <strong>Iguaçu Fal</strong>
-        <span class="meta">estacionamento (tipo não informado no site) · Booking</span>
+        <span class="meta">Av. Brasil, a 2 quadras da rodoviária · estacionamento (tipo não informado) · Booking</span>
         <span class="price">R$ 1.090 total</span>
-        <span class="warn-note">⚠️ nota 3,7 (23 avaliações)</span>
+        <span class="safe mid">🟠 sem relato de assalto, mas nota baixa (3,7)</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> muito comércio ao redor, perto da rodoviária.</p>
+          <p><b>👎 Contras:</b> nota 3,7: quartos sujos ou mofados, ar-condicionado e chuveiro quebrados, recepção grosseira; 2 relatos de overbooking ("não tinha quarto") e uma cobrança extra no cartão.</p>
+          <p><b>🛡️ Segurança:</b> li 24 avaliações, nenhuma cita assalto ou perigo; um relato fala de janela que não fecha e fios soltos sobre um telhado.</p>
+        </details>
         <a href="https://www.booking.com/hotel/br/iguacu-fal.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 3,3 km da ponte</span>
         <strong>Descanso e privacidade</strong>
-        <span class="meta">estacionamento grátis na rua (sem vaga própria) · nota 4,97 (39) · Superhost · Airbnb</span>
+        <span class="meta">estacionamento grátis na rua (sem vaga própria) · nota 4,97 (39 avaliações) · Superhost · Airbnb</span>
         <span class="price">R$ 775 total</span>
+        <span class="safe good">🟢 24 avaliações lidas, nenhuma queixa; 2 elogiam a segurança</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> anfitrião Superhost muito atencioso (mora ao lado), casa completa, ar-condicionado nos 2 cômodos, perto do JL Shopping e da Av. Paraná.</p>
+          <p><b>👎 Contras:</b> sem vaga própria pro carro (só rua, grátis); a 3,3 km da ponte — melhor ir de carro do que a pé.</p>
+          <p><b>🛡️ Segurança:</b> li 24 das 39 avaliações: nenhuma cita problema; duas elogiam ("tranquilo, seguro e silencioso" e "4 mulheres, nos sentimos muito seguras").</p>
+        </details>
         <a href="https://www.airbnb.com.br/rooms/1040492699020476735" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 3,6 km da ponte</span>
         <strong>Apartamento com garagem próx. Paraguai</strong>
-        <span class="meta">garagem grátis · nota 10 (1 avaliação) · Booking</span>
+        <span class="meta">garagem grátis · Booking</span>
         <span class="price">R$ 1.328 total</span>
+        <span class="safe unk">⚪ sem avaliações no Booking — nada verificável</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> apartamento novo em prédio com elevador, garagem grátis.</p>
+          <p><b>👎 Contras:</b> anúncio de estreia, nenhuma avaliação com texto (a nota 10 vem de 1 avaliação externa), preço alto.</p>
+          <p><b>🛡️ Segurança:</b> nada verificável.</p>
+        </details>
         <a href="https://www.booking.com/hotel/br/aparamento-novo-com-garagem-proximo-ao-paraguai.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 3,7 km da ponte</span>
         <strong>Perto da Ponte, Shopping e Rodoviária</strong>
-        <span class="meta">estacionamento não confirmado (site travou na checagem) · nota 5,0 (8) · Airbnb</span>
+        <span class="meta">apartamento em residencial · estacionamento não confirmado · nota 5,0 (8 avaliações) · Airbnb</span>
         <span class="price">R$ 1.648 total</span>
+        <span class="safe good">🟢 8 avaliações lidas (todas 5 estrelas), nenhuma queixa</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> apartamento limpo e novinho, fechadura inteligente, câmeras externas; uma avaliação diz "lugar calmo, familiar".</p>
+          <p><b>👎 Contras:</b> o mais caro da lista, estacionamento não confirmado (o site travou na checagem — perguntem ao anfitrião), poucas avaliações, anfitrião há só 11 meses.</p>
+          <p><b>🛡️ Segurança:</b> li as 8 avaliações, nenhuma cita problema. Amostra pequena.</p>
+        </details>
         <a href="https://www.airbnb.com.br/rooms/1732743004102360718" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
@@ -289,26 +353,88 @@
         <strong>4 min do Paraguai (casa com piscina)</strong>
         <span class="meta">estacionamento incluso · nota 8,3 (3 avaliações) · Booking</span>
         <span class="price">R$ 840 total</span>
+        <span class="safe unk">⚪ só 3 avaliações, nenhuma cita problema</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> casa com piscina, simples e equipada, bem localizada; o anfitrião diz que é "totalmente cercada, segura" (afirmação dele).</p>
+          <p><b>👎 Contras:</b> pouco histórico (3 avaliações).</p>
+          <p><b>🛡️ Segurança:</b> nenhuma das 3 avaliações cita problema; é pouco pra concluir.</p>
+        </details>
         <a href="https://www.booking.com/hotel/br/4-min-do-paraguai-casa-com-piscina-e-privacidade.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 4,6 km da ponte</span>
         <strong>Casa Rossato II</strong>
-        <span class="meta">estacionamento não verificado individualmente · nota 5,0 (11) · Airbnb</span>
+        <span class="meta">garagem fechada com portão eletrônico · nota 5,0 (11 avaliações) · Airbnb</span>
         <span class="price">R$ 724 total</span>
+        <span class="safe good">🟢 11 avaliações lidas, nenhuma queixa; 2 dizem "casa segura"</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> garagem fechada com portão eletrônico, residencial silencioso em frente a uma escola e perto de padaria, anfitriões gentis, casa limpa, ar-condicionado nos 2 quartos.</p>
+          <p><b>👎 Contras:</b> uns 10 min de carro ou Uber da ponte — não dá pra ir a pé.</p>
+          <p><b>🛡️ Segurança:</b> li as 11 avaliações: duas dizem "casa segura" e "bairro tranquilo e seguro"; nenhuma cita problema (uma só pede pra câmera externa não apontar pra porta da sala — é privacidade, não assalto).</p>
+        </details>
         <a href="https://www.airbnb.com.br/rooms/1458978536338145462" target="_blank" rel="noopener">Ver no Airbnb →</a>
       </div>
 
       <div class="stay-mini">
         <span class="dist">📍 4,9 km da ponte</span>
         <strong>Estúdio Fantástico no centro de Foz com garagem</strong>
-        <span class="meta">garagem grátis · nota 9,8 (38 avaliações) · Booking</span>
+        <span class="meta">garagem grátis · Booking</span>
         <span class="price">R$ 960 total</span>
+        <span class="safe unk">⚪ sem avaliações com texto — nada verificável</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> prédio novo com academia, garagem grátis, região central.</p>
+          <p><b>👎 Contras:</b> o Booking mostra "nenhuma avaliação ainda" (a nota 9,8 vem de 38 avaliações externas, sem texto).</p>
+          <p><b>🛡️ Segurança:</b> nada verificável.</p>
+        </details>
         <a href="https://www.booking.com/hotel/br/estudio-fantastico-no-centro-de-foz-com-garagem.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
       </div>
 
+      <div class="stay-mini">
+        <span class="dist">📍 5,2 km da ponte · sugerida pelo grupo</span>
+        <strong>Casa Central, Av. Cataratas, Eventos e Atrativos</strong>
+        <span class="meta">estacionamento NÃO listado (perguntar ao anfitrião) · sem avaliações · Booking</span>
+        <span class="price">R$ 639 total</span>
+        <span class="safe unk">⚪ sem nenhuma avaliação — nada verificável</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> bairro residencial perto do centro, mercado e farmácia por perto, anfitrião com nota 10, cancelamento grátis até 1/10.</p>
+          <p><b>👎 Contras:</b> nenhuma avaliação, e a página não lista estacionamento (vocês precisam de lugar pro carro).</p>
+          <p><b>🛡️ Segurança:</b> sem avaliações não dá pra saber.</p>
+        </details>
+        <a href="https://www.booking.com/hotel/br/centro-av-cataratas-eventos-e-atrativos.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 8,1 km da ponte · sugerida pelo grupo</span>
+        <strong>Casa Aconchegante</strong>
+        <span class="meta">Rua das Dálias · garagem coberta grátis · 2 quartos · nota 10 (6 avaliações) · Booking</span>
+        <span class="price">R$ 560 total</span>
+        <span class="safe unk">⚪ 6 avaliações, nenhuma cita segurança (nem bem, nem mal)</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> a mais barata da lista, garagem coberta, limpeza e conforto muito elogiados, anfitriã atenciosa, cancelamento grátis até 7/10.</p>
+          <p><b>👎 Contras:</b> longe da ponte (8,1 km — só de carro), um hóspede diz que fica "um pouco fora do eixo de Foz", só 6 avaliações.</p>
+          <p><b>🛡️ Segurança:</b> nenhuma das 6 avaliações cita problema, mas ninguém fala de segurança. Amostra pequena.</p>
+        </details>
+        <a href="https://www.booking.com/hotel/br/casa-aconchegante-foz-do-iguacu18.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
+      <div class="stay-mini">
+        <span class="dist">📍 8,1 km da ponte · sugerida pelo grupo</span>
+        <strong>Casa completa privativa</strong>
+        <span class="meta">Rua Orleans, zona afastada · estacionamento grátis · nota 8,3 (50 avaliações) · Booking</span>
+        <span class="price">R$ 800 total (só por consulta ao anfitrião, resposta em até 24h)</span>
+        <span class="safe mid">🟠 1 avaliação recente cita "tiros em frente"</span>
+        <details class="stay-more"><summary>Prós, contras e segurança</summary>
+          <p><b>👍 Prós:</b> ótimo custo-benefício, anfitrião atencioso, carro na porta; duas avaliações elogiam a tranquilidade ("acolhedor e seguro").</p>
+          <p><b>👎 Contras:</b> mofo e sujeira em várias avaliações, anúncio diferente da realidade, barulho, longe da ponte (8,1 km), não confirma na hora (só por consulta).</p>
+          <p><b>🛡️ Segurança:</b> li as 20 mais recentes: uma (mar/2026, nota 1) fala em "tiros em frente" e o dono batendo na porta de madrugada; nenhuma cita assalto ou furto.</p>
+        </details>
+        <a href="https://www.booking.com/hotel/br/hospedagem-barata-em-foz-do-iguacu.pt-br.html" target="_blank" rel="noopener">Ver no Booking →</a>
+      </div>
+
     </div>
+
+    <p class="section-note" style="margin-top:0">Também sugeridas pelo grupo, mas <b>sem vaga em 09→11/out</b> (conferido 23/09), todas entre 7,6 e 10,7 km da ponte: <a href="https://www.booking.com/hotel/br/casa-com-piscina-em-foz-do-iguaccu.pt-br.html" target="_blank" rel="noopener">Casa com piscina</a> · <a href="https://www.booking.com/hotel/br/casa-relaxante-perto-das-cataratas-e-cachoeira.pt-br.html" target="_blank" rel="noopener">Casa Relaxante perto das Cataratas</a> · <a href="https://www.booking.com/hotel/br/casa-da-fernanda-e-do-fabio.pt-br.html" target="_blank" rel="noopener">Casa da Fernanda e do Fábio</a> · <a href="https://www.booking.com/hotel/br/jefferson-olaia.pt-br.html" target="_blank" rel="noopener">Heppy Home</a> (só tem a noite de 9→10).</p>
   </section>
 
   <section>
@@ -363,7 +489,8 @@
 
   <footer>
     <p><b>Carro:</b> reserva confirmada na Unidas em 22/09/2026, São José dos Campos, retirada 08/10 15h, devolução 12/10.</p>
-    <p>Hospedagem — 12 anúncios reais do Booking.com e Airbnb, Foz do Iguaçu, 5 hóspedes, conferidos ao vivo em 23/09/2026. Distância até a Ponte da Amizade calculada em linha reta a partir das coordenadas de cada anúncio (não é a "distância do centro" do Booking, que mede do centro histórico, bem mais longe da ponte). Preços e disponibilidade podem mudar até a reserva — confirmem antes de fechar.</p>
+    <p>Hospedagem — 15 anúncios reais do Booking.com e Airbnb, Foz do Iguaçu, 5 hóspedes, conferidos ao vivo em 23/09/2026 (12 achados por busca perto da ponte + 3 sugeridos pelo grupo com vaga). Distância até a Ponte da Amizade calculada em linha reta a partir das coordenadas de cada anúncio (não é a "distância do centro" do Booking). Prós, contras e segurança vêm das avaliações de hóspedes lidas em cada anúncio (as mais recentes) — não são estatística oficial de criminalidade nem garantia. Preços e disponibilidade podem mudar até a reserva.</p>
+    <p>Contexto geral de segurança — guias de turismo: <a href="https://www.dicasdeviagem.com/onde-ficar-em-foz-do-iguacu/" target="_blank" rel="noopener">Dicas de Viagem</a>, <a href="https://www.destino.foz.br/dicas-de-seguranca-em-foz-do-iguacu/" target="_blank" rel="noopener">Destino Foz</a>.</p>
     <p>Roteiro dia a dia — montado pelo grupo (Alison), horários e locais podem mudar.</p>
     <p>Dicas de compra no Paraguai — resumidas do vídeo <a href="https://www.youtube.com/watch?v=8JFWPPTkpn8" target="_blank" rel="noopener">"NÃO COMPRE NO PARAGUAI Antes de Ver Este Vídeo"</a> (canal Já Quero Viajar) e de um relato de golpe real nos comentários. Confirme regras de cota antes de ir.</p>
     <p>Distância (2.268 km ida+volta) — Google Maps, SJC → Foz via BR-374. Pedágio estimado a partir do valor real São Paulo→Foz (emsampa.com.br) + trecho SJC-SP. Gasolina R$ 6,47/l — média ANP-SP, jun/2026.</p>
