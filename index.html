@@ -134,6 +134,12 @@
   .park li:first-child{ border-top:0; padding-top:0; }
   .park b{ color:var(--text); }
   .park .go{ display:block; margin-top:6px; font-size:14px; }
+  .steps{ margin:0 0 14px; padding:0; list-style:none; counter-reset:s; }
+  .steps li{ counter-increment:s; display:grid; grid-template-columns:2rem 1fr; gap:0 12px; padding:12px 0; border-top:1px solid var(--line); font-size:15px; color:var(--soft); }
+  .steps li:first-child{ border-top:0; }
+  .steps li::before{ content:counter(s); font-weight:800; color:var(--text); font-variant-numeric:tabular-nums; }
+  .steps b{ color:var(--text); }
+  .warn{ margin:0 0 14px; padding:12px 14px; background:#fbeee9; color:var(--bad); border-radius:10px; font-weight:700; font-size:15px; }
   .rule{ margin:0 0 18px; padding:12px 14px; background:var(--wash); border-radius:10px; font-weight:700; }
   @media (max-width:560px){ .maps{ grid-template-columns:1fr; } }
 
@@ -431,6 +437,45 @@
       <li>Avisem o banco da viagem e conferam os limites do cartão.</li>
     </ul>
     <p class="fine">Referência de 31/08: dólar turismo em Foz R$ 5,45 em papel e R$ 5,19 no comercial. Está desatualizada, confiram a de hoje.</p>
+  </section>
+
+  <section id="usdt">
+    <h2>Pagar com USDT (KAST), passo a passo</h2>
+    <p class="lede">Resumo de dois vídeos de brasileiros que pagaram assim em Ciudad del Este em 2026. Não é recomendação de investimento. Os vídeos têm links de indicação, então confiram os números. Confirmem tudo na loja.</p>
+    <p class="warn">Rede errada ou endereço errado perde o dinheiro. Use sempre USDT na rede Tron e confira duas vezes.</p>
+
+    <h3 class="sub-h">Antes, hoje no Brasil</h3>
+    <ol class="steps">
+      <li><div><b>Criar a conta na KAST</b> e esperar a aprovação. No vídeo, saiu em cerca de um dia. Cada pessoa abre a própria, no próprio nome.</div></li>
+      <li><div><b>Teste de Pix pequeno</b> (R$ 20 a R$ 50). No app: Receber, Pix, copiar a chave e pagar pelo app do banco. O saldo em dólar deve aparecer em segundos.</div></li>
+      <li><div>Ver no app a <b>cotação efetiva</b> do dólar e comparar com a cotação do real que a loja dá.</div></li>
+      <li><div>Perguntar às lojas por WhatsApp se <b>aceitam USDT na rede Tron</b> e pedir o preço final em USDT, dólar, real e Pix.</div></li>
+      <li><div>Conferir o <b>limite</b> da conta. Se for baixo, peça aumento antes. Num vídeo, o limite inicial de outra corretora era de uns US$ 1.000.</div></li>
+      <li><div><b>Carregar</b> o valor da compra mais uns US$ 5 pra taxa da rede. Sem maço de dinheiro na mochila: o plano é USDT ou Pix, e o cartão fica só de reserva.</div></li>
+    </ol>
+
+    <h3 class="sub-h">Na loja, sábado</h3>
+    <ol class="steps">
+      <li><div>Escolher o produto, confirmar o <b>preço em USDT</b> com o vendedor e pedir o <b>QR ou o endereço</b> da carteira da loja.</div></li>
+      <li><div>No app: <b>Pagar</b>, depois <b>Stablecoin</b>. Escolher <b>USDT</b> e a rede <b>TRON (TRC20)</b>. Nunca Solana ou outra, a menos que a loja peça.</div></li>
+      <li><div><b>Escanear o QR</b> ou colar o endereço. Conferir o endereço duas vezes. Endereço errado perde o dinheiro, sem volta.</div></li>
+      <li><div>Conferir o valor: <b>preço do produto mais a taxa da rede</b> (cerca de US$ 1, varia). Confirmar o envio.</div></li>
+      <li><div>Mostrar a confirmação e <b>esperar o vendedor dizer que recebeu</b> antes de sair do balcão.</div></li>
+      <li><div>Guardar a <b>nota fiscal</b>, testar o aparelho na hora e declarar na e-DBV o que passar da cota.</div></li>
+    </ol>
+
+    <h3 class="sub-h">Se a loja não aceitar USDT</h3>
+    <ul class="park">
+      <li><b>Pix:</b> conectem no Wi-Fi da loja, peçam o valor final em Pix (algumas cobram até 5% e usam cotação própria), paguem pelo app do banco e guardem o comprovante.</li>
+      <li><b>Cartão de reserva:</b> Nubank ou Itaú, físico e no nome de quem compra. A loja cobra de 3% a 5%, e há IOF de 3,5%. Peçam o preço final antes.</li>
+    </ul>
+
+    <h3 class="sub-h">Dicas</h3>
+    <ul class="park">
+      <li>A KAST tem cartão que entra no Google Pay e no Apple Pay, sem anuidade. No cartão não há taxa da rede.</li>
+      <li>Não deixem dinheiro parado no app depois da viagem.</li>
+      <li>Há proposta de IOF de 3,5% para stablecoin. Não confirmei se já vale.</li>
+    </ul>
   </section>
 
   <section id="estacionamento">
