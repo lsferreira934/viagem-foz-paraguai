@@ -128,6 +128,13 @@
   .maps li{ padding:10px 0; border-top:1px solid var(--line); }
   .maps a{ font-weight:700; }
   .maps span{ display:block; color:var(--muted); font-size:13.5px; }
+  .maps a.alt{ font-weight:600; font-size:13px; margin-left:8px; }
+  .park{ list-style:none; margin:0 0 10px; padding:0; }
+  .park li{ padding:12px 0; border-top:1px solid var(--line); font-size:15px; color:var(--soft); }
+  .park li:first-child{ border-top:0; padding-top:0; }
+  .park b{ color:var(--text); }
+  .park .go{ display:block; margin-top:6px; font-size:14px; }
+  .rule{ margin:0 0 18px; padding:12px 14px; background:var(--wash); border-radius:10px; font-weight:700; }
   @media (max-width:560px){ .maps{ grid-template-columns:1fr; } }
 
   footer{ margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
@@ -204,7 +211,7 @@
             <figure><img src="img/hito.jpg" alt="Hito Tres Fronteras" loading="lazy" width="900" height="676"><figcaption>Hito Tres Fronteras · Horacio Cambeiro, CC BY 4.0</figcaption></figure>
             <figure><img src="img/iguazu.jpg" alt="Centro de Puerto Iguazú" loading="lazy" width="900" height="676"><figcaption>Centro de Puerto Iguazú · Horacio Cambeiro, CC BY-SA 4.0</figcaption></figure>
           </div>
-          <p>Chegada 10h–11h. Fila na aduana pode passar de 2h (app Puenty mostra ao vivo). Check-in na casa das 15h às 19h: cheguem antes das 19h.</p>
+          <p><b>O carro não vai pra Argentina.</b> Chegada em Foz 10h–11h: deixem o carro na casa, Uber até o TTU e ônibus pra Puerto Iguazú (detalhes em <a href="#estacionamento">Estacionar e se deslocar</a>). Check-in na casa a partir das 14h; cheguem entre 17h e 20h. Fila na aduana pode passar de 2h (app Puenty mostra ao vivo). Último ônibus de volta às 19h; depois só táxi ou remis.</p>
           <ul class="hours">
             <li><span>Hito Tres Fronteras</span><span class="h">o dia todo · show de águas ~20h</span></li>
             <li><span>Duty Free</span><span class="h">12h–21h</span></li>
@@ -222,7 +229,7 @@
             <figure><img src="img/cde.jpg" alt="Centro de Ciudad del Este" loading="lazy" width="900" height="676"><figcaption>Centro de Ciudad del Este · Va de Carro, CC BY 3.0</figcaption></figure>
             <figure><img src="img/ponte.jpg" alt="Ponte da Amizade" loading="lazy" width="900" height="506"><figcaption>Ponte da Amizade · Pedro Nardi, CC BY 4.0</figcaption></figure>
           </div>
-          <p>Carro no estacionamento perto da aduana (fecha 18h) e ponte a pé. Chegada 8h30–9h. <b>Comecem pelas lojas que fecham às 16h.</b></p>
+          <p>Carro no estacionamento perto da aduana (Bismillah, ~50 m; fecha ~18h, perguntar a hora limite de saída) e ponte a pé. Chegada 8h30–9h. <b>Comecem pelas lojas que fecham às 16h.</b></p>
           <ul class="hours">
             <li><span>SA Shop</span><span class="h">7h–16h</span></li>
             <li><span>Mega Eletrônicos</span><span class="h">6h30–16h</span></li>
@@ -313,6 +320,7 @@
         <ul class="rows">
           <li><span>Retirada / devolução</span><span class="v">08/10 15h · 12/10 até 16h</span></li>
           <li><span>Aluguel (4 diárias + proteção)</span><span class="v">R$ 632,50</span></li>
+          <li><span>Fronteira</span><span class="v">não cruza (Argentina de ônibus, Paraguai a pé)</span></li>
         </ul>
       </div>
     </div>
@@ -378,31 +386,76 @@
     <p class="fine"><a href="https://www.melhoresdestinos.com.br/promocao/desconto-foz" target="_blank" rel="noopener">Promoção Melhores Destinos</a> · <a href="https://www.lacadordeofertas.com.br/cidade/foz-do-iguacu" target="_blank" rel="noopener">Laçador de Ofertas</a>. Testem na hora de comprar.</p>
   </section>
 
+  <section id="estacionamento">
+    <h2>Estacionar e se deslocar</h2>
+    <p class="rule">O carro não cruza a fronteira. Argentina de ônibus, Paraguai a pé, e o SUV só roda em Foz.</p>
+    <p class="lede">Em cada local, o primeiro link abre o Waze já com a rota e o segundo, o Google Maps. Preços e horários vêm de guias de datas variadas: confirmem por telefone.</p>
+
+    <h3 class="sub-h">Sexta 09/10, Argentina sem carro</h3>
+    <ul class="park">
+      <li><b>Carro na casa</b> (alarme e câmeras; a Camila confirmou que cabe na garagem e que pode ficar na frente). Evita Vila Portes à noite. <a href="https://waze.com/ul?q=Rua%20M%C3%A1rio%20Rom%C3%A3o%20Rorato%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR&amp;navigate=yes" target="_blank" rel="noopener">Casa</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20M%C3%A1rio%20Rom%C3%A3o%20Rorato%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>Ida:</b> Uber da casa até o TTU, R$ 20–40 (estimativa). O ônibus internacional sai de um ponto ao lado do TTU, não de dentro. Crucero del Norte de hora em hora, 7h–18h; Rio Uruguay 7h30–18h30. R$ 10–30 por pessoa por trecho; aceita real, peso e dólar; ~40 min. Todos descem na imigração (~10 min). Levem RG com menos de 10 anos. <a href="https://waze.com/ul?q=TTU%20Terminal%20de%20Transporte%20Urbano%2C%20Av.%20Juscelino%20Kubitschek%201385%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">TTU</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=TTU%20Terminal%20de%20Transporte%20Urbano%2C%20Av.%20Juscelino%20Kubitschek%201385%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>Volta:</b> último ônibus de Puerto Iguazú às 19h (uma fonte cita até 21h05, conflito). Depois, remis ou táxi com preço combinado, ~R$ 120 por carro; em 5 pessoas são 2 carros, ~R$ 240. Uber, 99 e DiDi não funcionam na Argentina. <a href="https://waze.com/ul?q=Hito%20Tres%20Fronteras%2C%20Puerto%20Iguaz%C3%BA%2C%20Misiones&amp;navigate=yes" target="_blank" rel="noopener">Hito Tres Fronteras</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Hito%20Tres%20Fronteras%2C%20Puerto%20Iguaz%C3%BA%2C%20Misiones" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>Custo estimado pros 5:</b> R$ 200 a R$ 600, conforme a volta seja de ônibus ou de táxi. Sexta não é feriado na Argentina; o de lá é segunda 12/10.</li>
+    </ul>
+
+    <h3 class="sub-h">Sábado 10/10, Paraguai a pé</h3>
+    <ul class="park">
+      <li><b>Estacionamentos Bismillah</b>, Rua Oswaldo Cruz (o número aparece como 267 ou 368: confirmar), ~50 m da aduana, 1.200 vagas, manobrista, câmeras 24h. Tarifa de SUV e horário de sábado não confirmados. <a href="https://waze.com/ul?q=Estacionamentos%20Bismillah%2C%20Rua%20Oswaldo%20Cruz%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Bismillah</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamentos%20Bismillah%2C%20Rua%20Oswaldo%20Cruz%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>Alternativa: Estacionamento Fortaleza</b>, Fagundes Varela 118, ~200 m, coberto e com câmeras. <a href="https://waze.com/ul?q=Estacionamento%20Fortaleza%2C%20Rua%20Fagundes%20Varela%20118%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Fortaleza</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamento%20Fortaleza%2C%20Rua%20Fagundes%20Varela%20118%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li>Faixa geral R$ 20–45 por dia. Um estacionamento da região limita a retirada às 16h: perguntem o limite antes de deixar o carro. Evitem vaga de rua e zona azul (risco de furto) e Vila Portes à noite.</li>
+    </ul>
+
+    <h3 class="sub-h">Domingo 11/10, Foz, até 4 trocas de vaga</h3>
+    <ul class="park">
+      <li><b>1. Cataratas, Centro de Visitantes</b> (8h30). Estacionamento R$ 65 por dia, 7h–19h, dá pra pagar online com QR. Em feriado lota no meio da manhã: cheguem antes das 9h. O ônibus interno até as trilhas está no ingresso. <a href="https://waze.com/ul?q=Centro%20de%20Visitantes%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Cataratas</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Centro%20de%20Visitantes%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>2. Parque das Aves</b>, em frente, com estacionamento próprio (preço varia nas fontes, de grátis a ~R$ 20). Se aceitar quem só vai às Cataratas, uma vaga serve aos dois e poupa os R$ 65: liguem pra confirmar. <a href="https://waze.com/ul?q=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Parque das Aves</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>3. Almoço no Barracão</b>, Av. Silvio Américo Sasdelli, 1010. Vaga própria e na rua (um relato de furto, outro de dificuldade em feriado). <a href="https://waze.com/ul?q=Restaurante%20Barrac%C3%A3o%2C%20Av.%20Silvio%20Am%C3%A9rico%20Sasdelli%201010%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Barracão</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante%20Barrac%C3%A3o%2C%20Av.%20Silvio%20Am%C3%A9rico%20Sasdelli%201010%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>4. Templo Chen Tien</b>, estacionamento grátis na entrada, 9h30–16h30. 11/10 não é o primeiro domingo do mês, então deve abrir; confirmem em (45) 3524-5566. <a href="https://waze.com/ul?q=Templo%20Budista%20Chen%20Tien%2C%20Rua%20Dr.%20Josivalter%20Vila%20Nova%2099%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Templo</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Templo%20Budista%20Chen%20Tien%2C%20Rua%20Dr.%20Josivalter%20Vila%20Nova%2099%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>5. Marco das 3 Fronteiras</b>, estacionamento grátis. Abre às 14h pelo site oficial; show às 18h30. <a href="https://waze.com/ul?q=Marco%20das%203%20Fronteiras%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Marco</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Marco%20das%203%20Fronteiras%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a></li>
+      <li><b>6. Jantar no Centro</b>: Shawarmaria Asmars (R. Tarobá, 962) e Cantina 4 Sorelle (R. Almirante Barroso, 1336) ficam perto um do outro, sem estacionamento próprio achado. Um estacionamento pago no Centro serve aos dois (~R$ 25 por dia, dado de cerca de um ano). <a href="https://waze.com/ul?q=Shawarmaria%20Asmars%2C%20Rua%20Tarob%C3%A1%20962%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Asmars</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Shawarmaria%20Asmars%2C%20Rua%20Tarob%C3%A1%20962%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a> <a href="https://waze.com/ul?q=Cantina%204%20Sorelle%2C%20Rua%20Almirante%20Barroso%201336%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">4 Sorelle</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Cantina%204%20Sorelle%2C%20Rua%20Almirante%20Barroso%201336%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a>
+      <a class="go" href="https://www.google.com/maps/dir/?api=1&amp;travelmode=driving&amp;origin=Centro%20de%20Visitantes%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u&amp;destination=Shawarmaria%20Asmars%2C%20Rua%20Tarob%C3%A1%20962%2C%20Foz%20do%20Igua%C3%A7u&amp;waypoints=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u%7CRestaurante%20Barrac%C3%A3o%2C%20Av.%20Silvio%20Am%C3%A9rico%20Sasdelli%201010%2C%20Foz%20do%20Igua%C3%A7u%7CTemplo%20Budista%20Chen%20Tien%2C%20Rua%20Dr.%20Josivalter%20Vila%20Nova%2099%2C%20Foz%20do%20Igua%C3%A7u%7CMarco%20das%203%20Fronteiras%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Rota do domingo inteira no Google Maps</a>
+      <span class="fine">O Waze só aceita um destino por link: abram uma parada de cada vez.</span></li>
+    </ul>
+
+    <h3 class="sub-h">Ligar antes de ir</h3>
+    <ul class="park">
+      <li>Bismillah: tarifa de SUV e horário de retirada no sábado.</li>
+      <li>Parque das Aves: aceita quem só vai às Cataratas?</li>
+      <li>Templo Chen Tien: abre no feriado?</li>
+      <li>Crucero del Norte (crucerodelnorte.com.ar): ponto de embarque e último ônibus de volta.</li>
+    </ul>
+  </section>
+
   <section id="mapas">
     <h2>Mapas</h2>
-    <p class="lede">Abram ainda no Brasil e baixem o mapa offline: lá não tem internet.</p>
+    <p class="lede">Toque no nome para abrir a rota no Waze, ou em Maps para o Google Maps. Baixem o mapa offline ainda no Brasil: lá não tem internet.</p>
     <ul class="maps">
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+M%C3%A1rio+Rom%C3%A3o+Rorato+Foz+do+Igua%C3%A7u+PR" target="_blank" rel="noopener">Casa (hospedagem)</a><span>Rua das Rosas, 1024</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamentos+Bismillah+Rua+Oswaldo+Cruz+368+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Estacionamento Bismillah</a><span>perto da ponte · seg–sáb 4h–18h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Ponte+da+Amizade+Foz+do+Iguacu" target="_blank" rel="noopener">Ponte da Amizade</a><span>a pé, 24h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=SA+Shop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">SA Shop</a><span>sáb 7h–16h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Mega+Eletronicos+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Mega Eletrônicos</a><span>sáb 6h30–16h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Nissei+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Nissei</a><span>sáb até 15h–16h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+Paris+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping Paris</a><span>sáb até ~18h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Shopping+China+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">Shopping China</a><span>sáb 7h–20h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=CellShop+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">CellShop</a><span>sáb 9h–21h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=New+Zone+Ciudad+del+Este+Paraguay" target="_blank" rel="noopener">New Zone</a><span>sáb 7h–22h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Hito+Tres+Fronteras+Puerto+Iguazu" target="_blank" rel="noopener">Hito Tres Fronteras</a><span>Argentina, o dia todo</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Cataratas+do+Igua%C3%A7u+Parque+Nacional" target="_blank" rel="noopener">Cataratas do Iguaçu</a><span>dom 8h30–17h30</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Parque+das+Aves+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Parque das Aves</a><span>dom 8h30–16h30</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Templo+Budista+Chen+Tien+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Templo Budista</a><span>dom 9h30–16h30 · grátis</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Marco+das+Tres+Fronteiras+Foz+do+Igua%C3%A7u" target="_blank" rel="noopener">Marco das 3 Fronteiras</a><span>dom 15h–21h</span></li>
-      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante+Barrac%C3%A3o+Av+Silvio+Americo+Sasdelli+1010+Foz" target="_blank" rel="noopener">Restaurante Barracão</a><span>11h–15h30</span></li>
+      <li><a href="https://waze.com/ul?q=Rua%20M%C3%A1rio%20Rom%C3%A3o%20Rorato%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR&amp;navigate=yes" target="_blank" rel="noopener">Casa (hospedagem)</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20M%C3%A1rio%20Rom%C3%A3o%20Rorato%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR" target="_blank" rel="noopener">Maps</a><span>Rua Mário Romão Rorato, check-in a partir das 14h</span></li>
+      <li><a href="https://waze.com/ul?q=TTU%20Terminal%20de%20Transporte%20Urbano%2C%20Av.%20Juscelino%20Kubitschek%201385%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">TTU, ônibus pra Argentina</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=TTU%20Terminal%20de%20Transporte%20Urbano%2C%20Av.%20Juscelino%20Kubitschek%201385%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>Av. Juscelino Kubitschek, 1385</span></li>
+      <li><a href="https://waze.com/ul?q=Estacionamentos%20Bismillah%2C%20Rua%20Oswaldo%20Cruz%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Estacionamento Bismillah</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamentos%20Bismillah%2C%20Rua%20Oswaldo%20Cruz%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>perto da ponte · confirmar horário de saída</span></li>
+      <li><a href="https://waze.com/ul?q=Estacionamento%20Fortaleza%2C%20Rua%20Fagundes%20Varela%20118%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Estacionamento Fortaleza</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Estacionamento%20Fortaleza%2C%20Rua%20Fagundes%20Varela%20118%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>alternativa, ~200 m da ponte</span></li>
+      <li><a href="https://waze.com/ul?q=Ponte%20da%20Amizade%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Ponte da Amizade</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Ponte%20da%20Amizade%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>a pé, 24h</span></li>
+      <li><a href="https://waze.com/ul?q=SA%20Shop%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">SA Shop</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=SA%20Shop%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb 7h–16h</span></li>
+      <li><a href="https://waze.com/ul?q=Mega%20Eletronicos%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">Mega Eletrônicos</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Mega%20Eletronicos%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb 6h30–16h</span></li>
+      <li><a href="https://waze.com/ul?q=Nissei%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">Nissei</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Nissei%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb até 15h–16h</span></li>
+      <li><a href="https://waze.com/ul?q=Shopping%20Paris%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">Shopping Paris</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Shopping%20Paris%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb até ~18h</span></li>
+      <li><a href="https://waze.com/ul?q=Shopping%20China%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">Shopping China</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Shopping%20China%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb 7h–20h</span></li>
+      <li><a href="https://waze.com/ul?q=CellShop%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">CellShop</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=CellShop%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb 9h–21h</span></li>
+      <li><a href="https://waze.com/ul?q=New%20Zone%20Ciudad%20del%20Este%20Paraguay&amp;navigate=yes" target="_blank" rel="noopener">New Zone</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=New%20Zone%20Ciudad%20del%20Este%20Paraguay" target="_blank" rel="noopener">Maps</a><span>sáb 7h–22h</span></li>
+      <li><a href="https://waze.com/ul?q=Hito%20Tres%20Fronteras%2C%20Puerto%20Iguaz%C3%BA%2C%20Misiones&amp;navigate=yes" target="_blank" rel="noopener">Hito Tres Fronteras</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Hito%20Tres%20Fronteras%2C%20Puerto%20Iguaz%C3%BA%2C%20Misiones" target="_blank" rel="noopener">Maps</a><span>Argentina, o dia todo</span></li>
+      <li><a href="https://waze.com/ul?q=Centro%20de%20Visitantes%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Cataratas, Centro de Visitantes</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Centro%20de%20Visitantes%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>dom 8h30–17h30 · estacionamento R$ 65</span></li>
+      <li><a href="https://waze.com/ul?q=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Parque das Aves</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>dom 8h30–16h30</span></li>
+      <li><a href="https://waze.com/ul?q=Restaurante%20Barrac%C3%A3o%2C%20Av.%20Silvio%20Am%C3%A9rico%20Sasdelli%201010%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Restaurante Barracão</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante%20Barrac%C3%A3o%2C%20Av.%20Silvio%20Am%C3%A9rico%20Sasdelli%201010%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>11h–15h30</span></li>
+      <li><a href="https://waze.com/ul?q=Templo%20Budista%20Chen%20Tien%2C%20Rua%20Dr.%20Josivalter%20Vila%20Nova%2099%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Templo Budista</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Templo%20Budista%20Chen%20Tien%2C%20Rua%20Dr.%20Josivalter%20Vila%20Nova%2099%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>dom 9h30–16h30 · grátis</span></li>
+      <li><a href="https://waze.com/ul?q=Marco%20das%203%20Fronteiras%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Marco das 3 Fronteiras</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Marco%20das%203%20Fronteiras%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>dom 14h–21h · estacionamento grátis</span></li>
+      <li><a href="https://waze.com/ul?q=Shawarmaria%20Asmars%2C%20Rua%20Tarob%C3%A1%20962%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Shawarmaria Asmars</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Shawarmaria%20Asmars%2C%20Rua%20Tarob%C3%A1%20962%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>dom 11h–23h</span></li>
+      <li><a href="https://waze.com/ul?q=Cantina%204%20Sorelle%2C%20Rua%20Almirante%20Barroso%201336%2C%20Foz%20do%20Igua%C3%A7u&amp;navigate=yes" target="_blank" rel="noopener">Cantina 4 Sorelle</a> <a class="alt" href="https://www.google.com/maps/search/?api=1&amp;query=Cantina%204%20Sorelle%2C%20Rua%20Almirante%20Barroso%201336%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Maps</a><span>dom 11h30–14h30 e 18h–23h</span></li>
     </ul>
   </section>
 
   <footer>
-    <p>Atualizado em 23/09/2026. Horários e preços mudam: confirmem no dia.</p>
+    <p>Atualizado em 07/10/2026. Horários e preços mudam: confirmem no dia.</p>
     <p>Fontes: Polícia Federal (documentos), sites oficiais das Cataratas, Parque das Aves, Marco das 3 Fronteiras, Itaipu, Shopping China e City Center Iguazú, e guias locais (Compras Paraguai, Turismo Itaipu, Combo Iguassu, Melhores Destinos, Hotel Del Rey). Fotos: Wikimedia Commons, licenças na legenda.</p>
   </footer>
 
