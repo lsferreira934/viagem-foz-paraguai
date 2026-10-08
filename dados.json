@@ -1,0 +1,657 @@
+{
+ "atualizado": "2026-10-08T21:43+00:00",
+ "rodada": 148,
+ "dolar": 5.09,
+ "categorias": [
+  {
+   "nome": "iPad",
+   "itens": [
+    {
+     "titulo": "Apple iPad 8ª Geração 2020 32GB 10.2\" 4G",
+     "usd": 164.0,
+     "lojas": [
+      "Victoria Store"
+     ],
+     "brl": 835,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+8%C2%AA+Gera%C3%A7%C3%A3o+2020+32GB+10.2%22+4G"
+    },
+    {
+     "titulo": "Apple iPad 9ª Geração 2021 64GB 10.2\"",
+     "usd": 219.0,
+     "lojas": [
+      "Victoria Store"
+     ],
+     "brl": 1115,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+9%C2%AA+Gera%C3%A7%C3%A3o+2021+64GB+10.2%22"
+    },
+    {
+     "titulo": "Apple iPad 9ª Geração 2021 256GB 10.2\"",
+     "usd": 259.0,
+     "lojas": [
+      "Victoria Store"
+     ],
+     "brl": 1318,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+9%C2%AA+Gera%C3%A7%C3%A3o+2021+256GB+10.2%22"
+    },
+    {
+     "titulo": "Apple iPad 11ª Geração 2025 128GB 11\"",
+     "usd": 449.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro",
+      "Prime Shop"
+     ],
+     "brl": 2285,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+128GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad Air 5 2022 64GB 10.9\"",
+     "usd": 510.0,
+     "lojas": [
+      "Tellecon Cell"
+     ],
+     "brl": 2596,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+5+2022+64GB+10.9%22"
+    },
+    {
+     "titulo": "Apple iPad 11ª Geração 2025 256GB 11\"",
+     "usd": 555.0,
+     "lojas": [
+      "Nissei",
+      "Star Games",
+      "Matrix Importados"
+     ],
+     "brl": 2825,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad 11ª Geração 2025 512GB 11\"",
+     "usd": 555.0,
+     "lojas": [
+      "Star Games"
+     ],
+     "brl": 2825,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+512GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad 11ª Geração 2025 128GB 11\" 5G",
+     "usd": 587.0,
+     "lojas": [
+      "MultiPass"
+     ],
+     "brl": 2988,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+128GB+11%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Air 2025 256GB 11\"",
+     "usd": 680.0,
+     "lojas": [
+      "Atacado Connect"
+     ],
+     "brl": 3461,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+256GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad Air 2025 128GB 11\" 5G",
+     "usd": 690.0,
+     "lojas": [
+      "Flytec Computers"
+     ],
+     "brl": 3512,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+11%22+5G"
+    },
+    {
+     "titulo": "Apple iPad 11ª Geração 2025 256GB 11\" 5G",
+     "usd": 730.0,
+     "lojas": [
+      "Nissei",
+      "Cellshop"
+     ],
+     "brl": 3716,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Air 2026 128GB 11\"",
+     "usd": 744.0,
+     "lojas": [
+      "Super Games"
+     ],
+     "brl": 3787,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad Air 2025 128GB 13\" 5G",
+     "usd": 810.0,
+     "lojas": [
+      "MultiPass"
+     ],
+     "brl": 4123,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+13%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Pro 2022 128GB 12.9\"",
+     "usd": 825.0,
+     "lojas": [
+      "Atacado Connect"
+     ],
+     "brl": 4199,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2022+128GB+12.9%22"
+    },
+    {
+     "titulo": "Apple iPad Air 2026 256GB 11\"",
+     "usd": 845.0,
+     "lojas": [
+      "Atacado Connect",
+      "Atlantico Shop"
+     ],
+     "brl": 4301,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+256GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad Air 2026 128GB 11\" 5G",
+     "usd": 870.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 4428,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Air 2025 256GB 13\"",
+     "usd": 895.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 4556,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+256GB+13%22"
+    },
+    {
+     "titulo": "Apple iPad Air 2026 128GB 13\"",
+     "usd": 930.0,
+     "lojas": [
+      "Tellecon Cell",
+      "Toku Importados"
+     ],
+     "brl": 4734,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+13%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2024 256GB 11\" 5G",
+     "usd": 999.0,
+     "lojas": [
+      "MultiPass"
+     ],
+     "brl": 5085,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+256GB+11%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Air 2026 256GB 13\"",
+     "usd": 1050.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 5344,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+256GB+13%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 256GB 11\"",
+     "usd": 1149.0,
+     "lojas": [
+      "Atacado Connect",
+      "One Click",
+      "Mega Eletrônicos",
+      "New Zone"
+     ],
+     "brl": 5848,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2024 256GB 13\" 5G",
+     "usd": 1295.0,
+     "lojas": [
+      "Shopping China"
+     ],
+     "brl": 6592,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+256GB+13%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 256GB 13\"",
+     "usd": 1360.0,
+     "lojas": [
+      "Atacado Connect",
+      "One Click",
+      "MultiPass",
+      "Nissei"
+     ],
+     "brl": 6922,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2024 512GB 13\"",
+     "usd": 1400.0,
+     "lojas": [
+      "MultiPass"
+     ],
+     "brl": 7126,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+512GB+13%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 512GB 11\"",
+     "usd": 1450.0,
+     "lojas": [
+      "Shopping China",
+      "New Zone",
+      "Matrix Importados"
+     ],
+     "brl": 7380,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22"
+    }
+   ]
+  },
+  {
+   "nome": "iPad mini",
+   "itens": [
+    {
+     "titulo": "Apple iPad Mini 7 2024 128GB 8.3\"",
+     "usd": 612.0,
+     "lojas": [
+      "MultiPass"
+     ],
+     "brl": 3115,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Mini+7+2024+128GB+8.3%22"
+    },
+    {
+     "titulo": "Apple iPad Mini 7 2024 256GB 8.3\"",
+     "usd": 707.0,
+     "lojas": [
+      "Super Games"
+     ],
+     "brl": 3599,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Mini+7+2024+256GB+8.3%22"
+    }
+   ]
+  },
+  {
+   "nome": "Samsung Galaxy S",
+   "itens": [
+    {
+     "titulo": "Samsung Galaxy S25 FE SM-S731B Dual Chip 128GB 5G",
+     "usd": 435.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 2214,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S25+FE+SM-S731B+Dual+Chip+128GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 FE SM-S731B Dual Chip 256GB 5G",
+     "usd": 535.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 2723,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S25+FE+SM-S731B+Dual+Chip+256GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 FE SM-S731B Dual Chip 512GB 5G",
+     "usd": 630.0,
+     "lojas": [
+      "Atacado Connect"
+     ],
+     "brl": 3207,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S25+FE+SM-S731B+Dual+Chip+512GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 FE SM-S741B Dual Chip 256GB 5G",
+     "usd": 639.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 3253,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+FE+SM-S741B+Dual+Chip+256GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 FE SM-S741B Dual Chip 128GB 5G",
+     "usd": 639.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 3253,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+FE+SM-S741B+Dual+Chip+128GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 SM-S942B Dual Chip 256GB 5G",
+     "usd": 719.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 3660,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+SM-S942B+Dual+Chip+256GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26+ SM-S947B Dual Chip 256GB 5G",
+     "usd": 790.0,
+     "lojas": [
+      "Intershop Importados",
+      "Atacado Connect"
+     ],
+     "brl": 4021,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26%2B+SM-S947B+Dual+Chip+256GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 SM-S942B Dual Chip 512GB 5G",
+     "usd": 810.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 4123,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+SM-S942B+Dual+Chip+512GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 FE SM-S741B Dual Chip 512GB 5G",
+     "usd": 889.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 4525,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+FE+SM-S741B+Dual+Chip+512GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 Ultra SM-S948B Dual Chip 256GB 5G",
+     "usd": 940.0,
+     "lojas": [
+      "Direto América"
+     ],
+     "brl": 4785,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+Ultra+SM-S948B+Dual+Chip+256GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26+ SM-S947B Dual Chip 512GB 5G",
+     "usd": 1035.0,
+     "lojas": [
+      "Best Shop Paraguai",
+      "Orbe Import"
+     ],
+     "brl": 5268,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26%2B+SM-S947B+Dual+Chip+512GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 Ultra SM-S948B Dual Chip 512GB 5G",
+     "usd": 1105.0,
+     "lojas": [
+      "Atacado Connect"
+     ],
+     "brl": 5624,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+Ultra+SM-S948B+Dual+Chip+512GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy S26 Ultra SM-S948B Dual Chip 1TB 5G",
+     "usd": 1360.0,
+     "lojas": [
+      "Nissei",
+      "Cellshop",
+      "Mobile Zone",
+      "New Zone"
+     ],
+     "brl": 6922,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+Ultra+SM-S948B+Dual+Chip+1TB+5G"
+    }
+   ]
+  },
+  {
+   "nome": "Smartwatch",
+   "itens": [
+    {
+     "titulo": "Xiaomi Haylou Watch S6",
+     "usd": 13.2,
+     "lojas": [
+      "Avanza"
+     ],
+     "brl": 67,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+S6"
+    },
+    {
+     "titulo": "Xiaomi Haylou Iron Neo",
+     "usd": 18.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 92,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Iron+Neo"
+    },
+    {
+     "titulo": "Xiaomi Haylou Watch 2 Pro",
+     "usd": 19.0,
+     "lojas": [
+      "Madrid Center"
+     ],
+     "brl": 97,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+2+Pro"
+    },
+    {
+     "titulo": "Xiaomi Haylou Solar Pro",
+     "usd": 19.5,
+     "lojas": [
+      "TLC"
+     ],
+     "brl": 99,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+Pro"
+    },
+    {
+     "titulo": "Mibro C4 XPAW021",
+     "usd": 22.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Topdek Informática",
+      "Atacado Connect"
+     ],
+     "brl": 112,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+C4+XPAW021"
+    },
+    {
+     "titulo": "Xiaomi Haylou Watch 4",
+     "usd": 23.5,
+     "lojas": [
+      "Star Games"
+     ],
+     "brl": 120,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+4"
+    },
+    {
+     "titulo": "Xiaomi Haylou Smart Watch 3",
+     "usd": 24.2,
+     "lojas": [
+      "Avanza"
+     ],
+     "brl": 123,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Smart+Watch+3"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 5 Active M2351W1",
+     "usd": 28.0,
+     "lojas": [
+      "Madrid Center",
+      "Cell World"
+     ],
+     "brl": 143,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+5+Active+M2351W1"
+    },
+    {
+     "titulo": "Xiaomi Haylou Vibe",
+     "usd": 29.0,
+     "lojas": [
+      "Nissei",
+      "Visãovip",
+      "Intershop Importados",
+      "Topdek Informática"
+     ],
+     "brl": 148,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Vibe"
+    },
+    {
+     "titulo": "Mibro A3 XPAW022",
+     "usd": 31.9,
+     "lojas": [
+      "Avanza"
+     ],
+     "brl": 162,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+A3+XPAW022"
+    },
+    {
+     "titulo": "Mibro Lite 3 XPAW020",
+     "usd": 32.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Atacado Connect",
+      "Mega Eletro"
+     ],
+     "brl": 163,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+Lite+3+XPAW020"
+    },
+    {
+     "titulo": "Xiaomi Haylou Watch 4S",
+     "usd": 33.0,
+     "lojas": [
+      "Madrid Center"
+     ],
+     "brl": 168,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+4S"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 6 Active",
+     "usd": 35.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Cellshop",
+      "Visãovip"
+     ],
+     "brl": 178,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Active"
+    },
+    {
+     "titulo": "Xiaomi Haylou Solar 5",
+     "usd": 35.0,
+     "lojas": [
+      "Madrid Center"
+     ],
+     "brl": 178,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+5"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Band 7 A2177",
+     "usd": 35.0,
+     "lojas": [
+      "Dr Cell Atacado"
+     ],
+     "brl": 178,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Band+7+A2177"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 5 Lite M2352W1",
+     "usd": 37.0,
+     "lojas": [
+      "Madrid Center"
+     ],
+     "brl": 188,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+5+Lite+M2352W1"
+    },
+    {
+     "titulo": "Xiaomi Haylou Solar Ultra",
+     "usd": 39.0,
+     "lojas": [
+      "Madrid Center"
+     ],
+     "brl": 199,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+Ultra"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 2 Lite M2109W1",
+     "usd": 39.0,
+     "lojas": [
+      "Marktronic Comunicação"
+     ],
+     "brl": 199,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+2+Lite+M2109W1"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Bip S A1821",
+     "usd": 39.0,
+     "lojas": [
+      "TecnoTienda"
+     ],
+     "brl": 199,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+S+A1821"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Bip 5 Unity A2324",
+     "usd": 45.0,
+     "lojas": [
+      "Cell World"
+     ],
+     "brl": 229,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+5+Unity+A2324"
+    },
+    {
+     "titulo": "Mibro Lite 3 Pro XPAW019",
+     "usd": 48.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Topdek Informática",
+      "Atacado Connect"
+     ],
+     "brl": 244,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+Lite+3+Pro+XPAW019"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Bip 5 A2215",
+     "usd": 50.0,
+     "lojas": [
+      "Cell World"
+     ],
+     "brl": 254,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+5+A2215"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 6 Lite",
+     "usd": 52.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Cellshop",
+      "Visãovip"
+     ],
+     "brl": 265,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite"
+    },
+    {
+     "titulo": "Mibro GS Explorer XPAW017",
+     "usd": 55.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Topdek Informática",
+      "Atacado Connect"
+     ],
+     "brl": 280,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+GS+Explorer+XPAW017"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 4 M2315W1",
+     "usd": 58.0,
+     "lojas": [
+      "Tche Loco"
+     ],
+     "brl": 295,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+4+M2315W1"
+    }
+   ]
+  }
+ ]
+}

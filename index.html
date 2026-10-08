@@ -184,6 +184,29 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .nav button[aria-selected="true"]{color:var(--forest)}
 .nav button[aria-selected="true"] svg{stroke-width:2.4}
 .view[hidden]{display:none!important}
+
+/* card de tempo */
+.wxcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;margin-top:4px}
+.wxcard .now{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.wxcard .temp{font-family:var(--f-sign);font-weight:900;font-size:46px;line-height:.9}
+.wxcard .desc{font-size:14px;color:var(--soft);text-align:right}
+.wxcard .desc b{display:block;color:var(--ink);font-size:15px}
+.wxdays{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.wxdays div{background:var(--surface-2);border-radius:10px;padding:7px 4px;text-align:center}
+.wxdays b{display:block;font-family:var(--f-sign);font-size:17px;font-weight:800;text-transform:uppercase}
+.wxdays span{display:block;font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums}
+.wxdays .rain{color:var(--forest);font-weight:600}
+.wxcard small{font-size:11.5px;color:var(--muted)}
+/* compras */
+.cats{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.cats::-webkit-scrollbar{display:none}
+.cats button{flex:0 0 auto;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;font-weight:700;font-size:14px;cursor:pointer}
+.cats button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.prod{display:grid;grid-template-columns:1fr auto;gap:4px 12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.prod b{font-size:14.5px;line-height:1.3;font-weight:600}
+.prod .pr{font-family:var(--f-mono);font-weight:600;font-size:15px;text-align:right;font-variant-numeric:tabular-nums}
+.prod .pr small{display:block;font-size:12px;color:var(--muted);font-weight:500}
+.prod .st{grid-column:1/-1;font-size:12.5px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (min-width:600px){.app{padding-top:12px}}
 </style>
@@ -198,6 +221,11 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 
   <!-- ROTEIRO -->
   <section class="view" id="v-roteiro" data-view="roteiro">
+    <div class="wxcard" id="wxcard" aria-live="polite">
+      <div class="now"><div><div class="eyebrow">Agora em Foz</div><div class="temp" id="wx-temp">--°</div></div><div class="desc"><b id="wx-desc">Carregando previsão</b><span id="wx-extra"></span></div></div>
+      <div class="wxdays" id="wx-days"></div>
+      <small id="wx-src">Previsão ao vivo do Open-Meteo, atualiza toda vez que a página abre.</small>
+    </div>
     <nav class="daybar" role="tablist" aria-label="Dias da viagem" id="daybar"></nav>
     <div id="dayview"></div>
   </section>
@@ -245,35 +273,17 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
   <!-- COMPRAS -->
   <section class="view" id="v-compras" data-view="compras" hidden>
     <div class="sec">
-      <h2 class="sec-h">MacBook do Leandro</h2>
-      <p class="lede">Os três de 24GB em foco, preços de 07/10 no Compras Paraguai, com o dólar das lojas a R$ 5,08. O crawler avisa no Telegram se cair.</p>
-      <div id="macs" class="mac"></div>
-    </div>
-    <div class="sec">
-      <h3 class="sec-h">Calculadora</h3>
-      <div class="card calc">
-        <div class="seg" id="calc-models" role="group" aria-label="Modelo"></div>
-        <div class="two">
-          <div class="field"><label for="c-usd">Preço (US$)</label><input id="c-usd" type="number" inputmode="decimal" value="2090" min="0" step="1"></div>
-          <div class="field"><label for="c-rate">Dólar (R$)</label><input id="c-rate" type="number" inputmode="decimal" value="5.08" min="0" step="0.01"></div>
-        </div>
-        <div class="field"><label for="c-pay">Forma de pagamento</label>
-          <select id="c-pay">
-            <option value="usdt">USDT (KAST) + US$ 1 de rede</option>
-            <option value="pix">Pix na loja (+4%)</option>
-            <option value="deb">Cartão de débito (+3,85%)</option>
-            <option value="cred">Cartão de crédito 1x (+5%)</option>
-          </select>
-        </div>
-        <label class="switch"><input type="checkbox" id="c-tax"> Incluir imposto da cota (50% acima de US$ 500)</label>
-        <div class="total" aria-live="polite"><span class="lbl">Total estimado</span><span class="big" id="c-total">R$ 0</span><span class="det" id="c-det"></span></div>
-        <p class="lede" style="font-size:13px">Estimativa. Os percentuais vêm de vídeos de lojas e compradores em 2026 e mudam por loja. Confirme o valor final no balcão.</p>
-      </div>
+      <h2 class="sec-h">Preços no Paraguai</h2>
+      <p class="lede" id="cp-info">Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualiza de hora em hora.</p>
+      <div class="cats" id="cp-cats" role="group" aria-label="Categoria"></div>
+      <div class="places" id="cp-list"><p class="lede">Carregando preços…</p></div>
+      <p class="lede" style="font-size:13px">Preço em reais é estimado pelo dólar das lojas. Pix e cartão saem mais caros. Confirmem no balcão.</p>
     </div>
     <div class="sec">
       <h3 class="sec-h">Lojas no sábado</h3>
-      <p class="lede">Comecem pelas que fecham às 16h.</p>
-      <ul class="rows card" id="hours"></ul>
+      <p class="lede">Comecem pelas que fecham às 16h. "Andar" abre a rota a pé no Google Maps a partir de onde você está.</p>
+      <div class="places" id="hours"></div>
+      <div class="alert warn"><span class="ic">!</span><span>Desconfiem de quem aborda na rua oferecendo "preço melhor" ou levando a outra loja. Fiquem nas lojas grandes.</span></div>
     </div>
   </section>
 
@@ -305,7 +315,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 
       <details class="more"><summary>Casa (Airbnb da Camila)</summary><div class="body">
         <ul class="rows">
-          <li><span class="k">Endereço</span><span class="v">Rua Mário Romão Rorato, Foz</span></li>
+          <li><span class="k">Endereço</span><span class="v">Rua Mário Romão Rorato, 95</span></li>
           <li><span class="k">Check-in</span><span class="v">sex a partir de 14h</span></li>
           <li><span class="k">Check-out</span><span class="v">dom até 10h</span></li>
           <li><span class="k">Entrada</span><span class="v">cofre de chaves</span></li>
@@ -388,7 +398,7 @@ const IMG = {hito:"img/hito.jpg", cde:"img/cde.jpg", cataratas:"img/cataratas.jp
 
 const P = {
   unidas:["Unidas, Rua Andorra 500","Shopping Jd Oriente, SJC","Unidas Shopping Jardim Oriente, Rua Andorra 500, São José dos Campos"],
-  casa:["Casa da Camila","Rua Mário Romão Rorato","Rua Mário Romão Rorato, Foz do Iguaçu - PR"],
+  casa:["Casa da Camila","Rua Mário Romão Rorato, 95 · Jd. Universitário","Rua Mário Romão Rorato, 95, Jardim Universitário, Foz do Iguaçu - PR, 85897-654"],
   ttu:["TTU, ônibus para a Argentina","Av. Juscelino Kubitschek, 1385","TTU Terminal de Transporte Urbano, Av. Juscelino Kubitschek 1385, Foz do Iguaçu"],
   dutyfree:["Duty Free Puerto Iguazú","12h às 21h","Duty Free Shop Puerto Iguazú"],
   hito:["Hito Tres Fronteras","show de águas ~20h","Hito Tres Fronteras, Puerto Iguazú, Misiones"],
@@ -473,16 +483,11 @@ const DAYS = [
 
 const RODIZIO = [["Qui 19h–22h","Cíntia"],["Qui 22h–01h","Leandro"],["Sex 01h–04h","Alisson"],["Sex 04h–07h","Emerson"],["Sex 07h–10h","Alice"],["Dom 20h–23h","Cíntia"],["Dom 23h–02h","Leandro"],["Seg 02h–05h","Alisson"],["Seg 05h–08h","Alice"],["Seg 08h–11h","Emerson"]];
 
-const MACS = [
-  {k:"pro", rank:"1º foco", name:"MacBook Pro 14\" M4 Pro", spec:"24GB · 512GB", code:"MX2E3LL/A", usd:2090, stores:"Shopping China, Matrix Importados", note:"Mais núcleos e banda de memória, ventoinha, tela melhor. SSD de 512GB."},
-  {k:"air15", rank:"2º foco", name:"MacBook Air 15\" M5", spec:"24GB · 1TB", code:"MDVU4LL/A", usd:2075, stores:"Shopping China (US$ 2.075), Matrix (US$ 2.085)", note:"Tela grande e 1TB, só US$ 15 a menos que o Pro."},
-  {k:"air13", rank:"Melhor custo", name:"MacBook Air 13\" M5", spec:"24GB · 1TB", code:"MDHK4LL/A", usd:1860, stores:"Atacado Connect, Mega Eletrônicos, Nissei", note:"O anúncio da Nissei não diz a RAM: confirmem 24GB na caixa."}
-];
 const FEES = {usdt:{p:0,fix:1,l:"USDT"},pix:{p:.04,fix:0,l:"Pix"},deb:{p:.0385,fix:0,l:"Débito"},cred:{p:.05,fix:0,l:"Crédito"}};
 const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
 const usd = v => "US$ " + Math.round(v).toLocaleString("pt-BR");
 
-const HOURS = [["SA Shop","7h–16h"],["Mega Eletrônicos","6h30–16h"],["Nissei","~6h30–15h/16h"],["Shopping Paris","7h–~18h"],["Shopping China","7h–20h"],["CellShop","9h–21h"],["New Zone","7h–22h"]];
+const HOURS = [["SA Shop","7h–16h","SA Shop Ciudad del Este Paraguay"],["Mega Eletrônicos","6h30–16h","Mega Eletronicos Ciudad del Este Paraguay"],["Nissei","~6h30–15h/16h","Nissei Ciudad del Este Paraguay"],["Shopping Paris","7h–~18h","Shopping Paris Ciudad del Este Paraguay"],["Shopping China","7h–20h","Shopping China Ciudad del Este Paraguay"],["CellShop","9h–21h","CellShop Ciudad del Este Paraguay"],["New Zone","7h–22h","New Zone Ciudad del Este Paraguay"],["Tigo (chip)","comprar primeiro","Tigo Ciudad del Este"]];
 
 const CHECK = [
   ["k1","Criar a conta na KAST, no próprio nome, e esperar a aprovação"],
@@ -554,47 +559,51 @@ function renderCheck(){
   upd();
 }
 
-/* macbooks */
-function renderMacs(){
-  const rate = 5.08;
-  document.getElementById("macs").innerHTML = MACS.map(m => {
-    const base = m.usd*rate;
-    return '<div class="card"><span class="rank">'+m.rank+'</span><h3>'+m.name+' <span class="code">'+m.spec+'</span></h3>'
-      + '<div class="price">'+usd(m.usd)+'<small>'+m.code+'</small></div>'
-      + '<div class="grid4"><div><span>USDT</span><b>'+brl(base+rate)+'</b></div><div><span>Pix</span><b>'+brl(base*1.04)+'</b></div><div><span>Débito</span><b>'+brl(base*1.0385)+'</b></div><div><span>Crédito 1x</span><b>'+brl(base*1.05)+'</b></div></div>'
-      + '<p class="stores"><b>Lojas:</b> '+m.stores+'</p><p>'+m.note+'</p>'
-      + '<div class="acts"><button class="btn sm" data-calc="'+m.k+'">Simular</button><a class="btn sm" href="https://www.comprasparaguai.com.br/busca/?q='+enc(m.name.replace(/"/g,"")+" "+m.spec.split(" · ")[0])+'" target="_blank" rel="noopener">Ver no Compras Paraguai</a></div></div>';
-  }).join("");
-  document.getElementById("macs").addEventListener("click", e => { const b = e.target.closest("[data-calc]"); if (b) { pickModel(b.dataset.calc); document.querySelector(".calc").scrollIntoView({behavior:"smooth", block:"start"}); } });
+
+/* tempo ao vivo (Open-Meteo, sem chave) */
+const WMO = c => c>=95?"Trovoada":c>=80?"Pancadas de chuva":c>=61?"Chuva":c>=51?"Garoa":c>=45?"Neblina":c>=3?"Nublado":c>=1?"Parcialmente nublado":"Céu limpo";
+async function loadWeather(){
+  const url = "https://api.open-meteo.com/v1/forecast?latitude=-25.52&longitude=-54.58&current=temperature_2m,weather_code,precipitation_probability,apparent_temperature&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=America%2FSao_Paulo&start_date=2026-10-09&end_date=2026-10-12";
+  try{
+    const r = await fetch(url, {cache:"no-store"}); if(!r.ok) throw 0;
+    const d = await r.json();
+    const c = d.current;
+    document.getElementById("wx-temp").textContent = Math.round(c.temperature_2m)+"°";
+    document.getElementById("wx-desc").textContent = WMO(c.weather_code);
+    document.getElementById("wx-extra").textContent = "sensação "+Math.round(c.apparent_temperature)+"° · chuva "+(c.precipitation_probability??"–")+"%";
+    const names = {"2026-10-09":"Sex","2026-10-10":"Sáb","2026-10-11":"Dom","2026-10-12":"Seg"};
+    const dd = d.daily;
+    document.getElementById("wx-days").innerHTML = dd.time.map((t,i)=>'<div><b>'+names[t]+'</b><span>'+Math.round(dd.temperature_2m_min[i])+'–'+Math.round(dd.temperature_2m_max[i])+'°</span><span class="rain">'+dd.precipitation_probability_max[i]+'%</span></div>').join("");
+    dd.time.forEach((t,i)=>{ const day = DAYS.find(x=>x.d===t); if(day) day.wx = [Math.round(dd.temperature_2m_min[i])+"–"+Math.round(dd.temperature_2m_max[i])+"°C", dd.precipitation_probability_max[i]+"% de chuva", WMO(dd.weather_code[i]).toLowerCase()]; });
+    const sel = document.querySelector('.day[aria-selected="true"]'); if(sel) showDay(+sel.dataset.i, false);
+    const hh = new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"});
+    document.getElementById("wx-src").textContent = "Previsão ao vivo do Open-Meteo, consultada às "+hh+". Atualiza toda vez que a página abre.";
+  }catch(e){
+    document.getElementById("wx-desc").textContent = "Sem conexão agora";
+    document.getElementById("wx-extra").textContent = "chuva prevista em todos os dias: levem capa";
+  }
 }
 
-/* calculadora */
-const cUsd = document.getElementById("c-usd"), cRate = document.getElementById("c-rate"), cPay = document.getElementById("c-pay"), cTax = document.getElementById("c-tax");
-function pickModel(k){
-  const m = MACS.find(x => x.k === k); if (!m) return;
-  cUsd.value = m.usd;
-  document.querySelectorAll("#calc-models button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.k === k)));
-  calc();
-}
-function calc(){
-  const u = Math.max(0, parseFloat(cUsd.value)||0), r = Math.max(0, parseFloat(cRate.value)||0), f = FEES[cPay.value];
-  const pay = (u*(1+f.p) + f.fix) * r;
-  const tax = cTax.checked ? Math.max(0, u-500)*0.5*r : 0;
-  document.getElementById("c-total").textContent = brl(pay+tax);
-  let det = f.l+": "+brl(pay);
-  if (cTax.checked) det += " · imposto da cota: "+brl(tax)+" ("+usd(Math.max(0,u-500)*0.5)+")";
-  document.getElementById("c-det").textContent = det;
-  store.set("calc", {u:cUsd.value, r:cRate.value, p:cPay.value, t:cTax.checked});
-}
-function renderCalc(){
-  document.getElementById("calc-models").innerHTML = MACS.map(m => '<button type="button" data-k="'+m.k+'" aria-pressed="false">'+m.name.replace("MacBook ","")+'</button>').join("");
-  document.getElementById("calc-models").addEventListener("click", e => { const b = e.target.closest("button"); if (b) pickModel(b.dataset.k); });
-  const s = store.get("calc", null);
-  if (s) { cUsd.value = s.u; cRate.value = s.r; cPay.value = s.p; cTax.checked = !!s.t; }
-  const hit = MACS.find(m => String(m.usd) === String(cUsd.value));
-  if (hit) document.querySelector('#calc-models [data-k="'+hit.k+'"]').setAttribute("aria-pressed","true");
-  [cUsd,cRate,cPay,cTax].forEach(el => el.addEventListener("input", () => { document.querySelectorAll("#calc-models button").forEach(b => b.setAttribute("aria-pressed","false")); calc(); }));
-  calc();
+/* compras: dados.json gerado pela VPS de hora em hora */
+async function renderCompras(){
+  const list = document.getElementById("cp-list"), cats = document.getElementById("cp-cats");
+  try{
+    const r = await fetch("dados.json?t="+Date.now(), {cache:"no-store"}); if(!r.ok) throw 0;
+    const d = await r.json();
+    const quando = new Date(d.atualizado).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"});
+    document.getElementById("cp-info").textContent = "Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualizado em "+quando+(d.dolar?" · dólar das lojas R$ "+d.dolar.toFixed(2).replace(".",","):"")+".";
+    const show = n => {
+      const c = d.categorias.find(x=>x.nome===n) || d.categorias[0];
+      cats.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.n===c.nome)));
+      list.innerHTML = c.itens.length ? c.itens.map(it=>'<a class="prod" href="'+it.link+'" target="_blank" rel="noopener"><b>'+it.titulo+'</b><span class="pr">'+usd(it.usd)+(it.brl?'<small>≈ '+brl(it.brl)+'</small>':'')+'</span><span class="st">'+it.lojas.join(", ")+'</span></a>').join("") : '<p class="lede">Nenhum anúncio nesta categoria agora.</p>';
+      store.set("cat", c.nome);
+    };
+    cats.innerHTML = d.categorias.map(c=>'<button type="button" data-n="'+c.nome+'" aria-pressed="false">'+c.nome+' <small>'+c.itens.length+'</small></button>').join("");
+    cats.addEventListener("click", e=>{ const b = e.target.closest("button"); if(b) show(b.dataset.n); });
+    show(store.get("cat", d.categorias[0].nome));
+  }catch(e){
+    list.innerHTML = '<p class="lede">Não consegui carregar os preços agora. Tentem de novo com internet.</p>';
+  }
 }
 
 /* lugares */
@@ -608,12 +617,12 @@ function renderPlaces(){
 }
 
 function renderLists(){
-  document.getElementById("hours").innerHTML = HOURS.map(h => '<li><span class="k">'+h[0]+'</span><span class="v">'+h[1]+'</span></li>').join("");
+  document.getElementById("hours").innerHTML = HOURS.map(h => '<div class="place"><div><b>'+h[0]+'</b><small>sáb '+h[1]+'</small></div><div class="acts"><a class="btn pri sm" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination='+enc(h[2])+'" target="_blank" rel="noopener">Andar</a><a class="btn sm" href="'+maps(h[2])+'" target="_blank" rel="noopener">Ver</a></div></div>').join("");
   document.getElementById("rodizio").innerHTML = RODIZIO.map(r => '<li><span class="k">'+r[0]+'</span><span class="v">'+r[1]+'</span></li>').join("");
 }
 
 function start(){
-  setStatus(); renderDays(); renderCheck(); renderMacs(); renderCalc(); renderPlaces(); renderLists();
+  setStatus(); renderDays(); renderCheck(); renderCompras(); loadWeather(); renderPlaces(); renderLists();
   const d = todayIdx >= 0 ? todayIdx : store.get("day", 0);
   showDay(Math.min(Math.max(d,0), DAYS.length-1), false);
   const t = store.get("tab", "roteiro");
