@@ -398,7 +398,7 @@ const IMG = {hito:"img/hito.jpg", cde:"img/cde.jpg", cataratas:"img/cataratas.jp
 
 const P = {
   unidas:["Unidas, Rua Andorra 500","Shopping Jd Oriente, SJC","Unidas Shopping Jardim Oriente, Rua Andorra 500, São José dos Campos"],
-  casa:["Casa da Camila","Rua Mário Romão Rorato, 95 · Jd. Universitário","Rua Mário Romão Rorato, 95, Jardim Universitário, Foz do Iguaçu - PR, 85897-654"],
+  casa:["Casa da Camila","Rua Mário Romão Rorato, 95 · Jd. Universitário","@-25.4636730,-54.5826007"],
   ttu:["TTU, ônibus para a Argentina","Av. Juscelino Kubitschek, 1385","TTU Terminal de Transporte Urbano, Av. Juscelino Kubitschek 1385, Foz do Iguaçu"],
   dutyfree:["Duty Free Puerto Iguazú","12h às 21h","Duty Free Shop Puerto Iguazú"],
   hito:["Hito Tres Fronteras","show de águas ~20h","Hito Tres Fronteras, Puerto Iguazú, Misiones"],
@@ -423,8 +423,8 @@ const P = {
   yup:["Roda-gigante Yup Star","sáb até 20h30","Roda Gigante Yup Star Foz do Iguaçu"]
 };
 const enc = encodeURIComponent;
-const waze = q => "https://waze.com/ul?q="+enc(q)+"&navigate=yes";
-const maps = q => "https://www.google.com/maps/search/?api=1&query="+enc(q);
+const waze = q => q[0]==="@" ? "https://waze.com/ul?ll="+q.slice(1)+"&navigate=yes" : "https://waze.com/ul?q="+enc(q)+"&navigate=yes";
+const maps = q => q[0]==="@" ? "https://www.google.com/maps/search/?api=1&query="+q.slice(1) : "https://www.google.com/maps/search/?api=1&query="+enc(q);
 const ICON_NAV = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg>';
 function acts(key, small){
   const q = P[key][2], c = small ? " sm" : "";
