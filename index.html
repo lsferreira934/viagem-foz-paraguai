@@ -432,17 +432,17 @@ function acts(key, small){
 }
 
 const DAYS = [
-  {id:"qui", d:"2026-10-08", short:"Qui", date:"08/10", country:"Brasil · São José dos Campos", title:"Pé na estrada", img:null, wx:["Saída 19h","~1.130 km","~14h de viagem"],
+  {id:"qui", d:"2026-10-08", short:"Qui", date:"08/10", country:"Brasil · São José dos Campos", title:"Pé na estrada", img:null, wx:["Saída 19h","~1.130 km","~13h com paradas"],
    alerts:[["tip","i","Na Unidas: <b>CNH</b> e <b>cartão de crédito físico do Leandro</b>. A caução bloqueia R$ 2.200 ou mais."]],
    items:[
     ["15h","Retirar o carro na Unidas","Shopping Jd Oriente, em frente às Lojas Americanas. Tolerância até 17h.","unidas",true],
-    ["19h","Saída de SJC","Rodízio: Cíntia 19h, Leandro 22h, Alisson 1h, Emerson 4h, Alice 7h.",null,true],
+    ["19h","Saída de SJC","Waze: ~12h54 dirigindo. Rodízio de ~2h35 com 15 min de troca: Cíntia 19h, Leandro 21h50, Alisson 0h40, Emerson 3h30, Alice 6h20. Chegada ~9h.",null,true],
     ["madr.","Estrada","Paradas a cada troca de motorista. Baixem o mapa offline de Foz, Ciudad del Este e Puerto Iguazú antes de sair.",null,false]
    ]},
   {id:"sex", d:"2026-10-09", short:"Sex", date:"09/10", country:"Argentina · Puerto Iguazú", title:"Argentina sem carro", img:["hito","Hito Tres Fronteras · Horacio Cambeiro, CC BY 4.0"], wx:["23–28°C","80% de chuva","capa de chuva"],
    alerts:[["warn","!","O carro <b>não cruza</b>. Fica na casa (pode ficar na frente). Uber, 99 e DiDi <b>não funcionam</b> na Argentina."]],
    items:[
-    ["10h","Chegada em Foz","Deixem o carro na casa. O check-in só libera às 14h.","casa",false],
+    ["9h","Chegada em Foz","Deixem o carro na casa. O check-in só libera às 14h.","casa",false],
     ["11h","Uber até o TTU","R$ 20 a 40. O ônibus internacional sai de um ponto ao lado do terminal, não de dentro.","ttu",true],
     ["11h30","Ônibus para Puerto Iguazú","Crucero del Norte, de hora em hora das 7h às 18h. R$ 10 a 30 por pessoa, ~40 min. Todos descem na imigração com RG.",null,false],
     ["12h","Duty Free e centro","Duty Free das 12h às 21h, aceita Pix por QR do Mercado Pago. Casino a partir das 14h. Segurem compras grandes: a cota pode ser a mesma do Paraguai.","dutyfree",false],
@@ -471,17 +471,17 @@ const DAYS = [
     ["14h30","Templo Chen Tien","Grátis, estacionamento na entrada. Se faltar tempo, cortem este.","templo",false],
     ["15h45","Marco das 3 Fronteiras","Estacionamento grátis, show às 18h30. Cupom MDMARCO15.","marco",true],
     ["18h30","Jantar","Shawarmaria Asmars ou Cantina 4 Sorelle, no Centro.","asmars",false],
-    ["20h","Saída para SJC","Rodízio: Cíntia 20h, Leandro 23h, Alisson 2h, Alice 5h, Emerson 8h.",null,true]
+    ["20h","Saída para SJC","Rodízio de ~2h35 com 15 min de troca: Cíntia 20h, Leandro 22h50, Alisson 1h40, Alice 4h30, Emerson 7h20. Chegada ~10h.",null,true]
    ]},
-  {id:"seg", d:"2026-10-12", short:"Seg", date:"12/10", country:"Brasil · Feriado", title:"Chegada", img:null, wx:["20–22°C em Foz","chegada ~11h"],
+  {id:"seg", d:"2026-10-12", short:"Seg", date:"12/10", country:"Brasil · Feriado", title:"Chegada", img:null, wx:["20–22°C em Foz","chegada ~10h"],
    alerts:[["warn","!","Devolução às <b>15h</b>. Atraso cobra diária extra."]],
    items:[
-    ["11h","Chegada em SJC","Descansem antes de devolver o carro.",null,false],
+    ["10h","Chegada em SJC","Descansem antes de devolver o carro.",null,false],
     ["15h","Devolver o carro na Unidas","Rua Andorra, 500. Tanque e vistoria conforme o contrato.","unidas",true]
    ]}
 ];
 
-const RODIZIO = [["Qui 19h–22h","Cíntia"],["Qui 22h–01h","Leandro"],["Sex 01h–04h","Alisson"],["Sex 04h–07h","Emerson"],["Sex 07h–10h","Alice"],["Dom 20h–23h","Cíntia"],["Dom 23h–02h","Leandro"],["Seg 02h–05h","Alisson"],["Seg 05h–08h","Alice"],["Seg 08h–11h","Emerson"]];
+const RODIZIO = [["Qui 19h00–21h35","Cíntia"],["Qui 21h50–00h25","Leandro"],["Sex 00h40–03h15","Alisson"],["Sex 03h30–06h05","Emerson"],["Sex 06h20–08h55","Alice"],["Dom 20h00–22h35","Cíntia"],["Dom 22h50–01h25","Leandro"],["Seg 01h40–04h15","Alisson"],["Seg 04h30–07h05","Alice"],["Seg 07h20–09h55","Emerson"]];
 
 const FEES = {usdt:{p:0,fix:1,l:"USDT"},pix:{p:.04,fix:0,l:"Pix"},deb:{p:.0385,fix:0,l:"Débito"},cred:{p:.05,fix:0,l:"Crédito"}};
 const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
