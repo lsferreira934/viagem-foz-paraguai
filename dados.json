@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-10-08T21:43+00:00",
- "rodada": 148,
+ "atualizado": "2026-10-08T23:00+00:00",
+ "rodada": 149,
  "dolar": 5.09,
  "categorias": [
   {
@@ -35,13 +35,11 @@
     },
     {
      "titulo": "Apple iPad 11ª Geração 2025 128GB 11\"",
-     "usd": 449.0,
+     "usd": 444.0,
      "lojas": [
-      "Mega Eletrônicos",
-      "Mega Eletro",
-      "Prime Shop"
+      "Toku Importados"
      ],
-     "brl": 2285,
+     "brl": 2260,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+128GB+11%22"
     },
     {
@@ -101,6 +99,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+11%22+5G"
     },
     {
+     "titulo": "Apple iPad Air 2026 128GB 11\"",
+     "usd": 729.0,
+     "lojas": [
+      "Best Shop Paraguai"
+     ],
+     "brl": 3711,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
+    },
+    {
      "titulo": "Apple iPad 11ª Geração 2025 256GB 11\" 5G",
      "usd": 730.0,
      "lojas": [
@@ -109,15 +116,6 @@
      ],
      "brl": 3716,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22+5G"
-    },
-    {
-     "titulo": "Apple iPad Air 2026 128GB 11\"",
-     "usd": 744.0,
-     "lojas": [
-      "Super Games"
-     ],
-     "brl": 3787,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
     },
     {
      "titulo": "Apple iPad Air 2025 128GB 13\" 5G",
@@ -177,6 +175,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+13%22"
     },
     {
+     "titulo": "Apple iPad Pro 2025 256GB 11\"",
+     "usd": 945.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 4810,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22"
+    },
+    {
      "titulo": "Apple iPad Pro 2024 256GB 11\" 5G",
      "usd": 999.0,
      "lojas": [
@@ -194,18 +201,6 @@
      ],
      "brl": 5344,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+256GB+13%22"
-    },
-    {
-     "titulo": "Apple iPad Pro 2025 256GB 11\"",
-     "usd": 1149.0,
-     "lojas": [
-      "Atacado Connect",
-      "One Click",
-      "Mega Eletrônicos",
-      "New Zone"
-     ],
-     "brl": 5848,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22"
     },
     {
      "titulo": "Apple iPad Pro 2024 256GB 13\" 5G",
@@ -326,7 +321,8 @@
      "titulo": "Samsung Galaxy S26 SM-S942B Dual Chip 256GB 5G",
      "usd": 719.0,
      "lojas": [
-      "Nissei"
+      "Nissei",
+      "Madrid Center"
      ],
      "brl": 3660,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+SM-S942B+Dual+Chip+256GB+5G"
@@ -423,15 +419,6 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Iron+Neo"
     },
     {
-     "titulo": "Xiaomi Haylou Watch 2 Pro",
-     "usd": 19.0,
-     "lojas": [
-      "Madrid Center"
-     ],
-     "brl": 97,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+2+Pro"
-    },
-    {
      "titulo": "Xiaomi Haylou Solar Pro",
      "usd": 19.5,
      "lojas": [
@@ -441,13 +428,22 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+Pro"
     },
     {
+     "titulo": "Xiaomi Haylou Watch 2 Pro",
+     "usd": 21.42,
+     "lojas": [
+      "Casa Americana"
+     ],
+     "brl": 109,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+2+Pro"
+    },
+    {
      "titulo": "Mibro C4 XPAW021",
      "usd": 22.0,
      "lojas": [
+      "Madrid Center",
       "Mega Eletrônicos",
       "Nissei",
-      "Topdek Informática",
-      "Atacado Connect"
+      "Topdek Informática"
      ],
      "brl": 112,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+C4+XPAW021"
@@ -474,7 +470,7 @@
      "titulo": "Xiaomi Redmi Watch 5 Active M2351W1",
      "usd": 28.0,
      "lojas": [
-      "Madrid Center",
+      "Star Games",
       "Cell World"
      ],
      "brl": 143,
@@ -484,10 +480,10 @@
      "titulo": "Xiaomi Haylou Vibe",
      "usd": 29.0,
      "lojas": [
+      "Madrid Center",
       "Nissei",
       "Visãovip",
-      "Intershop Importados",
-      "Topdek Informática"
+      "Intershop Importados"
      ],
      "brl": 148,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Vibe"
@@ -505,43 +501,34 @@
      "titulo": "Mibro Lite 3 XPAW020",
      "usd": 32.0,
      "lojas": [
+      "Madrid Center",
       "Mega Eletrônicos",
       "Nissei",
-      "Atacado Connect",
-      "Mega Eletro"
+      "Atacado Connect"
      ],
      "brl": 163,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+Lite+3+XPAW020"
     },
     {
-     "titulo": "Xiaomi Haylou Watch 4S",
+     "titulo": "Xiaomi Redmi Watch 6 Active",
      "usd": 33.0,
      "lojas": [
-      "Madrid Center"
+      "Toku Importados"
      ],
      "brl": 168,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+4S"
-    },
-    {
-     "titulo": "Xiaomi Redmi Watch 6 Active",
-     "usd": 35.0,
-     "lojas": [
-      "Mega Eletrônicos",
-      "Nissei",
-      "Cellshop",
-      "Visãovip"
-     ],
-     "brl": 178,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Active"
     },
     {
-     "titulo": "Xiaomi Haylou Solar 5",
-     "usd": 35.0,
+     "titulo": "Xiaomi Haylou Watch 4S",
+     "usd": 34.0,
      "lojas": [
-      "Madrid Center"
+      "Madrid Center",
+      "Mega Eletrônicos",
+      "Nissei",
+      "Cellshop"
      ],
-     "brl": 178,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+5"
+     "brl": 173,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+4S"
     },
     {
      "titulo": "Xiaomi Amazfit Band 7 A2177",
@@ -553,22 +540,13 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Band+7+A2177"
     },
     {
-     "titulo": "Xiaomi Redmi Watch 5 Lite M2352W1",
-     "usd": 37.0,
+     "titulo": "Xiaomi Haylou Solar 5",
+     "usd": 35.9,
      "lojas": [
-      "Madrid Center"
+      "Super Games"
      ],
-     "brl": 188,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+5+Lite+M2352W1"
-    },
-    {
-     "titulo": "Xiaomi Haylou Solar Ultra",
-     "usd": 39.0,
-     "lojas": [
-      "Madrid Center"
-     ],
-     "brl": 199,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+Ultra"
+     "brl": 183,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+5"
     },
     {
      "titulo": "Xiaomi Redmi Watch 2 Lite M2109W1",
@@ -589,6 +567,18 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+S+A1821"
     },
     {
+     "titulo": "Xiaomi Redmi Watch 5 Lite M2352W1",
+     "usd": 40.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Visãovip",
+      "Topdek Informática"
+     ],
+     "brl": 204,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+5+Lite+M2352W1"
+    },
+    {
      "titulo": "Xiaomi Amazfit Bip 5 Unity A2324",
      "usd": 45.0,
      "lojas": [
@@ -598,13 +588,22 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+5+Unity+A2324"
     },
     {
+     "titulo": "Xiaomi Haylou Solar Ultra",
+     "usd": 46.5,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 237,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Solar+Ultra"
+    },
+    {
      "titulo": "Mibro Lite 3 Pro XPAW019",
      "usd": 48.0,
      "lojas": [
+      "Madrid Center",
       "Mega Eletrônicos",
       "Nissei",
-      "Topdek Informática",
-      "Atacado Connect"
+      "Topdek Informática"
      ],
      "brl": 244,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+Lite+3+Pro+XPAW019"
@@ -634,10 +633,10 @@
      "titulo": "Mibro GS Explorer XPAW017",
      "usd": 55.0,
      "lojas": [
+      "Madrid Center",
       "Mega Eletrônicos",
       "Nissei",
-      "Topdek Informática",
-      "Atacado Connect"
+      "Topdek Informática"
      ],
      "brl": 280,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+GS+Explorer+XPAW017"
