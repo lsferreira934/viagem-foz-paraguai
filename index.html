@@ -433,22 +433,21 @@ function acts(key, small){
 
 const DAYS = [
   {id:"qui", d:"2026-10-08", short:"Qui", date:"08/10", country:"Brasil · São José dos Campos", title:"Pé na estrada", img:null, wx:["Saída 19h","~1.130 km","~13h com paradas"],
-   alerts:[["tip","i","Na Unidas: <b>CNH</b> e <b>cartão de crédito físico do Leandro</b>. A caução bloqueia R$ 2.200 ou mais."]],
+   alerts:[["ok","✓","<b>Feito.</b> Carro retirado e estrada vencida durante a noite."]],
    items:[
     ["15h","Retirar o carro na Unidas","Shopping Jd Oriente, em frente às Lojas Americanas. Tolerância até 17h.","unidas",true],
     ["19h","Saída de SJC","Waze: ~12h54 dirigindo. Rodízio de ~2h35 com 15 min de troca: Cíntia 19h, Leandro 21h50, Alisson 0h40, Emerson 3h30, Alice 6h20. Chegada ~9h.",null,true],
     ["madr.","Estrada","Paradas a cada troca de motorista. Baixem o mapa offline de Foz, Ciudad del Este e Puerto Iguazú antes de sair.",null,false]
    ]},
-  {id:"sex", d:"2026-10-09", short:"Sex", date:"09/10", country:"Argentina · Puerto Iguazú", title:"Argentina sem carro", img:["hito","Hito Tres Fronteras · Horacio Cambeiro, CC BY 4.0"], wx:["23–28°C","80% de chuva","capa de chuva"],
-   alerts:[["warn","!","O carro <b>não cruza</b>. Fica na casa (pode ficar na frente). Uber, 99 e DiDi <b>não funcionam</b> na Argentina."]],
+  {id:"sex", d:"2026-10-09", short:"Sex", date:"09/10", country:"Argentina · Puerto Iguazú", title:"Argentina ✓", img:["hito","Hito Tres Fronteras · Horacio Cambeiro, CC BY 4.0"], wx:["23–28°C","80% de chuva","capa de chuva"],
+   alerts:[["ok","✓","<b>Dia concluído.</b> Fomos de táxi até a Argentina, passamos na Feirinha, no Cassino e no Duty Free, e já estamos na casa da Camila."]],
    items:[
-    ["9h","Chegada em Foz","Deixem o carro na casa. O check-in só libera às 14h.","casa",false],
-    ["11h","Uber até o TTU","R$ 20 a 40. O ônibus internacional sai de um ponto ao lado do terminal, não de dentro.","ttu",true],
-    ["11h30","Ônibus para Puerto Iguazú","Crucero del Norte, de hora em hora das 7h às 18h. R$ 10 a 30 por pessoa, ~40 min. Todos descem na imigração com RG.",null,false],
-    ["12h","Duty Free e centro","Duty Free das 12h às 21h, aceita Pix por QR do Mercado Pago. Casino a partir das 14h. Segurem compras grandes: a cota pode ser a mesma do Paraguai.","dutyfree",false],
-    ["19h","Último ônibus de volta","Depois disso, só remis ou táxi com preço combinado, ~R$ 120 por carro (2 carros para os 5).",null,true],
-    ["20h","Show de águas no Hito","Se ficarem para o show, voltem de remis.","hito",false],
-    ["noite","Check-in na casa","Cofre de chaves. A senha chega pela Camila no app do Airbnb.","casa",false]
+    ["manhã","✓ Chegada em Foz","Viagem da noite feita, chegada pela manhã.",null,false],
+    ["","✓ Táxi até Puerto Iguazú","Fomos de táxi em vez do ônibus.",null,false],
+    ["","✓ Feirinha de Puerto Iguazú","Alfajores, queijos, azeitonas e vinho.",null,false],
+    ["","✓ Cassino Iguazú","",null,false],
+    ["","✓ Duty Free","Compras feitas contam na cota de US$ 500 de amanhã.","dutyfree",false],
+    ["noite","✓ Casa da Camila","Já na casa. Liguem o alarme ao sair e à noite.","casa",true]
    ]},
   {id:"sab", d:"2026-10-10", short:"Sáb", date:"10/10", country:"Paraguai · Ciudad del Este", title:"Dia de compras", img:["cde","Ciudad del Este · Va de Carro, CC BY 3.0"], wx:["21–26°C","90% de chuva","capa de chuva"],
    alerts:[["warn","!","Ponte cheia no feriadão: <b>saiam cedo</b>. Voltem de dia, antes do estacionamento fechar."],["tip","i","Pagamento: USDT (KAST) ou Pix. Veja a aba <b>Pagar</b>."]],
