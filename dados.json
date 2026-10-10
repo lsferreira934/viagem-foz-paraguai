@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-10T23:56+00:00",
+ "atualizado": "2026-10-10T23:59+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -434,7 +434,368 @@
   },
   {
    "nome": "Celular (mais baratos)",
-   "itens": []
+   "itens": [
+    {
+     "titulo": "Infinix Hot 40i Dual Chip 256GB 4G",
+     "usd": 9.0,
+     "brl": 46,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-40i-dual-chip-256gb-4g_54811/"
+    },
+    {
+     "titulo": "Infinix Hot 50 Dual Chip 256GB 4G",
+     "usd": 14.0,
+     "brl": 71,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-50-dual-chip-256gb-4g_56175/"
+    },
+    {
+     "titulo": "Infinix Hot 50 Pro Plus Dual Chip 256GB 4G",
+     "usd": 20.0,
+     "brl": 102,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-50-pro-plus-dual-chip-256gb-4g_57517/"
+    },
+    {
+     "titulo": "Realme 14 RMX5070 Dual Chip 256GB 5G - RAM 12GB",
+     "usd": 30.0,
+     "brl": 153,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-14-rmx5070-dual-chip-256gb-5g-ram-12gb_60005/"
+    },
+    {
+     "titulo": "Xiaomi Redmi Note 14 Dual Chip 256GB 4G Global",
+     "usd": 58.0,
+     "brl": 295,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-note-14-dual-chip-256gb-4g-global_57930/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 Ultra SM-S938B Dual Chip 256GB 5G",
+     "usd": 58.0,
+     "brl": 295,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-ultra-sm-s938b-dual-chip-256gb-5g_58357/"
+    },
+    {
+     "titulo": "Realme Note 60X RMX3938 Dual Chip 64GB 4G",
+     "usd": 92.0,
+     "brl": 468,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-60x-rmx3938-dual-chip-64gb-4g_57938/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 13C Dual Chip 256GB 4G - RAM 8GB Global",
+     "usd": 95.0,
+     "brl": 484,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-13c-dual-chip-256gb-4g-ram-8gb-global_49677/"
+    },
+    {
+     "titulo": "Xiaomi Redmi A5 Dual Chip 64GB 4G Global",
+     "usd": 98.99,
+     "brl": 504,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a5-dual-chip-64gb-4g-global_59370/"
+    },
+    {
+     "titulo": "Xiaomi Redmi A7 Pro Dual Chip 64GB 4G Global",
+     "usd": 99.0,
+     "brl": 504,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-pro-dual-chip-64gb-4g-global_67407/"
+    },
+    {
+     "titulo": "Xiaomi Poco C85 Dual Chip 256GB 4G Global",
+     "usd": 99.0,
+     "brl": 504,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c85-dual-chip-256gb-4g-global_63110/"
+    },
+    {
+     "titulo": "Xiaomi Poco C71 Dual Chip 64GB 4G Global",
+     "usd": 100.0,
+     "brl": 509,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c71-dual-chip-64gb-4g-global_59600/"
+    },
+    {
+     "titulo": "Xiaomi Poco C81 Pro Dual Chip 64GB 4G Global",
+     "usd": 102.74,
+     "brl": 523,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c81-pro-dual-chip-64gb-4g-global_68494/"
+    },
+    {
+     "titulo": "Xiaomi Redmi A7 Dual Chip 64GB 4G Global",
+     "usd": 102.75,
+     "brl": 523,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-dual-chip-64gb-4g-global_70376/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 15C Dual Chip 128GB 4G - RAM 4GB Global",
+     "usd": 106.0,
+     "brl": 540,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-128gb-4g-ram-4gb-global_62835/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 14C Dual Chip 256GB 4G - RAM 8GB Global",
+     "usd": 106.0,
+     "brl": 540,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-14c-dual-chip-256gb-4g-ram-8gb-global_55705/"
+    },
+    {
+     "titulo": "Realme Note 60X RMX3938 Dual Chip 128GB 4G",
+     "usd": 115.0,
+     "brl": 585,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-60x-rmx3938-dual-chip-128gb-4g_60003/"
+    },
+    {
+     "titulo": "Xiaomi Redmi A7 Pro Dual Chip 128GB 4G Global",
+     "usd": 118.49,
+     "brl": 603,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-pro-dual-chip-128gb-4g-global_67536/"
+    },
+    {
+     "titulo": "Xiaomi Poco C71 Dual Chip 128GB 4G Global",
+     "usd": 118.74,
+     "brl": 604,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c71-dual-chip-128gb-4g-global_59601/"
+    },
+    {
+     "titulo": "Xiaomi Poco C81 Pro Dual Chip 128GB 4G Global",
+     "usd": 119.0,
+     "brl": 606,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c81-pro-dual-chip-128gb-4g-global_68495/"
+    },
+    {
+     "titulo": "Xiaomi Redmi A5 Dual Chip 128GB 4G Global",
+     "usd": 119.74,
+     "brl": 609,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a5-dual-chip-128gb-4g-global_59371/"
+    },
+    {
+     "titulo": "Realme Note 70 RMX5313 Dual Chip 128GB 4G",
+     "usd": 124.99,
+     "brl": 636,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-128gb-4g_62653/"
+    },
+    {
+     "titulo": "Realme P4 Lite RMX5377 Dual Chip 128GB 4G",
+     "usd": 125.0,
+     "brl": 636,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-p4-lite-rmx5377-dual-chip-128gb-4g_69012/"
+    },
+    {
+     "titulo": "Xiaomi Poco C85 Dual Chip 128GB 4G Global",
+     "usd": 129.75,
+     "brl": 660,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c85-dual-chip-128gb-4g-global_63111/"
+    },
+    {
+     "titulo": "Realme C71 RMX5303 Dual Chip 128GB 4G",
+     "usd": 133.0,
+     "brl": 677,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx5303-dual-chip-128gb-4g_62655/"
+    },
+    {
+     "titulo": "Infinix Hot 60i Dual Chip 256GB 4G - RAM 4GB",
+     "usd": 133.0,
+     "brl": 677,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-60i-dual-chip-256gb-4g-ram-4gb_62209/"
+    },
+    {
+     "titulo": "Motorola Moto G06 XT-2535 Dual Chip 256GB 4G",
+     "usd": 135.0,
+     "brl": 687,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-motorola-moto-g06-xt-2535-dual-chip-256gb-4g_66559/"
+    },
+    {
+     "titulo": "Infinix Smart 20 Dual Chip 128GB 4G",
+     "usd": 135.0,
+     "brl": 687,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-infinix-smart-20-dual-chip-128gb-4g_68740/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 15C Dual Chip 256GB 4G - RAM 4GB Global",
+     "usd": 141.75,
+     "brl": 722,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-4gb-global_62837/"
+    },
+    {
+     "titulo": "Realme C71 RMX3943 Dual Chip 128GB 5G",
+     "usd": 145.0,
+     "brl": 738,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx3943-dual-chip-128gb-5g_63750/"
+    },
+    {
+     "titulo": "Realme Note 70 RMX5313 Dual Chip 256GB 4G - RAM 4GB",
+     "usd": 145.0,
+     "brl": 738,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-256gb-4g-ram-4gb_64286/"
+    },
+    {
+     "titulo": "Realme C71 RMX5303 Dual Chip 256GB 4G - RAM 4GB",
+     "usd": 145.0,
+     "brl": 738,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx5303-dual-chip-256gb-4g-ram-4gb_63693/"
+    },
+    {
+     "titulo": "Realme Note 80 RMX5388 Dual Chip 128GB 4G",
+     "usd": 146.0,
+     "brl": 743,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-80-rmx5388-dual-chip-128gb-4g_69462/"
+    },
+    {
+     "titulo": "Xiaomi Poco C81 Pro Dual Chip 256GB 4G Global",
+     "usd": 148.74,
+     "brl": 757,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c81-pro-dual-chip-256gb-4g-global_68496/"
+    },
+    {
+     "titulo": "Realme C100i RMX5377 Dual Chip 128GB 4G",
+     "usd": 150.0,
+     "brl": 764,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-128gb-4g_68501/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 17 Dual Chip 128GB 4G Global",
+     "usd": 151.0,
+     "brl": 769,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-17-dual-chip-128gb-4g-global_69600/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 15 Dual Chip 128GB 4G - RAM 6GB Global",
+     "usd": 152.0,
+     "brl": 774,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15-dual-chip-128gb-4g-ram-6gb-global_62839/"
+    },
+    {
+     "titulo": "Realme Note 70 RMX5313 Dual Chip 256GB 4G - RAM 8GB",
+     "usd": 152.99,
+     "brl": 779,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-256gb-4g-ram-8gb_62654/"
+    },
+    {
+     "titulo": "Realme P4 Lite RMX5377 Dual Chip 256GB 4G",
+     "usd": 156.0,
+     "brl": 794,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-p4-lite-rmx5377-dual-chip-256gb-4g_68500/"
+    },
+    {
+     "titulo": "Xiaomi Redmi 15C Dual Chip 256GB 4G - RAM 8GB Global",
+     "usd": 160.0,
+     "brl": 814,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-8gb-global_62836/"
+    }
+   ]
   },
   {
    "nome": "Samsung Galaxy A",
@@ -926,79 +1287,364 @@
    "nome": "Notebook",
    "itens": [
     {
+     "titulo": "HP Envy 13-BA1047WM Intel Core i5 2.4GHz / Memória 8GB / SSD 256GB / 13.3\" / Windows 10",
+     "usd": 62.0,
+     "brl": 316,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-envy-13-ba1047wm-intel-core-i5-24ghz-memoria-8gb-ssd-256gb-133-windows-10_33754/"
+    },
+    {
+     "titulo": "Lenovo 81VS009GUS AMD A6 1.6GHz / Memória 4GB / HD 64GB / 14\" / Windows 10",
+     "usd": 140.0,
+     "brl": 713,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-81vs009gus-amd-a6-16ghz-memoria-4gb-hd-64gb-14-windows-10_35304/"
+    },
+    {
+     "titulo": "Lenovo IdeaPad Slim 3 82XB00HVUS Intel N100 3.4GHz / Memória 4GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 192.0,
+     "brl": 977,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00hvus-intel-n100-34ghz-memoria-4gb-ufs-128gb-156-windows-11_67024/"
+    },
+    {
+     "titulo": "Acer Aspire Lite AL15-36P-C0M7 Intel N150 3.6GHz / Memória 4GB / SSD 128GB / 15.6\" / Windows 11",
+     "usd": 230.0,
+     "brl": 1171,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-acer-aspire-lite-al15-36p-c0m7-intel-n150-36ghz-memoria-4gb-ssd-128gb-156-windows-11_67019/"
+    },
+    {
+     "titulo": "Asus VivoBook Go E510KA-EJ1150W Intel Celeron 1.1GHz / Memória 4GB / eMMC 128GB / 15.6\" / Windows 11",
+     "usd": 240.0,
+     "brl": 1222,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e510ka-ej1150w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_64292/"
+    },
+    {
+     "titulo": "Asus E410KA-PM464 Intel Pentium 1.1GHz / Memória 4GB / eMMC 64GB / 14\" / Windows 11",
+     "usd": 240.0,
+     "brl": 1222,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-e410ka-pm464-intel-pentium-11ghz-memoria-4gb-emmc-64gb-14-windows-11_57843/"
+    },
+    {
+     "titulo": "Asus VivoBook Go 15 E510KA-BQ1203W Intel Celeron 1.1GHz / Memória 4GB / eMMC 128GB / 15.6\" / Windows 11",
+     "usd": 245.0,
+     "brl": 1247,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e510ka-bq1203w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_69859/"
+    },
+    {
+     "titulo": "Asus Vivobook Go 15 E510KA-BQ1202W Intel Celeron 1.1GHz / Memória 4GB / eMMC 128GB / 15.6\" / Windows 11",
+     "usd": 252.0,
+     "brl": 1283,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e510ka-bq1202w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_66832/"
+    },
+    {
+     "titulo": "HP 15-FD0113DX Intel Core i3 1.8GHz / Memória 8GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 281.19,
+     "brl": 1431,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-fd0113dx-intel-core-i3-18ghz-memoria-8gb-ufs-128gb-156-windows-11_64142/"
+    },
+    {
+     "titulo": "Lenovo IdeaPad Slim 3 83L7002FUS Intel N150 3.6GHz / Memória 8GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 313.0,
+     "brl": 1593,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-83l7002fus-intel-n150-36ghz-memoria-8gb-ufs-128gb-156-windows-11_68655/"
+    },
+    {
+     "titulo": "Asus VivoBook Go 15 E1504TA-BQ027W Intel N150 3.6GHz / Memória 8GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 318.0,
+     "brl": 1619,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e1504ta-bq027w-intel-n150-36ghz-memoria-8gb-ufs-128gb-156-windows-11_71104/"
+    },
+    {
+     "titulo": "Lenovo IdeaPad 1 82VG00R2US AMD Ryzen 3 2.4GHz / Memória 4GB / SSD 128GB / 15.6\" / Windows 11",
+     "usd": 320.0,
+     "brl": 1629,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-1-82vg00r2us-amd-ryzen-3-24ghz-memoria-4gb-ssd-128gb-156-windows-11_58613/"
+    },
+    {
+     "titulo": "Asus E1404GA-NK027W Intel Core i3 1.8GHz / Memória 8GB / UFS 256GB / 15.6\" / Windows 11",
+     "usd": 327.0,
+     "brl": 1664,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-e1404ga-nk027w-intel-core-i3-18ghz-memoria-8gb-ufs-256gb-156-windows-11_68024/"
+    },
+    {
+     "titulo": "HP 15-DW3033DX Intel Core i3 3.0GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 10",
+     "usd": 340.0,
+     "brl": 1731,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dw3033dx-intel-core-i3-30ghz-memoria-8gb-ssd-256gb-156-windows-10_35909/"
+    },
+    {
      "titulo": "Acer Aspire Lite AL15-36P-32XP Intel Core 3 1.8GHz / Memória 8GB / SSD 128GB / 15.6\" / Windows 11",
      "usd": 344.47,
-     "lojas": [
-      "Casa Americana"
-     ],
      "brl": 1753,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Acer+Aspire+Lite+AL15-36P-32XP+Intel+Core+3+1.8GHz+%2F+Mem%C3%B3ria"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-acer-aspire-lite-al15-36p-32xp-intel-core-3-18ghz-memoria-8gb-ssd-128gb-156-windows-11_68385/"
     },
     {
-     "titulo": "HP OmniBook 3 16-BY0015DX AMD Ryzen 5 2.8GHz / Memória 8GB / SSD 256GB / 16\" / Windows 11",
-     "usd": 482.0,
+     "titulo": "Asus VivoBook Go 15 E1504GA-WB31 Intel Core i3 1.8GHz / Memória 8GB / SSD 128GB / 15.6\" / Windows 11",
+     "usd": 345.0,
+     "brl": 1756,
      "lojas": [
-      "Best Shop Paraguai",
-      "Mega Eletro",
-      "Import Pro Gaming"
+      "a partir de, várias lojas"
      ],
-     "brl": 2453,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+OmniBook+3+16-BY0015DX+AMD+Ryzen+5+2.8GHz+%2F+Mem%C3%B3ria+8GB+%2F"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e1504ga-wb31-intel-core-i3-18ghz-memoria-8gb-ssd-128gb-156-windows-11_59613/"
     },
     {
-     "titulo": "HP Omnibook 3 16-BU0305DX Intel Core Ultra 5 1.5GHz / Memória 8GB / SSD 512GB / 16\" / Windows 11",
-     "usd": 550.0,
+     "titulo": "Asus VivoBook 15 X1504VAP-C38128 Intel Core 3 3.4GHz / Memória 8GB / SSD 128GB / 15.6\" / Windows 11",
+     "usd": 357.0,
+     "brl": 1817,
      "lojas": [
-      "Madrid Center"
+      "a partir de, várias lojas"
      ],
-     "brl": 2800,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+Omnibook+3+16-BU0305DX+Intel+Core+Ultra+5+1.5GHz+%2F+Mem%C3%B3ri"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-15-x1504vap-c38128-intel-core-3-34ghz-memoria-8gb-ssd-128gb-156-windows-11_69857/"
     },
     {
-     "titulo": "Dell 15 LDC15250-7427BLK Intel Core i7 1.7GHz / Memória 16GB / SSD 512GB / 15.6\" / Windows 11",
-     "usd": 720.0,
+     "titulo": "Lenovo IdeaPad Slim 3 83L7002NUS Intel Core 3 1.9GHz / Memória 8GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 365.0,
+     "brl": 1858,
      "lojas": [
-      "Madrid Center",
-      "Pro Book"
+      "a partir de, várias lojas"
      ],
-     "brl": 3665,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Dell+15+LDC15250-7427BLK+Intel+Core+i7+1.7GHz+%2F+Mem%C3%B3ria+16GB"
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-83l7002nus-intel-core-3-19ghz-memoria-8gb-ufs-128gb-156-windows-11_69861/"
     },
     {
-     "titulo": "HP Omnibook 3 AI 17-DG0107DX Intel Core Ultra 7 1.7GHz / Memória 16GB / SSD 512GB / 17.3\" / Windows 11",
-     "usd": 760.0,
+     "titulo": "HP Victus 15-FB2063DX AMD Ryzen 5 3.3GHz / Memória 8GB / SSD 512GB / 15.6\" / Windows 11 / RX 6550M 4GB",
+     "usd": 370.0,
+     "brl": 1883,
      "lojas": [
-      "Pro Book"
+      "a partir de, várias lojas"
      ],
-     "brl": 3868,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+Omnibook+3+AI+17-DG0107DX+Intel+Core+Ultra+7+1.7GHz+%2F+Mem"
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-victus-15-fb2063dx-amd-ryzen-5-33ghz-memoria-8gb-ssd-512gb-156-windows-11-rx-6550m-4gb_55395/"
     },
     {
-     "titulo": "HP OmniBook 3 16-BU0007DX Intel Core Ultra 7 1.7GHz / Memória 16GB / SSD 512GB / 16\" / Windows 11",
-     "usd": 805.0,
+     "titulo": "Acer Aspire Go 15 AG15-32P-352Z Intel Core 3 1.9GHz / Memória 8GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 374.0,
+     "brl": 1904,
      "lojas": [
-      "Import Pro Gaming"
+      "a partir de, várias lojas"
      ],
-     "brl": 4097,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+OmniBook+3+16-BU0007DX+Intel+Core+Ultra+7+1.7GHz+%2F+Mem%C3%B3ri"
+     "link": "https://www.comprasparaguai.com.br/notebook-acer-aspire-go-15-ag15-32p-352z-intel-core-3-19ghz-memoria-8gb-ufs-128gb-156-windows-11_69471/"
     },
     {
-     "titulo": "HP Omnibook X Flip 16-AS0023DX Intel Core Ultra 7 4.8GHz / Memória 16GB / SSD 1TB / 16\" / Windows 11",
-     "usd": 870.0,
+     "titulo": "Acer Aspire Go 15 AG15-21P-R5YG AMD Ryzen 3 2.4GHz / Memória 8GB / SSD 128GB / 15.6\" / Windows 11",
+     "usd": 375.0,
+     "brl": 1909,
      "lojas": [
-      "Pro Book"
+      "a partir de, várias lojas"
      ],
-     "brl": 4428,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+Omnibook+X+Flip+16-AS0023DX+Intel+Core+Ultra+7+4.8GHz+%2F+M"
+     "link": "https://www.comprasparaguai.com.br/notebook-acer-aspire-go-15-ag15-21p-r5yg-amd-ryzen-3-24ghz-memoria-8gb-ssd-128gb-156-windows-11_68640/"
     },
     {
-     "titulo": "Acer Swift Go 16 SFG16-A71T-R5UY AMD Ryzen AI 7 2.0GHz / Memória 16GB / SSD 1TB / 16\" / Windows 11",
-     "usd": 930.0,
+     "titulo": "HP 15-DY2132WM Intel Core i3 3.0GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 10",
+     "usd": 385.0,
+     "brl": 1960,
      "lojas": [
-      "Import Pro Gaming"
+      "a partir de, várias lojas"
      ],
-     "brl": 4734,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Acer+Swift+Go+16+SFG16-A71T-R5UY+AMD+Ryzen+AI+7+2.0GHz+%2F+Mem"
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy2132wm-intel-core-i3-30ghz-memoria-8gb-ssd-256gb-156-windows-10_48372/"
+    },
+    {
+     "titulo": "Lenovo IdeaPad Slim 3 82XB00C2US Intel Core i3 1.8GHz / Memória 8GB / UFS 128GB / 15.6\" / Windows 11",
+     "usd": 390.0,
+     "brl": 1985,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00c2us-intel-core-i3-18ghz-memoria-8gb-ufs-128gb-156-windows-11_62217/"
+    },
+    {
+     "titulo": "HP 15-DY5131WM Intel Corel i3 1.2GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 390.0,
+     "brl": 1985,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy5131wm-intel-corel-i3-12ghz-memoria-8gb-ssd-256gb-156-windows-11_50341/"
+    },
+    {
+     "titulo": "Lenovo IdeaPad 1 82VG00R3LM AMD Ryzen 3 2.4GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 395.0,
+     "brl": 2011,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-1-82vg00r3lm-amd-ryzen-3-24ghz-memoria-8gb-ssd-256gb-156-windows-11_66169/"
+    },
+    {
+     "titulo": "HP 15-FD0130WM Intel Core i3 3.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 398.0,
+     "brl": 2026,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-fd0130wm-intel-core-i3-38ghz-memoria-8gb-ssd-256gb-156-windows-11_62668/"
+    },
+    {
+     "titulo": "HP 14-DQ2055WM Intel Core i3 3.0GHz / Memória 4GB / SSD 256GB / 14\" / Windows 10",
+     "usd": 399.0,
+     "brl": 2031,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-14-dq2055wm-intel-core-i3-30ghz-memoria-4gb-ssd-256gb-14-windows-10_34429/"
+    },
+    {
+     "titulo": "HP 15-DY2702DX Intel Core i3 3.0GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 399.0,
+     "brl": 2031,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy2702dx-intel-core-i3-30ghz-memoria-8gb-ssd-256gb-156-windows-11_44388/"
+    },
+    {
+     "titulo": "HP 15-DY2791WM Intel Core i3 3.0GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 399.0,
+     "brl": 2031,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy2791wm-intel-core-i3-30ghz-memoria-8gb-ssd-256gb-156-windows-11_44600/"
+    },
+    {
+     "titulo": "Asus Chromebook Plus CX3402CVA-WS388T Intel Core i3 1.2GHz / Memória 8GB / UFS 128GB / 14\" / Chrome OS",
+     "usd": 412.0,
+     "brl": 2097,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-chromebook-plus-cx3402cva-ws388t-intel-core-i3-12ghz-memoria-8gb-ufs-128gb-14-chrome-os_69855/"
+    },
+    {
+     "titulo": "Lenovo IdeaPad Slim 3 82XQ010LUS AMD Ryzen 3 2.4GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 419.0,
+     "brl": 2133,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xq010lus-amd-ryzen-3-24ghz-memoria-8gb-ssd-256gb-156-windows-11_71828/"
+    },
+    {
+     "titulo": "HP 15-FD0055TG Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 425.0,
+     "brl": 2163,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-fd0055tg-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_60233/"
+    },
+    {
+     "titulo": "HP 14-EP0792WM Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 14\" / Windows 11",
+     "usd": 429.0,
+     "brl": 2184,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-14-ep0792wm-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-14-windows-11_52984/"
+    },
+    {
+     "titulo": "Asus VivoBook Go E1504FA-BQ3438W AMD Ryzen 3 2.4GHz / Memória 8GB / SSD 512GB / 15.6\" / Windows 11",
+     "usd": 435.0,
+     "brl": 2214,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504fa-bq3438w-amd-ryzen-3-24ghz-memoria-8gb-ssd-512gb-156-windows-11_71096/"
+    },
+    {
+     "titulo": "Lenovo Ideapad Slim 3 82XB00BMUS Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 439.0,
+     "brl": 2235,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00bmus-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63941/"
+    },
+    {
+     "titulo": "HP Pavilion 13-BB0501LA Intel Core i3 3.0GHz / Memória 8GB / SSD 256GB / 13.3\" / Windows 10",
+     "usd": 440.0,
+     "brl": 2240,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-pavilion-13-bb0501la-intel-core-i3-30ghz-memoria-8gb-ssd-256gb-133-windows-10_48377/"
+    },
+    {
+     "titulo": "HP 15-DY2055WM Intel Core i5 2.4GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 440.0,
+     "brl": 2240,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy2055wm-intel-core-i5-24ghz-memoria-8gb-ssd-256gb-156-windows-11_48992/"
+    },
+    {
+     "titulo": "Asus VivoBook Go E1504GA-WS36 Intel Core i3 3.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 443.0,
+     "brl": 2255,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws36-intel-core-i3-38ghz-memoria-8gb-ssd-256gb-156-windows-11_56479/"
+    },
+    {
+     "titulo": "Asus VivoBook Go E1504GA-WS35 Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 445.0,
+     "brl": 2265,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws35-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63120/"
+    },
+    {
+     "titulo": "Asus VivoBook Go E1504GA-NJ058W Intel Core i3 1.8GHz / Memória 8GB / SSD 512GB / 15.6\" / Windows 11",
+     "usd": 445.0,
+     "brl": 2265,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-nj058w-intel-core-i3-18ghz-memoria-8gb-ssd-512gb-156-windows-11_66828/"
     }
    ]
   },
@@ -1188,7 +1834,143 @@
   },
   {
    "nome": "Powerbank",
-   "itens": []
+   "itens": [
+    {
+     "titulo": "Carregador Quanta Power Bank PB-200 2200mAh",
+     "usd": 3.5,
+     "brl": 18,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-quanta-power-bank-pb-200-2200mah_10066/"
+    },
+    {
+     "titulo": "Carregador Powerpack Power Bank PWBA-4000 4000mAh",
+     "usd": 5.0,
+     "brl": 25,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-powerpack-power-bank-pwba-4000-4000mah_10390/"
+    },
+    {
+     "titulo": "Carregador Powerpack Power Bank PWBA-8800 8800mAh",
+     "usd": 7.75,
+     "brl": 39,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-powerpack-power-bank-pwba-8800-8800mah_10388/"
+    },
+    {
+     "titulo": "Carregador Sony Power Bank CP-W5 5000mAh",
+     "usd": 17.0,
+     "brl": 87,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-sony-power-bank-cp-w5-5000mah_13248/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Power Bank PB1033MI 10000mAh",
+     "usd": 17.99,
+     "brl": 92,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb1033mi-10000mah_61621/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Ultra Slim Power Bank PB0520MI 5000mAh",
+     "usd": 17.99,
+     "brl": 92,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-ultra-slim-power-bank-pb0520mi-5000mah_61619/"
+    },
+    {
+     "titulo": "Console PowerBank D41 - 500 Jogos",
+     "usd": 19.5,
+     "brl": 99,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/console-powerbank-d41-500-jogos_63715/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Power Bank PB2030MI 20000mAh",
+     "usd": 24.99,
+     "brl": 127,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb2030mi-20000mah_61622/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Mi Power Bank 20000mAh",
+     "usd": 24.99,
+     "brl": 127,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-mi-power-bank-20000mah_22475/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Super Slim Magnetic Power Bank WPB0507S 5000mAh",
+     "usd": 25.0,
+     "brl": 127,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-super-slim-magnetic-power-bank-wpb0507s-5000mah_69171/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Magnetic Power Bank WPB0620MI 6000mAh",
+     "usd": 28.99,
+     "brl": 148,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-magnetic-power-bank-wpb0620mi-6000mah_61617/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Magnetic Power Bank WPB1007Z 10000mAh",
+     "usd": 30.0,
+     "brl": 153,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-magnetic-power-bank-wpb1007z-10000mah_69170/"
+    },
+    {
+     "titulo": "Carregador Xiaomi Power Bank PB1165MI 10000mAh",
+     "usd": 34.99,
+     "brl": 178,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb1165mi-10000mah_61618/"
+    },
+    {
+     "titulo": "Carregador Xiaomi UltraThin Magnetic Power Bank 5000mAh",
+     "usd": 58.0,
+     "brl": 295,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-ultrathin-magnetic-power-bank-5000mah_69172/"
+    },
+    {
+     "titulo": "Carregador Xiaomi HyperCharge Power Bank P03MI 25000mAh",
+     "usd": 78.0,
+     "brl": 397,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-hypercharge-power-bank-p03mi-25000mah_61620/"
+    }
+   ]
   },
   {
    "nome": "Teclado e mouse",
