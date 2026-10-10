@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-10-09T23:00+00:00",
- "rodada": 157,
+ "atualizado": "2026-10-10T01:00+00:00",
+ "rodada": 158,
  "dolar": 5.09,
  "categorias": [
   {
@@ -100,6 +100,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+11%22+5G"
     },
     {
+     "titulo": "Apple iPad Air 2026 128GB 11\"",
+     "usd": 729.0,
+     "lojas": [
+      "Best Shop Paraguai"
+     ],
+     "brl": 3711,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
+    },
+    {
      "titulo": "Apple iPad 11ª Geração 2025 256GB 11\" 5G",
      "usd": 730.0,
      "lojas": [
@@ -108,15 +117,6 @@
      ],
      "brl": 3716,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22+5G"
-    },
-    {
-     "titulo": "Apple iPad Air 2026 128GB 11\"",
-     "usd": 744.0,
-     "lojas": [
-      "Super Games"
-     ],
-     "brl": 3787,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
     },
     {
      "titulo": "Apple iPad Air 2025 128GB 13\" 5G",
@@ -476,7 +476,6 @@
      "titulo": "Xiaomi Redmi Watch 5 Active M2351W1",
      "usd": 28.0,
      "lojas": [
-      "Star Games",
       "Cell World"
      ],
      "brl": 143,
