@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-10T23:50+00:00",
+ "atualizado": "2026-10-10T23:52+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -1054,6 +1054,18 @@
      ],
      "brl": 76,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+SE+256GB+11%22"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 6 Lite",
+     "usd": 52.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Cellshop",
+      "Visãovip"
+     ],
+     "brl": 265,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite"
     },
     {
      "titulo": "Xiaomi Redmi Pad 2 64GB 9.7\"",
