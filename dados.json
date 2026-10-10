@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-10T23:52+00:00",
+ "atualizado": "2026-10-10T23:54+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -1056,18 +1056,6 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+SE+256GB+11%22"
     },
     {
-     "titulo": "Xiaomi Redmi Watch 6 Lite",
-     "usd": 52.0,
-     "lojas": [
-      "Mega Eletrônicos",
-      "Nissei",
-      "Cellshop",
-      "Visãovip"
-     ],
-     "brl": 265,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite"
-    },
-    {
      "titulo": "Xiaomi Redmi Pad 2 64GB 9.7\"",
      "usd": 135.0,
      "lojas": [
@@ -1188,7 +1176,153 @@
   },
   {
    "nome": "Powerbank",
-   "itens": []
+   "itens": [
+    {
+     "titulo": "Carregador Quanta Power Bank PB-200 2200mAh",
+     "usd": 3.5,
+     "lojas": [
+      "Marktronic Comunicação"
+     ],
+     "brl": 18,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Quanta+Power+Bank+PB-200+2200mAh"
+    },
+    {
+     "titulo": "Carregador Powerpack Power Bank PWBA-4000 4000mAh",
+     "usd": 5.0,
+     "lojas": [
+      "Marktronic Comunicação"
+     ],
+     "brl": 25,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Powerpack+Power+Bank+PWBA-4000+4000mAh"
+    },
+    {
+     "titulo": "Carregador Powerpack Power Bank PWBA-8800 8800mAh",
+     "usd": 7.75,
+     "lojas": [
+      "Marktronic Comunicação"
+     ],
+     "brl": 39,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Powerpack+Power+Bank+PWBA-8800+8800mAh"
+    },
+    {
+     "titulo": "Carregador Sony Power Bank CP-W5 5000mAh",
+     "usd": 17.0,
+     "lojas": [
+      "Intershop Importados"
+     ],
+     "brl": 87,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Sony+Power+Bank+CP-W5+5000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi Power Bank PB1033MI 10000mAh",
+     "usd": 17.99,
+     "lojas": [
+      "Prime Shop"
+     ],
+     "brl": 92,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Power+Bank+PB1033MI+10000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi Ultra Slim Power Bank PB0520MI 5000mAh",
+     "usd": 17.99,
+     "lojas": [
+      "Prime Shop"
+     ],
+     "brl": 92,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Ultra+Slim+Power+Bank+PB0520MI+5000mAh"
+    },
+    {
+     "titulo": "Console PowerBank D41 - 500 Jogos",
+     "usd": 19.5,
+     "lojas": [
+      "Atacado Connect",
+      "Cellshop"
+     ],
+     "brl": 99,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Console+PowerBank+D41+-+500+Jogos"
+    },
+    {
+     "titulo": "Carregador Xiaomi Power Bank PB2030MI 20000mAh",
+     "usd": 24.99,
+     "lojas": [
+      "Prime Shop"
+     ],
+     "brl": 127,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Power+Bank+PB2030MI+20000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi Mi Power Bank 20000mAh",
+     "usd": 24.99,
+     "lojas": [
+      "Marktronic Comunicação"
+     ],
+     "brl": 127,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Mi+Power+Bank+20000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi Super Slim Magnetic Power Bank WPB0507S 5000mAh",
+     "usd": 25.0,
+     "lojas": [
+      "Nissei",
+      "Visãovip",
+      "Mega Eletrônicos",
+      "Madrid Center"
+     ],
+     "brl": 127,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Super+Slim+Magnetic+Power+Bank+WPB0507S+50"
+    },
+    {
+     "titulo": "Carregador Xiaomi Magnetic Power Bank WPB0620MI 6000mAh",
+     "usd": 28.99,
+     "lojas": [
+      "Prime Shop"
+     ],
+     "brl": 148,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Magnetic+Power+Bank+WPB0620MI+6000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi Magnetic Power Bank WPB1007Z 10000mAh",
+     "usd": 30.0,
+     "lojas": [
+      "Nissei",
+      "Mega Eletrônicos",
+      "Topdek Informática",
+      "Atacado Connect"
+     ],
+     "brl": 153,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Magnetic+Power+Bank+WPB1007Z+10000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi Power Bank PB1165MI 10000mAh",
+     "usd": 34.99,
+     "lojas": [
+      "Prime Shop"
+     ],
+     "brl": 178,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+Power+Bank+PB1165MI+10000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi UltraThin Magnetic Power Bank 5000mAh",
+     "usd": 58.0,
+     "lojas": [
+      "Shopping China"
+     ],
+     "brl": 295,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+UltraThin+Magnetic+Power+Bank+5000mAh"
+    },
+    {
+     "titulo": "Carregador Xiaomi HyperCharge Power Bank P03MI 25000mAh",
+     "usd": 78.0,
+     "lojas": [
+      "Nissei",
+      "New Zone",
+      "Visãovip",
+      "Mega Eletrônicos"
+     ],
+     "brl": 397,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Carregador+Xiaomi+HyperCharge+Power+Bank+P03MI+25000mAh"
+    }
+   ]
   },
   {
    "nome": "Teclado e mouse",
