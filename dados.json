@@ -1,8 +1,148 @@
 {
- "atualizado": "2026-10-10T01:00+00:00",
+ "atualizado": "2026-10-10T10:39+00:00",
  "rodada": 158,
  "dolar": 5.09,
  "categorias": [
+  {
+   "nome": "MacBook",
+   "itens": [
+    {
+     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 512GB / 13.6\"",
+     "usd": 1290.0,
+     "lojas": [
+      "Best Shop Paraguai"
+     ],
+     "brl": 6566,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+512GB+%2F"
+    },
+    {
+     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 512GB / 15.3\"",
+     "usd": 1570.0,
+     "lojas": [
+      "Best Shop Paraguai"
+     ],
+     "brl": 7991,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+512GB+%2F"
+    },
+    {
+     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 1TB / 13.6\"",
+     "usd": 1638.0,
+     "lojas": [
+      "Alborada"
+     ],
+     "brl": 8337,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 1TB / 15.3\"",
+     "usd": 1755.0,
+     "lojas": [
+      "MultiPass"
+     ],
+     "brl": 8933,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 24GB / SSD 1TB / 13.6\"",
+     "usd": 1860.0,
+     "lojas": [
+      "Nissei",
+      "One Click",
+      "Mega Eletrônicos",
+      "Atacado Connect"
+     ],
+     "brl": 9467,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2024 Apple M4 / Memória 24GB / SSD 1TB / 14.2\"",
+     "usd": 1900.0,
+     "lojas": [
+      "Flytec Computers"
+     ],
+     "brl": 9671,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2024+Apple+M4+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2025 Apple M5 / Memória 16GB / SSD 1TB / 14.2\"",
+     "usd": 1950.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 9926,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2025+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 24GB / SSD 1TB / 15.3\"",
+     "usd": 2075.0,
+     "lojas": [
+      "Shopping China",
+      "Atacado Connect"
+     ],
+     "brl": 10562,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2024 Apple M4 Pro / Memória 24GB / SSD 512GB / 14.2\"",
+     "usd": 2090.0,
+     "lojas": [
+      "Shopping China",
+      "Matrix Importados"
+     ],
+     "brl": 10638,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2024+Apple+M4+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+512"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2025 Apple M5 / Memória 24GB / SSD 1TB / 14.2\"",
+     "usd": 2220.0,
+     "lojas": [
+      "Tellecon Cell"
+     ],
+     "brl": 11300,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2025+Apple+M5+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 24GB / SSD 1TB / 14.2\"",
+     "usd": 2547.0,
+     "lojas": [
+      "One Click",
+      "New Zone",
+      "Mobile Zone"
+     ],
+     "brl": 12964,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 24GB / SSD 2TB / 14.2\"",
+     "usd": 2870.0,
+     "lojas": [
+      "One Click",
+      "LG Importados"
+     ],
+     "brl": 14608,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+2TB"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 24GB / SSD 1TB / 16.2\"",
+     "usd": 3130.0,
+     "lojas": [
+      "LG Importados"
+     ],
+     "brl": 15932,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB"
+    },
+    {
+     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 48GB / SSD 1TB / 16.2\"",
+     "usd": 3810.0,
+     "lojas": [
+      "Alborada",
+      "LG Importados"
+     ],
+     "brl": 19393,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+48GB+%2F+SSD+1TB"
+    }
+   ]
+  },
   {
    "nome": "iPad",
    "itens": [
