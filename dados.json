@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-10T23:28+00:00",
+ "atualizado": "2026-10-10T23:45+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -242,6 +242,35 @@
      ],
      "brl": 7584,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 256GB 11\" 5G",
+     "usd": 1499.0,
+     "lojas": [
+      "Cellshop",
+      "Matrix Importados"
+     ],
+     "brl": 7630,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22+5G"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 512GB 13\"",
+     "usd": 1548.0,
+     "lojas": [
+      "MultiPass",
+      "Shopping China"
+     ],
+     "brl": 7879,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+13%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 512GB 11\" 5G",
+     "usd": 1720.0,
+     "lojas": [
+      "Cellshop"
+     ],
+     "brl": 8755,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22+5G"
     }
    ]
   },
@@ -402,6 +431,10 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+S26+Ultra+SM-S948B+Dual+Chip+1TB+5G"
     }
    ]
+  },
+  {
+   "nome": "Celular (mais baratos)",
+   "itens": []
   },
   {
    "nome": "Samsung Galaxy A",
@@ -716,6 +749,176 @@
      ],
      "brl": 295,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+4+M2315W1"
+    },
+    {
+     "titulo": "Xiaomi Haylou Watch Hyper",
+     "usd": 59.0,
+     "lojas": [
+      "Madrid Center",
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 300,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+Hyper"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 6 M2523W1",
+     "usd": 73.5,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 374,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+M2523W1"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Bip Max A2568",
+     "usd": 75.0,
+     "lojas": [
+      "Madrid Center",
+      "Mega Eletrônicos",
+      "Nissei",
+      "Cellshop"
+     ],
+     "brl": 382,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+Max+A2568"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Bip 6 A2435",
+     "usd": 83.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "New Zone",
+      "Visãovip"
+     ],
+     "brl": 422,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+6+A2435"
+    },
+    {
+     "titulo": "Xiaomi Amazfit GTS 2e A2021",
+     "usd": 91.99,
+     "lojas": [
+      "Marktronic Comunicação"
+     ],
+     "brl": 468,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+GTS+2e+A2021"
+    },
+    {
+     "titulo": "Xiaomi Mi Watch",
+     "usd": 92.0,
+     "lojas": [
+      "Super Games"
+     ],
+     "brl": 468,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Mi+Watch"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Active 2 Square A2440",
+     "usd": 98.0,
+     "lojas": [
+      "Madrid Center",
+      "Nissei",
+      "Visãovip",
+      "Topdek Informática"
+     ],
+     "brl": 499,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+2+Square+A2440"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Active 2 A2437",
+     "usd": 99.0,
+     "lojas": [
+      "Madrid Center",
+      "Mega Eletrônicos",
+      "Nissei",
+      "Mega Eletro"
+     ],
+     "brl": 504,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+2+A2437"
+    },
+    {
+     "titulo": "Huawei Watch Fit 4",
+     "usd": 105.0,
+     "lojas": [
+      "Madrid Center",
+      "Nissei",
+      "New Zone",
+      "Mobile Zone"
+     ],
+     "brl": 534,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Huawei+Watch+Fit+4"
+    },
+    {
+     "titulo": "Xiaomi Watch S4 M2425W1",
+     "usd": 108.0,
+     "lojas": [
+      "Madrid Center",
+      "Nissei",
+      "Cellshop",
+      "New Zone"
+     ],
+     "brl": 550,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+S4+M2425W1"
+    },
+    {
+     "titulo": "Xiaomi Watch 2 M2320W1",
+     "usd": 115.0,
+     "lojas": [
+      "Madrid Center",
+      "Nissei",
+      "Cellshop",
+      "Visãovip"
+     ],
+     "brl": 585,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+2+M2320W1"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Active Max A2557",
+     "usd": 121.0,
+     "lojas": [
+      "Madrid Center",
+      "Nissei",
+      "New Zone",
+      "Mobile Zone"
+     ],
+     "brl": 616,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+Max+A2557"
+    },
+    {
+     "titulo": "Xiaomi Amazfit Active 3 Premium A2559",
+     "usd": 122.0,
+     "lojas": [
+      "Madrid Center",
+      "Mega Eletrônicos",
+      "Nissei",
+      "New Zone"
+     ],
+     "brl": 621,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+3+Premium+A2559"
+    },
+    {
+     "titulo": "Xiaomi Amazfit GTR 3 Pro A2040",
+     "usd": 125.0,
+     "lojas": [
+      "Madrid Center",
+      "Nissei",
+      "Cellshop",
+      "Visãovip"
+     ],
+     "brl": 636,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+GTR+3+Pro+A2040"
+    },
+    {
+     "titulo": "Xiaomi Watch S5 M2530W1",
+     "usd": 128.0,
+     "lojas": [
+      "Madrid Center",
+      "Mega Eletrônicos",
+      "Nissei",
+      "Atacado Connect"
+     ],
+     "brl": 652,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+S5+M2530W1"
     }
    ]
   },
