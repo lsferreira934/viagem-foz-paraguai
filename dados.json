@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-10-10T20:00+00:00",
- "rodada": 162,
+ "atualizado": "2026-10-10T22:00+00:00",
+ "rodada": 163,
  "dolar": 5.09,
  "categorias": [
   {
@@ -70,14 +70,11 @@
     },
     {
      "titulo": "Apple MacBook Pro 2025 Apple M5 / Memória 16GB / SSD 1TB / 14.2\"",
-     "usd": 2005.0,
+     "usd": 1950.0,
      "lojas": [
-      "Nissei",
-      "One Click",
-      "Cellshop",
-      "Mobile Zone"
+      "Toku Importados"
      ],
-     "brl": 10205,
+     "brl": 9926,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2025+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
     },
     {
@@ -183,13 +180,11 @@
     },
     {
      "titulo": "Apple iPad 11ª Geração 2025 128GB 11\"",
-     "usd": 449.0,
+     "usd": 444.0,
      "lojas": [
-      "Mega Eletrônicos",
-      "Mega Eletro",
-      "Prime Shop"
+      "Toku Importados"
      ],
-     "brl": 2285,
+     "brl": 2260,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+128GB+11%22"
     },
     {
@@ -316,6 +311,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+13%22"
     },
     {
+     "titulo": "Apple iPad Pro 2025 256GB 11\"",
+     "usd": 945.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 4810,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22"
+    },
+    {
      "titulo": "Apple iPad Pro 2024 256GB 11\" 5G",
      "usd": 999.0,
      "lojas": [
@@ -333,18 +337,6 @@
      ],
      "brl": 5344,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+256GB+13%22"
-    },
-    {
-     "titulo": "Apple iPad Pro 2025 256GB 11\"",
-     "usd": 1149.0,
-     "lojas": [
-      "Atacado Connect",
-      "One Click",
-      "Mega Eletrônicos",
-      "Intershop Importados"
-     ],
-     "brl": 5848,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22"
     },
     {
      "titulo": "Apple iPad Pro 2024 256GB 13\" 5G",
@@ -477,6 +469,7 @@
      "usd": 719.0,
      "lojas": [
       "Nissei",
+      "Madrid Center",
       "Orbe Import"
      ],
      "brl": 3660,
@@ -646,6 +639,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Vibe"
     },
     {
+     "titulo": "Mibro A3 XPAW022",
+     "usd": 31.9,
+     "lojas": [
+      "Avanza"
+     ],
+     "brl": 162,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+A3+XPAW022"
+    },
+    {
      "titulo": "Mibro Lite 3 XPAW020",
      "usd": 32.0,
      "lojas": [
@@ -797,17 +799,6 @@
      ],
      "brl": 295,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+4+M2315W1"
-    },
-    {
-     "titulo": "Xiaomi Haylou Watch Hyper",
-     "usd": 59.0,
-     "lojas": [
-      "Madrid Center",
-      "Mega Eletrônicos",
-      "Mega Eletro"
-     ],
-     "brl": 300,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Haylou+Watch+Hyper"
     }
    ]
   }
