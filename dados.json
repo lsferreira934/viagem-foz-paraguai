@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-10T22:00+00:00",
+ "atualizado": "2026-10-10T23:00+00:00",
  "rodada": 163,
  "dolar": 5.09,
  "categorias": [
@@ -799,6 +799,94 @@
      ],
      "brl": 295,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+4+M2315W1"
+    }
+   ]
+  },
+  {
+   "nome": "Notebook",
+   "itens": []
+  },
+  {
+   "nome": "Mesa digitalizadora",
+   "itens": []
+  },
+  {
+   "nome": "Redmi 6 Lite",
+   "itens": []
+  },
+  {
+   "nome": "Teclado e mouse",
+   "itens": [
+    {
+     "titulo": "Teclado FTX GK600 Wireless Com Mouse",
+     "usd": 5.0,
+     "lojas": [
+      "CDE Store"
+     ],
+     "brl": 25,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+FTX+GK600+Wireless+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado FTX FTXGK01 Bluetooth Com Mouse",
+     "usd": 10.5,
+     "lojas": [
+      "Topdek Informática"
+     ],
+     "brl": 53,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+FTX+FTXGK01+Bluetooth+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado Satellite AK-622G Bluetooth Com Mouse",
+     "usd": 10.5,
+     "lojas": [
+      "Cellshop",
+      "Visãovip",
+      "Topdek Informática",
+      "TecnoTienda"
+     ],
+     "brl": 53,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Satellite+AK-622G+Bluetooth+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado FTX FTXGK02 Bluetooth Com Mouse",
+     "usd": 14.5,
+     "lojas": [
+      "Nissei",
+      "New Zone",
+      "Mobile Zone",
+      "Topdek Informática"
+     ],
+     "brl": 74,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+FTX+FTXGK02+Bluetooth+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado Satellite AK-621G Bluetooth Com Mouse",
+     "usd": 15.0,
+     "lojas": [
+      "Matrix.com"
+     ],
+     "brl": 76,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Satellite+AK-621G+Bluetooth+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado Smartfy TW01B Wireless Com Mouse",
+     "usd": 17.25,
+     "lojas": [
+      "Victoria Store"
+     ],
+     "brl": 88,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Smartfy+TW01B+Wireless+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado Logitech Pop Icon Combo Bluetooth Com Mouse",
+     "usd": 52.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Topdek Informática",
+      "Mega Eletro"
+     ],
+     "brl": 265,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Logitech+Pop+Icon+Combo+Bluetooth+Com+Mouse"
     }
    ]
   }
