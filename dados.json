@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-10-10T12:00+00:00",
- "rodada": 159,
+ "atualizado": "2026-10-10T14:00+00:00",
+ "rodada": 160,
  "dolar": 5.09,
  "categorias": [
   {
@@ -141,12 +141,11 @@
     },
     {
      "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 48GB / SSD 1TB / 16.2\"",
-     "usd": 3810.0,
+     "usd": 3745.0,
      "lojas": [
-      "Alborada",
-      "LG Importados"
+      "Matrix Importados"
      ],
-     "brl": 19393,
+     "brl": 19062,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+48GB+%2F+SSD+1TB"
     }
    ]
@@ -232,6 +231,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+128GB+11%22+5G"
     },
     {
+     "titulo": "Apple iPad 11ª Geração 2025 256GB 11\" 5G",
+     "usd": 625.0,
+     "lojas": [
+      "Matrix Importados"
+     ],
+     "brl": 3181,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22+5G"
+    },
+    {
      "titulo": "Apple iPad Air 2025 256GB 11\"",
      "usd": 690.0,
      "lojas": [
@@ -250,16 +258,6 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+11%22+5G"
     },
     {
-     "titulo": "Apple iPad 11ª Geração 2025 256GB 11\" 5G",
-     "usd": 730.0,
-     "lojas": [
-      "Nissei",
-      "Cellshop"
-     ],
-     "brl": 3716,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22+5G"
-    },
-    {
      "titulo": "Apple iPad Air 2026 128GB 11\"",
      "usd": 744.0,
      "lojas": [
@@ -276,15 +274,6 @@
      ],
      "brl": 4123,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+13%22+5G"
-    },
-    {
-     "titulo": "Apple iPad Pro 2022 128GB 12.9\"",
-     "usd": 825.0,
-     "lojas": [
-      "Atacado Connect"
-     ],
-     "brl": 4199,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2022+128GB+12.9%22"
     },
     {
      "titulo": "Apple iPad Air 2026 256GB 11\"",
@@ -365,6 +354,24 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+256GB+13%22+5G"
     },
     {
+     "titulo": "Apple iPad Pro 2025 512GB 11\"",
+     "usd": 1331.0,
+     "lojas": [
+      "Matrix Importados"
+     ],
+     "brl": 6775,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22"
+    },
+    {
+     "titulo": "Apple iPad Pro 2025 256GB 11\" 5G",
+     "usd": 1331.0,
+     "lojas": [
+      "Matrix Importados"
+     ],
+     "brl": 6775,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+11%22+5G"
+    },
+    {
      "titulo": "Apple iPad Pro 2025 256GB 13\"",
      "usd": 1360.0,
      "lojas": [
@@ -384,17 +391,6 @@
      ],
      "brl": 7126,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+512GB+13%22"
-    },
-    {
-     "titulo": "Apple iPad Pro 2025 512GB 11\"",
-     "usd": 1450.0,
-     "lojas": [
-      "Shopping China",
-      "New Zone",
-      "Matrix Importados"
-     ],
-     "brl": 7380,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22"
     }
    ]
   },
