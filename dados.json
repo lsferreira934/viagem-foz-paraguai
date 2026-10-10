@@ -1,153 +1,8 @@
 {
- "atualizado": "2026-10-10T23:00+00:00",
- "rodada": 163,
+ "atualizado": "2026-10-10T23:28+00:00",
+ "rodada": 164,
  "dolar": 5.09,
  "categorias": [
-  {
-   "nome": "MacBook",
-   "itens": [
-    {
-     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 512GB / 13.6\"",
-     "usd": 1420.0,
-     "lojas": [
-      "Mega Eletrônicos",
-      "Mega Eletro",
-      "Twin Shop"
-     ],
-     "brl": 7228,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+512GB+%2F"
-    },
-    {
-     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 512GB / 15.3\"",
-     "usd": 1595.0,
-     "lojas": [
-      "Visãovip",
-      "Nissei",
-      "MultiPass",
-      "Cellshop"
-     ],
-     "brl": 8119,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+512GB+%2F"
-    },
-    {
-     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 1TB / 13.6\"",
-     "usd": 1638.0,
-     "lojas": [
-      "Alborada"
-     ],
-     "brl": 8337,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 16GB / SSD 1TB / 15.3\"",
-     "usd": 1755.0,
-     "lojas": [
-      "MultiPass"
-     ],
-     "brl": 8933,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 24GB / SSD 1TB / 13.6\"",
-     "usd": 1860.0,
-     "lojas": [
-      "Nissei",
-      "One Click",
-      "Mega Eletrônicos",
-      "Atacado Connect"
-     ],
-     "brl": 9467,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2024 Apple M4 / Memória 24GB / SSD 1TB / 14.2\"",
-     "usd": 1900.0,
-     "lojas": [
-      "Flytec Computers"
-     ],
-     "brl": 9671,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2024+Apple+M4+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2025 Apple M5 / Memória 16GB / SSD 1TB / 14.2\"",
-     "usd": 1950.0,
-     "lojas": [
-      "Toku Importados"
-     ],
-     "brl": 9926,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2025+Apple+M5+%2F+Mem%C3%B3ria+16GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Air 2026 Apple M5 / Memória 24GB / SSD 1TB / 15.3\"",
-     "usd": 2075.0,
-     "lojas": [
-      "Shopping China",
-      "Atacado Connect"
-     ],
-     "brl": 10562,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Air+2026+Apple+M5+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2024 Apple M4 Pro / Memória 24GB / SSD 512GB / 14.2\"",
-     "usd": 2090.0,
-     "lojas": [
-      "Shopping China",
-      "Matrix Importados"
-     ],
-     "brl": 10638,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2024+Apple+M4+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+512"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2025 Apple M5 / Memória 24GB / SSD 1TB / 14.2\"",
-     "usd": 2220.0,
-     "lojas": [
-      "Tellecon Cell"
-     ],
-     "brl": 11300,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2025+Apple+M5+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB+%2F+1"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 24GB / SSD 1TB / 14.2\"",
-     "usd": 2547.0,
-     "lojas": [
-      "One Click",
-      "New Zone",
-      "Mobile Zone"
-     ],
-     "brl": 12964,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 24GB / SSD 2TB / 14.2\"",
-     "usd": 2870.0,
-     "lojas": [
-      "One Click",
-      "LG Importados"
-     ],
-     "brl": 14608,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+2TB"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 24GB / SSD 1TB / 16.2\"",
-     "usd": 3130.0,
-     "lojas": [
-      "LG Importados"
-     ],
-     "brl": 15932,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+24GB+%2F+SSD+1TB"
-    },
-    {
-     "titulo": "Apple MacBook Pro 2026 Apple M5 Pro / Memória 48GB / SSD 1TB / 16.2\"",
-     "usd": 3810.0,
-     "lojas": [
-      "Alborada",
-      "LG Importados"
-     ],
-     "brl": 19393,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+MacBook+Pro+2026+Apple+M5+Pro+%2F+Mem%C3%B3ria+48GB+%2F+SSD+1TB"
-    }
-   ]
-  },
   {
    "nome": "iPad",
    "itens": [
@@ -245,6 +100,15 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2025+128GB+11%22+5G"
     },
     {
+     "titulo": "Apple iPad Air 2026 128GB 11\"",
+     "usd": 729.0,
+     "lojas": [
+      "Best Shop Paraguai"
+     ],
+     "brl": 3711,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
+    },
+    {
      "titulo": "Apple iPad 11ª Geração 2025 256GB 11\" 5G",
      "usd": 730.0,
      "lojas": [
@@ -253,15 +117,6 @@
      ],
      "brl": 3716,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+256GB+11%22+5G"
-    },
-    {
-     "titulo": "Apple iPad Air 2026 128GB 11\"",
-     "usd": 744.0,
-     "lojas": [
-      "Super Games"
-     ],
-     "brl": 3787,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+128GB+11%22"
     },
     {
      "titulo": "Apple iPad Air 2025 128GB 13\" 5G",
@@ -549,6 +404,68 @@
    ]
   },
   {
+   "nome": "Samsung Galaxy A",
+   "itens": [
+    {
+     "titulo": "Samsung Galaxy A56 SM-A566E Dual Chip 128GB 5G",
+     "usd": 300.0,
+     "lojas": [
+      "ISS Group"
+     ],
+     "brl": 1527,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566E+Dual+Chip+128GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy A56 SM-A566B Dual Chip 128GB 5G",
+     "usd": 325.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 1654,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566B+Dual+Chip+128GB+5G"
+    },
+    {
+     "titulo": "Samsung Galaxy A56 SM-A566E Dual Chip 256GB 5G - RAM 8GB",
+     "usd": 354.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 1802,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566E+Dual+Chip+256GB+5G+-+RAM+8GB"
+    },
+    {
+     "titulo": "Samsung Galaxy A56 SM-A566B Dual Chip 256GB 5G - RAM 8GB",
+     "usd": 355.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Mega Eletro"
+     ],
+     "brl": 1807,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566B+Dual+Chip+256GB+5G+-+RAM+8GB"
+    },
+    {
+     "titulo": "Samsung Galaxy A56 SM-A566E Dual Chip 256GB 5G - RAM 12GB",
+     "usd": 359.75,
+     "lojas": [
+      "Orbe Import"
+     ],
+     "brl": 1831,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566E+Dual+Chip+256GB+5G+-+RAM+12GB"
+    },
+    {
+     "titulo": "Samsung Galaxy A56 SM-A566B Dual Chip 256GB 5G - RAM 12GB",
+     "usd": 397.0,
+     "lojas": [
+      "New Zone"
+     ],
+     "brl": 2021,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566B+Dual+Chip+256GB+5G+-+RAM+12GB"
+    }
+   ]
+  },
+  {
    "nome": "Smartwatch",
    "itens": [
     {
@@ -804,14 +721,288 @@
   },
   {
    "nome": "Notebook",
-   "itens": []
+   "itens": [
+    {
+     "titulo": "Acer Aspire Lite AL15-36P-32XP Intel Core 3 1.8GHz / Memória 8GB / SSD 128GB / 15.6\" / Windows 11",
+     "usd": 344.47,
+     "lojas": [
+      "Casa Americana"
+     ],
+     "brl": 1753,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Acer+Aspire+Lite+AL15-36P-32XP+Intel+Core+3+1.8GHz+%2F+Mem%C3%B3ria"
+    },
+    {
+     "titulo": "HP OmniBook 3 16-BY0015DX AMD Ryzen 5 2.8GHz / Memória 8GB / SSD 256GB / 16\" / Windows 11",
+     "usd": 482.0,
+     "lojas": [
+      "Best Shop Paraguai",
+      "Mega Eletro",
+      "Import Pro Gaming"
+     ],
+     "brl": 2453,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+OmniBook+3+16-BY0015DX+AMD+Ryzen+5+2.8GHz+%2F+Mem%C3%B3ria+8GB+%2F"
+    },
+    {
+     "titulo": "HP Omnibook 3 16-BU0305DX Intel Core Ultra 5 1.5GHz / Memória 8GB / SSD 512GB / 16\" / Windows 11",
+     "usd": 550.0,
+     "lojas": [
+      "Madrid Center"
+     ],
+     "brl": 2800,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+Omnibook+3+16-BU0305DX+Intel+Core+Ultra+5+1.5GHz+%2F+Mem%C3%B3ri"
+    },
+    {
+     "titulo": "Dell 15 LDC15250-7427BLK Intel Core i7 1.7GHz / Memória 16GB / SSD 512GB / 15.6\" / Windows 11",
+     "usd": 720.0,
+     "lojas": [
+      "Madrid Center",
+      "Pro Book"
+     ],
+     "brl": 3665,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Dell+15+LDC15250-7427BLK+Intel+Core+i7+1.7GHz+%2F+Mem%C3%B3ria+16GB"
+    },
+    {
+     "titulo": "HP Omnibook 3 AI 17-DG0107DX Intel Core Ultra 7 1.7GHz / Memória 16GB / SSD 512GB / 17.3\" / Windows 11",
+     "usd": 760.0,
+     "lojas": [
+      "Pro Book"
+     ],
+     "brl": 3868,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+Omnibook+3+AI+17-DG0107DX+Intel+Core+Ultra+7+1.7GHz+%2F+Mem"
+    },
+    {
+     "titulo": "HP OmniBook 3 16-BU0007DX Intel Core Ultra 7 1.7GHz / Memória 16GB / SSD 512GB / 16\" / Windows 11",
+     "usd": 805.0,
+     "lojas": [
+      "Import Pro Gaming"
+     ],
+     "brl": 4097,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+OmniBook+3+16-BU0007DX+Intel+Core+Ultra+7+1.7GHz+%2F+Mem%C3%B3ri"
+    },
+    {
+     "titulo": "HP Omnibook X Flip 16-AS0023DX Intel Core Ultra 7 4.8GHz / Memória 16GB / SSD 1TB / 16\" / Windows 11",
+     "usd": 870.0,
+     "lojas": [
+      "Pro Book"
+     ],
+     "brl": 4428,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=HP+Omnibook+X+Flip+16-AS0023DX+Intel+Core+Ultra+7+4.8GHz+%2F+M"
+    },
+    {
+     "titulo": "Acer Swift Go 16 SFG16-A71T-R5UY AMD Ryzen AI 7 2.0GHz / Memória 16GB / SSD 1TB / 16\" / Windows 11",
+     "usd": 930.0,
+     "lojas": [
+      "Import Pro Gaming"
+     ],
+     "brl": 4734,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Acer+Swift+Go+16+SFG16-A71T-R5UY+AMD+Ryzen+AI+7+2.0GHz+%2F+Mem"
+    }
+   ]
   },
   {
    "nome": "Mesa digitalizadora",
-   "itens": []
+   "itens": [
+    {
+     "titulo": "Mesa Digitalizadora Xiaomi Mi LCD Writing XMXHB02WC",
+     "usd": 12.0,
+     "lojas": [
+      "Victoria Store"
+     ],
+     "brl": 61,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mesa+Digitalizadora+Xiaomi+Mi+LCD+Writing+XMXHB02WC"
+    },
+    {
+     "titulo": "Mesa Digitalizadora XP-Pen Deco Mini 7",
+     "usd": 15.0,
+     "lojas": [
+      "Atacado Connect"
+     ],
+     "brl": 76,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mesa+Digitalizadora+XP-Pen+Deco+Mini+7"
+    },
+    {
+     "titulo": "Mesa Digitalizadora XP-Pen Deco Fun XS",
+     "usd": 25.9,
+     "lojas": [
+      "Cellshop"
+     ],
+     "brl": 132,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mesa+Digitalizadora+XP-Pen+Deco+Fun+XS"
+    },
+    {
+     "titulo": "Mesa Digitalizadora XP-Pen Deco Fun L",
+     "usd": 49.9,
+     "lojas": [
+      "Cellshop"
+     ],
+     "brl": 254,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mesa+Digitalizadora+XP-Pen+Deco+Fun+L"
+    },
+    {
+     "titulo": "Mesa Digitalizadora XP-Pen Artist 12 Pro",
+     "usd": 245.0,
+     "lojas": [
+      "Cellshop"
+     ],
+     "brl": 1247,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mesa+Digitalizadora+XP-Pen+Artist+12+Pro"
+    }
+   ]
   },
   {
    "nome": "Redmi 6 Lite",
+   "itens": [
+    {
+     "titulo": "Fone de Ouvido Xiaomi Redmi Buds 6 Lite Bluetooth",
+     "usd": 14.49,
+     "lojas": [
+      "Prime Shop"
+     ],
+     "brl": 74,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Fone+de+Ouvido+Xiaomi+Redmi+Buds+6+Lite+Bluetooth"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad SE 256GB 11\"",
+     "usd": 15.0,
+     "lojas": [
+      "Mini Carlos"
+     ],
+     "brl": 76,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+SE+256GB+11%22"
+    },
+    {
+     "titulo": "Xiaomi Redmi Watch 6 Lite",
+     "usd": 52.0,
+     "lojas": [
+      "Mega Eletrônicos",
+      "Nissei",
+      "Cellshop",
+      "Visãovip"
+     ],
+     "brl": 265,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 64GB 9.7\"",
+     "usd": 135.0,
+     "lojas": [
+      "Asia Store"
+     ],
+     "brl": 687,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+64GB+9.7%22"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad SE 128GB 8.7\" - RAM 6GB",
+     "usd": 146.0,
+     "lojas": [
+      "Mini Carlos"
+     ],
+     "brl": 743,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+SE+128GB+8.7%22+-+RAM+6GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 128GB 9.7\"",
+     "usd": 151.2,
+     "lojas": [
+      "Avanza"
+     ],
+     "brl": 770,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+9.7%22"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad SE 128GB 11\" - RAM 6GB",
+     "usd": 158.0,
+     "lojas": [
+      "Tellecon Cell"
+     ],
+     "brl": 804,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+SE+128GB+11%22+-+RAM+6GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 128GB 11\" - RAM 4GB",
+     "usd": 165.0,
+     "lojas": [
+      "Visãovip"
+     ],
+     "brl": 840,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+-+RAM+4GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 128GB 11\" 4G",
+     "usd": 173.0,
+     "lojas": [
+      "Atacado Connect"
+     ],
+     "brl": 881,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+4G"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 256GB 11\" - RAM 4GB",
+     "usd": 178.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 906,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+256GB+11%22+-+RAM+4GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad SE 128GB 11\" - RAM 4GB",
+     "usd": 181.0,
+     "lojas": [
+      "Flytec Computers"
+     ],
+     "brl": 921,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+SE+128GB+11%22+-+RAM+4GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 256GB 11\" - RAM 8GB",
+     "usd": 182.0,
+     "lojas": [
+      "Nissei"
+     ],
+     "brl": 926,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+256GB+11%22+-+RAM+8GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 128GB 11\" - RAM 6GB",
+     "usd": 183.75,
+     "lojas": [
+      "Avanza"
+     ],
+     "brl": 935,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+-+RAM+6GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 128GB 10.6\" - RAM 4GB",
+     "usd": 197.75,
+     "lojas": [
+      "Super Games"
+     ],
+     "brl": 1007,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+128GB+10.6%22+-+RAM+4GB"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 Pro 128GB 12.1\"",
+     "usd": 244.0,
+     "lojas": [
+      "Shopping China"
+     ],
+     "brl": 1242,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+Pro+128GB+12.1%22"
+    },
+    {
+     "titulo": "Xiaomi Redmi Pad 2 Pro 256GB 12.1\"",
+     "usd": 274.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 1395,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+Pro+256GB+12.1%22"
+    }
+   ]
+  },
+  {
+   "nome": "Powerbank",
    "itens": []
   },
   {
@@ -869,6 +1060,16 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Satellite+AK-621G+Bluetooth+Com+Mouse"
     },
     {
+     "titulo": "Teclado FTX FTXB023 Bluetooth",
+     "usd": 15.0,
+     "lojas": [
+      "Shopping China",
+      "Pro Book"
+     ],
+     "brl": 76,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+FTX+FTXB023+Bluetooth"
+    },
+    {
      "titulo": "Teclado Smartfy TW01B Wireless Com Mouse",
      "usd": 17.25,
      "lojas": [
@@ -876,6 +1077,15 @@
      ],
      "brl": 88,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Smartfy+TW01B+Wireless+Com+Mouse"
+    },
+    {
+     "titulo": "Teclado Logitech Pebble Keys 2 K380S Bluetooth",
+     "usd": 28.0,
+     "lojas": [
+      "Toku Importados"
+     ],
+     "brl": 143,
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Logitech+Pebble+Keys+2+K380S+Bluetooth"
     },
     {
      "titulo": "Teclado Logitech Pop Icon Combo Bluetooth Com Mouse",
