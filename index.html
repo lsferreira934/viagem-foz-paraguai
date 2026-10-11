@@ -484,25 +484,29 @@ const DAYS = [
     ["15h30","Voltar ao Brasil","Declarem na e-DBV o que passar de US$ 500 por pessoa. Guardem as notas.",null,false],
     ["noite","Roda-gigante Yup Star","Até 20h30, R$ 59,90 online. Ou jantar em casa.","yup",false]
    ]},
-  {id:"dom", d:"2026-10-11", short:"Dom", date:"11/10", country:"Brasil · Foz do Iguaçu", title:"Volta para casa", img:["cataratas","Cataratas · Josep M. Gracia, CC BY-SA 4.0"], wx:["Saída 5h","~1.130 km","chegada ~19h"],
-   alerts:[["warn","!","<b>Saída às 5h.</b> Malas no carro na noite anterior, checkout na saída: chave no cofre, alarme ligado e porta trancada. Avisem a Camila pelo Airbnb que saíram."],["warn","!","<b>Chuva forte com trovoada</b> na saída de Foz e de manhã. Estrada molhada: devagar e farol baixo aceso."]],
+  {id:"dom", d:"2026-10-11", short:"Dom", date:"11/10", country:"Brasil · Foz do Iguaçu", title:"Paraguai, Cataratas e volta", img:["cataratas","Cataratas · Josep M. Gracia, CC BY-SA 4.0"], wx:["20–25°C","chuva forte","trovoadas"],
+   alerts:[["warn","!","<b>Checkout na saída das 7h</b> (não voltamos pra casa): malas no carro, chave no cofre, alarme ligado e porta trancada."],["warn","!","<b>Domingo no Paraguai:</b> Nissei e Mega Eletrônicos <b>fechadas</b>. Abertas: Shopping China 7h–20h, New Zone 8h–21h, CellShop 8h–14h, Shopping del Este 8h–20h."],["tip","i","<b>Cota:</b> quem já usou os US$ 500 ontem paga 50% sobre tudo que comprar hoje. Declarem na e-DBV antes de cruzar. Chuva forte com trovoada o dia todo: capa e saco zip."]],
    items:[
-    ["4h30","Acordar e fechar a casa","Última conferida: carregadores, documentos, compras e notas fiscais.","casa",false],
-    ["5h00","Saída de Foz · Cíntia","Volante até 7h35.",null,true],
-    ["7h50","Leandro","Volante até 10h25. Parada de 15 min pra trocar.",null,false],
-    ["10h40","Alisson","Volante até 13h15. Bom momento pro almoço.",null,false],
-    ["13h30","Alice","Volante até 16h05.",null,false],
-    ["16h20","Emerson","Volante até 18h55.",null,false],
-    ["~19h","Chegada em SJC","~13h54 com paradas (Waze ~12h54 dirigindo).",null,true]
+    ["5h","Acordar, café e malas no carro","Conferir carregadores, documentos, compras e notas fiscais.","casa",false],
+    ["7h","Saída e checkout","Chave no cofre, alarme ligado. Avisem a Camila pelo Airbnb.","casa",true],
+    ["7h15","Estacionar e atravessar","Confirmem se o Bismillah abre no domingo. Se não, o Fortaleza fica a ~200 m.","bismillah",false],
+    ["7h45","Compras no Paraguai","Shopping China, New Zone, CellShop (até 14h) e Shopping del Este. Preço final em USDT e Pix antes de fechar.","china",false],
+    ["11h30","Voltar e seguir para as Cataratas","e-DBV de quem passar da cota. ~30 min até o parque.","ponte",true],
+    ["12h","Cataratas, lado brasileiro","Última entrada 16h, fecha 17h30. Estacionamento R$ 65. Na Garganta do Diabo todo mundo se molha.","cataratas",true],
+    ["15h30","Parque das Aves (se der tempo)","Em frente às Cataratas, fecha 16h30.","aves",false],
+    ["16h45","Marco das 3 Fronteiras","Estacionamento grátis, show às 18h30. Cupom MDMARCO15.","marco",false],
+    ["18h30","Jantar","Shawarmaria Asmars ou Cantina 4 Sorelle, no Centro.","asmars",false],
+    ["20h","Saída para SJC","Rodízio de ~2h35: Cíntia 20h, Leandro 22h50, Alisson 1h40, Alice 4h30, Emerson 7h20. Chegada ~10h. Estrada molhada: devagar.",null,true]
    ]},
-  {id:"seg", d:"2026-10-12", short:"Seg", date:"12/10", country:"Brasil · Feriado", title:"Devolver o carro", img:null, wx:["Feriado","devolução 15h"],
+  {id:"seg", d:"2026-10-12", short:"Seg", date:"12/10", country:"Brasil · Feriado", title:"Chegada", img:null, wx:["Feriado","chegada ~10h"],
    alerts:[["warn","!","Devolução às <b>15h</b>. Atraso cobra diária extra."]],
    items:[
+    ["10h","Chegada em SJC","Descansem antes de devolver o carro.",null,false],
         ["15h","Devolver o carro na Unidas","Rua Andorra, 500. Tanque e vistoria conforme o contrato.","unidas",true]
    ]}
 ];
 
-const RODIZIO = [["Qui 19h00–21h35","Cíntia"],["Qui 21h50–00h25","Leandro"],["Sex 00h40–03h15","Alisson"],["Sex 03h30–06h05","Emerson"],["Sex 06h20–08h55","Alice"],["Dom 05h00–07h35","Cíntia"],["Dom 07h50–10h25","Leandro"],["Dom 10h40–13h15","Alisson"],["Dom 13h30–16h05","Alice"],["Dom 16h20–18h55","Emerson"]];
+const RODIZIO = [["Qui 19h00–21h35","Cíntia"],["Qui 21h50–00h25","Leandro"],["Sex 00h40–03h15","Alisson"],["Sex 03h30–06h05","Emerson"],["Sex 06h20–08h55","Alice"],["Dom 20h00–22h35","Cíntia"],["Dom 22h50–01h25","Leandro"],["Seg 01h40–04h15","Alisson"],["Seg 04h30–07h05","Alice"],["Seg 07h20–09h55","Emerson"]];
 
 const FEES = {usdt:{p:0,fix:1,l:"USDT"},pix:{p:.04,fix:0,l:"Pix"},deb:{p:.0385,fix:0,l:"Débito"},cred:{p:.05,fix:0,l:"Crédito"}};
 const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
