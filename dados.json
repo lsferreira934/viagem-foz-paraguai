@@ -3333,40 +3333,64 @@
    "nome": "Mochila",
    "itens": [
     {
-     "titulo": "Mochila Xiaomi Mi Casual Daypack ZJB4148GL &#8211; Laranja",
+     "titulo": "Mochila Xiaomi Mi Casual Daypack ZJB4148GL",
      "usd": 9.99,
      "brl": 51,
      "lojas": [
       "Prime Shop"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Mi+Casual+Daypack+ZJB4148GL+%26%238211%3B+Laranja"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Mi+Casual+Daypack+ZJB4148GL+%26%238211%3B+Laranja",
+     "br": {
+      "preco": 89.99,
+      "titulo": "Mochila Xiaomi Mi Casual Daypack ZJB4148GL - Laranja",
+      "link": "https://www.zoom.com.br/lead?oid=1577708115",
+      "economia": 0.43
+     }
     },
     {
-     "titulo": "Mochila Xiaomi Casual Daypack Azul Escuro &#8211; ZJB4144GL &#8211; 20380 &#8211; 2076 340X225X130MM",
+     "titulo": "Mochila Xiaomi Casual Daypack Azul Escuro – ZJB4144GL – 20380",
      "usd": 9.99,
      "brl": 51,
      "lojas": [
       "Prime Shop"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Casual+Daypack+Azul+Escuro+%26%238211%3B+ZJB4144GL+"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Casual+Daypack+Azul+Escuro+%26%238211%3B+ZJB4144GL+",
+     "br": {
+      "preco": 89.99,
+      "titulo": "Mochila Xiaomi Mi Casual Daypack ZJB4144GL - Azul Escuro",
+      "link": "https://www.zoom.com.br/lead?oid=1577709741",
+      "economia": 0.43
+     }
     },
     {
-     "titulo": "Mochila Xiaomi Casual Daypack Azul Escuro - ZJB4144GL - 20380",
+     "titulo": "Mochila Xiaomi Casual Daypack Azul Escuro - ZJB4144GL",
      "usd": 10.0,
      "brl": 51,
      "lojas": [
       "Pro Book"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Casual+Daypack+Azul+Escuro+-+ZJB4144GL+-+2038"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Casual+Daypack+Azul+Escuro+-+ZJB4144GL+-+2038",
+     "br": {
+      "preco": 89.99,
+      "titulo": "Mochila Xiaomi Mi Casual Daypack ZJB4144GL - Azul Escuro",
+      "link": "https://www.zoom.com.br/lead?oid=1577709741",
+      "economia": 0.43
+     }
     },
     {
-     "titulo": "Mochila Xiaomi Casual Daypack Laranja - ZJB4148GL - 20380",
+     "titulo": "Mochila Xiaomi Casual Daypack Laranja - ZJB4148GL",
      "usd": 10.0,
      "brl": 51,
      "lojas": [
       "Pro Book"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Casual+Daypack+Laranja+-+ZJB4148GL+-+20380"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Casual+Daypack+Laranja+-+ZJB4148GL+-+20380",
+     "br": {
+      "preco": 89.99,
+      "titulo": "Mochila Xiaomi Mi Casual Daypack ZJB4148GL - Laranja",
+      "link": "https://www.zoom.com.br/lead?oid=1577708115",
+      "economia": 0.43
+     }
     },
     {
      "titulo": "Mochila Targus Intellect TBB565LP para Notebook 15.6\"",
@@ -3375,7 +3399,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Intellect+TBB565LP+para+Notebook+15.6%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Intellect+TBB565LP+para+Notebook+15.6%22",
+     "br": {
+      "preco": 129.0,
+      "titulo": "Mochila Intellect para Notebook 15.6 Polegadas Targus - TBB565",
+      "link": "https://www.zoom.com.br/lead?oid=1363123733",
+      "economia": 0.27
+     }
     },
     {
      "titulo": "Mochila Targus Intellect Essential TSB966DI para Notebook 15.6\"",
@@ -3384,10 +3414,16 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Intellect+Essential+TSB966DI+para+Notebook+15"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Intellect+Essential+TSB966DI+para+Notebook+15",
+     "br": {
+      "preco": 99.99,
+      "titulo": "Mochila Targus Para Notebook até 15.6 Intellect Essentials Preto - TSB966",
+      "link": "https://www.zoom.com.br/lead?oid=1539336995",
+      "economia": 0.06
+     }
     },
     {
-     "titulo": "Mochila Xiaomi Mi Commuter Backpack &#8211; Light Grey",
+     "titulo": "Mochila Xiaomi Mi Commuter Backpack",
      "usd": 19.49,
      "brl": 99,
      "lojas": [
@@ -3396,7 +3432,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Mi+Commuter+Backpack+%26%238211%3B+Light+Grey"
     },
     {
-     "titulo": "Mochila Xiaomi Commuter Backpack BHR4903GL &#8211; para Notebooks 15.6&#8243; &#8211; Dark Gray",
+     "titulo": "Mochila Xiaomi Commuter Backpack BHR4903GL – para Notebooks 15.6″",
      "usd": 19.49,
      "brl": 99,
      "lojas": [
@@ -3414,7 +3450,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Xiaomi+Mi+Commuter+XDLGX-04+para+Notebook"
     },
     {
-     "titulo": "Mochila Xiaomi Commuter Backpack BHR4903GL - para Notebook 15.6\" - Resistente À Água",
+     "titulo": "Mochila Xiaomi Commuter Backpack BHR4903GL - para Notebook 15.6\"",
      "usd": 19.5,
      "brl": 99,
      "lojas": [
@@ -3474,7 +3510,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Intellect+Advanced+TSB968LP+para+Notebook+15."
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Intellect+Advanced+TSB968LP+para+Notebook+15.",
+     "br": {
+      "preco": 129.0,
+      "titulo": "Mochila Intellect para Notebook 15.6 Polegadas Targus - TBB565",
+      "link": "https://www.zoom.com.br/lead?oid=1363123733",
+      "economia": 0.11
+     }
     },
     {
      "titulo": "Mochila Samsonite Xtrem Bolt 220 Red Dino 14356798411CNU",
@@ -3492,7 +3534,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+City+TSB89004LP+para+Notebook+15.6%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+City+TSB89004LP+para+Notebook+15.6%22",
+     "br": {
+      "preco": 197.57,
+      "titulo": "Mochila Targus City 15.6 Para Escritorio - TSB89004",
+      "link": "https://www.zoom.com.br/lead?oid=877110135",
+      "economia": 0.36
+     }
     },
     {
      "titulo": "Mochila para Herramienta Total THBP02025 29.7L 46X38CM Turquesa",
@@ -3510,7 +3558,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Geolite+Essential+TSB96001LP+para+Notebook+15"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Geolite+Essential+TSB96001LP+para+Notebook+15",
+     "br": {
+      "preco": 153.45,
+      "titulo": "Mochila para Notebook até 15,6 Targus - Intellect Essential, Preto, 15",
+      "link": "https://www.zoom.com.br/lead?oid=1564452756",
+      "economia": 0.14
+     }
     },
     {
      "titulo": "Mochila Case Logic VNB-217 para Notebook 17\"",
@@ -3519,7 +3573,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Case+Logic+VNB-217+para+Notebook+17%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Case+Logic+VNB-217+para+Notebook+17%22",
+     "br": {
+      "preco": 376.1,
+      "titulo": "Case Logic Mochila Prevailer para Notebook 17.3\" Black",
+      "link": "https://www.zoom.com.br/lead?oid=998414618",
+      "economia": 0.62
+     }
     },
     {
      "titulo": "Mochila para Notebook 15.6\" Kolke KVM-654 Anti-Roubo Preto",
@@ -3555,7 +3615,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Case+Logic+CCAM-3216+para+Notebook+15.6%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Case+Logic+CCAM-3216+para+Notebook+15.6%22",
+     "br": {
+      "preco": 236.0,
+      "titulo": "Case Logic Mochila Jaunt para Notebook 15.6\" 23 litros Graphite",
+      "link": "https://www.zoom.com.br/lead?oid=1087600507",
+      "economia": 0.2
+     }
     },
     {
      "titulo": "Mochila Case Logic Uplink CCAM-3216 para Notebook 15.6\"",
@@ -3618,7 +3684,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Avila+TBB65013GL-70+para+Notebook+15-16%22-+Fre"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Targus+Avila+TBB65013GL-70+para+Notebook+15-16%22-+Fre",
+     "br": {
+      "preco": 209.65,
+      "titulo": "Mochila Targus Intellect TBB565DI-70 - para Notebook e Tablet até 15.6",
+      "link": "https://www.zoom.com.br/lead?oid=1501980271",
+      "economia": -0.58
+     }
     },
     {
      "titulo": "Mochila Samsonite 31R209003 Ikonn 3",
@@ -3627,7 +3699,13 @@
      "lojas": [
       "Shopping China"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Samsonite+31R209003+Ikonn+3"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Samsonite+31R209003+Ikonn+3",
+     "br": {
+      "preco": 657.5,
+      "titulo": "Mochila para Notebook Samsonite Ikonn III Preto 31R209003",
+      "link": "https://www.zoom.com.br/lead?oid=1542048099",
+      "economia": 0.47
+     }
     },
     {
      "titulo": "Mochila Thule Lithos TLBP-216 20L para Notebook 15.6\"",
@@ -3636,7 +3714,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Thule+Lithos+TLBP-216+20L+para+Notebook+15.6%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Thule+Lithos+TLBP-216+20L+para+Notebook+15.6%22",
+     "br": {
+      "preco": 809.1,
+      "titulo": "Mochila Thule Lithos para Notebook 16 pol 20L Black Preto",
+      "link": "https://www.zoom.com.br/lead?oid=1564063128",
+      "economia": 0.56
+     }
     },
     {
      "titulo": "Mochila Thule Lithos TLBP216 para Notebook de 16\"",
@@ -3645,7 +3729,13 @@
      "lojas": [
       "Nissei"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Thule+Lithos+TLBP216+para+Notebook+de+16%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Thule+Lithos+TLBP216+para+Notebook+de+16%22",
+     "br": {
+      "preco": 499.99,
+      "titulo": "Thule Mochila para Notebook 14\" ou MacBook 16\" Lithos 16 Litros Pelican",
+      "link": "https://www.zoom.com.br/lead?oid=1524659872",
+      "economia": 0.29
+     }
     },
     {
      "titulo": "Mochila Thule Enroute TEBP4116 para Notebook 15.6\"",
@@ -3663,7 +3753,13 @@
      "lojas": [
       "Shopping China"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Samsonite+31R209001+Ikonn+1"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mochila+Samsonite+31R209001+Ikonn+1",
+     "br": {
+      "preco": 657.5,
+      "titulo": "Mochila Samsonite Ikonn Notebook Preto 31R209001, Preto, 15,4",
+      "link": "https://www.zoom.com.br/lead?oid=1444800377",
+      "economia": 0.46
+     }
     },
     {
      "titulo": "Mochila Samsonite 31R209002 Ikon II Black",
@@ -3794,7 +3890,13 @@
      "lojas": [
       "Visãovip"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+para+Notebook+Compacto+15.6%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+para+Notebook+Compacto+15.6%22",
+     "br": {
+      "preco": 177.13,
+      "titulo": "Capa protetora + bolsa portátil para Samsung Galaxy Book Ion 15 NP950XCJ/Galaxy Book Flex 15 NP950QCG e HP Envy x360 15-ewXXXX 15-eeXXXX 15-edXXXX 15-esXXXX 15-esXXXX 15-euXXXX/Spectre x360 15-ebXXXX",
+      "link": "https://www.zoom.com.br/lead?oid=1359674121",
+      "economia": 0.79
+     }
     },
     {
      "titulo": "Capa p/ NB Compacto 15.6 Black",
@@ -3821,7 +3923,13 @@
      "lojas": [
       "Matrix.com"
      ],
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Notebook+15.6%22+."
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Notebook+15.6%22+.",
+     "br": {
+      "preco": 177.13,
+      "titulo": "Capa protetora + bolsa portátil para Samsung Galaxy Book Ion 15 NP950XCJ/Galaxy Book Flex 15 NP950QCG e HP Envy x360 15-ewXXXX 15-eeXXXX 15-edXXXX 15-esXXXX 15-esXXXX 15-euXXXX/Spectre x360 15-ebXXXX",
+      "link": "https://www.zoom.com.br/lead?oid=1359674121",
+      "economia": 0.66
+     }
     },
     {
      "titulo": "Capa Notebook Satellite A-KP12 15.6\" Preto/Azul 421480*",
@@ -3833,7 +3941,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Notebook+Satellite+A-KP12+15.6%22+Preto%2FAzul+421480%2A"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Neoactive KNS-120BK - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Neoactive KNS-120BK",
      "usd": 12.0,
      "brl": 61,
      "lojas": [
@@ -3842,7 +3950,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Protetora+Klip+Xtreme+Neoactive+KNS-120BK+-+para+Notebo"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Neoactive KNS-120BL - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Neoactive KNS-120BL",
      "usd": 12.0,
      "brl": 61,
      "lojas": [
@@ -3851,7 +3959,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Protetora+Klip+Xtreme+Neoactive+KNS-120BL+-+para+Notebo"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Neoactive KNS-120GR - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Neoactive KNS-120GR",
      "usd": 12.0,
      "brl": 61,
      "lojas": [
@@ -3887,7 +3995,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+para+Notebook+Klip+KNS-120GR+Neoactive+15.6%22"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Neoshield KNS-330 - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Neoshield KNS-330",
      "usd": 13.5,
      "brl": 69,
      "lojas": [
@@ -3896,7 +4004,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Protetora+Klip+Xtreme+Neoshield+KNS-330+-+para+Notebook"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Square Pro KNS-420SV - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Square Pro KNS-420SV",
      "usd": 14.0,
      "brl": 71,
      "lojas": [
@@ -3905,7 +4013,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Protetora+Klip+Xtreme+Square+Pro+KNS-420SV+-+para+Noteb"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Square Pro KNS-420BL - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Square Pro KNS-420BL",
      "usd": 14.0,
      "brl": 71,
      "lojas": [
@@ -3914,7 +4022,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Capa+Protetora+Klip+Xtreme+Square+Pro+KNS-420BL+-+para+Noteb"
     },
     {
-     "titulo": "Capa Protetora Klip Xtreme Square Pro KNS-420BR - para Notebook 15.6\"",
+     "titulo": "Capa Protetora Klip Xtreme Square Pro KNS-420BR",
      "usd": 14.0,
      "brl": 71,
      "lojas": [
