@@ -308,7 +308,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
     <div class="sec">
       <h2 class="sec-h">Preços no Paraguai</h2>
       <p class="lede" id="cp-info">Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualiza de hora em hora.</p>
-      <div class="horas" id="cp-horas" hidden>🕗 <b>Domingo 11/10, horário das lojas.</b> <b>Abertas hoje:</b> Shopping China 7h–20h, New Zone 8h–21h, Shopping Paris 7h–17h, Toku 8h–17h, CellShop 8h–14h (talvez 16h), Monalisa 8h–12h30, Shopping del Este (horário incerto). <b>Fechadas:</b> Nissei, Mega, Madrid Center, Mobile Zone, Topdek, Visão VIP, Atacado Connect, Roma, MultiPass. Cartão com loja fechada hoje aparece marcado e sai da sugestão.</div>
+      <div class="horas" id="cp-horas" hidden>🕗 <b>Domingo 11/10, horário das lojas.</b> <b>Abertas hoje:</b> Shopping China 7h–20h, New Zone 8h–21h, Shopping Paris 7h–17h, Toku 8h–17h, CellShop 8h–14h (talvez 16h), Monalisa 8h–12h30, Shopping del Este (horário incerto). <b>Fechadas:</b> Nissei, Mega, Madrid Center, Mobile Zone, Topdek, Visão VIP, Atacado Connect, Roma, MultiPass. Produtos de loja fechada hoje foram tirados da lista.</div>
       <div class="cats" id="cp-cats" role="group" aria-label="Categoria"></div>
       <div class="ordbar" id="cp-ord">Ordenar: <button type="button" data-o="preco">Mais barato</button><button type="button" data-o="eco">Maior economia</button><button type="button" data-o="cb">Custo-benefício</button></div>
       <div class="places" id="cp-list"><p class="lede">Carregando preços…</p></div>
@@ -710,6 +710,7 @@ async function renderCompras(){
   try{
     const r = await fetch("dados.json?t="+Date.now(), {cache:"no-store"}); if(!r.ok) throw 0;
     const d = await r.json();
+    if (DOMINGO) d.categorias.forEach(c=>{ c.itens = c.itens.filter(it=>!fechadoHoje(it)).map(it=>Object.assign({}, it, {lojas: it.lojas.filter(l=>!FECHA_DOM.test(l))})); });
     const quando = new Date(d.atualizado).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"});
     document.getElementById("cp-info").textContent = "Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualizado em "+quando+(d.dolar?" · dólar das lojas R$ "+d.dolar.toFixed(2).replace(".",","):"")+".";
     const show = n => {
