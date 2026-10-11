@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-10T23:59+00:00",
+ "atualizado": "2026-10-11T00:02+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -436,60 +436,6 @@
    "nome": "Celular (mais baratos)",
    "itens": [
     {
-     "titulo": "Infinix Hot 40i Dual Chip 256GB 4G",
-     "usd": 9.0,
-     "brl": 46,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-40i-dual-chip-256gb-4g_54811/"
-    },
-    {
-     "titulo": "Infinix Hot 50 Dual Chip 256GB 4G",
-     "usd": 14.0,
-     "brl": 71,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-50-dual-chip-256gb-4g_56175/"
-    },
-    {
-     "titulo": "Infinix Hot 50 Pro Plus Dual Chip 256GB 4G",
-     "usd": 20.0,
-     "brl": 102,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/celular-infinix-hot-50-pro-plus-dual-chip-256gb-4g_57517/"
-    },
-    {
-     "titulo": "Realme 14 RMX5070 Dual Chip 256GB 5G - RAM 12GB",
-     "usd": 30.0,
-     "brl": 153,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-14-rmx5070-dual-chip-256gb-5g-ram-12gb_60005/"
-    },
-    {
-     "titulo": "Xiaomi Redmi Note 14 Dual Chip 256GB 4G Global",
-     "usd": 58.0,
-     "brl": 295,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-note-14-dual-chip-256gb-4g-global_57930/"
-    },
-    {
-     "titulo": "Samsung Galaxy S25 Ultra SM-S938B Dual Chip 256GB 5G",
-     "usd": 58.0,
-     "brl": 295,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-ultra-sm-s938b-dual-chip-256gb-5g_58357/"
-    },
-    {
      "titulo": "Realme Note 60X RMX3938 Dual Chip 64GB 4G",
      "usd": 92.0,
      "brl": 468,
@@ -794,6 +740,60 @@
       "a partir de, várias lojas"
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-8gb-global_62836/"
+    },
+    {
+     "titulo": "Xiaomi Poco M7 Dual Chip 128GB 4G Global",
+     "usd": 160.0,
+     "brl": 814,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-128gb-4g-global_63321/"
+    },
+    {
+     "titulo": "Realme C71 RMX5303 Dual Chip 256GB 4G - RAM 8GB",
+     "usd": 165.0,
+     "brl": 840,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx5303-dual-chip-256gb-4g-ram-8gb_62656/"
+    },
+    {
+     "titulo": "Realme C100i RMX5377 Dual Chip 256GB 4G",
+     "usd": 169.0,
+     "brl": 860,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-256gb-4g_68502/"
+    },
+    {
+     "titulo": "Xiaomi Poco M7 Dual Chip 256GB 4G Global",
+     "usd": 172.75,
+     "brl": 879,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-256gb-4g-global_62831/"
+    },
+    {
+     "titulo": "Realme C100x RMX5366 Dual Chip 128GB 4G",
+     "usd": 173.25,
+     "brl": 882,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c100x-rmx5366-dual-chip-128gb-4g_68523/"
+    },
+    {
+     "titulo": "Xiaomi Poco C95 Pro Dual Chip 128GB 5G Global",
+     "usd": 178.0,
+     "brl": 906,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c95-pro-dual-chip-128gb-5g-global_71084/"
     }
    ]
   },
@@ -1287,24 +1287,6 @@
    "nome": "Notebook",
    "itens": [
     {
-     "titulo": "HP Envy 13-BA1047WM Intel Core i5 2.4GHz / Memória 8GB / SSD 256GB / 13.3\" / Windows 10",
-     "usd": 62.0,
-     "brl": 316,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/notebook-hp-envy-13-ba1047wm-intel-core-i5-24ghz-memoria-8gb-ssd-256gb-133-windows-10_33754/"
-    },
-    {
-     "titulo": "Lenovo 81VS009GUS AMD A6 1.6GHz / Memória 4GB / HD 64GB / 14\" / Windows 10",
-     "usd": 140.0,
-     "brl": 713,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-81vs009gus-amd-a6-16ghz-memoria-4gb-hd-64gb-14-windows-10_35304/"
-    },
-    {
      "titulo": "Lenovo IdeaPad Slim 3 82XB00HVUS Intel N100 3.4GHz / Memória 4GB / UFS 128GB / 15.6\" / Windows 11",
      "usd": 192.0,
      "brl": 977,
@@ -1645,6 +1627,24 @@
       "a partir de, várias lojas"
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-nj058w-intel-core-i3-18ghz-memoria-8gb-ssd-512gb-156-windows-11_66828/"
+    },
+    {
+     "titulo": "HP 15-DY2075TG Intel Core i5 2.4GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 445.0,
+     "brl": 2265,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy2075tg-intel-core-i5-24ghz-memoria-8gb-ssd-256gb-156-windows-11_57626/"
+    },
+    {
+     "titulo": "HP 15-FD0133WM Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
+     "usd": 447.0,
+     "brl": 2275,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-fd0133wm-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_65499/"
     }
    ]
   },
@@ -1835,24 +1835,6 @@
   {
    "nome": "Powerbank",
    "itens": [
-    {
-     "titulo": "Carregador Quanta Power Bank PB-200 2200mAh",
-     "usd": 3.5,
-     "brl": 18,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/carregador-quanta-power-bank-pb-200-2200mah_10066/"
-    },
-    {
-     "titulo": "Carregador Powerpack Power Bank PWBA-4000 4000mAh",
-     "usd": 5.0,
-     "brl": 25,
-     "lojas": [
-      "a partir de, várias lojas"
-     ],
-     "link": "https://www.comprasparaguai.com.br/carregador-powerpack-power-bank-pwba-4000-4000mah_10390/"
-    },
     {
      "titulo": "Carregador Powerpack Power Bank PWBA-8800 8800mAh",
      "usd": 7.75,
