@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-11T00:09+00:00",
+ "atualizado": "2026-10-11T00:14+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -296,7 +296,13 @@
       "Shopping China"
      ],
      "brl": 6592,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+256GB+13%22+5G"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+256GB+13%22+5G",
+     "br": {
+      "preco": 7999.99,
+      "titulo": "Tablet Apple iPad Pro 256GB 13\" iPadOs ",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-a2925-256gb-13-ipados-12-mp",
+      "economia": 0.18
+     }
     },
     {
      "titulo": "Apple iPad Pro 2025 256GB 13\"",
@@ -308,7 +314,13 @@
       "Shopping China"
      ],
      "brl": 6922,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22",
+     "br": {
+      "preco": 7999.99,
+      "titulo": "Tablet Apple iPad Pro 256GB 13\" iPadOs ",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-a2925-256gb-13-ipados-12-mp",
+      "economia": 0.13
+     }
     },
     {
      "titulo": "Apple iPad Pro 2024 512GB 13\"",
@@ -317,7 +329,13 @@
       "MultiPass"
      ],
      "brl": 7126,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+512GB+13%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+512GB+13%22",
+     "br": {
+      "preco": 8999.99,
+      "titulo": "iPad Pro Apple, Tela 13\", 512GB, Chip M4, Wi-Fi, Câmera Traseira 12MP, iPadOS 17, Preto Especial - MVX43BZ/A",
+      "link": "https://www.zoom.com.br/lead?oid=1318849303",
+      "economia": 0.21
+     }
     },
     {
      "titulo": "Apple iPad Pro 2025 512GB 11\"",
@@ -328,7 +346,13 @@
       "Matrix Importados"
      ],
      "brl": 7380,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22",
+     "br": {
+      "preco": 14899.0,
+      "titulo": "iPad Pro Apple M5 512GB 11\" iPadOS",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-512gb-12-gb-11-12-mp",
+      "economia": 0.5
+     }
     },
     {
      "titulo": "Apple iPad Pro 2025 256GB 13\" 5G",
@@ -337,7 +361,13 @@
       "Matrix Importados"
      ],
      "brl": 7584,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22+5G"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22+5G",
+     "br": {
+      "preco": 7999.99,
+      "titulo": "Tablet Apple iPad Pro 256GB 13\" iPadOs ",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-a2925-256gb-13-ipados-12-mp",
+      "economia": 0.05
+     }
     },
     {
      "titulo": "Apple iPad Pro 2025 256GB 11\" 5G",
@@ -357,7 +387,13 @@
       "Shopping China"
      ],
      "brl": 7879,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+13%22"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+13%22",
+     "br": {
+      "preco": 18399.0,
+      "titulo": "iPad Pro Apple M5 512GB 13\" iPadOS",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-512gb-12-gb-13-12-mp",
+      "economia": 0.57
+     }
     },
     {
      "titulo": "Apple iPad Pro 2025 512GB 11\" 5G",
@@ -366,7 +402,13 @@
       "Cellshop"
      ],
      "brl": 8755,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22+5G"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+512GB+11%22+5G",
+     "br": {
+      "preco": 14899.0,
+      "titulo": "iPad Pro Apple M5 512GB 11\" iPadOS",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-512gb-12-gb-11-12-mp",
+      "economia": 0.41
+     }
     }
    ]
   },
@@ -859,7 +901,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-infinix-smart-20-dual-chip-128gb-4g_68740/"
+     "link": "https://www.comprasparaguai.com.br/celular-infinix-smart-20-dual-chip-128gb-4g_68740/",
+     "br": {
+      "preco": 953.1,
+      "titulo": "Celular Infinix Smart 8 128GB 4 GB",
+      "link": "https://www.zoom.com.br/celular/celular-infinix-smart-8-128gb-4-gb",
+      "economia": 0.28
+     }
     },
     {
      "titulo": "Xiaomi Redmi 15C Dual Chip 256GB 4G - RAM 4GB Global",
@@ -868,7 +916,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-4gb-global_62837/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-4gb-global_62837/",
+     "br": {
+      "preco": 947.51,
+      "titulo": "Celular Xiaomi Redmi 15C 256GB 4 GB",
+      "link": "https://www.zoom.com.br/celular/celular-xiaomi-redmi-15c-256gb-4-gb",
+      "economia": 0.24
+     }
     },
     {
      "titulo": "Realme C71 RMX3943 Dual Chip 128GB 5G",
@@ -877,7 +931,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx3943-dual-chip-128gb-5g_63750/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx3943-dual-chip-128gb-5g_63750/",
+     "br": {
+      "preco": 980.39,
+      "titulo": "Smartphone Realme C71 128gb 4GB RAM, VERDE, NFC, LACRADO, ANATEL., 128",
+      "link": "https://www.zoom.com.br/lead?oid=1571172401",
+      "economia": 0.25
+     }
     },
     {
      "titulo": "Realme Note 70 RMX5313 Dual Chip 256GB 4G - RAM 4GB",
@@ -886,7 +946,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-256gb-4g-ram-4gb_64286/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-256gb-4g-ram-4gb_64286/",
+     "br": {
+      "preco": 1103.51,
+      "titulo": "Smartphone Celular Realme Note 70, 256GB, 4GB RAM, Android 14, Câmera ",
+      "link": "https://www.zoom.com.br/lead?oid=1563334814",
+      "economia": 0.33
+     }
     },
     {
      "titulo": "Realme C71 RMX5303 Dual Chip 256GB 4G - RAM 4GB",
@@ -904,7 +970,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-note-80-rmx5388-dual-chip-128gb-4g_69462/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-80-rmx5388-dual-chip-128gb-4g_69462/",
+     "br": {
+      "preco": 869.47,
+      "titulo": "Realme Note 80 4G 4GB RAM 128GB Global Preto Preto 6300mAh, 128GB, Pre",
+      "link": "https://www.zoom.com.br/lead?oid=1578316091",
+      "economia": 0.15
+     }
     },
     {
      "titulo": "Xiaomi Poco C81 Pro Dual Chip 256GB 4G Global",
@@ -913,7 +985,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c81-pro-dual-chip-256gb-4g-global_68496/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c81-pro-dual-chip-256gb-4g-global_68496/",
+     "br": {
+      "preco": 1148.51,
+      "titulo": "Smartphone POCO C81 Pro 256GB Tela 120Hz Bateria 6000mAh NFC Unisoc T7",
+      "link": "https://www.zoom.com.br/lead?oid=1581151709",
+      "economia": 0.34
+     }
     },
     {
      "titulo": "Realme C100i RMX5377 Dual Chip 128GB 4G",
@@ -922,7 +1000,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-128gb-4g_68501/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-128gb-4g_68501/",
+     "br": {
+      "preco": 1069.0,
+      "titulo": "Smartphone Realme C100i NFC 128GB 4GB RAM Dusk Gray",
+      "link": "https://www.zoom.com.br/lead?oid=1571372854",
+      "economia": 0.29
+     }
     },
     {
      "titulo": "Xiaomi Redmi 17 Dual Chip 128GB 4G Global",
@@ -931,7 +1015,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-17-dual-chip-128gb-4g-global_69600/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-17-dual-chip-128gb-4g-global_69600/",
+     "br": {
+      "preco": 1230.51,
+      "titulo": "Smartphone Redmi 17 128GB Bateria 7500mAh Tela 6,9 Polegadas 120Hz Câm",
+      "link": "https://www.zoom.com.br/lead?oid=1579032641",
+      "economia": 0.38
+     }
     },
     {
      "titulo": "Xiaomi Redmi 15 Dual Chip 128GB 4G - RAM 6GB Global",
@@ -940,7 +1030,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15-dual-chip-128gb-4g-ram-6gb-global_62839/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15-dual-chip-128gb-4g-ram-6gb-global_62839/",
+     "br": {
+      "preco": 1288.44,
+      "titulo": "Redmi 15 Cinza 6GB RAM 128GB, Global - Xiaomi, 128GB, Cinza",
+      "link": "https://www.zoom.com.br/lead?oid=1578330227",
+      "economia": 0.4
+     }
     },
     {
      "titulo": "Realme Note 70 RMX5313 Dual Chip 256GB 4G - RAM 8GB",
@@ -949,7 +1045,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-256gb-4g-ram-8gb_62654/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-note-70-rmx5313-dual-chip-256gb-4g-ram-8gb_62654/",
+     "br": {
+      "preco": 1044.22,
+      "titulo": "Celular Realme Note 70 256GB 8 GB",
+      "link": "https://www.zoom.com.br/celular/celular-realme-256gb-8-gb",
+      "economia": 0.25
+     }
     },
     {
      "titulo": "Realme P4 Lite RMX5377 Dual Chip 256GB 4G",
@@ -958,7 +1060,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-p4-lite-rmx5377-dual-chip-256gb-4g_68500/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-p4-lite-rmx5377-dual-chip-256gb-4g_68500/",
+     "br": {
+      "preco": 1067.1,
+      "titulo": "Celular Realme P4 Lite 4G 4GB RAM 256GB Cinza Oferta, 256GB, Cinza",
+      "link": "https://www.zoom.com.br/lead?oid=1578316129",
+      "economia": 0.26
+     }
     },
     {
      "titulo": "Xiaomi Redmi 15C Dual Chip 256GB 4G - RAM 8GB Global",
@@ -967,7 +1075,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-8gb-global_62836/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-8gb-global_62836/",
+     "br": {
+      "preco": 1178.99,
+      "titulo": "Xiaomi Redmi 15C 256GB 8GB, 256GB, Verde",
+      "link": "https://www.zoom.com.br/lead?oid=1571828067",
+      "economia": 0.31
+     }
     },
     {
      "titulo": "Xiaomi Poco M7 Dual Chip 128GB 4G Global",
@@ -976,7 +1090,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-128gb-4g-global_63321/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-128gb-4g-global_63321/",
+     "br": {
+      "preco": 892.37,
+      "titulo": "Smartphone-Xiaomi-Poco C71 4gb 128gb Dual Sim Tela 6.88 Global - X I A",
+      "link": "https://www.zoom.com.br/lead?oid=1580800560",
+      "economia": 0.09
+     }
     },
     {
      "titulo": "Realme C71 RMX5303 Dual Chip 256GB 4G - RAM 8GB",
@@ -985,7 +1105,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx5303-dual-chip-256gb-4g-ram-8gb_62656/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx5303-dual-chip-256gb-4g-ram-8gb_62656/",
+     "br": {
+      "preco": 1156.69,
+      "titulo": "celular Smartphone Realme C71, 256GB, 8GB até 12GB RAM EXPANSIVEL, VER",
+      "link": "https://www.zoom.com.br/lead?oid=1570413449",
+      "economia": 0.27
+     }
     },
     {
      "titulo": "Realme C100i RMX5377 Dual Chip 256GB 4G",
@@ -994,7 +1120,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-256gb-4g_68502/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-256gb-4g_68502/",
+     "br": {
+      "preco": 1254.86,
+      "titulo": "Smartphone Realme C100I 256GB Tela 120Hz Bateria 7000mAh IP64 Resistên",
+      "link": "https://www.zoom.com.br/lead?oid=1581150829",
+      "economia": 0.31
+     }
     },
     {
      "titulo": "Xiaomi Poco M7 Dual Chip 256GB 4G Global",
@@ -1003,7 +1135,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-256gb-4g-global_62831/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-256gb-4g-global_62831/",
+     "br": {
+      "preco": 1250.0,
+      "titulo": "Celular M7 4G Global 256GB 8gb Tela 6.9 Câmera 50MP",
+      "link": "https://www.zoom.com.br/lead?oid=1543376839",
+      "economia": 0.3
+     }
     },
     {
      "titulo": "Realme C100x RMX5366 Dual Chip 128GB 4G",
@@ -1012,7 +1150,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-realme-c100x-rmx5366-dual-chip-128gb-4g_68523/"
+     "link": "https://www.comprasparaguai.com.br/celular-realme-c100x-rmx5366-dual-chip-128gb-4g_68523/",
+     "br": {
+      "preco": 1246.94,
+      "titulo": "Smartphone Celular Realme C100X NFC 128GB, 4GB RAM, Tela 6,67 polegada",
+      "link": "https://www.zoom.com.br/lead?oid=1578135280",
+      "economia": 0.29
+     }
     },
     {
      "titulo": "Xiaomi Poco C95 Pro Dual Chip 128GB 5G Global",
@@ -1379,7 +1523,13 @@
       "Topdek Informática"
      ],
      "brl": 244,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+Lite+3+Pro+XPAW019"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+Lite+3+Pro+XPAW019",
+     "br": {
+      "preco": 399.0,
+      "titulo": "Smartwatch Mibro Lite 3 Pro, Gps, Bluetooth 5.3, Chamadas Bluetooth, Natação, Xpaw019, Dourado",
+      "link": "https://www.zoom.com.br/lead?oid=1521071621",
+      "economia": 0.39
+     }
     },
     {
      "titulo": "Xiaomi Amazfit Bip 5 A2215",
@@ -1400,7 +1550,13 @@
       "Visãovip"
      ],
      "brl": 265,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite",
+     "br": {
+      "preco": 316.55,
+      "titulo": "Smartwatch Xiaomi Redmi Watch 5 Lite Preto AMOLED 1.96\" GPS Chamada BT",
+      "link": "https://www.zoom.com.br/lead?oid=1579185012",
+      "economia": 0.16
+     }
     },
     {
      "titulo": "Mibro GS Explorer XPAW017",
@@ -1412,7 +1568,13 @@
       "Topdek Informática"
      ],
      "brl": 280,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+GS+Explorer+XPAW017"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Mibro+GS+Explorer+XPAW017",
+     "br": {
+      "preco": 739.99,
+      "titulo": "Smartwatch Mibro Gs Explorer XPAW017 - Preto",
+      "link": "https://www.zoom.com.br/lead?oid=1578133280",
+      "economia": 0.62
+     }
     },
     {
      "titulo": "Xiaomi Redmi Watch 4 M2315W1",
@@ -1421,7 +1583,13 @@
       "Tche Loco"
      ],
      "brl": 295,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+4+M2315W1"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+4+M2315W1",
+     "br": {
+      "preco": 499.99,
+      "titulo": "Smartwatch Xiaomi Redmi Watch 4 Hyper OS M2315W1 Silver Gray BHR7848GL (Versão Global)",
+      "link": "https://www.zoom.com.br/lead?oid=1258329415",
+      "economia": 0.41
+     }
     },
     {
      "titulo": "Xiaomi Haylou Watch Hyper",
@@ -1453,7 +1621,13 @@
       "Cellshop"
      ],
      "brl": 382,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+Max+A2568"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Bip+Max+A2568",
+     "br": {
+      "preco": 706.71,
+      "titulo": "Relógio Smartwatch Amazfit Bip Max A2568 Tela AMOLED 2.07 GPS Chamadas",
+      "link": "https://www.zoom.com.br/lead?oid=1573038775",
+      "economia": 0.46
+     }
     },
     {
      "titulo": "Xiaomi Amazfit Bip 6 A2435",
@@ -1495,7 +1669,13 @@
       "Topdek Informática"
      ],
      "brl": 499,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+2+Square+A2440"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+2+Square+A2440",
+     "br": {
+      "preco": 1181.09,
+      "titulo": "Smartwatch Amazfit Active 2 Square Premium A2440 Tela AMOLED 1.75 GPS ",
+      "link": "https://www.zoom.com.br/lead?oid=1580029982",
+      "economia": 0.58
+     }
     },
     {
      "titulo": "Xiaomi Amazfit Active 2 A2437",
@@ -1519,7 +1699,13 @@
       "Mobile Zone"
      ],
      "brl": 534,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Huawei+Watch+Fit+4"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Huawei+Watch+Fit+4",
+     "br": {
+      "preco": 543.99,
+      "titulo": "Smartwatch Huawei Watch Fit Special Edition",
+      "link": "https://www.zoom.com.br/smartwatch/smartwatch-huawei-watch-fit-special-edition-sta-b39-gps",
+      "economia": 0.02
+     }
     },
     {
      "titulo": "Xiaomi Watch S4 M2425W1",
@@ -1543,7 +1729,13 @@
       "Visãovip"
      ],
      "brl": 585,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+2+M2320W1"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+2+M2320W1",
+     "br": {
+      "preco": 870.24,
+      "titulo": "Xiaomi Watch 2 M2320W1 Preto  Versão Global",
+      "link": "https://www.zoom.com.br/lead?oid=1578788486",
+      "economia": 0.33
+     }
     },
     {
      "titulo": "Xiaomi Amazfit Active Max A2557",
@@ -1555,7 +1747,13 @@
       "Mobile Zone"
      ],
      "brl": 616,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+Max+A2557"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+Max+A2557",
+     "br": {
+      "preco": 901.09,
+      "titulo": "Amazfit Active Max A2557 Black Lançamento Promoção Oferta Hoje",
+      "link": "https://www.zoom.com.br/lead?oid=1578315664",
+      "economia": 0.32
+     }
     },
     {
      "titulo": "Xiaomi Amazfit Active 3 Premium A2559",
@@ -1567,7 +1765,13 @@
       "New Zone"
      ],
      "brl": 621,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+3+Premium+A2559"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+3+Premium+A2559",
+     "br": {
+      "preco": 1044.91,
+      "titulo": "Relógio Smartwatch Amazfit Active 3 Premium A2559 Atlas Blue GPS 5ATM ",
+      "link": "https://www.zoom.com.br/lead?oid=1572244267",
+      "economia": 0.41
+     }
     },
     {
      "titulo": "Xiaomi Amazfit GTR 3 Pro A2040",
@@ -1579,7 +1783,13 @@
       "Visãovip"
      ],
      "brl": 636,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+GTR+3+Pro+A2040"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+GTR+3+Pro+A2040",
+     "br": {
+      "preco": 735.22,
+      "titulo": "Amazfit GTR 3 Pro A2040 Infinite Black GPS Android",
+      "link": "https://www.zoom.com.br/lead?oid=1574848488",
+      "economia": 0.13
+     }
     },
     {
      "titulo": "Xiaomi Watch S5 M2530W1",
@@ -1591,7 +1801,13 @@
       "Atacado Connect"
      ],
      "brl": 652,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+S5+M2530W1"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Watch+S5+M2530W1",
+     "br": {
+      "preco": 2339.99,
+      "titulo": "Smartwatch Xiaomi Watch S5 M2530W1 1,48 Pol Monitoramento Frequência Cardíaca Oxigenação Sono 21",
+      "link": "https://www.zoom.com.br/lead?oid=1580337182",
+      "economia": 0.72
+     }
     }
    ]
   },
@@ -1839,7 +2055,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00c2us-intel-core-i3-18ghz-memoria-8gb-ufs-128gb-156-windows-11_62217/"
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00c2us-intel-core-i3-18ghz-memoria-8gb-ufs-128gb-156-windows-11_62217/",
+     "br": {
+      "preco": 2974.8,
+      "titulo": "Notebook Lenovo IdeaPad 1i Intel Core i3 1215U 15,6\" 4GB 256 GB Windows 11 82VY000TBR",
+      "link": "https://www.zoom.com.br/notebook/notebook-lenovo-ideapad-1i-82vy000tbr-intel-core-i3-1215u-15-6-4gb-ssd-256-gb-windows-11",
+      "economia": 0.33
+     }
     },
     {
      "titulo": "HP 15-DY5131WM Intel Corel i3 1.2GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
@@ -1848,7 +2070,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy5131wm-intel-corel-i3-12ghz-memoria-8gb-ssd-256gb-156-windows-11_50341/"
+     "link": "https://www.comprasparaguai.com.br/notebook-hp-15-dy5131wm-intel-corel-i3-12ghz-memoria-8gb-ssd-256gb-156-windows-11_50341/",
+     "br": {
+      "preco": 3451.0,
+      "titulo": "Notebook HP 15-FD0123DX Intel Core i3 1.2GHz / Memória 8GB / SSD 256GB",
+      "link": "https://www.zoom.com.br/lead?oid=1510269713",
+      "economia": 0.42
+     }
     },
     {
      "titulo": "Lenovo IdeaPad 1 82VG00R3LM AMD Ryzen 3 2.4GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
@@ -1938,7 +2166,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504fa-bq3438w-amd-ryzen-3-24ghz-memoria-8gb-ssd-512gb-156-windows-11_71096/"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504fa-bq3438w-amd-ryzen-3-24ghz-memoria-8gb-ssd-512gb-156-windows-11_71096/",
+     "br": {
+      "preco": 2474.1,
+      "titulo": "Notebook ASUS Vivobook Go 15 E1504FA-BQ5312WS AMD Athlon 4GB RAM 128GB",
+      "link": "https://www.zoom.com.br/lead?oid=1570676335",
+      "economia": 0.11
+     }
     },
     {
      "titulo": "Lenovo Ideapad Slim 3 82XB00BMUS Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
@@ -1947,7 +2181,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00bmus-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63941/"
+     "link": "https://www.comprasparaguai.com.br/notebook-lenovo-ideapad-slim-3-82xb00bmus-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63941/",
+     "br": {
+      "preco": 2974.8,
+      "titulo": "Notebook Lenovo IdeaPad 1i Intel Core i3 1215U 15,6\" 4GB 256 GB Windows 11 82VY000TBR",
+      "link": "https://www.zoom.com.br/notebook/notebook-lenovo-ideapad-1i-82vy000tbr-intel-core-i3-1215u-15-6-4gb-ssd-256-gb-windows-11",
+      "economia": 0.25
+     }
     },
     {
      "titulo": "HP Pavilion 13-BB0501LA Intel Core i3 3.0GHz / Memória 8GB / SSD 256GB / 13.3\" / Windows 10",
@@ -1974,7 +2214,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws36-intel-core-i3-38ghz-memoria-8gb-ssd-256gb-156-windows-11_56479/"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws36-intel-core-i3-38ghz-memoria-8gb-ssd-256gb-156-windows-11_56479/",
+     "br": {
+      "preco": 2664.77,
+      "titulo": "Notebook Asus Vivobook Go 15 Intel Core i3-N305 15,6\" 4GB SSD 256GB Windows 11 E1504GA-NJ441W",
+      "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj441w-intel-core-i3-n305-15-6-4gb-ssd-256-gb-windows-11",
+      "economia": 0.15
+     }
     },
     {
      "titulo": "Asus VivoBook Go E1504GA-WS35 Intel Core i3 1.8GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
@@ -1983,7 +2229,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws35-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63120/"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws35-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63120/",
+     "br": {
+      "preco": 2664.77,
+      "titulo": "Notebook Asus Vivobook Go 15 Intel Core i3-N305 15,6\" 4GB SSD 256GB Windows 11 E1504GA-NJ441W",
+      "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj441w-intel-core-i3-n305-15-6-4gb-ssd-256-gb-windows-11",
+      "economia": 0.15
+     }
     },
     {
      "titulo": "Asus VivoBook Go E1504GA-NJ058W Intel Core i3 1.8GHz / Memória 8GB / SSD 512GB / 15.6\" / Windows 11",
@@ -1992,7 +2244,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-nj058w-intel-core-i3-18ghz-memoria-8gb-ssd-512gb-156-windows-11_66828/"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-nj058w-intel-core-i3-18ghz-memoria-8gb-ssd-512gb-156-windows-11_66828/",
+     "br": {
+      "preco": 2664.77,
+      "titulo": "Notebook Asus Vivobook Go 15 Intel Core i3-N305 15,6\" 4GB SSD 256GB Windows 11 E1504GA-NJ441W",
+      "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj441w-intel-core-i3-n305-15-6-4gb-ssd-256-gb-windows-11",
+      "economia": 0.15
+     }
     },
     {
      "titulo": "HP 15-DY2075TG Intel Core i5 2.4GHz / Memória 8GB / SSD 256GB / 15.6\" / Windows 11",
