@@ -664,14 +664,14 @@ function specs(t, cat){
     if (/anti.?furto/.test(T)) { pts += 1; chips.push("antifurto"); }
     if (/usb/.test(T)) { pts += 0.5; chips.push("USB"); }
     const lit = T.match(/(\d{2})\s*(?:l\b|litros)/); if (lit) { pts += Math.min(1, parseInt(lit[1])/30); chips.push(lit[1]+"L"); }
-    if (/samsonite|swissgear|wenger|victorinox|thule|targus|xiaomi|nike|adidas|puma|incase|herschel|jansport|lenovo|asus|dell|hp\b/.test(T)) { pts += 1.5; chips.push("marca boa"); }
+    if (/samsonite|swissgear|wenger|victorinox|thule|targus|case logic|tucano|xiaomi|nike|adidas|puma|incase|herschel|jansport|lenovo|asus|dell|hp\b/.test(T)) { pts += 1.5; chips.push("marca boa"); }
   } else if (/capa/i.test(cat)) {
     pts += 1;
     const pol = T.match(/(1[2-6](?:[.,]\d)?)\s*(?:["”]|pol)/); if (pol) chips.push(pol[1].replace(",",".")+'"');
     if (/macbook/.test(T)) { pts += 1; chips.push(/pro/.test(T)?"MacBook Pro":/air/.test(T)?"MacBook Air":"MacBook"); }
     if (/sleeve|luva|bolsa|pasta|maleta/.test(T)) { pts += 1; chips.push("bolsa/sleeve"); } else if (/r[ií]gid|hard|case/.test(T)) { pts += 0.5; chips.push("rígida"); }
     if (/al[çc]a|handle/.test(T)) { pts += 0.5; chips.push("com alça"); }
-    if (/incase|tomtoc|wiwu|targus|samsonite|uag|spigen|moshi/.test(T)) { pts += 1.5; chips.push("marca boa"); }
+    if (/incase|tomtoc|wiwu|targus|samsonite|uag|spigen|moshi|tucano|case logic|thule/.test(T)) { pts += 1.5; chips.push("marca boa"); }
   } else if (/teclado/i.test(cat)) {
     pts += 1; if (/mouse/.test(T)) { pts += 1; chips.push("teclado + mouse"); } if (/logitech/.test(T)) { pts += 3; chips.push("Logitech"); } if (/bluetooth/.test(T)) { pts += 1; chips.push("Bluetooth"); }
     if (/k380|pebble|multi/.test(T)) { pts += 1; chips.push("multi-device"); }
