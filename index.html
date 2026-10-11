@@ -659,7 +659,7 @@ function specs(t, cat){
   } else if (/mochila/i.test(cat)) {
     pts += 1;
     const pol = T.match(/(1[3-8](?:[.,]\d)?)\s*(?:["”]|pol)/);
-    if (pol) { pts += 1; chips.push("notebook até "+pol[1].replace(",",".")+'"'); } else if (/notebook|laptop/.test(T)) { pts += 0.5; chips.push("p/ notebook"); }
+    if (pol) { pts += 2; chips.push("notebook até "+pol[1].replace(",",".")+'"'); } else if (/notebook|laptop/.test(T)) { pts += 1.5; chips.push("p/ notebook"); }
     if (/imperme|waterproof|resistente [aà] [aá]gua/.test(T)) { pts += 1; chips.push("impermeável"); }
     if (/anti.?furto/.test(T)) { pts += 1; chips.push("antifurto"); }
     if (/usb/.test(T)) { pts += 0.5; chips.push("USB"); }
