@@ -230,6 +230,14 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .ordbar{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
 .ordbar button{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-weight:700;font-size:13px;cursor:pointer}
 .ordbar button[aria-pressed="true"]{background:var(--forest);color:var(--forest-ink);border-color:var(--forest)}
+.cb{border:1.5px solid var(--line);border-radius:10px;padding:7px 10px;font-size:13.5px;font-weight:600}
+.cb.top{border-color:var(--ipe);background:color-mix(in srgb,var(--ipe) 14%,transparent)}
+.cb .stars{color:var(--ipe);letter-spacing:1px;font-size:15px}
+.cb .stars i{font-style:normal;color:var(--line)}
+.cb small,.sug small{display:block;font-weight:500;color:var(--muted);font-size:12px;margin-top:2px}
+.sug{border:2px solid var(--ipe);border-radius:14px;padding:10px 12px;background:color-mix(in srgb,var(--ipe) 10%,var(--surface));margin-bottom:10px;font-size:14px}
+.sug ol{margin:6px 0 4px;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.ordbar{flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (min-width:600px){.app{padding-top:12px}}
 </style>
@@ -299,7 +307,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
       <h2 class="sec-h">Preços no Paraguai</h2>
       <p class="lede" id="cp-info">Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualiza de hora em hora.</p>
       <div class="cats" id="cp-cats" role="group" aria-label="Categoria"></div>
-      <div class="ordbar" id="cp-ord">Ordenar: <button type="button" data-o="preco">Mais barato</button><button type="button" data-o="eco">Maior economia</button></div>
+      <div class="ordbar" id="cp-ord">Ordenar: <button type="button" data-o="preco">Mais barato</button><button type="button" data-o="eco">Maior economia</button><button type="button" data-o="cb">Custo-benefício</button></div>
       <div class="places" id="cp-list"><p class="lede">Carregando preços…</p></div>
       <p class="lede" style="font-size:13px">Preço em reais é estimado pelo dólar das lojas. Pix e cartão saem mais caros. Confirmem no balcão. <b>Vale a pena?</b> Compare com o botão 🇧🇷: acima da cota de US$ 500 por pessoa, some 50% de imposto sobre o que passar.</p>
     </div>
@@ -609,6 +617,77 @@ async function loadWeather(){
   }
 }
 
+
+/* custo-benefício: o que o produto entrega (lido do título) pelo preço, comparado só dentro da categoria */
+function specs(t, cat){
+  const T = t.toLowerCase(), chips = []; let pts = 0;
+  if (/celular|samsung|redmi|ipad/i.test(cat)) {
+    const all = [...T.matchAll(/(\d+(?:[.,]\d+)?)\s*(gb|tb)\b/g)].map(m=>/tb/.test(m[2])?parseFloat(m[1])*1024:parseFloat(m[1]));
+    const stor = all.length ? Math.max(...all) : 0;
+    const ramM = T.match(/(\d+)\s*gb\s*(?:de\s*)?ram|ram\s*(\d+)\s*gb|(\d+)\s*gb\s*\//);
+    let ram = ramM ? parseInt(ramM.slice(1).find(Boolean)) : 0;
+    if (ram === stor) ram = 0;
+    if (stor) { pts += stor>=1024?5:stor>=512?4:stor>=256?3:stor>=128?2:stor>=64?1:0.5; chips.push(stor>=1024?(stor/1024)+"TB":stor+"GB"); }
+    if (ram && ram < 33) { pts += ram>=12?3:ram>=8?2:ram>=6?1.5:1; chips.push(ram+"GB RAM"); }
+    if (/\b5g\b/.test(T)) { pts += 1; chips.push("5G"); }
+    if (/ultra|fold|flip/.test(T)) { pts += 2; chips.push("linha topo"); }
+    else if (/ipad (pro|air)/.test(T)) { pts += 1.5; chips.push(/pro/.test(T)?"iPad Pro":"iPad Air"); }
+    else if (/\bplus\b|\bfe\b|\bpro\b|\+/.test(T)) pts += 0.5;
+    const ano = T.match(/\b(202[0-6])\b/); if (ano) { const y = parseInt(ano[1]); pts += Math.max(0, (y-2021)*0.5); chips.push("modelo "+y); }
+  } else if (/notebook/i.test(cat)) {
+    const cpu = /i9|ryzen 9|ultra 9/.test(T)?5:/i7|ryzen 7|ultra 7/.test(T)?4:/i5|ryzen 5|ultra 5/.test(T)?3:/i3|ryzen 3/.test(T)?2:/celeron|pentium|n100|n150|n200|athlon|n4020|n4500|mediatek|snapdragon/.test(T)?1:0;
+    if (cpu) { pts += cpu*1.5; chips.push(["","básico","i3/Ryzen 3","i5/Ryzen 5","i7/Ryzen 7","i9/Ryzen 9"][cpu]); }
+    const memM = T.match(/mem[oó]ria\s*(\d+)\s*gb|(\d+)\s*gb\s*(?:de\s*)?ram|ram\s*(\d+)/); const mem = memM ? parseInt(memM.slice(1).find(Boolean)) : 0;
+    if (mem) { pts += mem>=32?4:mem>=16?3:mem>=8?2:1; chips.push(mem+"GB RAM"); }
+    const ssdM = T.match(/(?:ssd|emmc)\s*(\d+)\s*(gb|tb)|(\d+)\s*(gb|tb)\s*(?:ssd|emmc)/);
+    if (ssdM) { const n = parseInt(ssdM[1]||ssdM[3]), u = ssdM[2]||ssdM[4], g = /tb/.test(u)?n*1024:n, emmc = /emmc/.test(T); pts += emmc?0.5:g>=1024?4:g>=512?3:g>=256?2:1; chips.push((g>=1024?g/1024+"TB":g+"GB")+(emmc?" eMMC":" SSD")); }
+    const tela = T.match(/(1[1-7](?:[.,]\d)?)\s*["”]/); if (tela) chips.push(tela[1].replace(",",".")+'"');
+  } else if (/powerbank/i.test(cat)) {
+    const mah = T.match(/(\d{4,5})\s*mah/); if (mah) { const n = parseInt(mah[1]); pts += n/5000; chips.push(n+"mAh"); }
+    const w = T.match(/(\d{2,3})\s*w\b/); if (w) { pts += parseInt(w[1])/20; chips.push(w[1]+"W"); }
+    if (/xiaomi|anker|baseus|ugreen|samsung|apple/.test(T)) { pts += 1; chips.push("marca boa"); }
+  } else if (/smartwatch/i.test(cat)) {
+    const marca = /apple/.test(T)?4:/samsung|garmin/.test(T)?3:/huawei|amazfit/.test(T)?2:/xiaomi|haylou|redmi/.test(T)?1:0.5;
+    pts += marca; if (marca >= 2) chips.push("marca top");
+    if (/gps/.test(T)) { pts += 1; chips.push("GPS"); } if (/amoled/.test(T)) { pts += 1; chips.push("AMOLED"); }
+    if (marca >= 2 && /ultra|\bpro\b|series 1[01]|watch ?[89]/.test(T)) { pts += 2; chips.push("linha topo"); }
+  } else if (/mesa/i.test(cat)) {
+    pts += 1; if (/artist|display|kamvas|cintiq|com tela/.test(T)) { pts += 3; chips.push("com tela"); }
+    const pol = T.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:["”]|pol)/); if (pol) chips.push(pol[1].replace(",",".")+'"');
+    const tam = T.match(/\b(xs|s|m|l|large|medium|small|mini)\b/); if (tam) { const k = tam[1]; pts += /^(l|large)$/.test(k)?1.5:/^(m|medium)$/.test(k)?1:k==="xs"?0:0.5; chips.push("tamanho "+k.toUpperCase()); }
+    const mk = T.match(/xp-?pen|huion|wacom/); if (mk) { pts += 1; chips.push(mk[0].toUpperCase()); }
+  } else if (/mochila/i.test(cat)) {
+    pts += 1;
+    const pol = T.match(/(1[3-8](?:[.,]\d)?)\s*(?:["”]|pol)/);
+    if (pol) { pts += 1; chips.push("notebook até "+pol[1].replace(",",".")+'"'); } else if (/notebook|laptop/.test(T)) { pts += 0.5; chips.push("p/ notebook"); }
+    if (/imperme|waterproof|resistente [aà] [aá]gua/.test(T)) { pts += 1; chips.push("impermeável"); }
+    if (/anti.?furto/.test(T)) { pts += 1; chips.push("antifurto"); }
+    if (/usb/.test(T)) { pts += 0.5; chips.push("USB"); }
+    const lit = T.match(/(\d{2})\s*(?:l\b|litros)/); if (lit) { pts += Math.min(1, parseInt(lit[1])/30); chips.push(lit[1]+"L"); }
+    if (/samsonite|swissgear|wenger|victorinox|thule|targus|xiaomi|nike|adidas|puma|incase|herschel|jansport|lenovo|asus|dell|hp\b/.test(T)) { pts += 1.5; chips.push("marca boa"); }
+  } else if (/capa/i.test(cat)) {
+    pts += 1;
+    const pol = T.match(/(1[2-6](?:[.,]\d)?)\s*(?:["”]|pol)/); if (pol) chips.push(pol[1].replace(",",".")+'"');
+    if (/macbook/.test(T)) { pts += 1; chips.push(/pro/.test(T)?"MacBook Pro":/air/.test(T)?"MacBook Air":"MacBook"); }
+    if (/sleeve|luva|bolsa|pasta|maleta/.test(T)) { pts += 1; chips.push("bolsa/sleeve"); } else if (/r[ií]gid|hard|case/.test(T)) { pts += 0.5; chips.push("rígida"); }
+    if (/al[çc]a|handle/.test(T)) { pts += 0.5; chips.push("com alça"); }
+    if (/incase|tomtoc|wiwu|targus|samsonite|uag|spigen|moshi/.test(T)) { pts += 1.5; chips.push("marca boa"); }
+  } else if (/teclado/i.test(cat)) {
+    pts += 1; if (/mouse/.test(T)) { pts += 1; chips.push("teclado + mouse"); } if (/logitech/.test(T)) { pts += 3; chips.push("Logitech"); } if (/bluetooth/.test(T)) { pts += 1; chips.push("Bluetooth"); }
+    if (/k380|pebble|multi/.test(T)) { pts += 1; chips.push("multi-device"); }
+  }
+  return {pts, chips};
+}
+/* preço com expoente < 1: o mais barato não ganha sempre, o top de linha caro também não */
+function marcarCB(itens, cat){
+  let best = 0;
+  const ps = itens.map(x=>x.usd).sort((a,b)=>a-b), med = ps.length ? ps[Math.floor(ps.length/2)] : 0;
+  itens.forEach(it=>{ const sp = specs(it.titulo, cat); it._chips = sp.chips; it._sus = it.usd < med*0.35;
+    it._cb = sp.pts>0 && it.usd>0 && !it._sus ? sp.pts/Math.pow(it.usd, 0.85) : 0; best = Math.max(best, it._cb); });
+  itens.forEach(it=>{ it._cbn = best>0 && it._cb>0 ? it._cb/best : 0; });
+  return itens;
+}
+
 /* compras: dados.json gerado pela VPS de hora em hora */
 async function renderCompras(){
   const list = document.getElementById("cp-list"), cats = document.getElementById("cp-cats");
@@ -621,8 +700,11 @@ async function renderCompras(){
       const c = d.categorias.find(x=>x.nome===n) || d.categorias[0];
       cats.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.n===c.nome)));
       const ord = store.get("ord","preco");
-      const itens = c.itens.slice().sort((a,b)=> ord==="eco" ? ((b.br?b.br.economia:-9)-(a.br?a.br.economia:-9)) : a.usd-b.usd);
-      list.innerHTML = itens.length ? itens.map(it=>{
+      const itens = marcarCB(c.itens.slice(), c.nome).sort((a,b)=> ord==="eco" ? ((b.br?b.br.economia:-9)-(a.br?a.br.economia:-9)) : ord==="cb" ? (b._cbn-a._cbn) : a.usd-b.usd);
+      const sug = itens.filter(x=>x._cbn>0).sort((a,b)=>b._cbn-a._cbn).slice(0,3);
+      const topo = sug[0];
+      const sugHtml = sug.length ? '<div class="sug"><b>💡 Sugestão: melhor custo-benefício em '+c.nome+'</b><ol>'+sug.map(x=>'<li>'+(x.titulo.length>60?x.titulo.slice(0,60)+'…':x.titulo)+' <b>'+(x.brl?brl(x.brl):usd(x.usd))+'</b>'+(x._chips.length?'<small>'+x._chips.join(' · ')+'</small>':'')+'</li>').join('')+'</ol><small>Nota = o que o produto entrega (armazenamento, RAM, processador, bateria, tamanho…) pelo preço, comparada só dentro desta categoria.</small></div>' : '';
+      list.innerHTML = sugHtml + (itens.length ? itens.map(it=>{
         const q=enc(it.titulo.replace(/\s+-\s+.*$/,"").slice(0,70));
         const gbr="https://www.google.com/search?tbm=shop&gl=br&hl=pt-BR&q="+q;
         const py='<div class="side py"><span>🇵🇾 Paraguai</span><b>'+(it.brl?brl(it.brl):'–')+'</b><small>'+usd(it.usd)+'</small></div>';
@@ -636,9 +718,11 @@ async function renderCompras(){
           br='<div class="side br nd"><span>🇧🇷 Brasil</span><b>?</b><small>sem par exato, veja no Google</small></div>';
           verdict='';
         }
-        return '<div class="prod"><b class="nm">'+it.titulo+'</b><span class="st">'+it.lojas.join(", ")+'</span><div class="vsgrid">'+py+br+'</div>'+verdict
+        const est = it._cbn>0 ? Math.max(1, Math.round(it._cbn*5)) : 0;
+        const cb = est ? '<div class="cb'+(it===topo?' top':'')+'">'+(it===topo?'🏆 Melhor custo-benefício da categoria<br>':'')+'<span class="stars" aria-label="'+est+' de 5">'+'★'.repeat(est)+'<i>'+'★'.repeat(5-est)+'</i></span> custo-benefício'+(it._chips.length?'<small>Entrega: '+it._chips.join(' · ')+'</small>':'')+'</div>' : it._sus ? '<div class="cb"><small>⚠️ Preço muito abaixo dos outros: pode ser anúncio errado ou outro produto, confirme na loja.</small></div>' : '';
+        return '<div class="prod"><b class="nm">'+it.titulo+'</b>'+cb+'<span class="st">'+it.lojas.join(", ")+'</span><div class="vsgrid">'+py+br+'</div>'+verdict
           +'<span class="vs"><a class="btn sm pri" href="'+it.link+'" target="_blank" rel="noopener">Ver no Paraguai</a><a class="btn sm" href="'+(it.br&&it.br.link?it.br.link:gbr)+'" target="_blank" rel="noopener">Ver no Brasil</a><a class="btn sm" href="'+gbr+'" target="_blank" rel="noopener">Google</a></span></div>';
-      }).join("") : '<p class="lede">Nenhum anúncio nesta categoria agora.</p>';
+      }).join("") : '<p class="lede">Nenhum anúncio nesta categoria agora.</p>');
       store.set("cat", c.nome);
     };
     cats.innerHTML = d.categorias.map(c=>'<button type="button" data-n="'+c.nome+'" aria-pressed="false">'+c.nome+' <small>'+c.itens.length+'</small></button>').join("");
