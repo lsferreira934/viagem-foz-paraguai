@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-11T00:38+00:00",
+ "atualizado": "2026-10-11T00:42+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -1173,61 +1173,283 @@
    "nome": "Samsung Galaxy A",
    "itens": [
     {
+     "titulo": "Samsung Galaxy A06 SM-A065M Dual Chip 64GB 4G",
+     "usd": 85.99,
+     "brl": 438,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a06-sm-a065m-dual-chip-64gb-4g_55817/"
+    },
+    {
+     "titulo": "Samsung Galaxy A07 SM-A075F Dual Chip 64GB 4G",
+     "usd": 92.0,
+     "brl": 468,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a07-sm-a075f-dual-chip-64gb-4g_64576/"
+    },
+    {
+     "titulo": "Samsung Galaxy A07 SM-A075M Dual Chip 64GB 4G",
+     "usd": 95.0,
+     "brl": 484,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a07-sm-a075m-dual-chip-64gb-4g_63751/"
+    },
+    {
+     "titulo": "Samsung Galaxy A16 SM-A165F Dual Chip 128GB 4G - RAM 4GB",
+     "usd": 125.0,
+     "brl": 636,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a16-sm-a165f-dual-chip-128gb-4g-ram-4gb_58752/"
+    },
+    {
+     "titulo": "Samsung Galaxy A06 SM-A065F Dual Chip 128GB 4G",
+     "usd": 130.0,
+     "brl": 662,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a06-sm-a065f-dual-chip-128gb-4g_58513/"
+    },
+    {
+     "titulo": "Samsung Galaxy A16 SM-A166M Dual Chip 256GB 5G",
+     "usd": 130.0,
+     "brl": 662,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a16-sm-a166m-dual-chip-256gb-5g_56472/"
+    },
+    {
+     "titulo": "Samsung Galaxy A36 SM-A366E Dual Chip 128GB 5G - RAM 6GB",
+     "usd": 132.0,
+     "brl": 672,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a36-sm-a366e-dual-chip-128gb-5g-ram-6gb_59897/"
+    },
+    {
+     "titulo": "Samsung Galaxy A06 SM-A065M Dual Chip 128GB 4G",
+     "usd": 135.0,
+     "brl": 687,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a06-sm-a065m-dual-chip-128gb-4g_55818/"
+    },
+    {
+     "titulo": "Samsung Galaxy A07s SM-A077F Dual Chip 64GB 4G",
+     "usd": 135.0,
+     "brl": 687,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a07s-sm-a077f-dual-chip-64gb-4g_72070/"
+    },
+    {
+     "titulo": "Samsung Galaxy A07 SM-A075M Dual Chip 128GB 4G",
+     "usd": 138.0,
+     "brl": 702,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a07-sm-a075m-dual-chip-128gb-4g_63752/"
+    },
+    {
+     "titulo": "Samsung Galaxy A07 SM-A075F Dual Chip 128GB 4G",
+     "usd": 140.75,
+     "brl": 716,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a07-sm-a075f-dual-chip-128gb-4g_66392/"
+    },
+    {
+     "titulo": "Samsung Galaxy A16 SM-A165M Dual Chip 128GB 4G - RAM 4GB",
+     "usd": 144.0,
+     "brl": 733,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a16-sm-a165m-dual-chip-128gb-4g-ram-4gb_57382/"
+    },
+    {
+     "titulo": "Samsung Galaxy A17 SM-A175F Dual Chip 128GB 4G - RAM 4GB",
+     "usd": 156.0,
+     "brl": 794,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a17-sm-a175f-dual-chip-128gb-4g-ram-4gb_64426/"
+    },
+    {
+     "titulo": "Samsung Galaxy A17 SM-A176B Dual Chip 128GB 5G",
+     "usd": 158.0,
+     "brl": 804,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a17-sm-a176b-dual-chip-128gb-5g_63753/"
+    },
+    {
+     "titulo": "Samsung Galaxy A17 SM-A175F Dual Chip 128GB 4G - RAM 6GB",
+     "usd": 167.0,
+     "brl": 850,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a17-sm-a175f-dual-chip-128gb-4g-ram-6gb_64427/"
+    },
+    {
+     "titulo": "Samsung Galaxy A17 SM-A175F Dual Chip 256GB 4G",
+     "usd": 190.0,
+     "brl": 967,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a17-sm-a175f-dual-chip-256gb-4g_64284/"
+    },
+    {
+     "titulo": "Samsung Galaxy A17 SM-A176B Dual Chip 256GB 5G",
+     "usd": 222.0,
+     "brl": 1130,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a17-sm-a176b-dual-chip-256gb-5g_63754/"
+    },
+    {
+     "titulo": "Samsung Galaxy A26 SM-A266B Dual Chip 128GB 5G",
+     "usd": 222.0,
+     "brl": 1130,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266b-dual-chip-128gb-5g_69149/"
+    },
+    {
+     "titulo": "Samsung Galaxy A26 SM-A266M Dual Chip 256GB 5G",
+     "usd": 227.0,
+     "brl": 1155,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266m-dual-chip-256gb-5g_59249/"
+    },
+    {
+     "titulo": "Samsung Galaxy A36 SM-A366E Dual Chip 256GB 5G",
+     "usd": 265.0,
+     "brl": 1349,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a36-sm-a366e-dual-chip-256gb-5g_59252/"
+    },
+    {
+     "titulo": "Samsung Galaxy A37 SM-A376B Dual Chip 128GB 5G",
+     "usd": 282.0,
+     "brl": 1435,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a37-sm-a376b-dual-chip-128gb-5g_67690/"
+    },
+    {
+     "titulo": "Samsung Galaxy A26 SM-A266B Dual Chip 256GB 5G",
+     "usd": 285.0,
+     "brl": 1451,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266b-dual-chip-256gb-5g_66391/"
+    },
+    {
+     "titulo": "Samsung Galaxy A37 SM-A376B Dual Chip 256GB 5G",
+     "usd": 288.92,
+     "brl": 1471,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a37-sm-a376b-dual-chip-256gb-5g_67691/"
+    },
+    {
      "titulo": "Samsung Galaxy A56 SM-A566E Dual Chip 128GB 5G",
      "usd": 300.0,
-     "lojas": [
-      "ISS Group"
-     ],
      "brl": 1527,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566E+Dual+Chip+128GB+5G"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a56-sm-a566e-dual-chip-128gb-5g_59061/"
+    },
+    {
+     "titulo": "Samsung Galaxy A27 SM-A276B Dual Chip 256GB 5G",
+     "usd": 305.0,
+     "brl": 1552,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a27-sm-a276b-dual-chip-256gb-5g_69010/"
     },
     {
      "titulo": "Samsung Galaxy A56 SM-A566B Dual Chip 128GB 5G",
      "usd": 325.0,
-     "lojas": [
-      "Mega Eletrônicos",
-      "Mega Eletro"
-     ],
      "brl": 1654,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566B+Dual+Chip+128GB+5G"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a56-sm-a566b-dual-chip-128gb-5g_70575/"
     },
     {
      "titulo": "Samsung Galaxy A56 SM-A566E Dual Chip 256GB 5G - RAM 8GB",
      "usd": 354.0,
-     "lojas": [
-      "Mega Eletrônicos",
-      "Mega Eletro"
-     ],
      "brl": 1802,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566E+Dual+Chip+256GB+5G+-+RAM+8GB"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a56-sm-a566e-dual-chip-256gb-5g-ram-8gb_59337/"
     },
     {
      "titulo": "Samsung Galaxy A56 SM-A566B Dual Chip 256GB 5G - RAM 8GB",
      "usd": 355.0,
-     "lojas": [
-      "Mega Eletrônicos",
-      "Mega Eletro"
-     ],
      "brl": 1807,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566B+Dual+Chip+256GB+5G+-+RAM+8GB"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a56-sm-a566b-dual-chip-256gb-5g-ram-8gb_64132/"
     },
     {
      "titulo": "Samsung Galaxy A56 SM-A566E Dual Chip 256GB 5G - RAM 12GB",
      "usd": 359.75,
-     "lojas": [
-      "Orbe Import"
-     ],
      "brl": 1831,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566E+Dual+Chip+256GB+5G+-+RAM+12GB"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a56-sm-a566e-dual-chip-256gb-5g-ram-12gb_59251/"
+    },
+    {
+     "titulo": "Samsung Galaxy A57 SM-A576B Dual Chip 256GB 5G",
+     "usd": 391.5,
+     "brl": 1993,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a57-sm-a576b-dual-chip-256gb-5g_67684/"
     },
     {
      "titulo": "Samsung Galaxy A56 SM-A566B Dual Chip 256GB 5G - RAM 12GB",
      "usd": 397.0,
-     "lojas": [
-      "New Zone"
-     ],
      "brl": 2021,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Samsung+Galaxy+A56+SM-A566B+Dual+Chip+256GB+5G+-+RAM+12GB"
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a56-sm-a566b-dual-chip-256gb-5g-ram-12gb_61340/"
     }
    ]
   },
@@ -2760,6 +2982,236 @@
       "link": "https://www.zoom.com.br/lead?oid=1563261537",
       "economia": 0.33
      }
+    }
+   ]
+  },
+  {
+   "nome": "Samsung (outros)",
+   "itens": [
+    {
+     "titulo": "Samsung Galaxy Z Fold 4 SM-F936B Dual Chip 256GB 5G",
+     "usd": 395.0,
+     "brl": 2011,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold-4-sm-f936b-dual-chip-256gb-5g_43362/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 FE SM-S731B Dual Chip 128GB 5G",
+     "usd": 435.0,
+     "brl": 2214,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-fe-sm-s731b-dual-chip-128gb-5g_70382/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 FE SM-S731B Dual Chip 256GB 5G",
+     "usd": 535.0,
+     "brl": 2723,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-fe-sm-s731b-dual-chip-256gb-5g_64492/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 SM-S931B Dual Chip 256GB 5G",
+     "usd": 615.0,
+     "brl": 3130,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-sm-s931b-dual-chip-256gb-5g_58107/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 FE SM-S731B Dual Chip 512GB 5G",
+     "usd": 630.0,
+     "brl": 3207,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-fe-sm-s731b-dual-chip-512gb-5g_64493/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 Edge SM-S937B Dual Chip 256GB 5G",
+     "usd": 645.0,
+     "brl": 3283,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-edge-sm-s937b-dual-chip-256gb-5g_65843/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Flip7 FE SM-F761B Dual Chip 256GB 5G",
+     "usd": 659.0,
+     "brl": 3354,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-flip7-fe-sm-f761b-dual-chip-256gb-5g_62050/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 SM-S931B Dual Chip 512GB 5G",
+     "usd": 723.9,
+     "brl": 3685,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-sm-s931b-dual-chip-512gb-5g_60105/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25+ SM-S936B Dual Chip 256GB 5G",
+     "usd": 738.0,
+     "brl": 3756,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-sm-s936b-dual-chip-256gb-5g_58109/"
+    },
+    {
+     "titulo": "Samsung Galaxy S24 Ultra SM-S928B Dual Chip 256GB 5G",
+     "usd": 750.0,
+     "brl": 3818,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s24-ultra-sm-s928b-dual-chip-256gb-5g_50708/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 Ultra SM-S938B Dual Chip 512GB 5G",
+     "usd": 885.0,
+     "brl": 4505,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-ultra-sm-s938b-dual-chip-512gb-5g_58110/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Flip7 SM-F766B Dual Chip 512GB 5G",
+     "usd": 950.0,
+     "brl": 4836,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-flip7-sm-f766b-dual-chip-512gb-5g_62659/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Flip7 SM-F766B Dual Chip 256GB 5G",
+     "usd": 950.0,
+     "brl": 4836,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-flip7-sm-f766b-dual-chip-256gb-5g_62051/"
+    },
+    {
+     "titulo": "Samsung Galaxy S25 Ultra SM-S938B Dual Chip 1TB 5G",
+     "usd": 950.0,
+     "brl": 4836,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-ultra-sm-s938b-dual-chip-1tb-5g_59062/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold5 SM-F946B Dual Chip 256GB 5G",
+     "usd": 1004.0,
+     "brl": 5110,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold5-sm-f946b-dual-chip-256gb-5g_48047/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Flip8 SM-F776B Dual Chip 256GB 5G",
+     "usd": 1010.0,
+     "brl": 5141,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-flip8-sm-f776b-dual-chip-256gb-5g_69893/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold6 SM-F956B Dual Chip 512GB 5G",
+     "usd": 1112.0,
+     "brl": 5660,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold6-sm-f956b-dual-chip-512gb-5g_55603/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold5 SM-F946B Dual Chip 512GB 5G",
+     "usd": 1160.0,
+     "brl": 5904,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold5-sm-f946b-dual-chip-512gb-5g_48046/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Flip8 SM-F776B Dual Chip 512GB 5G",
+     "usd": 1185.0,
+     "brl": 6032,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-flip8-sm-f776b-dual-chip-512gb-5g_69894/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold6 SM-F956B Dual Chip 256GB 5G",
+     "usd": 1330.0,
+     "brl": 6770,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold6-sm-f956b-dual-chip-256gb-5g_56060/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold8 SM-F971B Dual Chip 256GB 5G",
+     "usd": 1490.0,
+     "brl": 7584,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold8-sm-f971b-dual-chip-256gb-5g_70005/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold8 SM-F971B Dual Chip 512GB 5G",
+     "usd": 1680.0,
+     "brl": 8551,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold8-sm-f971b-dual-chip-512gb-5g_69895/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold8 Ultra SM-F976B Dual Chip 256GB 5G",
+     "usd": 1748.0,
+     "brl": 8897,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold8-ultra-sm-f976b-dual-chip-256gb-5g_70378/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold7 SM-F966B Dual Chip 256GB 5G",
+     "usd": 1750.0,
+     "brl": 8908,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold7-sm-f966b-dual-chip-256gb-5g_62049/"
+    },
+    {
+     "titulo": "Samsung Galaxy Z Fold8 Ultra SM-F976B Dual Chip 512GB 5G",
+     "usd": 1910.0,
+     "brl": 9722,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold8-ultra-sm-f976b-dual-chip-512gb-5g_69896/"
     }
    ]
   }
