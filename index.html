@@ -238,6 +238,8 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .sug{border:2px solid var(--ipe);border-radius:14px;padding:10px 12px;background:color-mix(in srgb,var(--ipe) 10%,var(--surface));margin-bottom:10px;font-size:14px}
 .sug ol{margin:6px 0 4px;padding-left:20px;display:flex;flex-direction:column;gap:6px}
 .ordbar{flex-wrap:wrap}
+.horas{border:1.5px solid var(--line);border-radius:12px;padding:8px 10px;font-size:13px;line-height:1.45;background:var(--surface)}
+.st s{opacity:.6}.st .fx{font-style:normal;color:var(--terra);font-weight:700}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (min-width:600px){.app{padding-top:12px}}
 </style>
@@ -306,6 +308,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
     <div class="sec">
       <h2 class="sec-h">Preços no Paraguai</h2>
       <p class="lede" id="cp-info">Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualiza de hora em hora.</p>
+      <div class="horas" id="cp-horas" hidden>🕗 <b>Domingo 11/10, horário das lojas.</b> <b>Abertas hoje:</b> Shopping China 7h–20h, New Zone 8h–21h, Shopping Paris 7h–17h, Toku 8h–17h, CellShop 8h–14h (talvez 16h), Monalisa 8h–12h30, Shopping del Este (horário incerto). <b>Fechadas:</b> Nissei, Mega, Madrid Center, Mobile Zone, Topdek, Visão VIP, Atacado Connect, Roma, MultiPass. Cartão com loja fechada hoje aparece marcado e sai da sugestão.</div>
       <div class="cats" id="cp-cats" role="group" aria-label="Categoria"></div>
       <div class="ordbar" id="cp-ord">Ordenar: <button type="button" data-o="preco">Mais barato</button><button type="button" data-o="eco">Maior economia</button><button type="button" data-o="cb">Custo-benefício</button></div>
       <div class="places" id="cp-list"><p class="lede">Carregando preços…</p></div>
@@ -493,12 +496,12 @@ const DAYS = [
     ["noite","Roda-gigante Yup Star","Até 20h30, R$ 59,90 online. Ou jantar em casa.","yup",false]
    ]},
   {id:"dom", d:"2026-10-11", short:"Dom", date:"11/10", country:"Brasil · Foz do Iguaçu", title:"Paraguai e volta", img:["cataratas","Cataratas · Josep M. Gracia, CC BY-SA 4.0"], wx:["20–25°C","chuva forte","trovoadas"],
-   alerts:[["warn","!","<b>Checkout na saída das 7h</b> (não voltamos pra casa): malas no carro, chave no cofre, alarme ligado e porta trancada."],["warn","!","<b>Domingo no Paraguai:</b> Nissei e Mega Eletrônicos <b>fechadas</b>. Abertas: Shopping China 7h–20h, New Zone 8h–21h, CellShop 8h–14h, Shopping del Este 8h–20h."],["tip","i","<b>Cota:</b> quem já usou os US$ 500 ontem paga 50% sobre tudo que comprar hoje. Declarem na e-DBV antes de cruzar. Chuva forte com trovoada o dia todo: capa e saco zip."]],
+   alerts:[["warn","!","<b>Checkout na saída das 7h</b> (não voltamos pra casa): malas no carro, chave no cofre, alarme ligado e porta trancada."],["warn","!","<b>Domingo no Paraguai:</b> <b>Abertas hoje:</b> Shopping China 7h–20h, New Zone 8h–21h, Shopping Paris 7h–17h, Toku 8h–17h, CellShop 8h–14h (talvez 16h), Monalisa 8h–12h30, Shopping del Este (horário incerto). <b>Fechadas:</b> Nissei, Mega, Madrid Center, Mobile Zone, Topdek, Visão VIP, Atacado Connect, Roma, MultiPass."],["tip","i","<b>Cota:</b> quem já usou os US$ 500 ontem paga 50% sobre tudo que comprar hoje. Declarem na e-DBV antes de cruzar. Chuva forte com trovoada o dia todo: capa e saco zip."]],
    items:[
     ["5h","Acordar, café e malas no carro","Conferir carregadores, documentos, compras e notas fiscais.","casa",false],
     ["7h","Saída e checkout","Chave no cofre, alarme ligado. Avisem a Camila pelo Airbnb.","casa",true],
     ["7h15","Estacionar e atravessar","Confirmem se o Bismillah abre no domingo. Se não, o Fortaleza fica a ~200 m.","bismillah",false],
-    ["7h45","Compras no Paraguai","Shopping China, New Zone, CellShop (até 14h) e Shopping del Este. Preço final em USDT e Pix antes de fechar.","china",false],
+    ["7h45","Compras no Paraguai","Abertas: Shopping China 7h–20h, New Zone 8h–21h, Shopping Paris 7h–17h, Toku 8h–17h, CellShop 8h–14h, Monalisa 8h–12h30. Fechadas: Nissei, Mega, Madrid Center, Mobile Zone, Roma. Preço final em USDT e Pix antes de fechar.","china",false],
     ["11h30","Volta do Paraguai","e-DBV de quem passar da cota. Daqui pra frente tudo é opcional: decidam na hora, conforme a chuva e o cansaço.","ponte",true],
     ["12h","Talvez: Cataratas","Última entrada 16h, fecha 17h30. Estacionamento R$ 65. Na Garganta do Diabo todo mundo se molha.","cataratas",true],
     ["15h30","Talvez: Parque das Aves","Em frente às Cataratas, fecha 16h30.","aves",false],
@@ -633,24 +636,29 @@ function specs(t, cat){
     if (/ultra|fold|flip/.test(T)) { pts += 2; chips.push("linha topo"); }
     else if (/ipad (pro|air)/.test(T)) { pts += 1.5; chips.push(/pro/.test(T)?"iPad Pro":"iPad Air"); }
     else if (/\bplus\b|\bfe\b|\bpro\b|\+/.test(T)) pts += 0.5;
-    const ano = T.match(/\b(202[0-6])\b/); if (ano) { const y = parseInt(ano[1]); pts += Math.max(0, (y-2021)*0.5); chips.push("modelo "+y); }
+    let y = 0; const ano = T.match(/\b(202[0-6])\b/); if (ano) y = parseInt(ano[1]);
+    const zf = T.match(/(fold|flip) ?(\d)/), gs = T.match(/galaxy s(2\d)/), ga = T.match(/galaxy a(\d)(\d)/);
+    if (!y && zf) y = 2018+parseInt(zf[2]);
+    if (!y && gs) y = 2000+parseInt(gs[1]);
+    if (ga) { const f = parseInt(ga[1]); pts += [0,0.5,1,1.5,2,2.5,2.5,3,3,3][f]; if (!y) y = 2018+parseInt(ga[2])+(f>=3?1:0); }
+    if (y) { pts += Math.max(0, (y-2021)*0.5); chips.push("modelo "+y); }
   } else if (/notebook/i.test(cat)) {
-    const cpu = /i9|ryzen 9|ultra 9/.test(T)?5:/i7|ryzen 7|ultra 7/.test(T)?4:/i5|ryzen 5|ultra 5/.test(T)?3:/i3|ryzen 3/.test(T)?2:/celeron|pentium|n100|n150|n200|athlon|n4020|n4500|mediatek|snapdragon/.test(T)?1:0;
-    if (cpu) { pts += cpu*1.5; chips.push(["","básico","i3/Ryzen 3","i5/Ryzen 5","i7/Ryzen 7","i9/Ryzen 9"][cpu]); }
+    const cpu = /i9|ryzen 9|ultra 9|core 9/.test(T)?5:/i7|ryzen 7|ultra 7|core 7/.test(T)?4:/i5|ryzen 5|ultra 5|core 5/.test(T)?3:/i3|ryzen 3|core 3/.test(T)?2:/celeron|pentium|n100|n150|n200|athlon|n4020|n4500|mediatek|snapdragon/.test(T)?1:0;
+    if (cpu) { pts += cpu*1.5; chips.push(["","básico","i3/Core 3/Ryzen 3","i5/Core 5/Ryzen 5","i7/Core 7/Ryzen 7","i9/Ryzen 9"][cpu]); }
     const memM = T.match(/mem[oó]ria\s*(\d+)\s*gb|(\d+)\s*gb\s*(?:de\s*)?ram|ram\s*(\d+)/); const mem = memM ? parseInt(memM.slice(1).find(Boolean)) : 0;
     if (mem) { pts += mem>=32?4:mem>=16?3:mem>=8?2:1; chips.push(mem+"GB RAM"); }
-    const ssdM = T.match(/(?:ssd|emmc)\s*(\d+)\s*(gb|tb)|(\d+)\s*(gb|tb)\s*(?:ssd|emmc)/);
-    if (ssdM) { const n = parseInt(ssdM[1]||ssdM[3]), u = ssdM[2]||ssdM[4], g = /tb/.test(u)?n*1024:n, emmc = /emmc/.test(T); pts += emmc?0.5:g>=1024?4:g>=512?3:g>=256?2:1; chips.push((g>=1024?g/1024+"TB":g+"GB")+(emmc?" eMMC":" SSD")); }
+    const ssdM = T.match(/(?:ssd|emmc|ufs)\s*(\d+)\s*(gb|tb)|(\d+)\s*(gb|tb)\s*(?:ssd|emmc|ufs)/);
+    if (ssdM) { const n = parseInt(ssdM[1]||ssdM[3]), u = ssdM[2]||ssdM[4], g = /tb/.test(u)?n*1024:n, emmc = /emmc/.test(T); pts += emmc?0.5:g>=1024?4:g>=512?3:g>=256?2:1; chips.push((g>=1024?g/1024+"TB":g+"GB")+(emmc?" eMMC":/ufs/.test(T)?" UFS":" SSD")); }
     const tela = T.match(/(1[1-7](?:[.,]\d)?)\s*["”]/); if (tela) chips.push(tela[1].replace(",",".")+'"');
   } else if (/powerbank/i.test(cat)) {
     const mah = T.match(/(\d{4,5})\s*mah/); if (mah) { const n = parseInt(mah[1]); pts += n/5000; chips.push(n+"mAh"); }
     const w = T.match(/(\d{2,3})\s*w\b/); if (w) { pts += parseInt(w[1])/20; chips.push(w[1]+"W"); }
     if (/xiaomi|anker|baseus|ugreen|samsung|apple/.test(T)) { pts += 1; chips.push("marca boa"); }
   } else if (/smartwatch/i.test(cat)) {
-    const marca = /apple/.test(T)?4:/samsung|garmin/.test(T)?3:/huawei|amazfit/.test(T)?2:/xiaomi|haylou|redmi/.test(T)?1:0.5;
-    pts += marca; if (marca >= 2) chips.push("marca top");
+    const f = /apple|garmin/.test(T)?[5,"premium"]:/samsung|galaxy watch/.test(T)?[4.5,"premium"]:/xiaomi watch|\bmi watch/.test(T)?[4,"bom (Xiaomi Watch)"]:/huawei/.test(T)?[3.5,"bom (Huawei)"]:/amazfit (active|gtr|gts|balance|cheetah|t-rex)/.test(T)?[3.5,"bom (Amazfit)"]:/amazfit/.test(T)?[2.5,"intermediário (Amazfit)"]:/redmi watch/.test(T)?[/lite|active/.test(T)?2:2.5,"intermediário (Redmi Watch)"]:[1,"básico ("+(/mibro/.test(T)?"Mibro":/haylou/.test(T)?"Haylou":"genérico")+")"];
+    const marca = f[0]; pts += marca*1.5; chips.push(f[1]);
     if (/gps/.test(T)) { pts += 1; chips.push("GPS"); } if (/amoled/.test(T)) { pts += 1; chips.push("AMOLED"); }
-    if (marca >= 2 && /ultra|\bpro\b|series 1[01]|watch ?[89]/.test(T)) { pts += 2; chips.push("linha topo"); }
+    if (marca >= 2.5 && /ultra|\bpro\b|\bmax\b|premium|series 1[01]|watch ?[89]/.test(T)) { pts += 1; chips.push("versão topo"); }
   } else if (/mesa/i.test(cat)) {
     pts += 1; if (/artist|display|kamvas|cintiq|com tela/.test(T)) { pts += 3; chips.push("com tela"); }
     const pol = T.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:["”]|pol)/); if (pol) chips.push(pol[1].replace(",",".")+'"');
@@ -673,8 +681,8 @@ function specs(t, cat){
     if (/al[çc]a|handle/.test(T)) { pts += 0.5; chips.push("com alça"); }
     if (/incase|tomtoc|wiwu|targus|samsonite|uag|spigen|moshi|tucano|case logic|thule/.test(T)) { pts += 1.5; chips.push("marca boa"); }
   } else if (/teclado/i.test(cat)) {
-    pts += 1; if (/mouse/.test(T)) { pts += 1; chips.push("teclado + mouse"); } if (/logitech/.test(T)) { pts += 3; chips.push("Logitech"); } if (/bluetooth/.test(T)) { pts += 1; chips.push("Bluetooth"); }
-    if (/k380|pebble|multi/.test(T)) { pts += 1; chips.push("multi-device"); }
+    pts += 1; if (/mouse/.test(T)) { pts += 1; chips.push("teclado + mouse"); } if (/logitech/.test(T)) { pts += 4; chips.push("Logitech"); } if (/bluetooth/.test(T)) { pts += 1; chips.push("Bluetooth"); }
+    if (/k380|pebble|multi/.test(T)) { pts += 2; chips.push("multi-device"); }
   }
   return {pts, chips};
 }
@@ -685,11 +693,18 @@ function marcarCB(itens, cat){
   itens.forEach(it=>{ const sp = specs(it.titulo, cat); it._chips = sp.chips; it._sus = it.usd < med*0.35;
     it._cb = sp.pts>0 && it.usd>0 && !it._sus ? sp.pts/Math.pow(it.usd, 0.85) : 0; best = Math.max(best, it._cb); });
   itens.forEach(it=>{ it._cbn = best>0 && it._cb>0 ? it._cb/best : 0; });
+  const rk = itens.filter(x=>x._cb>0).map(x=>x._cb).sort((a,b)=>b-a);
+  itens.forEach(it=>{ it._est = it._cb>0 ? Math.max(1, Math.ceil(5*(1 - rk.indexOf(it._cb)/rk.length))) : 0; });
   return itens;
 }
 
+/* domingo: lojas que não abrem (levantamento de 11/10) */
+const DOMINGO = new Date().toLocaleDateString("en-US",{weekday:"short",timeZone:"America/Asuncion"})==="Sun";
+const FECHA_DOM = /nissei|madrid center|mega eletr|mobile zone|topdek|vis[aã]o ?vip|atacado connect|multipass|roma shopping/i;
+function fechadoHoje(it){ return DOMINGO && it.lojas.length>0 && it.lojas.every(l=>FECHA_DOM.test(l)); }
 /* compras: dados.json gerado pela VPS de hora em hora */
 async function renderCompras(){
+  if (DOMINGO) document.getElementById("cp-horas").hidden = false;
   const list = document.getElementById("cp-list"), cats = document.getElementById("cp-cats");
   try{
     const r = await fetch("dados.json?t="+Date.now(), {cache:"no-store"}); if(!r.ok) throw 0;
@@ -701,9 +716,9 @@ async function renderCompras(){
       cats.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.n===c.nome)));
       const ord = store.get("ord","preco");
       const itens = marcarCB(c.itens.slice(), c.nome).sort((a,b)=> ord==="eco" ? ((b.br?b.br.economia:-9)-(a.br?a.br.economia:-9)) : ord==="cb" ? (b._cbn-a._cbn) : a.usd-b.usd);
-      const sug = itens.filter(x=>x._cbn>0).sort((a,b)=>b._cbn-a._cbn).slice(0,3);
+      const sug = itens.filter(x=>x._cbn>0 && !fechadoHoje(x)).sort((a,b)=>b._cbn-a._cbn).slice(0,3);
       const topo = sug[0];
-      const sugHtml = sug.length ? '<div class="sug"><b>💡 Sugestão: melhor custo-benefício em '+c.nome+'</b><ol>'+sug.map(x=>'<li>'+(x.titulo.length>60?x.titulo.slice(0,60)+'…':x.titulo)+' <b>'+(x.brl?brl(x.brl):usd(x.usd))+'</b>'+(x._chips.length?'<small>'+x._chips.join(' · ')+'</small>':'')+'</li>').join('')+'</ol><small>Nota = o que o produto entrega (armazenamento, RAM, processador, bateria, tamanho…) pelo preço, comparada só dentro desta categoria.</small></div>' : '';
+      const sugHtml = sug.length ? '<div class="sug"><b>💡 Sugestão: melhor custo-benefício em '+c.nome+'</b><ol>'+sug.map(x=>'<li>'+(x.titulo.length>60?x.titulo.slice(0,60)+'…':x.titulo)+' <b>'+(x.brl?brl(x.brl):usd(x.usd))+'</b>'+(x._chips.length?'<small>'+x._chips.join(' · ')+'</small>':'')+'</li>').join('')+'</ol><small>Nota = o que o produto entrega (armazenamento, RAM, processador, bateria, linha, ano do modelo…) pelo preço, só dentro desta categoria. 5 estrelas = entre os 20% melhores.</small></div>' : '';
       list.innerHTML = sugHtml + (itens.length ? itens.map(it=>{
         const q=enc(it.titulo.replace(/\s+-\s+.*$/,"").slice(0,70));
         const gbr="https://www.google.com/search?tbm=shop&gl=br&hl=pt-BR&q="+q;
@@ -718,9 +733,9 @@ async function renderCompras(){
           br='<div class="side br nd"><span>🇧🇷 Brasil</span><b>?</b><small>sem par exato, veja no Google</small></div>';
           verdict='';
         }
-        const est = it._cbn>0 ? Math.max(1, Math.round(it._cbn*5)) : 0;
+        const est = it._est || 0;
         const cb = est ? '<div class="cb'+(it===topo?' top':'')+'">'+(it===topo?'🏆 Melhor custo-benefício da categoria<br>':'')+'<span class="stars" aria-label="'+est+' de 5">'+'★'.repeat(est)+'<i>'+'★'.repeat(5-est)+'</i></span> custo-benefício'+(it._chips.length?'<small>Entrega: '+it._chips.join(' · ')+'</small>':'')+'</div>' : it._sus ? '<div class="cb"><small>⚠️ Preço muito abaixo dos outros: pode ser anúncio errado ou outro produto, confirme na loja.</small></div>' : '';
-        return '<div class="prod"><b class="nm">'+it.titulo+'</b>'+cb+'<span class="st">'+it.lojas.join(", ")+'</span><div class="vsgrid">'+py+br+'</div>'+verdict
+        return '<div class="prod"><b class="nm">'+it.titulo+'</b>'+cb+'<span class="st">'+it.lojas.map(l=>DOMINGO&&FECHA_DOM.test(l)?'<s>'+l+'</s> <em class="fx">fechada hoje</em>':l).join(", ")+'</span><div class="vsgrid">'+py+br+'</div>'+verdict
           +'<span class="vs"><a class="btn sm pri" href="'+it.link+'" target="_blank" rel="noopener">Ver no Paraguai</a><a class="btn sm" href="'+(it.br&&it.br.link?it.br.link:gbr)+'" target="_blank" rel="noopener">Ver no Brasil</a><a class="btn sm" href="'+gbr+'" target="_blank" rel="noopener">Google</a></span></div>';
       }).join("") : '<p class="lede">Nenhum anúncio nesta categoria agora.</p>');
       store.set("cat", c.nome);
