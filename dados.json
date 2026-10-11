@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-11T01:22+00:00",
+ "atualizado": "2026-10-11T01:57+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -3326,6 +3326,20 @@
       "link": "https://www.zoom.com.br/lead?oid=1563261537",
       "economia": 0.33
      }
+    }
+   ]
+  },
+  {
+   "nome": "Mochila",
+   "itens": [
+    {
+     "titulo": "Mochila Babolat Pure Lite Wimbledon",
+     "usd": 105.0,
+     "brl": 534,
+     "lojas": [
+      "a partir de, várias lojas"
+     ],
+     "link": "https://www.comprasparaguai.com.br/mochila-babolat-pure-lite-wimbledon_69504/"
     }
    ]
   }
