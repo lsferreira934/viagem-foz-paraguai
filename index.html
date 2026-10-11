@@ -214,6 +214,22 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .prod .br.ruim{background:var(--terra-bg);color:var(--terra)}
 .prod .br.nd{background:var(--surface-2);color:var(--muted);font-weight:500}
 .prod .vs{grid-column:1/-1;display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.prod{display:flex!important;flex-direction:column;gap:8px}
+.prod .nm{font-size:15px;line-height:1.3}
+.vsgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.vsgrid .side{border-radius:12px;padding:8px 10px;background:var(--surface-2);display:flex;flex-direction:column;gap:1px;min-width:0}
+.vsgrid .side span{font-family:var(--f-mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.vsgrid .side b{font-family:var(--f-sign);font-weight:900;font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.vsgrid .side small{font-size:11.5px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vsgrid .py{background:var(--forest);color:var(--forest-ink)}
+.vsgrid .py span,.vsgrid .py small{color:var(--forest-ink);opacity:.85}
+.verdict{border-radius:10px;padding:7px 10px;font-size:14px}
+.verdict.bom{background:var(--ok-bg);color:var(--ok)}
+.verdict.meh{background:var(--surface-2);color:var(--ink)}
+.verdict.ruim{background:var(--terra-bg);color:var(--terra)}
+.ordbar{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.ordbar button{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-weight:700;font-size:13px;cursor:pointer}
+.ordbar button[aria-pressed="true"]{background:var(--forest);color:var(--forest-ink);border-color:var(--forest)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (min-width:600px){.app{padding-top:12px}}
 </style>
@@ -283,6 +299,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
       <h2 class="sec-h">Preços no Paraguai</h2>
       <p class="lede" id="cp-info">Do mais barato ao mais caro, menor preço por modelo no Compras Paraguai. Atualiza de hora em hora.</p>
       <div class="cats" id="cp-cats" role="group" aria-label="Categoria"></div>
+      <div class="ordbar" id="cp-ord">Ordenar: <button type="button" data-o="preco">Mais barato</button><button type="button" data-o="eco">Maior economia</button></div>
       <div class="places" id="cp-list"><p class="lede">Carregando preços…</p></div>
       <p class="lede" style="font-size:13px">Preço em reais é estimado pelo dólar das lojas. Pix e cartão saem mais caros. Confirmem no balcão. <b>Vale a pena?</b> Compare com o botão 🇧🇷: acima da cota de US$ 500 por pessoa, some 50% de imposto sobre o que passar.</p>
     </div>
@@ -601,11 +618,33 @@ async function renderCompras(){
     const show = n => {
       const c = d.categorias.find(x=>x.nome===n) || d.categorias[0];
       cats.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.n===c.nome)));
-      list.innerHTML = c.itens.length ? c.itens.map(it=>{ const q=enc(it.titulo.replace(/\s+-\s+.*$/,"").slice(0,70)); return '<div class="prod"><b>'+it.titulo+'</b><span class="pr">'+usd(it.usd)+(it.brl?'<small>≈ '+brl(it.brl)+'</small>':'')+'</span><span class="st">'+it.lojas.join(", ")+'</span>'+(it.br?'<span class="br '+(it.br.economia>=0.15?'bom':it.br.economia>0?'meh':'ruim')+'">🇧🇷 '+brl(it.br.preco)+' no Brasil · '+(it.br.economia>0?'economia '+Math.round(it.br.economia*100)+'%':'mais caro no Paraguai')+'<small>'+it.br.titulo+'</small></span>':'<span class="br nd">🇧🇷 sem par exato no Brasil, use os botões</span>')+'<span class="vs"><a class="btn sm pri" href="'+it.link+'" target="_blank" rel="noopener">🇵🇾 Paraguai</a><a class="btn sm" href="'+(it.br&&it.br.link?it.br.link:'https://www.zoom.com.br/search?q='+q)+'" target="_blank" rel="noopener">🇧🇷 Zoom</a><a class="btn sm" href="https://www.google.com/search?tbm=shop&gl=br&hl=pt-BR&q='+q+'" target="_blank" rel="noopener">🇧🇷 Google</a></span></div>'; }).join("") : '<p class="lede">Nenhum anúncio nesta categoria agora.</p>';
+      const ord = store.get("ord","preco");
+      const itens = c.itens.slice().sort((a,b)=> ord==="eco" ? ((b.br?b.br.economia:-9)-(a.br?a.br.economia:-9)) : a.usd-b.usd);
+      list.innerHTML = itens.length ? itens.map(it=>{
+        const q=enc(it.titulo.replace(/\s+-\s+.*$/,"").slice(0,70));
+        const gbr="https://www.google.com/search?tbm=shop&gl=br&hl=pt-BR&q="+q;
+        const py='<div class="side py"><span>🇵🇾 Paraguai</span><b>'+(it.brl?brl(it.brl):'–')+'</b><small>'+usd(it.usd)+'</small></div>';
+        let br, verdict;
+        if(it.br){
+          const dif=it.br.preco-(it.brl||0), pct=Math.round(it.br.economia*100);
+          const cls=it.br.economia>=0.15?'bom':it.br.economia>0?'meh':'ruim';
+          br='<div class="side br '+cls+'"><span>🇧🇷 Brasil</span><b>'+brl(it.br.preco)+'</b><small>'+(it.br.titulo.length>38?it.br.titulo.slice(0,38)+'…':it.br.titulo)+'</small></div>';
+          verdict='<div class="verdict '+cls+'">'+(dif>0?'Economia de <b>'+brl(dif)+'</b> ('+pct+'%) no Paraguai':'Paraguai <b>'+brl(-dif)+'</b> mais caro, compre no Brasil')+'</div>';
+        } else {
+          br='<div class="side br nd"><span>🇧🇷 Brasil</span><b>?</b><small>sem par exato, veja no Google</small></div>';
+          verdict='';
+        }
+        return '<div class="prod"><b class="nm">'+it.titulo+'</b><span class="st">'+it.lojas.join(", ")+'</span><div class="vsgrid">'+py+br+'</div>'+verdict
+          +'<span class="vs"><a class="btn sm pri" href="'+it.link+'" target="_blank" rel="noopener">Ver no Paraguai</a><a class="btn sm" href="'+(it.br&&it.br.link?it.br.link:gbr)+'" target="_blank" rel="noopener">Ver no Brasil</a><a class="btn sm" href="'+gbr+'" target="_blank" rel="noopener">Google</a></span></div>';
+      }).join("") : '<p class="lede">Nenhum anúncio nesta categoria agora.</p>';
       store.set("cat", c.nome);
     };
     cats.innerHTML = d.categorias.map(c=>'<button type="button" data-n="'+c.nome+'" aria-pressed="false">'+c.nome+' <small>'+c.itens.length+'</small></button>').join("");
     cats.addEventListener("click", e=>{ const b = e.target.closest("button"); if(b) show(b.dataset.n); });
+    const ordbar = document.getElementById("cp-ord");
+    const marca = () => ordbar.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", String(x.dataset.o===store.get("ord","preco"))));
+    ordbar.addEventListener("click", e=>{ const b = e.target.closest("button"); if(!b) return; store.set("ord", b.dataset.o); marca(); show(store.get("cat", d.categorias[0].nome)); });
+    marca();
     show(store.get("cat", d.categorias[0].nome));
   }catch(e){
     list.innerHTML = '<p class="lede">Não consegui carregar os preços agora. Tentem de novo com internet.</p>';
