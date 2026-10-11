@@ -673,6 +673,7 @@ function specs(t, cat){
     if (/usb/.test(T)) { pts += 0.5; chips.push("USB"); }
     const lit = T.match(/(\d{2})\s*(?:l\b|litros)/); if (lit) { pts += Math.min(1, parseInt(lit[1])/30); chips.push(lit[1]+"L"); }
     if (/samsonite|swissgear|wenger|victorinox|thule|targus|case logic|tucano|xiaomi|nike|adidas|puma|incase|herschel|jansport|lenovo|asus|dell|hp\b/.test(T)) { pts += 1.5; chips.push("marca boa"); }
+    if (!/notebook|laptop/.test(T) && !pol) pts *= 0.5;
   } else if (/capa/i.test(cat)) {
     pts += 1;
     const pol = T.match(/(1[2-6](?:[.,]\d)?)\s*(?:["”]|pol)/); if (pol) chips.push(pol[1].replace(",",".")+'"');
@@ -716,7 +717,7 @@ async function renderCompras(){
       cats.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.n===c.nome)));
       const ord = store.get("ord","preco");
       const itens = marcarCB(c.itens.slice(), c.nome).sort((a,b)=> ord==="eco" ? ((b.br?b.br.economia:-9)-(a.br?a.br.economia:-9)) : ord==="cb" ? (b._cbn-a._cbn) : a.usd-b.usd);
-      const sug = itens.filter(x=>x._cbn>0 && !fechadoHoje(x)).sort((a,b)=>b._cbn-a._cbn).slice(0,3);
+      const vistos = new Set(), sug = itens.filter(x=>x._cbn>0 && !fechadoHoje(x)).sort((a,b)=>b._cbn-a._cbn).filter(x=>{ const k = x.titulo.toLowerCase().split(' ').slice(0,2).join(' ')+'|'+x.usd+'|'+x._chips.join(); if (vistos.has(k)) return false; vistos.add(k); return true; }).slice(0,3);
       const topo = sug[0];
       const sugHtml = sug.length ? '<div class="sug"><b>💡 Sugestão: melhor custo-benefício em '+c.nome+'</b><ol>'+sug.map(x=>'<li>'+(x.titulo.length>60?x.titulo.slice(0,60)+'…':x.titulo)+' <b>'+(x.brl?brl(x.brl):usd(x.usd))+'</b>'+(x._chips.length?'<small>'+x._chips.join(' · ')+'</small>':'')+'</li>').join('')+'</ol><small>Nota = o que o produto entrega (armazenamento, RAM, processador, bateria, linha, ano do modelo…) pelo preço, só dentro desta categoria. 5 estrelas = entre os 20% melhores.</small></div>' : '';
       list.innerHTML = sugHtml + (itens.length ? itens.map(it=>{
