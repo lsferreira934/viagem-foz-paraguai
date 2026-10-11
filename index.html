@@ -484,27 +484,25 @@ const DAYS = [
     ["15h30","Voltar ao Brasil","Declarem na e-DBV o que passar de US$ 500 por pessoa. Guardem as notas.",null,false],
     ["noite","Roda-gigante Yup Star","Até 20h30, R$ 59,90 online. Ou jantar em casa.","yup",false]
    ]},
-  {id:"dom", d:"2026-10-11", short:"Dom", date:"11/10", country:"Brasil · Foz do Iguaçu", title:"Cataratas e volta", img:["cataratas","Cataratas · Josep M. Gracia, CC BY-SA 4.0"], wx:["20–25°C","chuva o dia todo","trovoadas"],
-   alerts:[["warn","!","<b>Chuva forte o dia todo</b> (95–100% entre 9h e 13h, com trovoada). Capa de chuva, saco zip pro celular e roupa seca no carro pra estrada."],["warn","!","<b>Checkout até 10h.</b> Malas no carro antes de sair e alarme ligado ao fechar a casa."],["tip","i","Não vamos mais ao Paraguai. Se o ingresso das Cataratas for para 12h30, invertam: Templo e Parque das Aves de manhã, Cataratas depois do almoço."]],
+  {id:"dom", d:"2026-10-11", short:"Dom", date:"11/10", country:"Brasil · Foz do Iguaçu", title:"Volta para casa", img:["cataratas","Cataratas · Josep M. Gracia, CC BY-SA 4.0"], wx:["Saída 5h","~1.130 km","chegada ~19h"],
+   alerts:[["warn","!","<b>Saída às 5h.</b> Malas no carro na noite anterior, checkout na saída: chave no cofre, alarme ligado e porta trancada. Avisem a Camila pelo Airbnb que saíram."],["warn","!","<b>Chuva forte com trovoada</b> na saída de Foz e de manhã. Estrada molhada: devagar e farol baixo aceso."]],
    items:[
-    ["7h30","Café, malas e checkout","Checkout até 10h. Confiram se não ficou nada na casa.","casa",false],
-    ["8h30","Cataratas, lado brasileiro","Última entrada 16h, fecha 17h30. Estacionamento R$ 65. Na Garganta do Diabo todo mundo se molha: capa ajuda.","cataratas",true],
-    ["11h15","Parque das Aves","Em frente às Cataratas. Boa parte é coberta, funciona bem com chuva.","aves",false],
-    ["13h","Almoço no Barracão","Buffet livre, R$ 59,90 no domingo.","barracao",false],
-    ["14h30","Templo Chen Tien","Grátis, abre até 16h30. Se a chuva apertar, cortem este.","templo",false],
-    ["15h45","Marco das 3 Fronteiras","Estacionamento grátis, show às 18h30. Cupom MDMARCO15.","marco",true],
-    ["18h30","Jantar","Shawarmaria Asmars ou Cantina 4 Sorelle, no Centro.","asmars",false],
-    ["20h","Saída para SJC","Rodízio de ~2h35: Cíntia 20h, Leandro 22h50, Alisson 1h40, Alice 4h30, Emerson 7h20. Chegada ~10h. Estrada molhada: devagar.",null,true]
+    ["4h30","Acordar e fechar a casa","Última conferida: carregadores, documentos, compras e notas fiscais.","casa",false],
+    ["5h00","Saída de Foz · Cíntia","Volante até 7h35.",null,true],
+    ["7h50","Leandro","Volante até 10h25. Parada de 15 min pra trocar.",null,false],
+    ["10h40","Alisson","Volante até 13h15. Bom momento pro almoço.",null,false],
+    ["13h30","Alice","Volante até 16h05.",null,false],
+    ["16h20","Emerson","Volante até 18h55.",null,false],
+    ["~19h","Chegada em SJC","~13h54 com paradas (Waze ~12h54 dirigindo).",null,true]
    ]},
-  {id:"seg", d:"2026-10-12", short:"Seg", date:"12/10", country:"Brasil · Feriado", title:"Chegada", img:null, wx:["20–22°C em Foz","chegada ~10h"],
+  {id:"seg", d:"2026-10-12", short:"Seg", date:"12/10", country:"Brasil · Feriado", title:"Devolver o carro", img:null, wx:["Feriado","devolução 15h"],
    alerts:[["warn","!","Devolução às <b>15h</b>. Atraso cobra diária extra."]],
    items:[
-    ["10h","Chegada em SJC","Descansem antes de devolver o carro.",null,false],
-    ["15h","Devolver o carro na Unidas","Rua Andorra, 500. Tanque e vistoria conforme o contrato.","unidas",true]
+        ["15h","Devolver o carro na Unidas","Rua Andorra, 500. Tanque e vistoria conforme o contrato.","unidas",true]
    ]}
 ];
 
-const RODIZIO = [["Qui 19h00–21h35","Cíntia"],["Qui 21h50–00h25","Leandro"],["Sex 00h40–03h15","Alisson"],["Sex 03h30–06h05","Emerson"],["Sex 06h20–08h55","Alice"],["Dom 20h00–22h35","Cíntia"],["Dom 22h50–01h25","Leandro"],["Seg 01h40–04h15","Alisson"],["Seg 04h30–07h05","Alice"],["Seg 07h20–09h55","Emerson"]];
+const RODIZIO = [["Qui 19h00–21h35","Cíntia"],["Qui 21h50–00h25","Leandro"],["Sex 00h40–03h15","Alisson"],["Sex 03h30–06h05","Emerson"],["Sex 06h20–08h55","Alice"],["Dom 05h00–07h35","Cíntia"],["Dom 07h50–10h25","Leandro"],["Dom 10h40–13h15","Alisson"],["Dom 13h30–16h05","Alice"],["Dom 16h20–18h55","Emerson"]];
 
 const FEES = {usdt:{p:0,fix:1,l:"USDT"},pix:{p:.04,fix:0,l:"Pix"},deb:{p:.0385,fix:0,l:"Débito"},cred:{p:.05,fix:0,l:"Crédito"}};
 const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
