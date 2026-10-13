@@ -240,6 +240,17 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .ordbar{flex-wrap:wrap}
 .horas{border:1.5px solid var(--line);border-radius:12px;padding:8px 10px;font-size:13px;line-height:1.45;background:var(--surface)}
 .st s{opacity:.6}.st .fx{font-style:normal;color:var(--terra);font-weight:700}
+.ct-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:8px}
+.ct-tile{background:var(--forest);color:var(--forest-ink);border-radius:14px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.ct-tile span{font-size:12px;opacity:.85}
+.ct-tile b{font-size:20px;font-variant-numeric:tabular-nums}
+.ct-h{margin:6px 0 0;font-size:16px}
+.ct-tr{background:var(--ok-bg);color:var(--ok);border-radius:12px;padding:10px 12px;font-size:15px}
+.ct-row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.ct-row small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.ct-row .v{white-space:nowrap;font-variant-numeric:tabular-nums}
+.ct-row .pos{color:var(--ok)}.ct-row .neg{color:var(--terra)}
+.ct-row .ok{color:var(--ok)}.ct-row .pend{color:var(--terra);font-weight:700}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (min-width:600px){.app{padding-top:12px}}
 </style>
@@ -265,8 +276,20 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 
   <!-- PAGAR -->
   <section class="view" id="v-pagar" data-view="pagar" hidden>
+    <div class="sec" id="contas">
+      <h2 class="sec-h">Contas da viagem</h2>
+      <p class="lede" id="ct-lede">Carregando as contas…</p>
+      <div class="ct-tiles" id="ct-tiles"></div>
+      <h3 class="ct-h">Quem paga quem</h3>
+      <div id="ct-acerto"></div>
+      <h3 class="ct-h">Gastos em comum</h3>
+      <div id="ct-lista"></div>
+      <h3 class="ct-h">Saldo de cada um</h3>
+      <div id="ct-pessoas"></div>
+      <div id="ct-falta"></div>
+    </div>
     <div class="sec">
-      <h2 class="sec-h">Como pagar no Paraguai</h2>
+      <h2 class="sec-h">Como pagamos no Paraguai</h2>
       <p class="lede">Ninguém atravessa com maço de dinheiro. O plano é USDT pela KAST ou Pix, e o cartão fica de reserva.</p>
       <div class="alert warn"><span class="ic">!</span><span><b>Rede errada ou endereço errado perde o dinheiro.</b> Use sempre USDT na rede Tron e confira o endereço duas vezes.</span></div>
     </div>
@@ -420,7 +443,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 <nav class="nav" aria-label="Seções">
   <div class="in" role="tablist">
     <button role="tab" data-tab="roteiro" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg>Roteiro</button>
-    <button role="tab" data-tab="pagar" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M16 15h2"/></svg>Pagar</button>
+    <button role="tab" data-tab="pagar" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M16 15h2"/></svg>Contas</button>
     <button role="tab" data-tab="compras" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>Compras</button>
     <button role="tab" data-tab="mapa" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Rotas</button>
     <button role="tab" data-tab="infos" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>Infos</button>
@@ -699,6 +722,37 @@ function marcarCB(itens, cat){
   return itens;
 }
 
+/* contas: gastos em comum (contas.json), divididos por pessoa e acertados por casal */
+async function renderContas(){
+  const el = id => document.getElementById(id);
+  const brl2 = v => "R$ " + v.toLocaleString("pt-BR",{minimumFractionDigits:2, maximumFractionDigits:2});
+  try{
+    const r = await fetch("contas.json?t="+Date.now(), {cache:"no-store"}); if(!r.ok) throw 0;
+    const c = await r.json();
+    const pag = {}, parte = {};
+    c.pessoas.forEach(p=>{ pag[p]=0; parte[p]=0; });
+    let total = 0;
+    c.gastos.forEach(g=>{
+      const quem = g.dividir==="todos" ? c.pessoas : g.dividir;
+      total += g.valor; pag[g.pagou] += g.valor;
+      quem.forEach(p=> parte[p] += g.valor/quem.length);
+    });
+    const saldo = p => Math.round((pag[p]-parte[p])*100)/100;
+    const pend = c.gastos.filter(g=>!g.ok).length + (c.faltam||[]).length;
+    el("ct-lede").innerHTML = "Gastos que foram de todo mundo, divididos igual entre os 5. Cada casal acerta junto. "+(pend ? "<b>Ainda faltam gastos</b> (lista no fim), então os valores vão mudar." : "Tudo lançado.");
+    el("ct-tiles").innerHTML = [["Total em comum", brl2(total)], ["Por pessoa", brl2(total/c.pessoas.length)], ["Por casal", brl2(2*total/c.pessoas.length)]]
+      .map(t=>'<div class="ct-tile"><span>'+t[0]+'</span><b>'+t[1]+'</b></div>').join("");
+    // acerto por núcleo: quem tem saldo negativo paga quem tem positivo
+    const nuc = c.nucleos.map(n=>({nome:n.nome, v:n.membros.reduce((s,p)=>s+saldo(p),0)}));
+    const dev = nuc.filter(n=>n.v<-0.5).map(n=>({...n, v:-n.v})), rec = nuc.filter(n=>n.v>0.5).map(n=>({...n}));
+    const tr = [];
+    dev.forEach(d=>{ rec.forEach(k=>{ const x = Math.min(d.v, k.v); if (x>0.5) { tr.push([d.nome, k.nome, x]); d.v -= x; k.v -= x; } }); });
+    el("ct-acerto").innerHTML = tr.length ? tr.map(t=>'<div class="ct-tr"><b>'+t[0]+'</b> paga <b>'+brl2(t[2])+'</b> para <b>'+t[1]+'</b></div>').join("") : '<p class="lede">Ninguém deve nada.</p>';
+    el("ct-lista").innerHTML = c.gastos.map(g=>'<div class="ct-row"><div><b>'+g.desc+'</b><small>pagou '+g.pagou+(g.dividir==="todos"?" · dividido por 5":" · dividido entre "+g.dividir.join(", "))+(g.ok?' · <span class="ok">✓ '+g.fonte+'</span>':' · <span class="pend">a confirmar</span>')+'</small></div><b class="v">'+brl2(g.valor)+'</b></div>').join("");
+    el("ct-pessoas").innerHTML = c.pessoas.map(p=>{ const s = saldo(p); return '<div class="ct-row"><div><b>'+p+'</b><small>pagou '+brl2(pag[p])+' · parte dele(a) '+brl2(parte[p])+'</small></div><b class="v '+(s>=0?'pos':'neg')+'">'+(s>=0?'recebe ':'deve ')+brl2(Math.abs(s))+'</b></div>'; }).join("");
+    el("ct-falta").innerHTML = (c.faltam||[]).length ? '<div class="alert warn"><span class="ic">!</span><span><b>Falta lançar:</b> '+c.faltam.join(" · ")+'. Mandem o valor e quem pagou.</span></div>' : '';
+  }catch(e){ el("ct-lede").textContent = "Não consegui carregar as contas agora."; }
+}
 /* domingo: lojas que não abrem (levantamento de 11/10) */
 const DOMINGO = new Date().toLocaleDateString("en-US",{weekday:"short",timeZone:"America/Asuncion"})==="Sun";
 const FECHA_DOM = /nissei|madrid center|mega eletr|mobile zone|topdek|vis[aã]o ?vip|atacado connect|multipass|roma shopping/i;
@@ -770,7 +824,7 @@ function renderLists(){
 }
 
 function start(){
-  setStatus(); renderDays(); renderCheck(); renderCompras(); loadWeather(); renderPlaces(); renderLists();
+  setStatus(); renderDays(); renderCheck(); renderContas(); renderCompras(); loadWeather(); renderPlaces(); renderLists();
   const d = todayIdx >= 0 ? todayIdx : store.get("day", 0);
   showDay(Math.min(Math.max(d,0), DAYS.length-1), false);
   const t = store.get("tab", "roteiro");

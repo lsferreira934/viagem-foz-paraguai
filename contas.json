@@ -1,0 +1,22 @@
+{
+ "atualizado": "2026-10-13",
+ "pessoas": ["Leandro", "Cíntia", "Emerson", "Alice", "Alisson"],
+ "nucleos": [
+  {"nome": "Leandro e Cíntia", "membros": ["Leandro", "Cíntia"]},
+  {"nome": "Emerson e Alice", "membros": ["Emerson", "Alice"]},
+  {"nome": "Alisson", "membros": ["Alisson"]}
+ ],
+ "gastos": [
+  {"desc": "Aluguel do carro (Unidas, 4 diárias e proteção)", "valor": 632.50, "pagou": "Leandro", "dividir": "todos", "ok": true, "fonte": "fatura final da Unidas, sem cobrança extra"},
+  {"desc": "Airbnb da Camila (2 noites)", "valor": 562.52, "pagou": "Leandro", "dividir": "todos", "ok": true, "fonte": "recibo do Airbnb"}
+ ],
+ "faltam": [
+  "Combustível (todas as paradas, ida e volta)",
+  "Pedágios",
+  "Estacionamentos (ponte e Cataratas)",
+  "Ingressos das Cataratas",
+  "Táxi até a Argentina (sexta)",
+  "Almoços, jantares e mercado que forem divididos",
+  "Outros (chip, lanches da estrada)"
+ ]
+}
