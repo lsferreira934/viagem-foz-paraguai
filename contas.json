@@ -272,11 +272,143 @@
      "obs": "pago online; o resto do boleto (R$ 78,50) não é nosso"
     }
    ]
+  },
+  {
+   "desc": "Combustível (ida e volta, 11 abastecimentos)",
+   "valor": 1270.88,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "cupons + fatura do cartão",
+   "itens": [
+    {
+     "d": "08/10 22:43",
+     "local": "Tatuí, Auto Posto Rei da Cas",
+     "v": 132.01,
+     "img": "img/cupons/combustivel-01.jpg"
+    },
+    {
+     "d": "09/10 01:21",
+     "local": "Itararé, Posto Estradão",
+     "v": 141.71,
+     "img": "img/cupons/combustivel-02.jpg"
+    },
+    {
+     "d": "09/10 03:28",
+     "local": "Carambeí, Posto Florense",
+     "v": 86.9,
+     "img": "img/cupons/combustivel-03.jpg",
+     "obs": "na fatura como Truccollo"
+    },
+    {
+     "d": "09/10 05:14",
+     "local": "Prudentópolis, Auto Posto Pra Frente",
+     "v": 72.03,
+     "img": "img/cupons/combustivel-04.jpg"
+    },
+    {
+     "d": "09/10 09:06",
+     "local": "Cascavel, Posto BCA Ferroeste",
+     "v": 129.18,
+     "img": "img/cupons/combustivel-05.jpg",
+     "obs": "cartão passou R$ 170,18; R$ 41,00 voltaram de troco"
+    },
+    {
+     "d": "11/10 17:44",
+     "local": "Foz, Posto Brasil",
+     "v": 141.35,
+     "img": "img/cupons/combustivel-06.jpg"
+    },
+    {
+     "d": "11/10 20:38",
+     "local": "Ubiratã, Posto BCA Rio Verde",
+     "v": 99.49,
+     "img": "img/cupons/combustivel-07.jpg"
+    },
+    {
+     "d": "11/10",
+     "local": "Auto Posto Carro De B",
+     "v": 105.44,
+     "obs": "sem cupom, está na fatura do cartão"
+    },
+    {
+     "d": "12/10 02:09",
+     "local": "Ourinhos, Posto Kennedy",
+     "v": 110.06,
+     "img": "img/cupons/combustivel-09.jpg"
+    },
+    {
+     "d": "12/10 03:47",
+     "local": "Pardinho, Rodoposto Maristela",
+     "v": 88.34,
+     "img": "img/cupons/combustivel-10.jpg",
+     "obs": "fora da fatura do cartão"
+    },
+    {
+     "d": "12/10",
+     "local": "Auto Posto Tak",
+     "v": 164.37,
+     "obs": "sem cupom, está na fatura do cartão"
+    }
+   ]
+  },
+  {
+   "desc": "Mercado Assaí (Foz)",
+   "valor": 243.14,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "cupom + fatura",
+   "itens": [
+    {
+     "d": "09/10 21:00",
+     "local": "Sendas/Assaí, Foz",
+     "v": 243.14,
+     "img": "img/cupons/mercado-assai.jpg"
+    }
+   ]
+  },
+  {
+   "desc": "Restaurante (domingo, 5 buffets e bebidas)",
+   "valor": 220.0,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "conta da mesa + fatura",
+   "itens": [
+    {
+     "d": "11/10 17:37",
+     "local": "Seu Bar Restaurante",
+     "v": 220.0,
+     "img": "img/cupons/restaurante-11-10.jpg"
+    }
+   ]
+  },
+  {
+   "desc": "Estacionamentos (Tarobá e Cataratas)",
+   "valor": 100.0,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "cupons + fatura",
+   "itens": [
+    {
+     "d": "09/10 17:53",
+     "local": "Estacionamento Tarobá, Foz",
+     "v": 35.0,
+     "img": "img/cupons/estac-taroba.jpg"
+    },
+    {
+     "d": "11/10 16:27",
+     "local": "Indigo, Parque Nacional (Cataratas)",
+     "v": 65.0,
+     "img": "img/cupons/estac-cataratas.jpg"
+    }
+   ]
   }
  ],
  "faltam": [
-  "Combustível (todas as paradas, ida e volta)",
-  "Estacionamentos (ponte e Cataratas)",
+  "Estacionamento do Turista (o ticket não tem valor)",
   "Ingressos das Cataratas",
   "Táxi até a Argentina (sexta)",
   "Almoços, jantares e mercado que forem divididos",
