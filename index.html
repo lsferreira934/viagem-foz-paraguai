@@ -710,9 +710,9 @@ async function renderContas(){
       const s = saldo(p);
       const partes = c.gastos.map(g=>{ const quem = g.dividir==="todos" ? c.pessoas : g.dividir; return quem.includes(p) ? '<div class="ct-it"><span>'+g.desc+' <em>('+brl2(g.valor)+' ÷ '+quem.length+')</em></span><b>'+brl2(g.valor/quem.length)+'</b></div>' : ''; }).join("");
       const pagos = c.gastos.filter(g=>g.pagou===p).map(g=>'<div class="ct-it"><span>'+g.desc+'</span><b>'+brl2(g.valor)+'</b></div>').join("")
-        + pgtos.filter(x=>x.de===p).map(x=>'<div class="ct-it"><span>Pagamento para '+x.para+'</span><b>'+brl2(x.valor)+'</b></div>').join("")
-        + pgtos.filter(x=>x.para===p).map(x=>'<div class="ct-it"><span>Recebeu de '+x.de+'</span><b>− '+brl2(x.valor)+'</b></div>').join("");
-      return '<details class="ct-pes"><summary class="ct-row"><div><b>'+p+'</b><small>parte dele(a) '+brl2(parte[p])+' · pagou '+brl2(pag[p])+' · <u>ver extrato</u></small></div><b class="v '+(s>=0?'pos':'neg')+'">'+(s>=0?'recebe ':'deve ')+brl2(Math.abs(s))+'</b></summary>'
+        + pgtos.filter(x=>x.de===p).map(x=>'<div class="ct-it"><span>Pagamento para '+x.para+(x.obs?' <em>('+x.obs+')</em>':'')+'</span><b>'+brl2(x.valor)+'</b></div>').join("")
+        + pgtos.filter(x=>x.para===p).map(x=>'<div class="ct-it"><span>Recebeu de '+x.de+(x.obs?' <em>('+x.obs+')</em>':'')+'</span><b>− '+brl2(x.valor)+'</b></div>').join("");
+      return '<details class="ct-pes"><summary class="ct-row"><div><b>'+p+'</b><small>parte dele(a) '+brl2(parte[p])+' · pagou '+brl2(pag[p])+' · <u>ver extrato</u></small></div><b class="v '+(s>=0?'pos':'neg')+'">'+(Math.abs(s)<0.01?'quitado ✓':(s>=0?'recebe ':'deve ')+brl2(Math.abs(s)))+'</b></summary>'
         +'<div class="ct-itens"><h4>Parte de '+p+' em cada gasto</h4>'+partes+'<div class="ct-it ct-tot"><span>Total da parte</span><b>'+brl2(parte[p])+'</b></div>'
         +'<h4>Pagou</h4>'+(pagos || '<div class="ct-it"><span>Nada</span><b>'+brl2(0)+'</b></div>')+'<div class="ct-it ct-tot"><span>Total pago</span><b>'+brl2(pag[p])+'</b></div>'
         +'<div class="ct-it ct-tot"><span>'+(s>=0?'Recebe':'Deve')+' (pagou − parte)</span><b>'+brl2(Math.abs(s))+'</b></div></div></details>';
