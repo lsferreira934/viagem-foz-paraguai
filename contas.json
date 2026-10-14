@@ -1,18 +1,281 @@
 {
- "atualizado": "2026-10-13",
- "pessoas": ["Leandro", "Cíntia", "Emerson", "Alice", "Alisson"],
+ "atualizado": "2026-10-14",
+ "pessoas": [
+  "Leandro",
+  "Cíntia",
+  "Emerson",
+  "Alice",
+  "Alisson"
+ ],
  "nucleos": [
-  {"nome": "Leandro e Cíntia", "membros": ["Leandro", "Cíntia"]},
-  {"nome": "Emerson e Alice", "membros": ["Emerson", "Alice"]},
-  {"nome": "Alisson", "membros": ["Alisson"]}
+  {
+   "nome": "Leandro e Cíntia",
+   "membros": [
+    "Leandro",
+    "Cíntia"
+   ]
+  },
+  {
+   "nome": "Emerson e Alice",
+   "membros": [
+    "Emerson",
+    "Alice"
+   ]
+  },
+  {
+   "nome": "Alisson",
+   "membros": [
+    "Alisson"
+   ]
+  }
  ],
  "gastos": [
-  {"desc": "Aluguel do carro (Unidas, 4 diárias e proteção)", "valor": 632.50, "pagou": "Leandro", "dividir": "todos", "ok": true, "fonte": "fatura final da Unidas, sem cobrança extra"},
-  {"desc": "Airbnb da Camila (2 noites)", "valor": 562.52, "pagou": "Leandro", "dividir": "todos", "ok": true, "fonte": "recibo do Airbnb"}
+  {
+   "desc": "Aluguel do carro (Unidas, 4 diárias e proteção)",
+   "valor": 632.5,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "fatura final da Unidas, sem cobrança extra"
+  },
+  {
+   "desc": "Airbnb da Camila (2 noites)",
+   "valor": 562.52,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "recibo do Airbnb"
+  },
+  {
+   "desc": "Pedágios (ida e volta, 36 passagens)",
+   "valor": 463.4,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "34 cupons + fatura do cartão",
+   "itens": [
+    {
+     "d": "08/10",
+     "local": "Osasco (Castello)",
+     "v": 4.2,
+     "obs": "sem cupom, está na fatura do cartão"
+    },
+    {
+     "d": "08/10 21:12",
+     "local": "Itapevi",
+     "v": 9.8,
+     "img": "img/pedagios/01.jpg"
+    },
+    {
+     "d": "08/10 21:59",
+     "local": "Sorocabana",
+     "v": 7.5,
+     "img": "img/pedagios/02.jpg"
+    },
+    {
+     "d": "08/10 22:49",
+     "local": "Boituva",
+     "v": 14.5,
+     "img": "img/pedagios/03.jpg"
+    },
+    {
+     "d": "08/10 23:17",
+     "local": "Morro Sul",
+     "v": 16.7,
+     "img": "img/pedagios/04.jpg"
+    },
+    {
+     "d": "08/10 23:52",
+     "local": "Gramadão",
+     "v": 15.0,
+     "img": "img/pedagios/05.jpg"
+    },
+    {
+     "d": "09/10 00:28",
+     "local": "Buri",
+     "v": 16.2,
+     "img": "img/pedagios/06.jpg"
+    },
+    {
+     "d": "09/10 01:12",
+     "local": "Itararé",
+     "v": 10.5,
+     "img": "img/pedagios/07.jpg"
+    },
+    {
+     "d": "09/10 01:40",
+     "local": "Sengés",
+     "v": 8.2,
+     "img": "img/pedagios/08.jpg"
+    },
+    {
+     "d": "09/10 02:28",
+     "local": "Jaguariaíva",
+     "v": 8.6,
+     "img": "img/pedagios/09.jpg"
+    },
+    {
+     "d": "09/10 03:18",
+     "local": "Carambeí",
+     "v": 12.8,
+     "img": "img/pedagios/10.jpg"
+    },
+    {
+     "d": "09/10 04:15",
+     "local": "Imbituva",
+     "v": 11.3,
+     "img": "img/pedagios/11.jpg"
+    },
+    {
+     "d": "09/10 05:18",
+     "local": "Prudentópolis",
+     "v": 16.7,
+     "img": "img/pedagios/12.jpg",
+     "obs": "cupom apagado, valor da fatura"
+    },
+    {
+     "d": "09/10 06:28",
+     "local": "Candói",
+     "v": 16.1,
+     "img": "img/pedagios/13.jpg"
+    },
+    {
+     "d": "09/10 07:35",
+     "local": "Laranjeiras do Sul",
+     "v": 15.2,
+     "img": "img/pedagios/14.jpg"
+    },
+    {
+     "d": "09/10 08:53",
+     "local": "Cascavel",
+     "v": 15.1,
+     "img": "img/pedagios/15.jpg"
+    },
+    {
+     "d": "09/10 09:56",
+     "local": "Céu Azul",
+     "v": 15.2,
+     "img": "img/pedagios/16.jpg"
+    },
+    {
+     "d": "09/10 10:55",
+     "local": "São Miguel do Iguaçu",
+     "v": 17.4,
+     "img": "img/pedagios/17.jpg"
+    },
+    {
+     "d": "11/10 18:10",
+     "local": "São Miguel do Iguaçu",
+     "v": 17.4,
+     "img": "img/pedagios/18.jpg"
+    },
+    {
+     "d": "11/10 19:02",
+     "local": "Céu Azul",
+     "v": 15.2,
+     "img": "img/pedagios/19.jpg"
+    },
+    {
+     "d": "11/10 19:52",
+     "local": "Corbélia",
+     "v": 18.8,
+     "img": "img/pedagios/20.jpg"
+    },
+    {
+     "d": "11/10 21:17",
+     "local": "Mamboré",
+     "v": 18.8,
+     "img": "img/pedagios/21.jpg"
+    },
+    {
+     "d": "11/10 22:14",
+     "local": "Floresta",
+     "v": 18.8,
+     "img": "img/pedagios/22.jpg"
+    },
+    {
+     "d": "12/10 02:00",
+     "local": "Jacarezinho",
+     "v": 13.6,
+     "img": "img/pedagios/23.jpg"
+    },
+    {
+     "d": "12/10 02:24",
+     "local": "CART, SP-327 km 14",
+     "v": 10.8,
+     "img": "img/pedagios/24.jpg"
+    },
+    {
+     "d": "12/10 02:41",
+     "local": "CART, SP-225 km 301",
+     "v": 10.4,
+     "img": "img/pedagios/25.jpg"
+    },
+    {
+     "d": "12/10 03:03",
+     "local": "Iaras",
+     "v": 13.9,
+     "img": "img/pedagios/26.jpg"
+    },
+    {
+     "d": "12/10 03:35",
+     "local": "Itatinga",
+     "v": 20.4,
+     "img": "img/pedagios/27.jpg"
+    },
+    {
+     "d": "12/10 04:14",
+     "local": "Quadra",
+     "v": 20.4,
+     "img": "img/pedagios/28.jpg"
+    },
+    {
+     "d": "12/10 04:39",
+     "local": "Boituva",
+     "v": 14.5,
+     "img": "img/pedagios/29.jpg"
+    },
+    {
+     "d": "12/10 05:02",
+     "local": "Itu",
+     "v": 13.2,
+     "img": "img/pedagios/30.jpg"
+    },
+    {
+     "d": "12/10 05:34",
+     "local": "Barueri",
+     "v": 4.2,
+     "img": "img/pedagios/31.jpg"
+    },
+    {
+     "d": "12/10 06:0x",
+     "local": "Arujá",
+     "v": 4.6,
+     "img": "img/pedagios/32.jpg"
+    },
+    {
+     "d": "12/10 06:2x",
+     "local": "Guararema",
+     "v": 4.6,
+     "img": "img/pedagios/33.jpg"
+    },
+    {
+     "d": "12/10 06:3x",
+     "local": "Jacareí",
+     "v": 8.2,
+     "img": "img/pedagios/34.jpg"
+    },
+    {
+     "d": "10/10",
+     "local": "Arujá Sul (free flow, Pedágio Digital)",
+     "v": 4.6,
+     "obs": "pago online; o resto do boleto (R$ 78,50) não é nosso"
+    }
+   ]
+  }
  ],
  "faltam": [
   "Combustível (todas as paradas, ida e volta)",
-  "Pedágios",
   "Estacionamentos (ponte e Cataratas)",
   "Ingressos das Cataratas",
   "Táxi até a Argentina (sexta)",
