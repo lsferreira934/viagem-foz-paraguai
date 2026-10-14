@@ -413,6 +413,14 @@
    "dividir": "todos",
    "ok": true,
    "fonte": "fatura do cartão (Urbia Cataratas, 11/10)"
+  },
+  {
+   "desc": "Restaurante Rd (domingo)",
+   "valor": 19.0,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "fatura do cartão (Restaurante Rd, 11/10)"
   }
  ],
  "faltam": [
