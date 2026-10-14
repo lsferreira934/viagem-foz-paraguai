@@ -433,22 +433,6 @@
    ],
    "ok": true,
    "fonte": "fatura do cartão (Restaurante Rd, 11/10)"
-  },
-  {
-   "desc": "Estacionamento do Turista, na ponte (domingo)",
-   "valor": 70.0,
-   "pagou": "Alice",
-   "dividir": "todos",
-   "ok": true,
-   "fonte": "ticket do estacionamento; o de sábado já foi acertado lá",
-   "itens": [
-    {
-     "d": "11/10",
-     "local": "Estacionamento do Turista, R. Oswaldo Cruz (ticket sem valor impresso)",
-     "v": 70.0,
-     "img": "img/cupons/estac-turista.jpg"
-    }
-   ]
   }
  ],
  "faltam": [
