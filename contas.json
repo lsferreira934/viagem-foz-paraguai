@@ -435,5 +435,17 @@
    "fonte": "fatura do cartão (Restaurante Rd, 11/10)"
   }
  ],
- "faltam": []
+ "faltam": [],
+ "pagamentos": [
+  {
+   "de": "Alice",
+   "para": "Leandro",
+   "valor": 470.0
+  },
+  {
+   "de": "Alisson",
+   "para": "Leandro",
+   "valor": 17.78
+  }
+ ]
 }
