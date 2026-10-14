@@ -36,7 +36,15 @@
    "pagou": "Leandro",
    "dividir": "todos",
    "ok": true,
-   "fonte": "contrato da Unidas: R$ 632,50 antecipado + R$ 142,03 na retirada (3x de R$ 47,35)"
+   "fonte": "contrato da Unidas: R$ 632,50 antecipado + R$ 142,03 na retirada (3x de R$ 47,35)",
+   "itens": [
+    {
+     "d": "08/10 a 12/10",
+     "local": "Contrato da Unidas (R$ 632,50 antecipado + R$ 142,03 na retirada)",
+     "v": 774.53,
+     "img": "img/cupons/contrato-unidas.jpg"
+    }
+   ]
   },
   {
    "desc": "Airbnb da Camila (2 noites)",
