@@ -246,6 +246,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .ct-tile b{font-size:20px;font-variant-numeric:tabular-nums}
 .ct-h{margin:6px 0 0;font-size:16px}
 .ct-tr{background:var(--ok-bg);color:var(--ok);border-radius:12px;padding:10px 12px;font-size:15px}
+.ct-tr small{display:block;font-size:13px;margin-top:2px;opacity:.85}
 .ct-row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
 .ct-row small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
 .ct-row .v{white-space:nowrap;font-variant-numeric:tabular-nums}
@@ -753,7 +754,7 @@ async function renderContas(){
     const dev = nuc.filter(n=>n.v<-0.5).map(n=>({...n, v:-n.v})), rec = nuc.filter(n=>n.v>0.5).map(n=>({...n}));
     const tr = [];
     dev.forEach(d=>{ rec.forEach(k=>{ const x = Math.min(d.v, k.v); if (x>0.5) { tr.push([d.nome, k.nome, x]); d.v -= x; k.v -= x; } }); });
-    el("ct-acerto").innerHTML = tr.length ? tr.map(t=>'<div class="ct-tr"><b>'+t[0]+'</b> '+(/ e /.test(t[0])?'pagam':'paga')+' <b>'+brl2(t[2])+'</b> para <b>'+t[1]+'</b></div>').join("") : '<p class="lede">Ninguém deve nada.</p>';
+    el("ct-acerto").innerHTML = tr.length ? tr.map(t=>'<div class="ct-tr"><b>'+t[0]+'</b> '+(/ e /.test(t[0])?'pagam':'paga')+' <b>'+brl2(t[2])+'</b> para <b>'+t[1]+'</b>'+(()=>{ const m = c.nucleos.find(n=>n.nome===t[0]).membros; return m.length>1 ? '<small>'+m.map(p=>p+' '+brl2(-saldo(p))).join(" · ")+'</small>' : ''; })()+'</div>').join("") : '<p class="lede">Ninguém deve nada.</p>';
     el("ct-lista").innerHTML = c.gastos.map(g=>'<div class="ct-row"><div><b>'+g.desc+'</b><small>pagou '+g.pagou+(g.dividir==="todos"?" · dividido por 5":" · dividido entre "+g.dividir.join(", "))+(g.ok?' · <span class="ok">✓ '+g.fonte+'</span>':' · <span class="pend">a confirmar</span>')+'</small></div><b class="v">'+brl2(g.valor)+'</b></div>'
       +(g.itens ? '<details class="ct-itens"><summary>'+(g.itens.length>1?'Ver os '+g.itens.length+' lançamentos e cupons':'Ver o comprovante')+'</summary>'+g.itens.map(i=>'<div class="ct-it"><span>'+i.d+' · '+i.local+(i.obs?' <em>('+i.obs+')</em>':'')+(i.img?' · <a href="'+i.img+'" target="_blank" rel="noopener">cupom</a>':'')+'</span><b>'+brl2(i.v)+'</b></div>').join("")+'</details>' : '')).join("");
     el("ct-pessoas").innerHTML = c.pessoas.map(p=>{ const s = saldo(p); return '<div class="ct-row"><div><b>'+p+'</b><small>pagou '+brl2(pag[p])+' · parte dele(a) '+brl2(parte[p])+'</small></div><b class="v '+(s>=0?'pos':'neg')+'">'+(s>=0?'recebe ':'deve ')+brl2(Math.abs(s))+'</b></div>'; }).join("");
