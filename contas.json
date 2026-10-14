@@ -31,12 +31,12 @@
  ],
  "gastos": [
   {
-   "desc": "Aluguel do carro (Unidas, 4 diárias e proteção)",
-   "valor": 632.5,
+   "desc": "Aluguel do carro (Unidas: 4 diárias, proteção, lavagem e proteção de pneus e vidros)",
+   "valor": 774.53,
    "pagou": "Leandro",
    "dividir": "todos",
    "ok": true,
-   "fonte": "fatura final da Unidas, sem cobrança extra"
+   "fonte": "contrato da Unidas: R$ 632,50 antecipado + R$ 142,03 na retirada (3x de R$ 47,35)"
   },
   {
    "desc": "Airbnb da Camila (2 noites)",
@@ -405,11 +405,18 @@
      "img": "img/cupons/estac-cataratas.jpg"
     }
    ]
+  },
+  {
+   "desc": "Ingressos das Cataratas (Parque Nacional)",
+   "valor": 590.0,
+   "pagou": "Leandro",
+   "dividir": "todos",
+   "ok": true,
+   "fonte": "fatura do cartão (Urbia Cataratas, 11/10)"
   }
  ],
  "faltam": [
   "Estacionamento do Turista (o ticket não tem valor)",
-  "Ingressos das Cataratas",
   "Táxi até a Argentina (sexta)",
   "Almoços, jantares e mercado que forem divididos",
   "Outros (chip, lanches da estrada)"
