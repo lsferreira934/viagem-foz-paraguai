@@ -744,8 +744,9 @@ async function renderContas(){
     });
     const saldo = p => Math.round((pag[p]-parte[p])*100)/100;
     const pend = c.gastos.filter(g=>!g.ok).length + (c.faltam||[]).length;
-    el("ct-lede").innerHTML = "Gastos que foram de todo mundo, divididos igual entre os 5. Cada casal acerta junto. "+(pend ? "<b>Ainda faltam gastos</b> (lista no fim), então os valores vão mudar." : "Tudo lançado.");
-    el("ct-tiles").innerHTML = [["Total em comum", brl2(total)], ["Por pessoa", brl2(total/c.pessoas.length)], ["Por casal", brl2(2*total/c.pessoas.length)]]
+    const todos = c.gastos.every(g=>g.dividir==="todos");
+    el("ct-lede").innerHTML = "Gastos que foram de todo mundo, divididos igual entre os 5"+(todos?"":" (exceto onde indicado)")+". Cada casal acerta junto. "+(pend ? "<b>Ainda faltam gastos</b> (lista no fim), então os valores vão mudar." : "Tudo lançado.");
+    el("ct-tiles").innerHTML = [["Total em comum", brl2(total)], [todos?"Por pessoa":"Média por pessoa", brl2(total/c.pessoas.length)], [todos?"Por casal":"Média por casal", brl2(2*total/c.pessoas.length)]]
       .map(t=>'<div class="ct-tile"><span>'+t[0]+'</span><b>'+t[1]+'</b></div>').join("");
     // acerto por núcleo: quem tem saldo negativo paga quem tem positivo
     const nuc = c.nucleos.map(n=>({nome:n.nome, v:n.membros.reduce((s,p)=>s+saldo(p),0)}));
