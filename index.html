@@ -302,42 +302,6 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
       <div id="ct-pessoas"></div>
       <div id="ct-falta"></div>
     </div>
-    <div class="sec">
-      <h2 class="sec-h">Como pagamos no Paraguai</h2>
-      <p class="lede">Ninguém atravessa com maço de dinheiro. O plano é USDT pela KAST ou Pix, e o cartão fica de reserva.</p>
-      <div class="alert warn"><span class="ic">!</span><span><b>Rede errada ou endereço errado perde o dinheiro.</b> Use sempre USDT na rede Tron e confira o endereço duas vezes.</span></div>
-    </div>
-    <div class="sec">
-      <h3 class="sec-h">Antes, no Brasil</h3>
-      <ul class="check" id="chk-antes"></ul>
-    </div>
-    <div class="sec">
-      <h3 class="sec-h">Na loja, com USDT</h3>
-      <ol class="steps">
-        <li><p><b>Confirme o preço em USDT</b> e peça o QR ou o endereço da carteira da loja.</p></li>
-        <li><p>No app da KAST: <b>Pagar → Stablecoin</b>. Escolha <b>USDT</b> e a rede <b>Tron (TRC20)</b>. Nunca outra rede.</p></li>
-        <li><p><b>Escaneie o QR</b> ou cole o endereço. Confira duas vezes.</p></li>
-        <li><p>Confira o valor: <b>produto mais a taxa da rede</b>, cerca de US$ 1. Confirme o envio.</p></li>
-        <li><p><b>Espere o vendedor dizer que recebeu</b> antes de sair do balcão.</p></li>
-        <li><p>Guarde a <b>nota fiscal</b>, teste o aparelho e declare na e-DBV o que passar da cota.</p></li>
-      </ol>
-    </div>
-    <div class="sec">
-      <h3 class="sec-h">Se a loja não aceitar USDT</h3>
-      <div class="card"><span class="tag">Plano B</span><h3>Pix</h3><p>Conecte no Wi-Fi da loja, peça o valor final em Pix e guarde o comprovante. Algumas lojas cobram até 5% e usam cotação própria.</p></div>
-      <div class="card"><span class="tag">Reserva</span><h3>Cartão físico (Nubank, Itaú)</h3><p>Só no nome de quem compra. Débito tem cerca de 3,85% e crédito cerca de 5% de acréscimo da loja. Cartão virtual pode ser recusado.</p></div>
-      <div class="alert tip"><span class="ic">i</span><span>Pergunte sempre o <b>preço final em USDT, Pix e cartão</b> antes de fechar. Trocar a forma depois pode exigir cancelar o pedido.</span></div>
-    </div>
-    <div class="sec">
-      <h3 class="sec-h">Cota da Receita</h3>
-      <ul class="rows card">
-        <li><span class="k">Isenção por pessoa, por terra</span><span class="v">US$ 500</span></li>
-        <li><span class="k">Imposto sobre o que passar</span><span class="v">50%</span></li>
-        <li><span class="k">Frequência</span><span class="v">1 vez a cada 30 dias</span></li>
-        <li><span class="k">Onde declarar</span><span class="v">e-DBV, antes de cruzar</span></li>
-      </ul>
-      <p class="lede">A cota é individual: não dá para somar duas pessoas num produto só. Cota da Argentina e do Paraguai pode ser a mesma, então segurem compras grandes na sexta.</p>
-    </div>
   </section>
 
   <!-- COMPRAS -->
@@ -562,15 +526,6 @@ const usd = v => "US$ " + Math.round(v).toLocaleString("pt-BR");
 
 const HOURS = [["SA Shop","7h–16h","SA Shop Ciudad del Este Paraguay"],["Mega Eletrônicos","6h30–16h","Mega Eletronicos Ciudad del Este Paraguay"],["Nissei","~6h30–15h/16h","Nissei Ciudad del Este Paraguay"],["Shopping Paris","7h–~18h","Shopping Paris Ciudad del Este Paraguay"],["Shopping China","7h–20h","Shopping China Ciudad del Este Paraguay"],["CellShop","9h–21h","CellShop Ciudad del Este Paraguay"],["New Zone","7h–22h","New Zone Ciudad del Este Paraguay"],["Tigo (chip)","comprar primeiro","Tigo Ciudad del Este"]];
 
-const CHECK = [
-  ["k1","Criar a conta na KAST, no próprio nome, e esperar a aprovação"],
-  ["k2","Mandar um Pix de teste (R$ 20 a 50) e ver o saldo chegar"],
-  ["k3","Perguntar às lojas se aceitam USDT na rede Tron"],
-  ["k4","Conferir o limite da conta e carregar o valor da compra + US$ 5"],
-  ["k5","Desbloquear o celular para o chip Tigo e baixar mapas offline"],
-  ["k6","Conferir RG com menos de 10 anos (ou passaporte)"]
-];
-
 /* armazenamento local, só conveniência */
 const store = {
   get(k,d){try{const v=localStorage.getItem("rtf:"+k);return v===null?d:JSON.parse(v)}catch(e){return d}},
@@ -623,14 +578,6 @@ function showTab(name){
 }
 document.querySelector(".nav").addEventListener("click", e => { const b = e.target.closest("button"); if (b) showTab(b.dataset.tab); });
 
-/* checklist */
-function renderCheck(){
-  const ul = document.getElementById("chk-antes"), saved = store.get("chk", {});
-  ul.innerHTML = '<li><div class="prog"><i id="chk-prog"></i></div></li>' + CHECK.map(c => '<li><label><input type="checkbox" id="'+c[0]+'"'+(saved[c[0]]?' checked':'')+'><span>'+c[1]+'</span></label></li>').join("");
-  const upd = () => { const all = ul.querySelectorAll("input"), done = [...all].filter(x=>x.checked).length; document.getElementById("chk-prog").style.width = (done/all.length*100)+"%"; };
-  ul.addEventListener("change", e => { const s = store.get("chk", {}); s[e.target.id] = e.target.checked; store.set("chk", s); upd(); });
-  upd();
-}
 
 
 /* tempo ao vivo (Open-Meteo, sem chave) */
@@ -849,7 +796,7 @@ function renderLists(){
 }
 
 function start(){
-  setStatus(); renderDays(); renderCheck(); renderContas(); renderCompras(); loadWeather(); renderPlaces(); renderLists();
+  setStatus(); renderDays(); renderContas(); renderCompras(); loadWeather(); renderPlaces(); renderLists();
   const d = todayIdx >= 0 ? todayIdx : store.get("day", 0);
   showDay(Math.min(Math.max(d,0), DAYS.length-1), false);
   showTab("pagar"); // viagem acabou: abre sempre nas contas
