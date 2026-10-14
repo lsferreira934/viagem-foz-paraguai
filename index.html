@@ -255,6 +255,14 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
 .ct-it{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
 .ct-it em{color:var(--muted)}
 .ct-it b{white-space:nowrap;font-weight:500;font-variant-numeric:tabular-nums}
+.ct-pes{margin-bottom:8px}
+.ct-pes summary{list-style:none;cursor:pointer}
+.ct-pes summary::-webkit-details-marker{display:none}
+.ct-pes[open] summary{border-bottom-left-radius:0;border-bottom-right-radius:0}
+.ct-pes .ct-itens{margin:0;padding:4px 12px 10px;border:1px solid var(--line);border-top:0;border-radius:0 0 12px 12px}
+.ct-pes h4{margin:10px 0 2px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.ct-tot{font-weight:600}
+.ct-tot b{font-weight:700}
 .ct-row .pos{color:var(--ok)}.ct-row .neg{color:var(--terra)}
 .ct-row .ok{color:var(--ok)}.ct-row .pend{color:var(--terra);font-weight:700}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
@@ -290,7 +298,7 @@ details.more .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10
       <div id="ct-acerto"></div>
       <h3 class="ct-h">Gastos em comum</h3>
       <div id="ct-lista"></div>
-      <h3 class="ct-h">Saldo de cada um</h3>
+      <h3 class="ct-h">Extrato de cada um <small>(toque no nome)</small></h3>
       <div id="ct-pessoas"></div>
       <div id="ct-falta"></div>
     </div>
@@ -757,7 +765,16 @@ async function renderContas(){
     el("ct-acerto").innerHTML = tr.length ? tr.map(t=>'<div class="ct-tr"><b>'+t[0]+'</b> '+(/ e /.test(t[0])?'pagam':'paga')+' <b>'+brl2(t[2])+'</b> para <b>'+t[1]+'</b>'+(()=>{ const m = c.nucleos.find(n=>n.nome===t[0]).membros; return m.length>1 ? '<small>'+m.map(p=>p+' '+brl2(-saldo(p))).join(" · ")+'</small>' : ''; })()+'</div>').join("") : '<p class="lede">Ninguém deve nada.</p>';
     el("ct-lista").innerHTML = c.gastos.map(g=>'<div class="ct-row"><div><b>'+g.desc+'</b><small>pagou '+g.pagou+(g.dividir==="todos"?" · dividido por 5":" · dividido entre "+g.dividir.join(", "))+(g.ok?' · <span class="ok">✓ '+g.fonte+'</span>':' · <span class="pend">a confirmar</span>')+'</small></div><b class="v">'+brl2(g.valor)+'</b></div>'
       +(g.itens ? '<details class="ct-itens"><summary>'+(g.itens.length>1?'Ver os '+g.itens.length+' lançamentos e cupons':'Ver o comprovante')+'</summary>'+g.itens.map(i=>'<div class="ct-it"><span>'+i.d+' · '+i.local+(i.obs?' <em>('+i.obs+')</em>':'')+(i.img?' · <a href="'+i.img+'" target="_blank" rel="noopener">cupom</a>':'')+'</span><b>'+brl2(i.v)+'</b></div>').join("")+'</details>' : '')).join("");
-    el("ct-pessoas").innerHTML = c.pessoas.map(p=>{ const s = saldo(p); return '<div class="ct-row"><div><b>'+p+'</b><small>pagou '+brl2(pag[p])+' · parte dele(a) '+brl2(parte[p])+'</small></div><b class="v '+(s>=0?'pos':'neg')+'">'+(s>=0?'recebe ':'deve ')+brl2(Math.abs(s))+'</b></div>'; }).join("");
+    // extrato por pessoa: parte em cada gasto, o que pagou e o saldo
+    el("ct-pessoas").innerHTML = c.pessoas.map(p=>{
+      const s = saldo(p);
+      const partes = c.gastos.map(g=>{ const quem = g.dividir==="todos" ? c.pessoas : g.dividir; return quem.includes(p) ? '<div class="ct-it"><span>'+g.desc+' <em>('+brl2(g.valor)+' ÷ '+quem.length+')</em></span><b>'+brl2(g.valor/quem.length)+'</b></div>' : ''; }).join("");
+      const pagos = c.gastos.filter(g=>g.pagou===p).map(g=>'<div class="ct-it"><span>'+g.desc+'</span><b>'+brl2(g.valor)+'</b></div>').join("");
+      return '<details class="ct-pes"><summary class="ct-row"><div><b>'+p+'</b><small>parte dele(a) '+brl2(parte[p])+' · pagou '+brl2(pag[p])+' · <u>ver extrato</u></small></div><b class="v '+(s>=0?'pos':'neg')+'">'+(s>=0?'recebe ':'deve ')+brl2(Math.abs(s))+'</b></summary>'
+        +'<div class="ct-itens"><h4>Parte de '+p+' em cada gasto</h4>'+partes+'<div class="ct-it ct-tot"><span>Total da parte</span><b>'+brl2(parte[p])+'</b></div>'
+        +'<h4>Pagou</h4>'+(pagos || '<div class="ct-it"><span>Nada</span><b>'+brl2(0)+'</b></div>')+'<div class="ct-it ct-tot"><span>Total pago</span><b>'+brl2(pag[p])+'</b></div>'
+        +'<div class="ct-it ct-tot"><span>'+(s>=0?'Recebe':'Deve')+' (pagou − parte)</span><b>'+brl2(Math.abs(s))+'</b></div></div></details>';
+    }).join("");
     el("ct-falta").innerHTML = (c.faltam||[]).length ? '<div class="alert warn"><span class="ic">!</span><span><b>Falta lançar:</b> '+c.faltam.join(" · ")+'. Mandem o valor e quem pagou.</span></div>' : '';
   }catch(e){ el("ct-lede").textContent = "Não consegui carregar as contas agora."; }
 }
