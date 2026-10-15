@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-15T04:00+00:00",
+ "atualizado": "2026-10-15T05:00+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -331,10 +331,10 @@
      "brl": 7126,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+512GB+13%22",
      "br": {
-      "preco": 8999.99,
-      "titulo": "iPad Pro Apple, Tela 13\", 512GB, Chip M4, Wi-Fi, Câmera Traseira 12MP, iPadOS 17, Preto Especial - MVX43BZ/A",
-      "link": "https://www.zoom.com.br/lead?oid=1318849303",
-      "economia": 0.21
+      "preco": 18399.0,
+      "titulo": "iPad Pro Apple M5 512GB 13\" iPadOS",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-512gb-12-gb-13-12-mp",
+      "economia": 0.61
      }
     },
     {
@@ -700,8 +700,8 @@
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-dual-chip-64gb-4g-global_70376/",
      "br": {
       "preco": 800.0,
-      "titulo": "Smartphone Redmi A5 Global 64GB 3GB RAM Dual SIM Tela 6.88 Dourado - X",
-      "link": "https://www.zoom.com.br/lead?oid=1486143361",
+      "titulo": "Smartphone Xiaomi Redmi A5 Global 64GB 3GB RAM Dual SIM Tela 6.88 Azul",
+      "link": "https://www.zoom.com.br/lead?oid=1486148931",
       "economia": 0.35
      }
     },
@@ -760,8 +760,8 @@
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-pro-dual-chip-128gb-4g-global_67536/",
      "br": {
       "preco": 914.2,
-      "titulo": "Smartphone Xiaomi Redmi A7 Pro 128GB 4GB Global e Desbloqueado Azul",
-      "link": "https://www.zoom.com.br/lead?oid=1565971596",
+      "titulo": "Smartphone Xiaomi Redmi A7 Pro 128GB 4GB Global e Desbloqueado Preto",
+      "link": "https://www.zoom.com.br/lead?oid=1565971495",
       "economia": 0.34
      }
     },
@@ -791,7 +791,7 @@
      "br": {
       "preco": 937.51,
       "titulo": "Smartphone POCO C81 PRO 128GB Tela 120Hz Bateria 6000mAh NFC - Xiaomi,",
-      "link": "https://www.zoom.com.br/lead?oid=1581151679",
+      "link": "https://www.zoom.com.br/lead?oid=1581150775",
       "economia": 0.35
      }
     },
@@ -804,10 +804,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a5-dual-chip-128gb-4g-global_59371/",
      "br": {
-      "preco": 819.0,
+      "preco": 836.07,
       "titulo": "Celular Xiaomi Redmi A5 128GB 4 GB",
       "link": "https://www.zoom.com.br/celular/celular-xiaomi-redmi-a5-128gb-4-gb",
-      "economia": 0.26
+      "economia": 0.27
      }
     },
     {
@@ -1092,10 +1092,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-128gb-4g-global_63321/",
      "br": {
-      "preco": 1002.25,
-      "titulo": "Xiaomi Poco C71 4G 128GB 4GB RAM Dual Sim Versão Global, 128GB, Preto",
-      "link": "https://www.zoom.com.br/lead?oid=1576575549",
-      "economia": 0.19
+      "preco": 988.85,
+      "titulo": "Smartphone Xiaomi Poco C85 128GB 6GB - Global e Desbloqueado - Purple",
+      "link": "https://www.zoom.com.br/lead?oid=1580960242",
+      "economia": 0.18
      }
     },
     {
@@ -1122,9 +1122,9 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-256gb-4g_68502/",
      "br": {
-      "preco": 1253.86,
+      "preco": 1252.93,
       "titulo": "Smartphone Realme C100I 256GB Tela 120Hz Bateria 7000mAh IP64 Resistên",
-      "link": "https://www.zoom.com.br/lead?oid=1581151354",
+      "link": "https://www.zoom.com.br/lead?oid=1581151125",
       "economia": 0.31
      }
     },
@@ -1152,10 +1152,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-c100x-rmx5366-dual-chip-128gb-4g_68523/",
      "br": {
-      "preco": 1246.94,
+      "preco": 1224.84,
       "titulo": "Smartphone Celular Realme C100X NFC 128GB, 4GB RAM, Tela 6,67 polegada",
       "link": "https://www.zoom.com.br/lead?oid=1578135280",
-      "economia": 0.29
+      "economia": 0.28
      }
     },
     {
@@ -1253,7 +1253,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a36-sm-a366e-dual-chip-128gb-5g-ram-6gb_59897/",
      "br": {
-      "preco": 1489.0,
+      "preco": 1488.0,
       "titulo": "Celular Samsung Galaxy A36 5G SM-A366E 128GB 6 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-a36-5g-128gb-6-gb",
       "economia": 0.55
@@ -1430,7 +1430,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a36-sm-a366e-dual-chip-256gb-5g_59252/",
      "br": {
-      "preco": 1489.0,
+      "preco": 1488.0,
       "titulo": "Celular Samsung Galaxy A36 5G SM-A366E 128GB 6 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-a36-5g-128gb-6-gb",
       "economia": 0.09
@@ -1651,10 +1651,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-s25-ultra-sm-s938b-dual-chip-512gb-5g_58110/",
      "br": {
-      "preco": 6256.8,
+      "preco": 5865.69,
       "titulo": "Celular Samsung Galaxy S25 Ultra 5G SM-S938B 512GB 12 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-s25-ultra-5g-512gb-12-gb",
-      "economia": 0.28
+      "economia": 0.23
      }
     },
     {
@@ -1711,7 +1711,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold6-sm-f956b-dual-chip-512gb-5g_55603/",
      "br": {
-      "preco": 8419.0,
+      "preco": 8429.01,
       "titulo": "Celular Samsung Galaxy Z Fold6 5G SM-F956B 512GB 12 GB",
       "link": "https://www.zoom.com.br/celular/smartphone-samsung-galaxy-z-fold-6-512gb",
       "economia": 0.33
@@ -1744,7 +1744,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold6-sm-f956b-dual-chip-256gb-5g_56060/",
      "br": {
-      "preco": 8419.0,
+      "preco": 8429.01,
       "titulo": "Celular Samsung Galaxy Z Fold6 5G SM-F956B 512GB 12 GB",
       "link": "https://www.zoom.com.br/celular/smartphone-samsung-galaxy-z-fold-6-512gb",
       "economia": 0.2
@@ -2215,7 +2215,7 @@
      "br": {
       "preco": 1181.09,
       "titulo": "Smartwatch Amazfit Active 2 Square Premium A2440 Tela AMOLED 1.75 GPS ",
-      "link": "https://www.zoom.com.br/lead?oid=1580029982",
+      "link": "https://www.zoom.com.br/lead?oid=1578344034",
       "economia": 0.58
      }
     },
@@ -2241,13 +2241,7 @@
       "Mobile Zone"
      ],
      "brl": 534,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Huawei+Watch+Fit+4",
-     "br": {
-      "preco": 776.67,
-      "titulo": "Smartwatch Huawei WATCH FIT 4",
-      "link": "https://www.zoom.com.br/smartwatch/smartwatch-huawei-watch-fit-4",
-      "economia": 0.31
-     }
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Huawei+Watch+Fit+4"
     },
     {
      "titulo": "Xiaomi Watch S4 M2425W1",
@@ -2395,10 +2389,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e510ka-ej1150w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_64292/",
      "br": {
-      "preco": 2199.0,
+      "preco": 2249.0,
       "titulo": "Notebook Asus Vivobook Go 15 Intel Celeron Dual Core N4500 15,6\" 4GB SSD 128GB Windows 11 E510KA-BR808WS",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e510ka-br808ws-intel-celeron-dual-core-n4500-15-6-4gb-ssd-128-gb-windows-11",
-      "economia": 0.44
+      "economia": 0.46
      }
     },
     {
@@ -2425,10 +2419,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e510ka-bq1203w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_69859/",
      "br": {
-      "preco": 2199.0,
+      "preco": 2249.0,
       "titulo": "Notebook Asus Vivobook Go 15 Intel Celeron Dual Core N4500 15,6\" 4GB SSD 128GB Windows 11 E510KA-BR808WS",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e510ka-br808ws-intel-celeron-dual-core-n4500-15-6-4gb-ssd-128-gb-windows-11",
-      "economia": 0.43
+      "economia": 0.45
      }
     },
     {
@@ -2440,10 +2434,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e510ka-bq1202w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_66832/",
      "br": {
-      "preco": 2199.0,
+      "preco": 2249.0,
       "titulo": "Notebook Asus Vivobook Go 15 Intel Celeron Dual Core N4500 15,6\" 4GB SSD 128GB Windows 11 E510KA-BR808WS",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e510ka-br808ws-intel-celeron-dual-core-n4500-15-6-4gb-ssd-128-gb-windows-11",
-      "economia": 0.42
+      "economia": 0.43
      }
     },
     {
@@ -2530,10 +2524,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e1504ga-wb31-intel-core-i3-18ghz-memoria-8gb-ssd-128gb-156-windows-11_59613/",
      "br": {
-      "preco": 2771.16,
+      "preco": 2648.77,
       "titulo": "Notebook Asus VivoBook GO 15 Intel Core i3 N305 15,6\" 4GB SSD 256GB Linux E1504GA-NJ447",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj447-intel-core-i3-n305-15-6-4gb-ssd-256-gb-linux",
-      "economia": 0.37
+      "economia": 0.34
      }
     },
     {
@@ -2758,10 +2752,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws36-intel-core-i3-38ghz-memoria-8gb-ssd-256gb-156-windows-11_56479/",
      "br": {
-      "preco": 2771.16,
+      "preco": 2648.77,
       "titulo": "Notebook Asus VivoBook GO 15 Intel Core i3 N305 15,6\" 4GB SSD 256GB Linux E1504GA-NJ447",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj447-intel-core-i3-n305-15-6-4gb-ssd-256-gb-linux",
-      "economia": 0.19
+      "economia": 0.15
      }
     },
     {
@@ -2773,10 +2767,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-ws35-intel-core-i3-18ghz-memoria-8gb-ssd-256gb-156-windows-11_63120/",
      "br": {
-      "preco": 2771.16,
+      "preco": 2648.77,
       "titulo": "Notebook Asus VivoBook GO 15 Intel Core i3 N305 15,6\" 4GB SSD 256GB Linux E1504GA-NJ447",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj447-intel-core-i3-n305-15-6-4gb-ssd-256-gb-linux",
-      "economia": 0.18
+      "economia": 0.14
      }
     },
     {
@@ -2788,10 +2782,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e1504ga-nj058w-intel-core-i3-18ghz-memoria-8gb-ssd-512gb-156-windows-11_66828/",
      "br": {
-      "preco": 2771.16,
+      "preco": 2648.77,
       "titulo": "Notebook Asus VivoBook GO 15 Intel Core i3 N305 15,6\" 4GB SSD 256GB Linux E1504GA-NJ447",
       "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e1504ga-nj447-intel-core-i3-n305-15-6-4gb-ssd-256-gb-linux",
-      "economia": 0.18
+      "economia": 0.14
      }
     },
     {
@@ -2955,7 +2949,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+-+RAM+4GB",
      "br": {
       "preco": 1303.6,
-      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, Xiaomi,",
+      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, 128GB, ",
       "link": "https://www.zoom.com.br/lead?oid=1581179737",
       "economia": 0.36
      }
@@ -2970,7 +2964,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+4G",
      "br": {
       "preco": 1303.6,
-      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, Xiaomi,",
+      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, 128GB, ",
       "link": "https://www.zoom.com.br/lead?oid=1581179737",
       "economia": 0.32
      }
@@ -2985,7 +2979,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+256GB+11%22+-+RAM+4GB",
      "br": {
       "preco": 1303.6,
-      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, Xiaomi,",
+      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, 128GB, ",
       "link": "https://www.zoom.com.br/lead?oid=1581179737",
       "economia": 0.31
      }
@@ -3009,8 +3003,8 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+256GB+11%22+-+RAM+8GB",
      "br": {
       "preco": 1519.54,
-      "titulo": "Tablet Redmi Pad 2 8GB 256GB Graphite Gray Barato Tela 11 Aproveite - ",
-      "link": "https://www.zoom.com.br/lead?oid=1578314783",
+      "titulo": "Tablet Xiaomi Redmi Pad 2 256GB 8GB Graphite Gray Tela 11 WiFi, 256GB,",
+      "link": "https://www.zoom.com.br/lead?oid=1578314600",
       "economia": 0.39
      }
     },
@@ -3024,7 +3018,7 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+-+RAM+6GB",
      "br": {
       "preco": 1303.6,
-      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, Xiaomi,",
+      "titulo": "Xiaomi Redmi Pad 2 4GB 128GB Oferta Imperdível Tablet WiFi 11, 128GB, ",
       "link": "https://www.zoom.com.br/lead?oid=1581179737",
       "economia": 0.28
      }
