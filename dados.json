@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-02T01:00+00:00",
+ "atualizado": "2026-11-02T02:00+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -190,10 +190,10 @@
      "brl": 4301,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+256GB+11%22",
      "br": {
-      "preco": 5999.99,
+      "preco": 6999.99,
       "titulo": "Tablet Apple iPad Air Apple M4 256GB 11\" iPadOS 12 MP",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-air-apple-m4-256gb-11-ipados-12-mp",
-      "economia": 0.28
+      "economia": 0.39
      }
     },
     {
@@ -893,7 +893,7 @@
      "br": {
       "preco": 1042.94,
       "titulo": "Smartphone Celular Infinix Smart 20 128GB, 4GB RAM, Android 16, Tela 6",
-      "link": "https://www.zoom.com.br/lead?oid=1581760218",
+      "link": "https://www.zoom.com.br/lead?oid=1581761298",
       "economia": 0.34
      }
     },
@@ -975,10 +975,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-c81-pro-dual-chip-256gb-4g-global_68496/",
      "br": {
-      "preco": 1132.19,
-      "titulo": "Smartphone Xiaomi Poco C81 Pro 256GB Bateria 6000mAh Tela 120Hz Unisoc",
-      "link": "https://www.zoom.com.br/lead?oid=1581905608",
-      "economia": 0.33
+      "preco": 1139.69,
+      "titulo": "Smartphone POCO C81 Pro 256GB Tela 120Hz Bateria 6000mAh NFC Unisoc T7",
+      "link": "https://www.zoom.com.br/lead?oid=1581306198",
+      "economia": 0.34
      }
     },
     {
@@ -1005,10 +1005,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-17-dual-chip-128gb-4g-global_69600/",
      "br": {
-      "preco": 1225.27,
+      "preco": 1240.59,
       "titulo": "Smartphone Redmi 17 128GB Bateria 7500mAh Tela 6,9 Polegadas 120Hz Câm",
-      "link": "https://www.zoom.com.br/lead?oid=1580252998",
-      "economia": 0.37
+      "link": "https://www.zoom.com.br/lead?oid=1580253041",
+      "economia": 0.38
      }
     },
     {
@@ -1018,7 +1018,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15-dual-chip-128gb-4g-ram-6gb-global_62839/"
+     "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15-dual-chip-128gb-4g-ram-6gb-global_62839/",
+     "br": {
+      "preco": 1277.82,
+      "titulo": "Smartphone Xiaomi Redmi 15 128gb 6gb Ram Versão Global Original, 128GB",
+      "link": "https://www.zoom.com.br/lead?oid=1582039127",
+      "economia": 0.39
+     }
     },
     {
      "titulo": "Realme Note 70 RMX5313 Dual Chip 256GB 4G - RAM 8GB",
@@ -1044,10 +1050,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-p4-lite-rmx5377-dual-chip-256gb-4g_68500/",
      "br": {
-      "preco": 1128.61,
-      "titulo": "Realme P4 Lite 4G Global 4GB RAM 256GB Cinza, 256GB, Cinza",
-      "link": "https://www.zoom.com.br/lead?oid=1581562584",
-      "economia": 0.3
+      "preco": 1116.48,
+      "titulo": "Celular Realme P4 Lite 4G 4GB RAM 256GB Purple Global, 256GB, Roxo",
+      "link": "https://www.zoom.com.br/lead?oid=1581562407",
+      "economia": 0.29
      }
     },
     {
@@ -1059,10 +1065,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-256gb-4g-ram-8gb-global_62836/",
      "br": {
-      "preco": 967.73,
-      "titulo": "Smartphone Celular Xiaomi Redmi 15C versão global 256GB 8GB 50MP câmer",
-      "link": "https://www.zoom.com.br/lead?oid=1562862899",
-      "economia": 0.16
+      "preco": 1205.99,
+      "titulo": "Xiaomi Redmi 15C 256GB 8GB Lançamento 2025 Versão Global 50MP Câmera 1",
+      "link": "https://www.zoom.com.br/lead?oid=1577653940",
+      "economia": 0.33
      }
     },
     {
@@ -1104,10 +1110,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-256gb-4g_68502/",
      "br": {
-      "preco": 1309.02,
+      "preco": 1381.62,
       "titulo": "Smartphone Realme C100I 256GB Tela 120Hz Bateria 7000mAh IP64 Resistên",
-      "link": "https://www.zoom.com.br/lead?oid=1581152496",
-      "economia": 0.34
+      "link": "https://www.zoom.com.br/lead?oid=1581151354",
+      "economia": 0.38
      }
     },
     {
@@ -1397,10 +1403,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266m-dual-chip-256gb-5g_59249/",
      "br": {
-      "preco": 1699.0,
+      "preco": 1954.15,
       "titulo": "Celular Samsung Galaxy A26 5G SM-A266M 256GB 8 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-a26-256gb",
-      "economia": 0.32
+      "economia": 0.41
      }
     },
     {
@@ -1436,10 +1442,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266b-dual-chip-256gb-5g_66391/",
      "br": {
-      "preco": 1699.0,
+      "preco": 1954.15,
       "titulo": "Celular Samsung Galaxy A26 5G SM-A266M 256GB 8 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-a26-256gb",
-      "economia": 0.15
+      "economia": 0.26
      }
     },
     {
@@ -1693,7 +1699,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold6-sm-f956b-dual-chip-512gb-5g_55603/",
      "br": {
-      "preco": 8447.32,
+      "preco": 8473.06,
       "titulo": "Celular Samsung Galaxy Z Fold6 5G SM-F956B 512GB 12 GB",
       "link": "https://www.zoom.com.br/celular/smartphone-samsung-galaxy-z-fold-6-512gb",
       "economia": 0.33
@@ -1726,7 +1732,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-z-fold6-sm-f956b-dual-chip-256gb-5g_56060/",
      "br": {
-      "preco": 8447.32,
+      "preco": 8473.06,
       "titulo": "Celular Samsung Galaxy Z Fold6 5G SM-F956B 512GB 12 GB",
       "link": "https://www.zoom.com.br/celular/smartphone-samsung-galaxy-z-fold-6-512gb",
       "economia": 0.2
@@ -2912,10 +2918,10 @@
      "brl": 770,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+9.7%22",
      "br": {
-      "preco": 1250.0,
+      "preco": 1260.0,
       "titulo": "Tablet Xiaomi Redmi Pad 2 128GB 4 GB 11\" 8 MP",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-xiaomi-redmi-pad-2-128gb-11-android-8-mp-filma-em-full-hd",
-      "economia": 0.38
+      "economia": 0.39
      }
     },
     {
@@ -2990,10 +2996,10 @@
      "brl": 926,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+256GB+11%22+-+RAM+8GB",
      "br": {
-      "preco": 1639.92,
-      "titulo": "Tablet Xiaomi Redmi Pad 2 Tela 11 256GB 8GB RAM, 256GB, Verde",
-      "link": "https://www.zoom.com.br/lead?oid=1581316495",
-      "economia": 0.44
+      "preco": 1670.28,
+      "titulo": "Tablet Xiaomi Redmi Pad 2 WiFi 11 Polegadas 8Gb 256GB Cor edição dias ",
+      "link": "https://www.zoom.com.br/lead?oid=1581156664",
+      "economia": 0.45
      }
     },
     {
@@ -3270,7 +3276,7 @@
      "br": {
       "preco": 175.99,
       "titulo": "Teclado Sem Fio Logitech, Bluetooth e USB, Pebble Keys 2 K380s, Easy-S",
-      "link": "https://www.zoom.com.br/lead?oid=1373956485",
+      "link": "https://www.zoom.com.br/lead?oid=1564468466",
       "economia": 0.19
      }
     },
