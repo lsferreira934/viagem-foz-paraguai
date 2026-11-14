@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14T03:00+00:00",
+ "atualizado": "2026-11-14T04:00+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -84,10 +84,10 @@
      "brl": 2825,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+512GB+11%22",
      "br": {
-      "preco": 5999.99,
+      "preco": 5804.991,
       "titulo": "iPad 11ª Geração Apple A16 512GB 11\" iPadOS 18",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-11-geracao-512gb-6-gb-11-11-12-mp",
-      "economia": 0.53
+      "economia": 0.51
      }
     },
     {
@@ -283,10 +283,10 @@
      "brl": 5344,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Air+2026+256GB+13%22",
      "br": {
-      "preco": 7777.77,
+      "preco": 9958.8,
       "titulo": "iPad Air 2025 7ª Geração Apple M3 256GB 13\" iPadOS 5G",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-air-7-geracao-256gb-8-gb-5g-13",
-      "economia": 0.31
+      "economia": 0.46
      }
     },
     {
@@ -612,10 +612,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a5-dual-chip-64gb-4g-global_59370/",
      "br": {
-      "preco": 706.34,
-      "titulo": "Smartphone Xiaomi Redmi A5, 64GB, 3GB RAM, Tela 6,88 polegadas HD 120H",
-      "link": "https://www.zoom.com.br/lead?oid=1520537386",
-      "economia": 0.29
+      "preco": 540.62,
+      "titulo": "Smartphone Xiaomi Redmi A5 64GB 3GB RAM GSM Dual Sim Green - Verde",
+      "link": "https://www.zoom.com.br/lead?oid=1536443694",
+      "economia": 0.07
      }
     },
     {
@@ -627,10 +627,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-pro-dual-chip-64gb-4g-global_67407/",
      "br": {
-      "preco": 888.24,
-      "titulo": "Smartphone Xiaomi Redmi A7 Pro Global 64GB 4GB Ram Dual Sim Tela 6.88,",
-      "link": "https://www.zoom.com.br/lead?oid=1563175019",
-      "economia": 0.43
+      "preco": 918.84,
+      "titulo": "Smartphone Celular Xiaomi Redmi A7 Pro 64GB, 4GB RAM, 4G, Tela 6,52 po",
+      "link": "https://www.zoom.com.br/lead?oid=1571413914",
+      "economia": 0.45
      }
     },
     {
@@ -792,7 +792,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a5-dual-chip-128gb-4g-global_59371/",
      "br": {
-      "preco": 899.3,
+      "preco": 899.0,
       "titulo": "Celular Xiaomi Redmi A5 128GB 4 GB",
       "link": "https://www.zoom.com.br/celular/celular-xiaomi-redmi-a5-128gb-4-gb",
       "economia": 0.32
@@ -852,10 +852,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx5303-dual-chip-128gb-4g_62655/",
      "br": {
-      "preco": 999.0,
+      "preco": 1019.99,
       "titulo": "Celular Realme C71 128GB 4 GB",
       "link": "https://www.zoom.com.br/celular/celular-realme-c71-128gb-4-gb",
-      "economia": 0.32
+      "economia": 0.34
      }
     },
     {
@@ -892,8 +892,8 @@
      "link": "https://www.comprasparaguai.com.br/celular-infinix-smart-20-dual-chip-128gb-4g_68740/",
      "br": {
       "preco": 1071.84,
-      "titulo": "Smartphone Celular Infinix Smart 20 128GB, 4GB RAM, Android 16, Tela d",
-      "link": "https://www.zoom.com.br/lead?oid=1581761932",
+      "titulo": "Smartphone Celular Infinix Smart 20 128GB, 4GB RAM, Android 16, Tela 6",
+      "link": "https://www.zoom.com.br/lead?oid=1581760218",
       "economia": 0.36
      }
     },
@@ -921,10 +921,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-c71-rmx3943-dual-chip-128gb-5g_63750/",
      "br": {
-      "preco": 999.0,
+      "preco": 1019.99,
       "titulo": "Celular Realme C71 128GB 4 GB",
       "link": "https://www.zoom.com.br/celular/celular-realme-c71-128gb-4-gb",
-      "economia": 0.26
+      "economia": 0.28
      }
     },
     {
@@ -1074,10 +1074,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-poco-m7-dual-chip-128gb-4g-global_63321/",
      "br": {
-      "preco": 1041.6,
+      "preco": 1060.2,
       "titulo": "Xiaomi Poco C71 4G 128GB 4GB RAM Dual Sim Versão Global, 128GB, Preto",
       "link": "https://www.zoom.com.br/lead?oid=1576575549",
-      "economia": 0.22
+      "economia": 0.23
      }
     },
     {
@@ -1421,10 +1421,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a37-sm-a376b-dual-chip-256gb-5g_67691/",
      "br": {
-      "preco": 5938.2,
+      "preco": 4283.99,
       "titulo": "Celular Samsung Galaxy A37 256GB Verde - 5G + Samsung Galaxy Watch9 Sm",
       "link": "https://www.zoom.com.br/lead?oid=1582578657",
-      "economia": 0.75
+      "economia": 0.66
      }
     },
     {
@@ -1490,7 +1490,7 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a57-sm-a576b-dual-chip-256gb-5g_67684/",
      "br": {
-      "preco": 3869.41,
+      "preco": 3869.04,
       "titulo": "Celular Samsung Galaxy A57 5G 256GB SM-A576B/DS - SM-A576BZACZTO Cinza",
       "link": "https://www.zoom.com.br/lead?oid=1582384615",
       "economia": 0.48
@@ -2052,10 +2052,10 @@
      "brl": 265,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite",
      "br": {
-      "preco": 328.49,
+      "preco": 332.01,
       "titulo": "Smartwatch Xiaomi Redmi Watch 5 Lite",
       "link": "https://www.zoom.com.br/smartwatch/smartwatch-xiaomi-redmi-watch-5-lite",
-      "economia": 0.19
+      "economia": 0.2
      }
     },
     {
@@ -2825,10 +2825,10 @@
      "brl": 265,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Watch+6+Lite",
      "br": {
-      "preco": 328.49,
+      "preco": 332.01,
       "titulo": "Smartwatch Xiaomi Redmi Watch 5 Lite",
       "link": "https://www.zoom.com.br/smartwatch/smartwatch-xiaomi-redmi-watch-5-lite",
-      "economia": 0.19
+      "economia": 0.2
      }
     },
     {
@@ -2858,7 +2858,7 @@
      "brl": 770,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+9.7%22",
      "br": {
-      "preco": 1297.9,
+      "preco": 1299.0,
       "titulo": "Tablet Xiaomi Redmi Pad 2 128GB 4 GB 11\" 8 MP",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-xiaomi-redmi-pad-2-128gb-11-android-8-mp-filma-em-full-hd",
       "economia": 0.41
@@ -2936,10 +2936,10 @@
      "brl": 926,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+256GB+11%22+-+RAM+8GB",
      "br": {
-      "preco": 1692.0,
-      "titulo": "Tablet Xiaomi Redmi Pad 2 11 256gb 8gb Ram Wifi, Verde, 256GB",
-      "link": "https://www.zoom.com.br/lead?oid=1582504655",
-      "economia": 0.45
+      "preco": 1699.97,
+      "titulo": "Tablet Xiaomi Redmi Pad 2 Tela 11 256GB 8GB RAM Cinza, 256GB, Grafite",
+      "link": "https://www.zoom.com.br/lead?oid=1582436733",
+      "economia": 0.46
      }
     },
     {
@@ -3022,10 +3022,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb1033mi-10000mah_61621/",
      "br": {
-      "preco": 61.99,
-      "titulo": "Carregador Rápido Slim Power Bank 10000mAh - Desempenho Poderoso em um",
-      "link": "https://www.zoom.com.br/lead?oid=1370552945",
-      "economia": -0.48
+      "preco": 63.67,
+      "titulo": "Carregador Rápido Slim Power Bank 10000mAh - Desempenho Avançado em um",
+      "link": "https://www.zoom.com.br/lead?oid=1379114494",
+      "economia": -0.44
      }
     },
     {
@@ -3061,10 +3061,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb2030mi-20000mah_61622/",
      "br": {
-      "preco": 89.99,
-      "titulo": "Power Bank, Carregador Portatil, 20000mAh, 22.5W, Display Digital",
-      "link": "https://www.zoom.com.br/lead?oid=1520082922",
-      "economia": -0.41
+      "preco": 216.61,
+      "titulo": "Carregador Portátil 20000Mah 50W Power Bank 3 Mi 20000Mah - power Bank",
+      "link": "https://www.zoom.com.br/lead?oid=1501101594",
+      "economia": 0.41
      }
     },
     {
@@ -3077,8 +3077,8 @@
      "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-mi-power-bank-20000mah_22475/",
      "br": {
       "preco": 126.05,
-      "titulo": "Carregador Portatil Power Bank 20000mah - Rhos",
-      "link": "https://www.zoom.com.br/lead?oid=1484494425",
+      "titulo": "Carregador Portatil Power Bank 20000mah - Gold",
+      "link": "https://www.zoom.com.br/lead?oid=1484515172",
       "economia": -0.01
      }
     },
@@ -3226,10 +3226,10 @@
      "brl": 143,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Teclado+Logitech+Pebble+Keys+2+K380S+Bluetooth",
      "br": {
-      "preco": 149.99,
-      "titulo": "Teclado Sem Fio Logitech, Bluetooth e USB, Pebble Keys 2 K380s, Easy-S",
-      "link": "https://www.zoom.com.br/lead?oid=1373095574",
-      "economia": 0.05
+      "preco": 222.55,
+      "titulo": "Teclado bluetooth logitech pebble keys 2 k380s rosa 920-011791, Rosa, ",
+      "link": "https://www.zoom.com.br/lead?oid=1570676612",
+      "economia": 0.36
      }
     },
     {
