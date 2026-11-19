@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T10:00+00:00",
+ "atualizado": "2026-11-19T11:00+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -298,10 +298,10 @@
      "brl": 6592,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2024+256GB+13%22+5G",
      "br": {
-      "preco": 14774.89,
-      "titulo": "iPad Pro Apple M5 256GB 13\" iPadOS",
-      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-256gb-12-gb-13-12-mp",
-      "economia": 0.55
+      "preco": 10999.0,
+      "titulo": "Tablet Apple iPad Pro 256GB 13\" iPadOs ",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-a2925-256gb-13-ipados-12-mp",
+      "economia": 0.4
      }
     },
     {
@@ -316,10 +316,10 @@
      "brl": 6922,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22",
      "br": {
-      "preco": 14774.89,
-      "titulo": "iPad Pro Apple M5 256GB 13\" iPadOS",
-      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-256gb-12-gb-13-12-mp",
-      "economia": 0.53
+      "preco": 10999.0,
+      "titulo": "Tablet Apple iPad Pro 256GB 13\" iPadOs ",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-a2925-256gb-13-ipados-12-mp",
+      "economia": 0.37
      }
     },
     {
@@ -363,10 +363,10 @@
      "brl": 7584,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+Pro+2025+256GB+13%22+5G",
      "br": {
-      "preco": 14774.89,
-      "titulo": "iPad Pro Apple M5 256GB 13\" iPadOS",
-      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-256gb-12-gb-13-12-mp",
-      "economia": 0.49
+      "preco": 10999.0,
+      "titulo": "Tablet Apple iPad Pro 256GB 13\" iPadOs ",
+      "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-pro-a2925-256gb-13-ipados-12-mp",
+      "economia": 0.31
      }
     },
     {
@@ -703,8 +703,8 @@
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-128gb-4g-ram-4gb-global_62835/",
      "br": {
       "preco": 1143.79,
-      "titulo": "Xiaomi Redmi 15C 128GB 4GB RAM Performance Inteligente 2026, 128GB, Pr",
-      "link": "https://www.zoom.com.br/lead?oid=1562949103",
+      "titulo": "Xiaomi Redmi 15C 128GB 4GB RAM Performance Inteligente 2026, 128GB, Az",
+      "link": "https://www.zoom.com.br/lead?oid=1562949003",
       "economia": 0.53
      }
     },
@@ -1367,10 +1367,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266m-dual-chip-256gb-5g_59249/",
      "br": {
-      "preco": 1982.17,
+      "preco": 2051.13,
       "titulo": "Celular Samsung Galaxy A26 5G SM-A266M 256GB 8 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-a26-256gb",
-      "economia": 0.42
+      "economia": 0.44
      }
     },
     {
@@ -1406,10 +1406,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-samsung-galaxy-a26-sm-a266b-dual-chip-256gb-5g_66391/",
      "br": {
-      "preco": 1982.17,
+      "preco": 2051.13,
       "titulo": "Celular Samsung Galaxy A26 5G SM-A266M 256GB 8 GB",
       "link": "https://www.zoom.com.br/celular/celular-samsung-galaxy-a26-256gb",
-      "economia": 0.27
+      "economia": 0.29
      }
     },
     {
@@ -2241,7 +2241,13 @@
       "Mobile Zone"
      ],
      "brl": 616,
-     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+Max+A2557"
+     "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+Active+Max+A2557",
+     "br": {
+      "preco": 994.42,
+      "titulo": "Amazfit Active Max A2557 Relógio Inteligente Original - Xiaomi",
+      "link": "https://www.zoom.com.br/lead?oid=1582780951",
+      "economia": 0.38
+     }
     },
     {
      "titulo": "Xiaomi Amazfit Active 3 Premium A2559",
@@ -2268,8 +2274,8 @@
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Amazfit+GTR+3+Pro+A2040",
      "br": {
       "preco": 849.92,
-      "titulo": "Smartwatch Amazfit GTR 3 Pro A2040 Infinite Black GPS Original - Xiaom",
-      "link": "https://www.zoom.com.br/lead?oid=1578866083",
+      "titulo": "Amazfit GTR 3 Pro A2040 Relógio Inteligente Original",
+      "link": "https://www.zoom.com.br/lead?oid=1582780943",
       "economia": 0.25
      }
     },
@@ -2335,10 +2341,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-e510ka-ej1150w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_64292/",
      "br": {
-      "preco": 1784.15,
-      "titulo": "Notebook Asus Vivobook Go 15 Intel Celeron Dual Core N4500 15,6\" 4GB SSD 128GB Windows 11 E510KA-BR808WS",
-      "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e510ka-br808ws-intel-celeron-dual-core-n4500-15-6-4gb-ssd-128-gb-windows-11",
-      "economia": 0.32
+      "preco": 1889.9,
+      "titulo": "Notebook Asus Vivobook Go 15 E510ka Intel Celeron Dual Core N4500 4gb Ram 128GB Emmc WINDOWS 11 Home 15,60\" Hd Rosa - Br833ws",
+      "link": "https://www.zoom.com.br/lead?oid=1507854211",
+      "economia": 0.35
      }
     },
     {
@@ -2365,10 +2371,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e510ka-bq1203w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_69859/",
      "br": {
-      "preco": 1784.15,
-      "titulo": "Notebook Asus Vivobook Go 15 Intel Celeron Dual Core N4500 15,6\" 4GB SSD 128GB Windows 11 E510KA-BR808WS",
-      "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e510ka-br808ws-intel-celeron-dual-core-n4500-15-6-4gb-ssd-128-gb-windows-11",
-      "economia": 0.3
+      "preco": 1889.9,
+      "titulo": "Notebook Asus Vivobook Go 15 E510ka Intel Celeron Dual Core N4500 4gb Ram 128GB Emmc WINDOWS 11 Home 15,60\" Hd Rosa - Br833ws",
+      "link": "https://www.zoom.com.br/lead?oid=1507854211",
+      "economia": 0.34
      }
     },
     {
@@ -2380,10 +2386,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e510ka-bq1202w-intel-celeron-11ghz-memoria-4gb-emmc-128gb-156-windows-11_66832/",
      "br": {
-      "preco": 1784.15,
-      "titulo": "Notebook Asus Vivobook Go 15 Intel Celeron Dual Core N4500 15,6\" 4GB SSD 128GB Windows 11 E510KA-BR808WS",
-      "link": "https://www.zoom.com.br/notebook/notebook-asus-vivobook-go-e510ka-br808ws-intel-celeron-dual-core-n4500-15-6-4gb-ssd-128-gb-windows-11",
-      "economia": 0.28
+      "preco": 1889.9,
+      "titulo": "Notebook Asus Vivobook Go 15 E510ka Intel Celeron Dual Core N4500 4gb Ram 128GB Emmc WINDOWS 11 Home 15,60\" Hd Rosa - Br833ws",
+      "link": "https://www.zoom.com.br/lead?oid=1507854211",
+      "economia": 0.32
      }
     },
     {
@@ -2411,7 +2417,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e1504ta-bq027w-intel-n150-36ghz-memoria-8gb-ufs-128gb-156-windows-11_71104/"
+     "link": "https://www.comprasparaguai.com.br/notebook-asus-vivobook-go-15-e1504ta-bq027w-intel-n150-36ghz-memoria-8gb-ufs-128gb-156-windows-11_71104/",
+     "br": {
+      "preco": 3430.0,
+      "titulo": "Notebook ASUS Vivobook Go 15 E1504TA Intel N150 4GB RAM 128GB SSD 15,6",
+      "link": "https://www.zoom.com.br/lead?oid=1582779695",
+      "economia": 0.53
+     }
     },
     {
      "titulo": "Lenovo IdeaPad 1 82VG00R2US AMD Ryzen 3 2.4GHz / Memória 4GB / SSD 128GB / 15.6\" / Windows 11",
