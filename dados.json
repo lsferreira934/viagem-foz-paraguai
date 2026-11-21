@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T14:00+00:00",
+ "atualizado": "2026-11-21T15:00+00:00",
  "rodada": 164,
  "dolar": 5.09,
  "categorias": [
@@ -84,10 +84,10 @@
      "brl": 2825,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Apple+iPad+11%C2%AA+Gera%C3%A7%C3%A3o+2025+512GB+11%22",
      "br": {
-      "preco": 5804.991,
+      "preco": 5399.99,
       "titulo": "iPad 11ª Geração Apple A16 512GB 11\" iPadOS 18",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-apple-ipad-11-geracao-512gb-6-gb-11-11-12-mp",
-      "economia": 0.51
+      "economia": 0.48
      }
     },
     {
@@ -688,8 +688,8 @@
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-a7-dual-chip-64gb-4g-global_70376/",
      "br": {
       "preco": 800.0,
-      "titulo": "Smartphone Redmi A5 Global 64GB 3GB RAM Dual SIM Tela 6.88 Dourado - X",
-      "link": "https://www.zoom.com.br/lead?oid=1486143361",
+      "titulo": "Smartphone Xiaomi Redmi A5 Global 64GB 3GB RAM Dual SIM Tela 6.88 Azul",
+      "link": "https://www.zoom.com.br/lead?oid=1486148931",
       "economia": 0.35
      }
     },
@@ -703,8 +703,8 @@
      "link": "https://www.comprasparaguai.com.br/celular-xiaomi-redmi-15c-dual-chip-128gb-4g-ram-4gb-global_62835/",
      "br": {
       "preco": 1143.79,
-      "titulo": "Xiaomi Redmi 15C 128GB 4GB RAM Performance Inteligente 2026, 128GB, Pr",
-      "link": "https://www.zoom.com.br/lead?oid=1562949103",
+      "titulo": "Xiaomi Redmi 15C 128GB 4GB RAM Performance Inteligente 2026, 128GB, Az",
+      "link": "https://www.zoom.com.br/lead?oid=1562949003",
       "economia": 0.53
      }
     },
@@ -990,10 +990,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/celular-realme-c100i-rmx5377-dual-chip-128gb-4g_68501/",
      "br": {
-      "preco": 1232.42,
+      "preco": 1177.37,
       "titulo": "Smartphone Realme C100I 128GB Tela 120Hz Bateria 7000mAh IP64 Resistên",
-      "link": "https://www.zoom.com.br/lead?oid=1581151677",
-      "economia": 0.38
+      "link": "https://www.zoom.com.br/lead?oid=1581151958",
+      "economia": 0.35
      }
     },
     {
@@ -2882,7 +2882,7 @@
      "brl": 770,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+9.7%22",
      "br": {
-      "preco": 1359.0,
+      "preco": 1360.0,
       "titulo": "Tablet Xiaomi Redmi Pad 2 128GB 4 GB 11\" 8 MP",
       "link": "https://www.zoom.com.br/tablet-ipad/tablet-xiaomi-redmi-pad-2-128gb-11-android-8-mp-filma-em-full-hd",
       "economia": 0.43
@@ -2921,10 +2921,10 @@
      "brl": 881,
      "link": "https://www.comprasparaguai.com.br/busca/?q=Xiaomi+Redmi+Pad+2+128GB+11%22+4G",
      "br": {
-      "preco": 1881.82,
-      "titulo": "Tablet Redmi Pad 2 128GB Tela 11 Polegadas 90Hz Bateria 9000mAh MediaT",
-      "link": "https://www.zoom.com.br/lead?oid=1578544775",
-      "economia": 0.53
+      "preco": 1566.54,
+      "titulo": "Tablet Xiaomi Redmi Pad 2, 128GB, 4GB RAM, Tela 11 polegadas 90Hz, And",
+      "link": "https://www.zoom.com.br/lead?oid=1581914848",
+      "economia": 0.44
      }
     },
     {
@@ -3046,10 +3046,10 @@
      ],
      "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb1033mi-10000mah_61621/",
      "br": {
-      "preco": 63.67,
-      "titulo": "Carregador Rápido Slim Power Bank 10000mAh - Desempenho Avançado em um",
-      "link": "https://www.zoom.com.br/lead?oid=1379114494",
-      "economia": -0.44
+      "preco": 63.4,
+      "titulo": "Carregador Rápido Slim Power Bank 10000mAh - Desempenho Poderoso em um",
+      "link": "https://www.zoom.com.br/lead?oid=1370552945",
+      "economia": -0.45
      }
     },
     {
@@ -3083,7 +3083,13 @@
      "lojas": [
       "a partir de, várias lojas"
      ],
-     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb2030mi-20000mah_61622/"
+     "link": "https://www.comprasparaguai.com.br/carregador-xiaomi-power-bank-pb2030mi-20000mah_61622/",
+     "br": {
+      "preco": 216.61,
+      "titulo": "Carregador Portátil 20000Mah 50W Power Bank 3 Mi 20000Mah - power Bank",
+      "link": "https://www.zoom.com.br/lead?oid=1501101594",
+      "economia": 0.41
+     }
     },
     {
      "titulo": "Carregador Xiaomi Mi Power Bank 20000mAh",
